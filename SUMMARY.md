@@ -24,6 +24,7 @@
 
 ## Software Engineering
 
+* [Strangler Fig Pattern](software-engineering/strangler-fig-pattern.md)
 * [How to Do Code Reviews?](software-engineering/how-to-do-code-reviews.md)
 * [Git & GitHub](software-engineering/git-and-github/README.md)
   * [Git Rebase](software-engineering/git-and-github/git-rebase.md)
@@ -56,7 +57,10 @@
 * [NodeJS](frontend/nodejs/README.md)
   * [How to Mention Version During NPM Install?](frontend/nodejs/how-to-mention-version-during-npm-install.md)
   * [CORS in NodeJS](frontend/nodejs/cors-in-nodejs.md)
-* [ReactJS](frontend/reactjs.md)
+* [ReactJS](frontend/reactjs/README.md)
+  * [InteractableJS with React](frontend/reactjs/interactablejs-with-react.md)
+  * [How to Import a File in ReactJS?](frontend/reactjs/how-to-import-a-file-in-reactjs.md)
+  * [How to Shuffle a Message in a Div in ReactJS?](frontend/reactjs/how-to-shuffle-a-message-in-a-div-in-reactjs.md)
 
 ## Technical Writing
 

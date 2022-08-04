@@ -4,7 +4,7 @@ In April 2022, I traveled to 4 countries and 7 cities across Europe. I will be u
 
 1. How to apply for a visa?
 2. How did you plan your trip?
-3. Why did you decide to go to Europe among other places?
+3. Why did you decide to go to Europe, among other places?
 4. How was the conference?
 5. How is the culture in these place
 6. What did you like and dislike about these places
