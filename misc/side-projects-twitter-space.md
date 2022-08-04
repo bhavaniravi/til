@@ -122,22 +122,6 @@
 **I don’t think so, I do art project, I do writing project, make side projects as hobby how we do it in college.**
 
 \
+**How to deal with burnout and side project**
 
-
-**- How to deal with burnout and side project**
-
-\
-
-
-Mentorship for burnout, life tied &#x20;
-
-\
-
-
-\
-
-
-\
-
-
-http://0.0.0.0:5000/oauth/authorize?response\_type=code\&client\_id=5Tw4ounUoiSk9TnVdyHbCghw\&redirect\_uri=http%3A%2F%2F127.0.0.1%3A8080%2Foauth-authorized%2Fkeycloak\&scope=default\&state=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJuZXh0IjpbImh0dHA6Ly8xMjcuMC4wLjE6ODA4MC9ob21lIl19.fTVRZcf6BlyUYYzlx-2-6m4w6AxCBVovEvkqk3kjzuo
+You don't. You rest, let your side project also rest and take it up when you gain your energy back

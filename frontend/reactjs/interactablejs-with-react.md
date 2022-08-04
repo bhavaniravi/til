@@ -110,8 +110,7 @@ Unlike what I thought the logic to move the card was rather simple, look for you
 
 {% code title="Interactable.js" %}
 ```jsx
-const draggableOptions = {
-  onmove: event => {
+function dragMoveListener(event) {
     // the element we are moving
     const target = event.target;
     // Add the relative position to current position of the div
@@ -129,8 +128,7 @@ const draggableOptions = {
     // These two lines is very important for the next section
     event.stopImmediatePropagation();
     return [x, y]
-  }
-};
+}
 ```
 {% endcode %}
 
@@ -143,6 +141,8 @@ This is an alternative to the Pure JS way. If the pure js way works fine why wou
 * In pure JS way we have no way of tracking the changes to this state. So what?
 * Let's say you want to store the items and it's associated position in a DB or send via an API call, the app compoent will have no way of knowing the current position
 * Hence we need a component that can track the position. We call this the ineteractable component
+
+To get to the code directly checkout this [Codesandbox](https://codesandbox.io/s/interactjs-react-draggable-bygs39?file=/src/Interactable.js:1357-1457)
 
 #### Creating Interactable Component
 
@@ -235,14 +235,55 @@ App.propTypes = {
 
 Update the App component to work with the props
 
+{% code title="App.js" %}
 ```jsx
-import './App.css';
-import {useState} from 'react';
+import React from "react";
+import ReactDOM from "react-dom";
+import "./styles.css";
+import { createRoot } from "react-dom/client";
+
+import Interactable, { dragMoveListener } from "./Interactable";
 
 function App() {
-  const [count, onChangeCount]=useState(100);
-  const [data, setCurrentData] = useState({});
-  
+  // set the initial props to create two cards
+  const initialProps = {
+    "1": { id: 1, text: "card1" },
+    "2": { id: 2, text: "card2" }
+  };
+  // creating state object
+  const [data, setCurrentData] = React.useState(initialProps);
+
+  // function will be called when the card is moved an the state is updated
+  const handlePositionChange = (event) => {
+    const [x, y] = dragMoveListener(event);
+    const id = event.target.id;
+    setCurrentData((data) => {
+      return { ...data, [id]: { ...data[id], position: { x: x, y: y } } };
+    });
+  };
+
+  let boarditems = Object.keys(data).map((key) => {
+    return (
+      <Interactable
+        id={key}
+        key={key}
+        // modifying draggableOptions to use handlePositionChange
+        draggableOptions={{ onmove: handlePositionChange }}
+      >
+        // populating style using inline style
+        <div className="draggable drag-item" style={{transform: `translate(${data?.position?.x}px, ${data?.position?.y}px)`}}>>
+          <p>{data[key]["text"]}</p>
+        </div>
+      </Interactable>
+    );
+  });
+
+  return (
+    <div className="App" id="app">
+      {boarditems}
+    </div>
+  );
 }
 ```
+{% endcode %}
 
