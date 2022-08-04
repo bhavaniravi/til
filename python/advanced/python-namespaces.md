@@ -10,14 +10,14 @@ _The following section of the blog will quote lines from actual Python Docs and 
 
 When you create a variable `x=10` you are adding x to namespace. It's more of a labeling an object rather than allocating a memory box and stamping it
 
-```
+```python
 x = 10
 print (globals())
 ```
 
 Examples of namespaces are: the set of built-in names (containing functions such as abs(), and built-in exception names); the global names in a module; and the local names in a function invocation. In a sense the set of attributes of an object also form a namespace.
 
-```
+```python
 __builtins__
 gloabal()
 local
@@ -27,7 +27,7 @@ classObject.__dict__
 
 The important thing to know about namespaces is that there is absolutely no relation between names in different namespaces; for instance, two different modules may both define a function maximize without confusion — users of the modules must prefix it with the module name.
 
-```
+```python
 start = 0
 
 def range():
@@ -43,12 +43,12 @@ class Help:
 
 Let's create two modules `mod1.py` and `mod2.py`
 
-```
+```python
 # mod1.py
 this_answer = 39
 ```
 
-```
+```python
 # mod2.py
 
 import mod1
