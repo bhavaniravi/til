@@ -1,11 +1,15 @@
 # Table of contents
 
 * [Start Here](README.md)
-  * [About Me](start-here/about-me.md)
+
+## About Me
+
+* [About Me](about-me/about-me.md)
+* [My Links](about-me/my-links.md)
 
 ## Python
 
-* [What are the Best Resources to Learn Python?](python/what-are-the-best-resources-to-learn-python.md)
+* [What are the Best Resources to Learn Python in 2022?](python/what-are-the-best-resources-to-learn-python-in-2022.md)
 * [How to get past Beginner Stage in Python?](https://thelearning.dev/how-to-get-past-beginner-stage-in-python)
 * [Advanced](python/advanced/README.md)
   * [Data Model in Python](python/advanced/data-model-in-python.md)
@@ -78,7 +82,6 @@
 ## Indie-Hacking
 
 * [Indie-Hacking](indie-hacking/indie-hacking.md)
+* [Side Projects: FAQ](indie-hacking/side-projects-faq.md)
 
 ## Misc
-
-* [Side Projects: Twitter Space](misc/side-projects-twitter-space.md)
