@@ -45,7 +45,6 @@
 * [Airflow Configurations](apache-airflow/airflow-configurations.md)
 * [Apache Airflow + MongoDB](apache-airflow/apache-airflow-+-mongodb.md)
 * [Airflow Celery vs Kubernetes Executor](apache-airflow/airflow-celery-vs-kubernetes-executor.md)
-* [Send Airflow Email with Sendgrid](https://bhavaniravi.com/blog/emails-alerts-airflow-with-sendgrid/)
 * [Sending Email Alerts in Apache Airflow with Sendgrid](apache-airflow/sending-email-alerts-in-apache-airflow-with-sendgrid.md)
 
 ## Database
