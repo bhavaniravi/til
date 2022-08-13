@@ -1,6 +1,6 @@
 # Airflow: Major Topics
 
-You can call yourself an Airflow Expert after mastering these topics
+You can call yourself an Airflow Expert after mastering these topics - [Start here](https://bhavaniravi.com/blog/apache-airflow-introduction/)
 
 * Scheduler&#x20;
 * Executors

@@ -1,10 +1,6 @@
 # Apache Airflow + MongoDB
 
-
-
-### Steps
-
-Create a docker container
+### Run Mongo Docker Container
 
 ```jsx
 docker run -p 27018:27017 \\
@@ -12,7 +8,7 @@ docker run -p 27018:27017 \\
 -e MONGO_INITDB_ROOT_PASSWORD=password -d mongo \\
 ```
 
-Test mongo connection using pymongo
+### Test Mongo Connection
 
 ```jsx
 import pymongo
@@ -26,11 +22,11 @@ except Exception as e:
     print(e, "Unable to connect to the server.")
 ```
 
-Setting up airflow connection
+### Setting up airflow connection
 
-![Untitled](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/7badef2a-3d12-459a-a726-896b31123c86/Untitled.png)
+Under Airflow connection create a new Airflow connection with host, password and username
 
-Mongo Hook
+### Mongo Hook
 
 ```jsx
 from airflow.providers.mongo.hooks.mongo import MongoHook
@@ -60,11 +56,7 @@ db.notes.insertMany(
 )
 ```
 
-Using MongoSensor to check for 3 entries
-
-[https://github.com/apache/airflow/issues/19223](https://github.com/apache/airflow/issues/19223)
-
-Setting up s3 localstack
+### Setting up s3 localstack
 
 ```jsx
 docker run --rm -it -p 4566:4566 localstack/localstack -e SERVICES=s3
