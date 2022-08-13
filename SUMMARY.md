@@ -1,21 +1,22 @@
 # Table of contents
 
 * [Start Here](README.md)
+  * [How I built my Digital Garden](start-here/how-i-built-my-digital-garden.md)
 
 ## About Me
 
-* [About Me](about-me/about-me.md)
+* [About Me](start-here/about-me.md)
 * [My Links](about-me/my-links.md)
 
 ## Python
 
-* [What are the Best Resources to Learn Python in 2022?](python/what-are-the-best-resources-to-learn-python-in-2022.md)
+* [What are the Best Resources to Learn Python in 2022?](python/what-are-the-best-resources-to-learn-python.md)
 * [How to get past Beginner Stage in Python?](https://thelearning.dev/how-to-get-past-beginner-stage-in-python)
-* [Advanced](python/advanced/README.md)
-  * [Data Model in Python](python/advanced/data-model-in-python.md)
-  * [Python Namespaces](python/advanced/python-namespaces.md)
-  * [Multi-Processing Vs Multi-Threading](python/advanced/multi-processing-vs-multi-threading.md)
-  * [GIL](python/advanced/gil.md)
+* [Advanced Python](python/advanced-python/README.md)
+  * [Data Model in Python](python/advanced-python/data-model-in-python.md)
+  * [Python Namespaces](python/advanced-python/python-namespaces.md)
+  * [Multi-Processing Vs Multi-Threading](python/advanced-python/multi-processing-vs-multi-threading.md)
+  * [GIL](python/advanced-python/gil.md)
 * [Web](python/web/README.md)
   * [Flask](python/web/flask/README.md)
     * [Quick Start Automation](python/web/flask/quick-start-automation.md)
@@ -28,6 +29,7 @@
 
 ## Software Engineering
 
+* [Open-Closed Principle](software-engineering/open-closed-principle.md)
 * [Strangler Fig Pattern](software-engineering/strangler-fig-pattern.md)
 * [How to Do Code Reviews?](software-engineering/how-to-do-code-reviews.md)
 * [Git & GitHub](software-engineering/git-and-github/README.md)
@@ -35,18 +37,23 @@
 
 ## Apache Airflow
 
-* [Airflow: Major Topics](apache-airflow/airflow-major-topics.md)
 * [Getting Started With Apache Airflow](apache-airflow/getting-started-with-apache-airflow.md)
+* [Can Next Scheduled Run Automatically Re-Run failed Task?](apache-airflow/can-next-scheduled-run-automatically-re-run-failed-task.md)
+* [Dynamic Task Mapping](apache-airflow/dynamic-task-mapping.md)
 * [Using Airflow Providers With KubernetesPodOperator](apache-airflow/using-airflow-providers-with-kubernetespodoperator.md)
 * [KubernetesPodOperator vs. KubernetesExecutor](apache-airflow/kubernetespodoperator-vs.-kubernetesexecutor.md)
 * [Airflow Configurations](apache-airflow/airflow-configurations.md)
 * [How to send email only on Dag Failure](apache-airflow/how-to-send-email-only-on-dag-failure.md)
 * [Apache Airflow + MongoDB](apache-airflow/apache-airflow-+-mongodb.md)
 * [Airflow Celery vs Kubernetes Executor](apache-airflow/airflow-celery-vs-kubernetes-executor.md)
+* [Airflow: Major Topics](apache-airflow/airflow-major-topics.md)
+* [Send Airflow Email with Sendgrid](https://bhavaniravi.com/blog/emails-alerts-airflow-with-sendgrid/)
+* [Sending Email Alerts in Apache Airflow with Sendgrid](apache-airflow/sending-email-alerts-in-apache-airflow-with-sendgrid.md)
 
 ## Database
 
-* [Database 101](database/database-101.md)
+* [Types of Databases & When to Use them](database/types-of-databases-and-when-to-use-them.md)
+* [Database Terms](database/database-terms.md)
 
 ## Devops
 
@@ -82,6 +89,4 @@
 ## Indie-Hacking
 
 * [Indie-Hacking](indie-hacking/indie-hacking.md)
-* [Side Projects: FAQ](indie-hacking/side-projects-faq.md)
-
-## Misc
+* [Side Projects: FAQ](misc/side-projects-twitter-space.md)

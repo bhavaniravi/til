@@ -4,47 +4,48 @@ description: Can Airflow Do this?
 
 # Airflow Configurations
 
-## max\_active\_runs and max\_queued\_dag\_runs
+If you're a Airflow developer the configuration page in the documentation is a gold mine. Most of the times someone asks _Can Airflow do this?_ the answer lies in the configurations page.
 
-Description: Differentiating the behavior of max\_active runs in 1.x and 2.x and 2.2.x Priority: 1 Specialization: Airflow Status: ReadyToRecord
+Infact I have this page bookmarked in my browser forever. There are so many configurations to tweak different airflow components.&#x20;
 
-1. Introducing `max_active_runs` in config level and dag level in 1.x
-2. Change the params to 1, 2, 3 etc.,
+**Catchup**&#x20;
 
-```jsx
-from airflow import DAG
-from airflow.operators.bash_operator import BashOperator
-from airflow.operators.python_operator import PythonOperator
-from datetime import timedelta
-from airflow.utils.dates import days_ago
-import time
+Ensure all the dags run only the future runs irrespective of their start date. You can also set this at each dag level.
 
-def my_custom_function(ti):
-		time.sleep(10)
-    print ("hello")
+### Scheduler Performance
 
-default_args = {
-    "start_date": days_ago(1),
-    'owner': 'airflow',
-    'retries': 2,
-    'retry_delay': timedelta(minutes=1)
-}
+There is a whole page in [Airflow docs](https://airflow.apache.org/docs/apache-airflow/stable/concepts/scheduler.html?highlight=scheduler#fine-tuning-your-scheduler-performance) on which config params to tweak to use the available resources effectively
 
-with DAG('example_dag_copy',
-         max_active_runs=1,
-         schedule_interval=None,  
-         default_args=default_args,
-         catchup=False
-         ) as dag:
+### Database
 
-        tn = PythonOperator(
-            task_id=f'python_print_date',
-            python_callable=my_custom_function,  # make sure you don't include the () of the function
-            provide_context=True,
-        )
-```
+**load\_default\_connections**&#x20;
 
-1. Introduction of queued state in 2.x
-2. `max_active_runs` and `max_queued_dag_runs` in 2.x
-3. **`max_queued_runs_per_dag` is removed in latest 2.2.0 so it's better not to use it**
-4. Now `max_queued_active_runs` is handled by `max_active_run`
+&#x20;**** This is a new configuration in 2.3.0 but also an odd one out. Setting this to true will create default Airflow connections in the metadata DB
+
+**max\_db\_retries**
+
+**sql\_alchemy\_conn**
+
+**sql\_alchemy\_connect\_args**
+
+**sql\_alchemy\_engine\_args**
+
+&#x20;You can pass a variety of parameters to [sqlalchemy engine](https://docs.sqlalchemy.org/en/14/core/engines.html#engine-creation-api). These can be defined as a dictionary
+
+**sql\_alchemy\_max\_overflow**
+
+Manage sqlalchemy **pool** using&#x20;
+
+* **sql\_alchemy\_pool\_enabled,**&#x20;
+* **sql\_alchemy\_pool\_pre\_ping**
+* **sql\_alchemy\_pool\_recycle**&#x20;
+* **sql\_alchemy\_pool\_size**
+
+**sql\_alchemy\_schema**
+
+**sql\_engine\_collation\_for\_ids**
+
+**sql\_engine\_encoding**
+
+
+

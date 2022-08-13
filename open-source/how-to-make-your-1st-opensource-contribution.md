@@ -2,7 +2,7 @@
 
 You have been hearing good things about OSS.&#x20;
 
-a solid OSS contribution will take somewhere from 3-6 months. It involves getting accustomed to the project, reading and understanding their code base, finding interesting issues, fixing the code, making a PR and fixing the reviews until the maintainers are ready to merge.
+A solid OSS contribution will take somewhere from 3-6 months. It involves getting accustomed to the project, reading and understanding their code base, finding interesting issues, fixing the code, making a PR and fixing the reviews until the maintainers are ready to merge.
 
 Here are the steps I would recommend
 
@@ -16,3 +16,7 @@ Here are the steps I would recommend
 8. Push the PR. follow the PR and commit guidelines
 9. Incorporate the changes that reviewers give you. Maintainers are busy, so it's a good idea to find active reviewers and mention them in PR comments for review
 10. Merged
+
+### How I made my 1st OSS Contribution?
+
+{% embed url="https://youtu.be/1EvaxRIBU-8" %}

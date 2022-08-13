@@ -52,7 +52,7 @@ The easiest way to get a response from me is to write me on Twitter or email to 
 
 ### FAQ&#x20;
 
-Did I miss something? Ask me anything on Twitter
+Did I miss something? [Ask me anything](about-me.md#contact-me)
 
 
 

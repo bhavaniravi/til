@@ -1,6 +1,5 @@
 ---
 description: Not all those who wander are lost
-layout: landing
 ---
 
 # Start Here
@@ -9,9 +8,13 @@ layout: landing
 
 _A digital garden is **an online space at the intersection of a notebook and a blog, where digital gardeners share seeds of thoughts to be cultivated in public**._
 
-You could have landed here for a variety of reasons. On the left, you can see a bunch of topics and subsections. Go ahead explore them
+You could have landed here for a variety of reasons. On the left, you can see a bunch of topics and subsections. They are carefully curated from my original notetaking system in logseq
 
-To know more about me [Click here](about-me/about-me.md)
+
+
+Go ahead explore them
+
+To know more about me [Click here](start-here/about-me.md)
 
 
 
