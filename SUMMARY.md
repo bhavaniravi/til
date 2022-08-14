@@ -8,6 +8,12 @@
 * [About Me](start-here/about-me.md)
 * [My Links](about-me/my-links.md)
 
+## Courses
+
+* [How to Build a Chatbot?](https://www.linkedin.com/learning/developing-chatbots-with-azure/)
+* [Python Pandas Essentials](https://www.guvi.in/courses/pandasEng?itm\_source=bhavaniravi.com)
+* [PythonToProject - Live Bootcamp (Oct 2022)](https://bhavaniravi.gumroad.com/l/LaFSj)
+
 ## Python
 
 * [What are the Best Resources to Learn Python in 2022?](python/what-are-the-best-resources-to-learn-python.md)

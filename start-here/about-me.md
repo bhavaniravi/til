@@ -10,13 +10,13 @@ I am a Pythonista, Software Engineer, Trainer, Content Creator, and Artist. I'm 
 
 ### Technically Me.
 
-* For the past 6 years, I have been building backend systems and microservices in Python
+* For the past 6 years, I have been building **backend systems** and **microservices in Python**
 * I've also dabbled with the _**DevOps**_ side of things
-  * Deploying web apps in AWS/GCP
+  * Deploying web apps in **AWS/GCP**
   * Deploying and scaling apps in Docker/Kubernetes infrastructure
   * Converting ML models into deployable ML systems
-  * Setting up CI/CD pipelines
-* Open Source Contributions
+  * Setting up **CI/CD pipelines**
+* **Open Source Contributions**
   * Pandas
   * Apache Airflow
   * Django All auth
@@ -48,7 +48,7 @@ I am a Pythonista, Software Engineer, Trainer, Content Creator, and Artist. I'm 
 
 ### Contact Me
 
-The easiest way to get a response from me is to write me on Twitter or email to bhavanicodes@gmail.com
+The easiest way to get a response from me is to write me on Twitter or email to _**bhavanicodes@gmail.com**_
 
 ### FAQ&#x20;
 
