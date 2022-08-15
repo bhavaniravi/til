@@ -24,6 +24,7 @@
   * [Bound vs Unbound Functions In Python](python/advanced-python/bound-vs-unbound-functions-in-python.md)
   * [Python Namespaces](python/advanced/python-namespaces.md)
   * [GIL](python/advanced/gil.md)
+  * [Unbound Variables in Python](python/advanced-python/unbound-variables-in-python.md)
 * [Web](python/web/README.md)
   * [Flask](python/web/flask/README.md)
     * [Quick Start Automation](python/web/flask/quick-start-automation.md)
