@@ -19,6 +19,7 @@
 * [What are the Best Resources to Learn Python in 2022?](python/what-are-the-best-resources-to-learn-python.md)
 * [How to get past Beginner Stage in Python?](https://thelearning.dev/how-to-get-past-beginner-stage-in-python)
 * [Advanced Python](python/advanced/README.md)
+  * [Itertools Hacks](python/advanced-python/itertools-hacks.md)
   * [Data Model in Python](python/advanced/data-model-in-python.md)
   * [Multi-Processing Vs Multi-Threading](python/advanced/multi-processing-vs-multi-threading.md)
   * [Bound vs Unbound Functions In Python](python/advanced-python/bound-vs-unbound-functions-in-python.md)
@@ -96,3 +97,4 @@
 
 * [Indie-Hacking](indie-hacking/indie-hacking.md)
 * [Side Projects: FAQ](misc/side-projects-twitter-space.md)
+* [Marketing Your Side Project](https://github.com/portable-cto/side-project-marketing)
