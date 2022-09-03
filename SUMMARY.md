@@ -44,6 +44,7 @@
 * [How to Do Code Reviews?](software-engineering/how-to-do-code-reviews.md)
 * [Git & GitHub](software-engineering/git-and-github/README.md)
   * [Git Rebase](software-engineering/git-and-github/git-rebase.md)
+* [Architecture Notes](https://architecturenotes.co/)
 
 ## Apache Airflow
 
@@ -98,3 +99,7 @@
 * [Indie-Hacking](indie-hacking/indie-hacking.md)
 * [Side Projects: FAQ](misc/side-projects-twitter-space.md)
 * [Marketing Your Side Project](https://github.com/portable-cto/side-project-marketing)
+
+## Book Notes
+
+* [Show Your Work](book-notes/show-your-work.md)
