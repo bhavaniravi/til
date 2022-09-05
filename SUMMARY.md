@@ -44,6 +44,7 @@
 * [How to Do Code Reviews?](software-engineering/how-to-do-code-reviews.md)
 * [Git & GitHub](software-engineering/git-and-github/README.md)
   * [Git Rebase](software-engineering/git-and-github/git-rebase.md)
+  * [Best Resource to Learn Git & Github](https://skills.github.com/)
 * [Architecture Notes](https://architecturenotes.co/)
 
 ## Apache Airflow

@@ -61,3 +61,4 @@ Don't be alarmed when you see a code that doesn't comply to OC principle. No you
 ### References
 
 * [https://en.wikipedia.org/wiki/Open%E2%80%93closed\_principle](https://en.wikipedia.org/wiki/Open%E2%80%93closed\_principle)
+*
