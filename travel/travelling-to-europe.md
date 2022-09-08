@@ -44,4 +44,4 @@ Last year ie., in 2021 I decided to take a career break because I was burned out
 
 &#x20;To be honest, I didn't calculate things to it's last penny. but it came around 3.5 Lakhs including flights
 
-Got a question? Ask me Anything
+Get live updates on my travel @ [Instagram](https://instagram.com/bhavaniravi\_)

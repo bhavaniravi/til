@@ -10,13 +10,13 @@ I am a Pythonista, Software Engineer, Trainer, Content Creator, and Artist. I'm 
 
 ### Technically Me.
 
-* For the past 6 years, I have been building **backend systems** and **microservices in Python**
+* For the past 6 years, I have been building backend systems and microservices in Python
 * I've also dabbled with the _**DevOps**_ side of things
-  * Deploying web apps in **AWS/GCP**
+  * Deploying web apps in AWS/GCP
   * Deploying and scaling apps in Docker/Kubernetes infrastructure
   * Converting ML models into deployable ML systems
-  * Setting up **CI/CD pipelines**
-* **Open Source Contributions**
+  * Setting up CI/CD pipelines
+* Open Source Contributions
   * Pandas
   * Apache Airflow
   * Django All auth
@@ -24,7 +24,7 @@ I am a Pythonista, Software Engineer, Trainer, Content Creator, and Artist. I'm 
   * I strongly vouch for writing readable, changeable, and testable code
   * Capture bugs early with code reviews
 * I use **git** to version control all my projects(including this one)
-* I learned _**React & Javascript**_ via my frontend projects
+* I learned _**React & Node**_ via my frontend projects
 
 ### Non-Technically Me
 
@@ -39,7 +39,6 @@ I am a Pythonista, Software Engineer, Trainer, Content Creator, and Artist. I'm 
 * I share via blogs, youtube, tech talks, workshops
 * I also run online Bootcamps
 * Invite me to speak
-* I've been a part of build2learn.in and Google Developers Group from 2016-2021
 
 ### Working With Me
 
@@ -49,7 +48,7 @@ I am a Pythonista, Software Engineer, Trainer, Content Creator, and Artist. I'm 
 
 ### Contact Me
 
-The easiest way to get a response from me is to write me on Twitter or email to _**bhavanicodes@gmail.com**_
+The easiest way to get a response from me is to write me on Twitter or email to bhavanicodes@gmail.com
 
 ### FAQ&#x20;
 
