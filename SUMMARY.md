@@ -90,7 +90,9 @@
 
 ## Open Source
 
+* [Repos You Can Contribute To](open-source/repos-you-can-contribute-to.md)
 * [How to Make Your 1st OpenSource Contribution](open-source/how-to-make-your-1st-opensource-contribution.md)
+* [Git Flight Rules - More than CheatSheet](open-source/git-flight-rules-more-than-cheatsheet.md)
 
 ## Travel
 
@@ -105,3 +107,7 @@
 ## Book Notes
 
 * [Show Your Work](book-notes/show-your-work.md)
+
+## Life
+
+* [Why We need a Low Key Version of Gratitude Journaling](life/why-we-need-a-low-key-version-of-gratitude-journaling.md)

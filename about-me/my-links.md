@@ -10,6 +10,4 @@ Linkedin - [https://linkedin.com/in/bhavanicodes](https://linkedin.com/in/bhavan
 
 Youtube - [https://youtube.com/bhavaniravi](https://youtube.com/bhavaniravi)
 
-Zoom Chat - [https://zcal.co/bhavaniravi/15mins](https://zcal.co/bhavaniravi/15mins)
-
 > Any promotional messages will not be entertained or responded to
