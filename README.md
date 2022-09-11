@@ -26,6 +26,10 @@ You could have landed here for a variety of reasons. The following are the major
 [Broken link](broken-reference)
 {% endcontent-ref %}
 
+{% content-ref url="broken-reference" %}
+[Broken link](broken-reference)
+{% endcontent-ref %}
+
 Go ahead explore them
 
 To know more about me [Click here](start-here/about-me.md)
