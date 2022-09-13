@@ -110,4 +110,4 @@
 
 ## Life
 
-* [Project GoodVibes - A low-Key Gratitude Journaling](life/project-goodvibes-a-low-key-gratitude-journaling.md)
+* [Project GoodVibes - A low-Key Gratitude Journaling](life/why-we-need-a-low-key-version-of-gratitude-journaling.md)
