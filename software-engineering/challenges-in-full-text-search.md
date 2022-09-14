@@ -1,32 +1,9 @@
----
-slug: challenges-in-full-text-search
-published_date: 2019-09-08T00:00:00.000Z
-created_date: 2019-09-01T00:00:00.000Z
-title: Challenges In Full-Text-Search Systems
-template: post
-draft: false
-description: >-
-  While Full-text-search is famous for search through documents at a faster
-  rate, there are other intresting ways in which these systems handle scale,
-  synonyms, abbrevations, misspellings etc., we will take an indepth view of the
-  same in this blog
-subtitle: An Indepth view of search problems and how Full-Text-Search Solves them
-tags: ["software-engineering"]
-featuredImgPath: /media/fts/fts-featured.png
----
-
 # Challenges In Full-Text-Search Systems
 Text problems are the most interesting ones to solve. From being a part of a CS Engineer’s academics to kick ass feature of a product, searching is everywhere. It doesn’t matter what language, database or Service you rely on, if you have a bunch of data your users will want to search through them.
 
 Now that we know the necessity of search feature in an app, the struggle comes when your data grows. Ordinary regex or grep based search methods won’t hold good for this scale of data. Full-text search is more intuitive than just pattern matching. The main idea is to give the user with the relevant results. We need a swiss army knife a Full-text-search to solve our search problems. This blog will cover what Full-text-search and it solves those problems.
 
-<figure>
-
 ![Full-Text-Search Systems](/media/fts/fts-featured.png)
-
-</figure>
-
-<br/>
 
 ## What is Full-Text-Searching?
 Full text search is an advanced method of searching through documents and DB records. While conventional searches use pattern matching(grep/regex) methods and scanning through the documents, full-text search promises fast retrieval of data with advanced indexing and more intuitive search results based on relevance.
@@ -38,11 +15,7 @@ You tell me. Which is better looking for a book in each rack of a library or sea
 ## How does Full-Text Search work?
 The full-text search first starts with a DB containing a bunch of Data(documents). These data are indexed based on the words in the documents and stored. When a user enters a search query, the query is split into tokens and mapped across the built index to find the relevant documents
 
-<figure>
-
 ![Full Text Search using Apache Lucene (Part-Iii)](https://www.knstek.com/wp-content/uploads/2015/01/lucence-flow-1.png)
-
-</figure>
 
 ## Challenges In Full text Search
 To understand and appreciate the mechanisms and terms involved in full-text-searching you need to understand the challenges involved in the same. A few of the common challenges are.
@@ -64,13 +37,7 @@ As we discussed conventional `grep` based systems no longer works at the speed,
 3. Create a table of words mapping it to its occurrence in the document
 4. On entering a search query tokenize, stem the words and cross check across the index. 
 
-<figure>
-
 ![Document Indexing](https://i.imgur.com/lcfDdQZ.png)
-
-</figure>
-
-
 
 ## Proximity - Word Vectors
 Proximity is “how relevant your search results are?” to the search query. When talking about Proximity we often focus on finding the documents that relates to the “Intention of the user”.
@@ -90,8 +57,6 @@ In the era of instant messaging we are used to use not only the accepted abbrevi
 
 1. Search Thesaurus - Where a mapping all the abbreviations and its associated expansion is saved.
 2. Text Normalization - On creating an index the abbreviations are normalized to its actual text searching on it works like searching over an actual text.
-
-
 
 ## Searching Through Images
 
