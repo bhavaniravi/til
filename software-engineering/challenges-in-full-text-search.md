@@ -1,3 +1,14 @@
+---
+slug: challenges-in-full-text-search
+title: Challenges In Full-Text-Search Systems
+description: >-
+  While Full-text-search is famous for search through documents at a faster
+  rate, there are other intresting ways in which these systems handle scale,
+  synonyms, abbrevations, misspellings etc., we will take an indepth view of the
+  same in this blog
+subtitle: An Indepth view of search problems and how Full-Text-Search Solves them
+tags: ["software-engineering"]
+---
 # Challenges In Full-Text-Search Systems
 Text problems are the most interesting ones to solve. From being a part of a CS Engineer’s academics to kick ass feature of a product, searching is everywhere. It doesn’t matter what language, database or Service you rely on, if you have a bunch of data your users will want to search through them.
 

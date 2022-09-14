@@ -43,6 +43,7 @@
 * [Open-Closed Principle](software-engineering/open-closed-principle.md)
 * [Strangler Fig Pattern](software-engineering/strangler-fig-pattern.md)
 * [How to Do Code Reviews?](software-engineering/how-to-do-code-reviews.md)
+* [Challenges in Full-Text Search](software-engineering/challenges-in-full-text-search.md)
 * [Git & GitHub](software-engineering/git-and-github/README.md)
   * [Git Rebase](software-engineering/git-and-github/git-rebase.md)
   * [Best Resource to Learn Git & Github](https://skills.github.com/)
