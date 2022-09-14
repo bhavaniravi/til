@@ -8,7 +8,7 @@ When I was building 100Ideas there was a small requirement that when the ideas g
 
 ### After
 
-![](<../../.gitbook/assets/image (1) (1).png>)
+![](../../.gitbook/assets/image.png)
 
 ### Code&#x20;
 

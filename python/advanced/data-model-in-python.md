@@ -147,7 +147,7 @@ But that's not the awestrucking part, when learning C/C++ we are asked to visual
 
 In this case the reference count of value "avc" is 2
 
-![Memory representation of Python object](<../../.gitbook/assets/image (2).png>)
+![Memory representation of Python object](<../../.gitbook/assets/image (2) (1).png>)
 
 Now let's update the value of b and see what happens `b = "ram`"
 

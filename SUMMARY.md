@@ -35,8 +35,9 @@
     * [JWT Bases Authentication In Python + Flask](python/web/flask/jwt-bases-authentication-in-python-+-flask.md)
   * [Django](python/web/django/README.md)
     * [When to Use Flask vs Django?](python/web/django/when-to-use-flask-vs-django.md)
-* [Testing](python/testing/README.md)
-  * [Why Pytest is my Favorite?](python/testing/why-pytest-is-my-favorite.md)
+* [Testing](python/testing.md)
+* [1st Technical Hire for a Startup?](python/1st-technical-hire-for-a-startup/README.md)
+  * [Why Pytest is my Favorite?](python/1st-technical-hire-for-a-startup/why-pytest-is-my-favorite.md)
 
 ## Software Engineering
 
