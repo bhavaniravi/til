@@ -33,11 +33,19 @@
     * [Build Your 1st Flask App](https://medium.com/bhavaniravi/build-your-1st-python-web-app-with-flask-b039d11f101c)
     * [Deploy Flask App in Heroku](https://thelearning.dev/deploying-flask-app-with-heroku)
     * [JWT Bases Authentication In Python + Flask](python/web/flask/jwt-bases-authentication-in-python-+-flask.md)
+    * [Building OwnFlask - A Flask(like) Python Framework](python/web/flask/building-own-flask-1.md)
   * [Django](python/web/django/README.md)
     * [When to Use Flask vs Django?](python/web/django/when-to-use-flask-vs-django.md)
 * [Testing](python/testing.md)
 * [1st Technical Hire for a Startup?](python/1st-technical-hire-for-a-startup/README.md)
   * [Why Pytest is my Favorite?](python/1st-technical-hire-for-a-startup/why-pytest-is-my-favorite.md)
+* [How to Generate UML Diagrams from Python Source Code?](python/generate-uml-diagrams-from-python-code.md)
+* [Merging Python Modules](python/merge-python-module-script.md)
+* [Are your Secrets Safe In Python?](python/secrets-as-python-file.md)
+* [Asynchronous Task Execution In Python](python/asynchronous-task-execution-in-python.md)
+* [All About Authentication Systems](python/authentication-in-python.md)
+* [Caching in Python](python/caching-in-python.md)
+
 
 ## Software Engineering
 
@@ -48,7 +56,11 @@
 * [Git & GitHub](software-engineering/git-and-github/README.md)
   * [Git Rebase](software-engineering/git-and-github/git-rebase.md)
   * [Best Resource to Learn Git & Github](https://skills.github.com/)
+  * [How I Got Out of a Knee Deep Git Problem](software-engineering/git-and-github/the-git-problem.md)
 * [Architecture Notes](https://architecturenotes.co/)
+* [Challenges In Full-Text-Search Systems](software-engineering/challenges-in-full-text-search.md)
+* [Backend Engineer - Behind the Scenes](software-engineering/backend-engineer-behind-the-scenes.md)
+* [How to Connect to Custom Oauth2 Provider Using Auth0?](software-engineering/custom-oauth2-with-auth0.md)
 
 ## Apache Airflow
 
@@ -61,6 +73,10 @@
 * [Apache Airflow + MongoDB](apache-airflow/apache-airflow-+-mongodb.md)
 * [Airflow Celery vs Kubernetes Executor](apache-airflow/airflow-celery-vs-kubernetes-executor.md)
 * [Sending Email Alerts in Apache Airflow with Sendgrid](apache-airflow/sending-email-alerts-in-apache-airflow-with-sendgrid.md)
+* [How to Set up Airflow on Kubernetes?](apache-airflow/deploying-airflow-on-kubernetes.md)
+* [An Introduction to Apache Airflow](apache-airflow/apache-airflow-introduction.md)
+* [How to Send Email Alerts from Airflow?](apache-airflow/sending-emails-from-airflow.md)
+* [Airflow Operators - A Comparison](apache-airflow/airflow-operators-comparison.md)
 
 ## Database
 
@@ -70,6 +86,10 @@
 ## Devops
 
 * [What is DevOps?](devops/what-is-devops.md)
+* [What Happens During Docker Build and Run?](devops/what-happens-during-docker-build-and-run.md)
+* [Introduction to Docker - The What, Why and How](devops/docker-introduction.md)
+* [Deploying Flask Applications in Kubernetes (Digitalocean)](devops/kubernetes-101-deploy-apps-in-kubernetes.md)
+* [Docker - Virtualization vs Containerization](devops/docker-virtualization-vs-containerization.md)
 
 ## Frontend
 
@@ -85,6 +105,10 @@
   * [How to Import a File in ReactJS?](frontend/reactjs/how-to-import-a-file-in-reactjs.md)
   * [How to Shuffle a Message in a Div in ReactJS?](frontend/reactjs/how-to-shuffle-a-message-in-a-div-in-reactjs.md)
 
+## GoLang
+
+* [How I Wrote my 1st 100 Lines of Golang Code](golang/learning-golang.md)
+
 ## Technical Writing
 
 * [Why I Don't Recommend Medium as Your Blogging Site](technical-writing/why-i-dont-recommend-medium-as-your-blogging-site.md)
@@ -95,6 +119,11 @@
 * [Repos You Can Contribute To](open-source/repos-you-can-contribute-to.md)
 * [How to Make Your 1st OpenSource Contribution](open-source/how-to-make-your-1st-opensource-contribution.md)
 * [Git Flight Rules - More than CheatSheet](open-source/git-flight-rules-more-than-cheatsheet.md)
+
+## Community
+* [A Go to Guide to Run a Community](community/go-to-guide-to-run-communities.md)
+* [A World Where WomenInTech Rules](community/a-world-where-women-in-tech-rules.md)
+* [Why Should you Attend Tech Conferences?](community/why-should-you-attend-tech-conferences.md)
 
 ## Travel
 
@@ -109,7 +138,18 @@
 ## Book Notes
 
 * [Show Your Work](book-notes/show-your-work.md)
+* [Are you an Ideal Team Player?](book-notes/the-ideal-team-player-book-review.md)
+* [David and Goliath Book Summary](book-notes/david-and-Goliath-book-summary.md)
+* [Atomic Habits Book Summary](book-notes/atomic-habits-book-summary.md)
+* [7 Habits of Highly Effective People - Book Summary](book-notes/seven-habits-book-summary.md)
+* [It Doesn't Have to be Crazy at Work](book-notes/it-doesn't-have-to-be-crazy-at-work.md)
+* [The Beauty of Your Brain](book-notes/the-beauty-of-your-brain.md)
 
 ## Life
 
 * [Project GoodVibes - A low-Key Gratitude Journaling](life/why-we-need-a-low-key-version-of-gratitude-journaling.md)
+* [How to be (more) Productive?](life/how-to-be-productive.md)
+* [The Magic of Responsibility — A Story](life/the-magic-of-responsiblity.md)
+* [Shopping Like a Stingy-Minimalist](life/shopping-like-a-minimalist.md)
+* [End Goal - How to set goals and track them?](life/how-to-set-goals.md)
+* [5 Reasons Why You Should Start your Fitness Routine ASAP?](life/5-reasons-why-you-should-start-your-fitness-routineasap.md)
