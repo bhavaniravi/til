@@ -1,19 +1,19 @@
 ---
 title: Airflow Operators - A Comparison
-sub_title: 'Comparison between Python, Docker and Kubernetes Airflow Operator'
+sub_title: Comparison between Python, Docker and Kubernetes Airflow Operator
 slug: airflow-operators-comparison
-tags: ["apache-airflow"]
-featuredImgPath: 'https://i.imgur.com/UvlPSAW.png'
+tags:
+  - apache-airflow
+featuredImgPath: https://i.imgur.com/UvlPSAW.png
 isexternal: true
 published_date: '2021-01-12'
 created_date: '2021-01-10'
+draft: false
 description: >-
   Airflow provides a variety of operators to couple your business logic into
   executable tasks in a workflow. Often times it is confusing to decide when to
-  use what. In this article we will discuss the pros and cons of each in detail.
-draft: false
+  use what. In this article we will discuss the p
 ---
-
 
 # Airflow Operators - A Comparison
 
@@ -21,9 +21,7 @@ Airflow provides a variety of operators to couple your business logic into execu
 
 ## PythonOperator
 
-
 Using `PythonOperator`, all the business logic and it's associated code resides in the airflow DAG directory. The `PythonOperator` imports and runs them during the execution
-
 
 ```
 airflow 
@@ -36,8 +34,6 @@ airflow
     \__logs
     \__airflow.cfg
 ```
-
-
 
 ### Pros
 
@@ -52,11 +48,11 @@ airflow
 3. Sharing a single airflow instance across multiple projects will be a nightmare
 4. Can run only Python code, well, duh.
 
-
 ## DockerOperator
 
-When using `DockerOperator`, all the business logic and it's associated code resides in a docker image. During execution 
-1. Airflow pulls the specified image 
+When using `DockerOperator`, all the business logic and it's associated code resides in a docker image. During execution
+
+1. Airflow pulls the specified image
 2. Spins up a container
 3. Executes the respective command.
 
@@ -71,10 +67,7 @@ DockerOperator(
 )
 ```
 
-
-
 ### Pros
-
 
 1. Works well across cross-functional teams
 2. Can run projects that are not built-in Python
@@ -84,12 +77,9 @@ DockerOperator(
 1. Needs docker installed in the worker machine
 2. Depending on the resources available, The load of the worker machine might be heavy when multiple containers run at the same time
 
-
 ## KubernetesPodOperator
 
-
 When using `KubernetesPodOperator`, all the business logic and it's associated code resides in a docker image. During execution, airflow spins up a worker pod, which pulls the mentioned docker image and executes the respective command.
-
 
 ```
 KubernetesPodOperator(
@@ -109,11 +99,3 @@ KubernetesPodOperator(
 ### Cons:
 
 Complex on the infrastructure, since it uses docker and Kubernetes.
-
-
-
-
-
-
-
-

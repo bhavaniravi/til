@@ -31,4 +31,4 @@ Returns: `UnboundLocalError: local variable 'take_sum' referenced before assignm
 
 The function raises an exception because the compiler saw that the code _could_ assign to `take_sum` as a local variable, and so it makes all the references to `take_sum` in the code be local. You can no longer look up the global variable `take_sum` in the normal way once that determination has been made.
 
-To understand how variable names are resolved read [Python Namespaces](../advanced/python-namespaces.md)
+To understand how variable names are resolved read [Python Namespaces](broken-reference)

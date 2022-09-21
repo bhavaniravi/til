@@ -19,14 +19,14 @@
 
 * [What are the Best Resources to Learn Python in 2022?](python/what-are-the-best-resources-to-learn-python.md)
 * [How to get past Beginner Stage in Python?](https://thelearning.dev/how-to-get-past-beginner-stage-in-python)
-* [Advanced Python](python/advanced/README.md)
+* [Advanced Python](python/advanced-python/README.md)
   * [Itertools Hacks](python/advanced-python/itertools-hacks.md)
   * [Data Model in Python](python/advanced/data-model-in-python.md)
-  * [Multi-Processing Vs Multi-Threading](python/advanced/multi-processing-vs-multi-threading.md)
+  * [Multi-Processing Vs Multi-Threading](python/advanced-python/multi-processing-vs-multi-threading.md)
   * [Bound vs Unbound Functions In Python](python/advanced-python/bound-vs-unbound-functions-in-python.md)
   * [Unbound Variables in Python](python/advanced-python/unbound-variables-in-python.md)
-  * [Python Namespaces](python/advanced/python-namespaces.md)
-  * [GIL](python/advanced/gil.md)
+  * [Python Namespaces](python/advanced-python/python-namespaces.md)
+  * [GIL](python/advanced-python/gil.md)
 * [Web](python/web/README.md)
   * [Flask](python/web/flask/README.md)
     * [Quick Start Automation](python/web/flask/quick-start-automation.md)
@@ -36,16 +36,13 @@
     * [Building OwnFlask - A Flask(like) Python Framework](python/web/flask/building-own-flask-1.md)
   * [Django](python/web/django/README.md)
     * [When to Use Flask vs Django?](python/web/django/when-to-use-flask-vs-django.md)
-* [Testing](python/testing.md)
-* [1st Technical Hire for a Startup?](python/1st-technical-hire-for-a-startup/README.md)
-  * [Why Pytest is my Favorite?](python/1st-technical-hire-for-a-startup/why-pytest-is-my-favorite.md)
+* [Testing](python/testing/README.md)
+  * [Why Pytest is my Favorite?](python/testing/why-pytest-is-my-favorite.md)
 * [How to Generate UML Diagrams from Python Source Code?](python/generate-uml-diagrams-from-python-code.md)
 * [Merging Python Modules](python/merge-python-module-script.md)
 * [Are your Secrets Safe In Python?](python/secrets-as-python-file.md)
 * [Asynchronous Task Execution In Python](python/asynchronous-task-execution-in-python.md)
-* [All About Authentication Systems](python/authentication-in-python.md)
 * [Caching in Python](python/caching-in-python.md)
-
 
 ## Software Engineering
 
@@ -58,25 +55,26 @@
   * [Best Resource to Learn Git & Github](https://skills.github.com/)
   * [How I Got Out of a Knee Deep Git Problem](software-engineering/git-and-github/the-git-problem.md)
 * [Architecture Notes](https://architecturenotes.co/)
-* [Challenges In Full-Text-Search Systems](software-engineering/challenges-in-full-text-search.md)
+*
 * [Backend Engineer - Behind the Scenes](software-engineering/backend-engineer-behind-the-scenes.md)
 * [How to Connect to Custom Oauth2 Provider Using Auth0?](software-engineering/custom-oauth2-with-auth0.md)
+* [All About Authentication Systems](software-engineering/authentication-in-python.md)
 
 ## Apache Airflow
 
 * [Airflow: Major Topics](apache-airflow/airflow-major-topics.md)
+* [Airflow Configurations](apache-airflow/airflow-configurations.md)
+* [Airflow Operators - A Comparison](apache-airflow/airflow-operators-comparison.md)
+* [Using Airflow Providers With KubernetesPodOperator](apache-airflow/using-airflow-providers-with-kubernetespodoperator.md)
 * [Can Next Scheduled Run Automatically Re-Run failed Task?](apache-airflow/can-next-scheduled-run-automatically-re-run-failed-task.md)
 * [Dynamic Task Mapping](apache-airflow/dynamic-task-mapping.md)
-* [Using Airflow Providers With KubernetesPodOperator](apache-airflow/using-airflow-providers-with-kubernetespodoperator.md)
 * [KubernetesPodOperator vs. KubernetesExecutor](apache-airflow/kubernetespodoperator-vs.-kubernetesexecutor.md)
-* [Airflow Configurations](apache-airflow/airflow-configurations.md)
 * [Apache Airflow + MongoDB](apache-airflow/apache-airflow-+-mongodb.md)
 * [Airflow Celery vs Kubernetes Executor](apache-airflow/airflow-celery-vs-kubernetes-executor.md)
 * [Sending Email Alerts in Apache Airflow with Sendgrid](apache-airflow/sending-email-alerts-in-apache-airflow-with-sendgrid.md)
 * [How to Set up Airflow on Kubernetes?](apache-airflow/deploying-airflow-on-kubernetes.md)
 * [An Introduction to Apache Airflow](apache-airflow/apache-airflow-introduction.md)
 * [How to Send Email Alerts from Airflow?](apache-airflow/sending-emails-from-airflow.md)
-* [Airflow Operators - A Comparison](apache-airflow/airflow-operators-comparison.md)
 
 ## Database
 
@@ -121,6 +119,7 @@
 * [Git Flight Rules - More than CheatSheet](open-source/git-flight-rules-more-than-cheatsheet.md)
 
 ## Community
+
 * [A Go to Guide to Run a Community](community/go-to-guide-to-run-communities.md)
 * [A World Where WomenInTech Rules](community/a-world-where-women-in-tech-rules.md)
 * [Why Should you Attend Tech Conferences?](community/why-should-you-attend-tech-conferences.md)
@@ -128,6 +127,7 @@
 ## Travel
 
 * [Travelling To Europe](travel/travelling-to-europe.md)
+* [Traveling to Leh Ladhak](travel/traveling-to-leh-ladhak.md)
 
 ## Indie-Hacking
 

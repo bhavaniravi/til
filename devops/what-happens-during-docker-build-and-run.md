@@ -2,24 +2,26 @@
 title: What Happens During Docker Build and Run?
 sub_title: Disecting How Docker works, One layer at a time
 slug: what-happens-during-docker-build-and-run
-tags: ["devops"]
+tags:
+  - devops
 featuredImgPath: https://i.imgur.com/P6LyCHX.png
 isexternal: true
-published_date: 2021-12-14
-created_date: 2021-12-14
-description: When using Docker, you will encounter two major operations `build`
-  and `run`. The build command creates a docker image based on the `Dockerfile`.
-  The run command uses the created docker image to run a container.  But, what
-  do these mean? What's an image? What does running a container mean?
+published_date: 2021-12-14T00:00:00.000Z
+created_date: 2021-12-14T00:00:00.000Z
 draft: false
+description: >-
+  When using Docker, you will encounter two major operations `build` and `run`.
+  The build command creates a docker image based on the `Dockerfile`. The run
+  command uses the created docker image to run a
 ---
+
 # What Happens During Docker Build and Run?
 
 When using Docker, you will encounter two major operations `build` and `run`. The build command creates a docker image based on the `Dockerfile`. The run command uses the created docker image to run a container.
 
 But, what do these mean? What's an image? What does running a container mean?
 
-To understand this question further, let's create a Docker image. 
+To understand this question further, let's create a Docker image.
 
 ```
 FROM ubuntu:18.04
@@ -36,10 +38,6 @@ CMD [ "app/app.py" ]
 ```
 
 When building the image it starts with a base image followed by running each command in layers.
-
-<figure>
-![](https://i.imgur.com/l2tYLhY.png)
-</figure>
 
 ## Docker Building Images
 

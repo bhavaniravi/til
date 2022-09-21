@@ -2,31 +2,33 @@
 title: Merging Python Modules
 sub_title: how to write a python script to merge multiple python modules into single one
 slug: merge-python-module-script
-tags: ["python"]
+tags:
+  - python
 featuredImgPath: https://i.imgur.com/gine5et.png
 isexternal: true
-published_date: 2022-01-29
-created_date: 2022-01-29
-description: Airflow had many AWS providers that weren't following the latest
-  conventions. The resolution involes merging multiple modules into single
-  Python file. I wrote this script to automate the task.
+published_date: 2022-01-29T00:00:00.000Z
+created_date: 2022-01-29T00:00:00.000Z
 draft: false
+description: >-
+  Airflow had many AWS providers that weren't following the latest conventions.
+  The resolution involes merging multiple modules into single Python file. I
+  wrote this script to automate the task.
 ---
+
 # Merging Python Modules
 
-Recently I took up the humongous task of Merging multiple Python modules into a single one for Apache Airflow. Airflow has many AWS providers that weren't following the latest conventions. So with issues  [#20139](https://github.com/apache/airflow/issues/20139) and [#20296](https://github.com/apache/airflow/issues/20139) we set out to resolve it. 
+Recently I took up the humongous task of Merging multiple Python modules into a single one for Apache Airflow. Airflow has many AWS providers that weren't following the latest conventions. So with issues [#20139](https://github.com/apache/airflow/issues/20139) and [#20296](https://github.com/apache/airflow/issues/20139) we set out to resolve it.
 
-What waited ahead was a line up of PRs which involves 
+What waited ahead was a line up of PRs which involves
 
 1. Create a new Python module
 2. Add the license agreement to it
 3. Move all the classes from independent modules to the new one
 4. Add imports from each independent module
 5. Add deprecated warning block to old modules
-7. Fixing all the imports in test cases and examples
+6. Fixing all the imports in test cases and examples
 
 As you can see, this task soon became quite repetitive since we were dealing with different AWS products like EMR, EKS, EC2, DMS, etc., Overtime the process got boring and icky, and I did what any developer would do. Automated it. Along the way, I also learned quite a few things.
-
 
 ## Reading all the top-level imports
 
@@ -100,8 +102,9 @@ The `astunparse` [module](https://github.com/simonpercivall/astunparse/blob/2acc
 The current script is pretty limited in its capabilities. I'm not going to work on them until a need arises.
 
 1. It will work only on modules' import statements and classes. Any other python construct will be ignored
-2. Unparse makes all docstrings a single line with `\n` with single quotes.
+2. Unparse makes all docstrings a single line with  with single quotes.
 3. The current script does not handle multiple imports.
 
----
+***
+
 The snippet, along with an example directory, is available in my [github repository](https://github.com/bhavaniravi/mergepy/tree/main)

@@ -2,25 +2,24 @@
 title: Building OwnFlask - A Flask(like) Python Framework
 sub_title: Reverse Engineering Flask app to build a similar flask like interface
 slug: building-own-flask-1
-tags: ["python/web/flask"]
+tags:
+  - python/web/flask
 featuredImgPath: https://i.imgur.com/Zq4lJgB.jpg
 isexternal: true
-published_date: 2021-09-16
-created_date: 2021-09-16
-description: In order to demistify `flask` these I had two options either to
-  read Flask code end to end and understand or reverse engineer flask by
-  building one on my own. I chose the latter and this blog is a step by step log
-  of how it went.
+published_date: 2021-09-16T00:00:00.000Z
+created_date: 2021-09-16T00:00:00.000Z
 draft: false
+description: >-
+  In order to demistify `flask` these I had two options either to read Flask
+  code end to end and understand or reverse engineer flask by building one on my
+  own. I chose the latter and this blog is a ste
 ---
-# Writing Your Own Flask(like) Framework
+
+# Building OwnFlask - A Flask(like) Python Framework
 
 I have been wanting to demystify what goes behind the Python Flask framework. How does defining something as simple as `app.route` handle HTTP Requests? How does `app.run` creates a server and maintains it?
 
-To demystify `flask` these, I had two options 
-Read Flask code end to end and understand or
-Reverse engineer flask by building one on my own. 
-I chose the latter, and this blog is a step-by-step log of how it went.
+To demystify `flask` these, I had two options Read Flask code end to end and understand or Reverse engineer flask by building one on my own. I chose the latter, and this blog is a step-by-step log of how it went.
 
 **Side Note**
 
@@ -49,8 +48,6 @@ Reverse engineering started in my head. I am going to be working with just two f
 
 Here is how a simple flask application would look
 
-
-
 Looking at this sample snippet, I want to mimic the same interface. Take a pass from top to bottom and see what all we need
 
 1. We need a class `Flask` which initializes an `app` object
@@ -74,7 +71,6 @@ class Flask:
         def wrapper(f):
             pass
         return wrapper
-
 ```
 
 That's gives us the basic skeleton. Let's add the functionality one by own. Python [http](https://docs.python.org/3/library/http.server.html) module provides an `HTTPServer` let's use that.
@@ -96,21 +92,18 @@ class Flask:
         print (f"Running server in port {port}")
         httpd = server_class(server_address, handler_class)
         httpd.serve_forever()
-
 ```
 
 In `demo.py`, change `from flask` to `from ownflask` to work with the module we just created and run `demo.py`. On hitting the `http://127.0.0.1:8000` from the browser, you get a 501 error since we haven't implemented anything to handle the incoming request.
 
-
-![Error response on running ownflask](https://i.imgur.com/HryJiE1.png) 
-
+![Error response on running ownflask](https://i.imgur.com/HryJiE1.png)
 
 ### Mapping Requests
 
 The `app.route` method in Flask registers an endpoint. When an HTTP request comes, it maps it to the associated function call. These routes are maintained in a global object so that the request handler can refer to it. For our `ownflask`, let's use a global dictionary.
 
 Here I have two methods one to record the `routes` to its associated functions and `route_methods` to associate endpoints and its HTTPMethods.
- 
+
 ```
 routes = {}
 route_methods = {}
@@ -128,12 +121,9 @@ class Flask:
 
 When running our server, we have used a `BaseHTTPRequestHandler`. From the Python documentation, it is clear that we have to extend it to support handling requests.
 
-
 > By itself, it cannot respond to any actual HTTP requests; it must be subclassed to handle each request method (e.g., GET or POST).
 
-
 ```
-
 class RequestHandler(SimpleHTTPRequestHandler):
     def do_GET(self):
         self.send_response(200)
@@ -148,7 +138,6 @@ class RequestHandler(SimpleHTTPRequestHandler):
 The above snippet sends `Handling GET` as a response despite what the route function returns. Let's change that.
 
 `dir(self)` returns that `self.path` is the URL, mapping that with routes dict, we can call the respective function.
-
 
 ```
 class RequestHandler(SimpleHTTPRequestHandler):
@@ -170,7 +159,7 @@ Flask is known for passing URL params as a part of a URL string or a query strin
 
 The 1st one would require some form of regex in the routes and the way we store them. Let's handle them later. Let's handle `hello world` with the name `http://127.0.0.1:8000?name=Joe`
 
-The current code fails with a `KeyError` since the query string is also a part of the route. 
+The current code fails with a `KeyError` since the query string is also a part of the route.
 
 ```
 KeyError: '/?name=jpe'
@@ -194,11 +183,9 @@ class RequestHandler(SimpleHTTPRequestHandler):
         self.wfile.write(str.encode(resp))
 ```
 
-In Flask, the routing function can access the request params via the global `Request` object. In our case, for the `hello` route to access query params, we need the means to pass it to them. 
+In Flask, the routing function can access the request params via the global `Request` object. In our case, for the `hello` route to access query params, we need the means to pass it to them.
 
-
-### Request Class 
-
+### Request Class
 
 ```
 class Request:
@@ -248,8 +235,6 @@ def do_GET(self):
         resp = json.dumps(resp)
 ```
 
-
-
 ### Handling POST Request
 
 For handling POST requests, you need to access the request body along with other parameters. Let's update the request class to support the same.
@@ -268,7 +253,6 @@ class Request:
 ```
 
 Let's consume the same via a POST API
-
 
 ```
 @app.route("/todo", methods=["POST"])
@@ -292,7 +276,6 @@ def do_GET(self):
 ```
 
 Looks like we are repeating ourselves a lot; let's move them to a common function
-
 
 ```
 class RequestHandler(SimpleHTTPRequestHandler):
@@ -327,7 +310,7 @@ The final `do_GET` and `do_POST` method looks like this.
         self.write_response(resp, 200)
 ```
 
-We can further refactor them into 
+We can further refactor them into
 
 ```
     def not_found(self, request):
@@ -353,12 +336,11 @@ We can further refactor them into
     def do_POST(self):
         request = Request(self, method='POST')
         return self.process_request(request)
-
 ```
 
 ### Introducing Multi-Threading
 
-At this point, if you write a small multithreading script and hit our server, it will hang because `HTTPServer` is not designed to handle multiple requests. Replacing it with `ThreadingHTTPServer.` 
+At this point, if you write a small multithreading script and hit our server, it will hang because `HTTPServer` is not designed to handle multiple requests. Replacing it with `ThreadingHTTPServer.`
 
 ```
 from http.server import ThreadingHTTPServer
@@ -369,15 +351,11 @@ class Flask:
         ...
         ...
         self.server = WSGIServer((self.host, self.port), ThreadingHTTPServer)
-
 ```
-
 
 ### WSGI vs HTTP
 
-At this point, I was happy with what I accomplished and already posted a [tweet](https://twitter.com/BhavaniRavi_/status/1428294719138799618?s=20) and [ArunMozhi](https://arunmozhi.in/) nudged me in the direction to explore `WSGIServer`.
-
-
+At this point, I was happy with what I accomplished and already posted a [tweet](https://twitter.com/BhavaniRavi\_/status/1428294719138799618?s=20) and [ArunMozhi](https://arunmozhi.in/) nudged me in the direction to explore `WSGIServer`.
 
 ```
 from wsgiref.simple_server import WSGIServer
@@ -388,11 +366,11 @@ class Flask:
         ...
         ...
         self.server = WSGIServer((self.host, self.port), HttpReqHandler)
-
 ```
 
----
-What started as an experiment to Demyistify flask and understand it better got me into a rabbit hole of new questions. 
+***
+
+What started as an experiment to Demyistify flask and understand it better got me into a rabbit hole of new questions.
 
 1. How is `WSGIServer` different from `HTTPServer` the interface looks the same?
 2. How can we plug the `ownflask` to work with Gunicorn
@@ -400,5 +378,4 @@ What started as an experiment to Demyistify flask and understand it better got m
 4. Going one step further, How does Gunicorn work?
 5. What are my unknown unknowns?
 
-If you know the answer to any of these, you can send them to me via [Twitter](https://twitter.com/BhavaniRavi_)
-
+If you know the answer to any of these, you can send them to me via [Twitter](https://twitter.com/BhavaniRavi\_)

@@ -2,15 +2,18 @@
 title: Introduction to Docker - The What, Why and How
 sub_title: images, containers, commands what does all these mean in Docker
 slug: docker-introduction
-tags: ["devops"]
+tags:
+  - devops
 featuredImgPath: https://i.imgur.com/nokXidS.jpg
 isexternal: true
-published_date: 2021-11-29
-created_date: 2021-11-29
-description: "Docker let's you packages application and it's associated packages
-  and libraries to be ran anywhere without much hassle. "
+published_date: 2021-11-29T00:00:00.000Z
+created_date: 2021-11-29T00:00:00.000Z
 draft: false
+description: >-
+  Docker let's you packages application and it's associated packages and
+  libraries to be ran anywhere without much hassle.
 ---
+
 # Introduction to Docker - The What, Why and How
 
 ## The Art of Shipping Software
@@ -35,7 +38,7 @@ Every time you think of Dockerizing an application create a Dockerfile. In the D
 
 ## Registry
 
-The Docker Registry is a centralized repository to store and retrieve built Docker images. You can think of registries as a Github for Docker images. Registries can be public like Dockerhub or private like the one that your company runs. 
+The Docker Registry is a centralized repository to store and retrieve built Docker images. You can think of registries as a Github for Docker images. Registries can be public like Dockerhub or private like the one that your company runs.
 
 ## Docker Commands
 
@@ -79,6 +82,3 @@ COPY . .
 # Run the application
 CMD [ "python3", "-m" , "flask", "run", "--host=0.0.0.0"]
 ```
-
-
-
