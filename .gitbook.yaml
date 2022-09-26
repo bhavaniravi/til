@@ -1,6 +1,6 @@
 redirects:
-  projects: about-me/projects
-  talks: about-me/talks
+  projects: projects/projects.md
+  talks: talks/talks.md
   blog/challenges-in-full-text-search: software-engineering/challenges-in-full-text-search.md 
   blog/how-to-be-productive: life/how-to-be-productive.md 
   blog/go-to-guide-to-run-communities: community/go-to-guide-to-run-communities.md 
