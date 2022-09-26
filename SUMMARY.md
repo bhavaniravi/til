@@ -22,6 +22,24 @@
 * [Data Pipelines using Airflow on Kubernetes](talks/airflow-on-kubernetes-talk.md)
 * [Getting Started With Open Source](talks/open-source.md)
 
+## Projects
+
+* [Smart Data Query](projects/smart-data-query.md)
+* [Analyza](projects/analyza.md)
+* [Smart Automapper](projects/smart-automapper.md)
+* [Kissflow Reporting Module](projects/kissflow-reports.md)
+* [Kissflow Case-Management Module](projects/kissflow-case.md)
+* [Kissflow Project Management Module](projects/kissflow-projects.md)
+* [Interviewbot](projects/interviewbot.md)
+* [Rasa Site Bot](projects/rasa-site-bot.md)
+* [iKeepLog](projects/ikeeplog.md)
+
+## Open Source
+
+* [Repos You Can Contribute To](open-source/repos-you-can-contribute-to.md)
+* [How to Make Your 1st OpenSource Contribution](open-source/how-to-make-your-1st-opensource-contribution.md)
+* [Contributions](opensource/contributions.md)
+
 ## Courses
 
 * [How to Build a Chatbot?](https://www.linkedin.com/learning/developing-chatbots-with-azure/)
@@ -67,6 +85,7 @@
   * [Git Rebase](software-engineering/git-and-github/git-rebase.md)
   * [Best Resource to Learn Git & Github](https://skills.github.com/)
   * [How I Got Out of a Knee Deep Git Problem](software-engineering/git-and-github/the-git-problem.md)
+  * [Git Flight Rules - More than CheatSheet](open-source/git-flight-rules-more-than-cheatsheet.md)
 * [Architecture Notes](https://architecturenotes.co/)
 *
 * [Backend Engineer - Behind the Scenes](software-engineering/backend-engineer-behind-the-scenes.md)
@@ -125,11 +144,6 @@
 * [Why I Don't Recommend Medium as Your Blogging Site](technical-writing/why-i-dont-recommend-medium-as-your-blogging-site.md)
 * [How to Start a Technical Blog?](technical-writing/how-to-start-a-technical-blog.md)
 
-## Open Source
-
-* [Repos You Can Contribute To](open-source/repos-you-can-contribute-to.md)
-* [How to Make Your 1st OpenSource Contribution](open-source/how-to-make-your-1st-opensource-contribution.md)
-* [Git Flight Rules - More than CheatSheet](open-source/git-flight-rules-more-than-cheatsheet.md)
 
 ## Community
 
