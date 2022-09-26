@@ -13,6 +13,14 @@
 ## Talks
 
 * [Introduction to MLOps](talks/introduction-to-mlops.md)
+* [All About Chatbots](talks/all-about-chatbots.md)
+* [Distributed Data-pipelines in Python](talks/distributed-data-pipelines-in-python.md)
+* [Stand Out as an Engineer](talks/stand-out-as-an-engineer.md)
+* [Introduction to Chatbots](talks/Introduction-to-chatbots.md)
+* [Becoming a Self-Made Developer](talks/becoming-a-self-made-developer.md)
+* [Multitenancy in Chatbots](talks/chatbots-multitenancy-and-custom-entities.md)
+* [Data Pipelines using Airflow on Kubernetes](talks/airflow-on-kubernetes-talk.md)
+* [Getting Started With Open Source](talks/open-source.md)
 
 ## Courses
 
