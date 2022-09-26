@@ -8,6 +8,7 @@
 * [About Me](start-here/about-me.md)
 * [My Links](about-me/my-links.md)
 * [Coffee Chat](about-me/coffee-chat.md)
+* [Featured Stories](about-me/featured-stories.md)
 
 ## Courses
 
