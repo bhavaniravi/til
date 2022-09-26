@@ -9,43 +9,33 @@
 * [My Links](about-me/my-links.md)
 * [Coffee Chat](about-me/coffee-chat.md)
 * [Featured Stories](about-me/featured-stories.md)
-
-## Talks
-
-* [Introduction to MLOps](talks/introduction-to-mlops.md)
-* [All About Chatbots](talks/all-about-chatbots.md)
-* [Distributed Data-pipelines in Python](talks/distributed-data-pipelines-in-python.md)
-* [Stand Out as an Engineer](talks/stand-out-as-an-engineer.md)
-* [Introduction to Chatbots](talks/Introduction-to-chatbots.md)
-* [Becoming a Self-Made Developer](talks/becoming-a-self-made-developer.md)
-* [Multitenancy in Chatbots](talks/chatbots-multitenancy-and-custom-entities.md)
-* [Data Pipelines using Airflow on Kubernetes](talks/airflow-on-kubernetes-talk.md)
-* [Getting Started With Open Source](talks/open-source.md)
-
-## Projects
-
-* [Smart Data Query](projects/smart-data-query.md)
-* [Analyza](projects/analyza.md)
-* [Smart Automapper](projects/smart-automapper.md)
-* [Kissflow Reporting Module](projects/kissflow-reports.md)
-* [Kissflow Case-Management Module](projects/kissflow-case.md)
-* [Kissflow Project Management Module](projects/kissflow-projects.md)
-* [Interviewbot](projects/interviewbot.md)
-* [Rasa Site Bot](projects/rasa-site-bot.md)
-* [iKeepLog](projects/ikeeplog.md)
-
-## Open Source
-
-* [Contributions](opensource/contributions.md)
+* [OpenSource Contributions](opensource/contributions.md)
   * [Django All-Auth](open-source/contributions/django-allauth.md)
   * [Apache Airflow - Data Orchestrator](open-source/contributions/airflow.md)
   * [Ownflask - An Attempt to understand "How Flask works"](open-source/contributions/ownflask.md)
   * [Python Pandas](open-source/contributions/pandas.md)
   * [Docker](open-source/contributions/docker.md)
   * [Rasa Open Source](open-source/contributions/rasa.md)
-* [Repos You Can Contribute To](open-source/repos-you-can-contribute-to.md)
-* [How to Make Your 1st OpenSource Contribution](open-source/how-to-make-your-1st-opensource-contribution.md)
-
+* [Talks](talks/talks.md)
+  * [Introduction to MLOps](talks/introduction-to-mlops.md)
+  * [All About Chatbots](talks/all-about-chatbots.md)
+  * [Distributed Data-pipelines in Python](talks/distributed-data-pipelines-in-python.md)
+  * [Stand Out as an Engineer](talks/stand-out-as-an-engineer.md)
+  * [Introduction to Chatbots](talks/Introduction-to-chatbots.md)
+  * [Becoming a Self-Made Developer](talks/becoming-a-self-made-developer.md)
+  * [Multitenancy in Chatbots](talks/chatbots-multitenancy-and-custom-entities.md)
+  * [Data Pipelines using Airflow on Kubernetes](talks/airflow-on-kubernetes-talk.md)
+  * [Getting Started With Open Source](talks/open-source.md)
+* [Projects](projects/projects.md)
+  * [Smart Data Query](projects/smart-data-query.md)
+  * [Analyza](projects/analyza.md)
+  * [Smart Automapper](projects/smart-automapper.md)
+  * [Kissflow Reporting Module](projects/kissflow-reports.md)
+  * [Kissflow Case-Management Module](projects/kissflow-case.md)
+  * [Kissflow Project Management Module](projects/kissflow-projects.md)
+  * [Interviewbot](projects/interviewbot.md)
+  * [Rasa Site Bot](projects/rasa-site-bot.md)
+  * [iKeepLog](projects/ikeeplog.md)
 
 ## Courses
 
@@ -98,6 +88,11 @@
 * [Backend Engineer - Behind the Scenes](software-engineering/backend-engineer-behind-the-scenes.md)
 * [How to Connect to Custom Oauth2 Provider Using Auth0?](software-engineering/custom-oauth2-with-auth0.md)
 * [All About Authentication Systems](software-engineering/authentication-in-python.md)
+
+## Open Source
+
+* [Repos You Can Contribute To](open-source/repos-you-can-contribute-to.md)
+* [How to Make Your 1st OpenSource Contribution](open-source/how-to-make-your-1st-opensource-contribution.md)
 
 ## Apache Airflow
 
