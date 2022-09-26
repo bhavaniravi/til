@@ -36,9 +36,16 @@
 
 ## Open Source
 
+* [Contributions](opensource/contributions.md)
+  * [Django All-Auth](open-source/contributions/django-allauth.md)
+  * [Apache Airflow - Data Orchestrator](open-source/contributions/airflow.md)
+  * [Ownflask - An Attempt to understand "How Flask works"](open-source/contributions/ownflask.md)
+  * [Python Pandas](open-source/contributions/pandas.md)
+  * [Docker](open-source/contributions/docker.md)
+  * [Rasa Open Source](open-source/contributions/rasa.md)
 * [Repos You Can Contribute To](open-source/repos-you-can-contribute-to.md)
 * [How to Make Your 1st OpenSource Contribution](open-source/how-to-make-your-1st-opensource-contribution.md)
-* [Contributions](opensource/contributions.md)
+
 
 ## Courses
 
