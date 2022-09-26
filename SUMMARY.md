@@ -10,6 +10,10 @@
 * [Coffee Chat](about-me/coffee-chat.md)
 * [Featured Stories](about-me/featured-stories.md)
 
+## Talks
+
+* [Introduction to MLOps](talks/introduction-to-mlops.md)
+
 ## Courses
 
 * [How to Build a Chatbot?](https://www.linkedin.com/learning/developing-chatbots-with-azure/)
