@@ -9,14 +9,14 @@
 * [My Links](about-me/my-links.md)
 * [Coffee Chat](about-me/coffee-chat.md)
 * [Featured Stories](about-me/featured-stories.md)
-* [OpenSource Contributions](opensource/contributions.md)
+* [OpenSource Contributions](about-me/opensource-contributions/README.md)
   * [Django All-Auth](open-source/contributions/django-allauth.md)
   * [Apache Airflow - Data Orchestrator](open-source/contributions/airflow.md)
   * [Ownflask - An Attempt to understand "How Flask works"](open-source/contributions/ownflask.md)
   * [Python Pandas](open-source/contributions/pandas.md)
   * [Docker](open-source/contributions/docker.md)
   * [Rasa Open Source](open-source/contributions/rasa.md)
-* [Talks](talks/talks.md)
+* [Talks](about-me/talks/README.md)
   * [Introduction to MLOps](talks/introduction-to-mlops.md)
   * [All About Chatbots](talks/all-about-chatbots.md)
   * [Distributed Data-pipelines in Python](talks/distributed-data-pipelines-in-python.md)
@@ -26,7 +26,7 @@
   * [Multitenancy in Chatbots](talks/chatbots-multitenancy-and-custom-entities.md)
   * [Data Pipelines using Airflow on Kubernetes](talks/airflow-on-kubernetes-talk.md)
   * [Getting Started With Open Source](talks/open-source.md)
-* [Projects](projects/projects.md)
+* [Projects](about-me/projects/README.md)
   * [Smart Data Query](projects/smart-data-query.md)
   * [Analyza](projects/analyza.md)
   * [Smart Automapper](projects/smart-automapper.md)
@@ -36,6 +36,9 @@
   * [Interviewbot](projects/interviewbot.md)
   * [Rasa Site Bot](projects/rasa-site-bot.md)
   * [iKeepLog](projects/ikeeplog.md)
+* [FAQ](about-me/faq/README.md)
+  * [How do you do so many things at the same time?](about-me/faq/how-do-you-do-so-many-things-at-the-same-time.md)
+  * [How to make 1st Open Source contribution?](talks/open-source.md)
 
 ## Courses
 
@@ -84,7 +87,6 @@
   * [How I Got Out of a Knee Deep Git Problem](software-engineering/git-and-github/the-git-problem.md)
   * [Git Flight Rules - More than CheatSheet](open-source/git-flight-rules-more-than-cheatsheet.md)
 * [Architecture Notes](https://architecturenotes.co/)
-*
 * [Backend Engineer - Behind the Scenes](software-engineering/backend-engineer-behind-the-scenes.md)
 * [How to Connect to Custom Oauth2 Provider Using Auth0?](software-engineering/custom-oauth2-with-auth0.md)
 * [All About Authentication Systems](software-engineering/authentication-in-python.md)
@@ -145,7 +147,6 @@
 
 * [Why I Don't Recommend Medium as Your Blogging Site](technical-writing/why-i-dont-recommend-medium-as-your-blogging-site.md)
 * [How to Start a Technical Blog?](technical-writing/how-to-start-a-technical-blog.md)
-
 
 ## Community
 
