@@ -36,9 +36,6 @@
   * [Interviewbot](projects/interviewbot.md)
   * [Rasa Site Bot](projects/rasa-site-bot.md)
   * [iKeepLog](projects/ikeeplog.md)
-* [FAQ](about-me/faq/README.md)
-  * [How do you do so many things at the same time?](about-me/faq/how-do-you-do-so-many-things-at-the-same-time.md)
-  * [How to make 1st Open Source contribution?](talks/open-source.md)
 
 ## Courses
 
@@ -183,3 +180,4 @@
 * [Shopping Like a Stingy-Minimalist](life/shopping-like-a-minimalist.md)
 * [End Goal - How to set goals and track them?](life/how-to-set-goals.md)
 * [5 Reasons Why You Should Start your Fitness Routine ASAP?](life/5-reasons-why-you-should-start-your-fitness-routineasap.md)
+* [How do you do so many things at the same time?](life/how-do-you-do-so-many-things-at-the-same-time.md)
