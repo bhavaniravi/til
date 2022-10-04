@@ -17,5 +17,5 @@ Here is how the process looks
 * Note that this space is not meant to be perfect
 * All the notes here are updated constantly
 
-![The knowledge graph from logseq](<../.gitbook/assets/image (2).png>)
+![The knowledge graph from logseq](<../.gitbook/assets/image (2) (2).png>)
 

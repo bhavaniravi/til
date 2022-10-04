@@ -56,13 +56,13 @@ Python3 Output
 add() missing 2 required positional arguments: 'self' and 'numbers'
 ```
 
-Python3 Output
+Python2 Output
 
 ```
-unbound method add() must be called with Calculator instance as first argument (got nothing instead)
+unbound method add() must be called with Calculator instance as the first argument (got nothing instead)
 ```
 
-What does this tell us?
+**What does this tell us?**
 
 In Python3 unbound methods behave just like mere functions. Does that mean you can pass any random argument to it? Let's try
 
@@ -80,7 +80,7 @@ If it is this helpful, ensures that you aren't playing around passing random arg
 
 ### Why did Python3 Remove Unbound Methods?
 
-Internet talks very little about why unbound method was removed. [Gudio himself did](https://python-history.blogspot.com/2009/02/first-class-everything.html) gives us an idea in his blog
+Internet talks very little about why the unbound method was removed. [Gudio himself](https://python-history.blogspot.com/2009/02/first-class-everything.html) gives us an idea in his blog
 
 If you run the following snippet in Python2 it will throw an error exactly as above. Whereas Python3 doesn't
 
@@ -100,7 +100,7 @@ This is called **"**_**Duck typing self"**_&#x20;
 
 ### Duck Typing Self
 
-Duck-typing-self is the concept of defining the type of self dynamically at run time rather than restricting that it should be bound to the particular class type. In the above snippet there is no Foo's bar function is called with a random object O
+Duck-typing-self is the concept of defining the type of self dynamically at run time rather than restricting that it should be bound to the particular class type. In the above snippet, there is no Foo's bar function is called with a random object O
 
 > It is important to note that the **"**_**Duck typing self"**_  is a side effect of removing unbound method and not the core reason
 

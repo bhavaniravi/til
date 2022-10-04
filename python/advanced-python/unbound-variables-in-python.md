@@ -1,3 +1,7 @@
+---
+description: How Python figures out the scope of it's variables?
+---
+
 # Unbound Variables in Python
 
 Consider the following example&#x20;

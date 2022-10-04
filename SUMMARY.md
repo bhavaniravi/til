@@ -41,7 +41,7 @@
 
 * [How to Build a Chatbot?](https://www.linkedin.com/learning/developing-chatbots-with-azure/)
 * [Python Pandas Essentials](https://www.guvi.in/courses/pandasEng?itm\_source=bhavaniravi.com)
-* [PythonToProject - Live Bootcamp (Oct 2022)](https://bhavaniravi.gumroad.com/l/LaFSj)
+* [PythonToProject - Live Bootcamp](https://bhavaniravi.gumroad.com/l/LaFSj)
 
 ## Python
 
@@ -53,7 +53,7 @@
   * [Multi-Processing Vs Multi-Threading](python/advanced-python/multi-processing-vs-multi-threading.md)
   * [Bound vs Unbound Functions In Python](python/advanced-python/bound-vs-unbound-functions-in-python.md)
   * [Unbound Variables in Python](python/advanced-python/unbound-variables-in-python.md)
-  * [Python Namespaces](python/advanced-python/python-namespaces.md)
+  * [Python Namespaces & Variable Scope](python/advanced-python/python-namespaces.md)
   * [GIL](python/advanced-python/gil.md)
 * [Web](python/web/README.md)
   * [Flask](python/web/flask/README.md)
