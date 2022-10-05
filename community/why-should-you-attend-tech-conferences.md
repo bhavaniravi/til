@@ -76,3 +76,9 @@ My conferences have always been Pycon and local ones from Python Hyderabad, Delh
 ### Conferences in Post Pandemic World
 
 After waves of conferences over zoom, the world is finally opening up for in-person conferences. I definitely missed them. When I attended PyCon Berlin I dealt with huge social anxiety. So take it slow, and recognize that things are back to normal.
+
+\---
+
+_Never miss an article, stay up-to-date with tech tutorials_
+
+{% embed url="https://www.getrevue.co/profile/bhavaniravi" %}
