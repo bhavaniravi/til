@@ -1,6 +1,8 @@
 redirects:
   projects: projects/README.md
   talks: talks/README.md
+  opensource: open-source/contributions/README.md
+  services: about-me/README.md
   blog/challenges-in-full-text-search: software-engineering/challenges-in-full-text-search.md 
   blog/how-to-be-productive: life/how-to-be-productive.md 
   blog/go-to-guide-to-run-communities: community/go-to-guide-to-run-communities.md 
