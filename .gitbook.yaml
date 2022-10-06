@@ -6,8 +6,8 @@ redirects:
   blog/challenges-in-full-text-search: software-engineering/challenges-in-full-text-search.md 
   blog/how-to-be-productive: life/how-to-be-productive.md 
   blog/go-to-guide-to-run-communities: community/go-to-guide-to-run-communities.md 
-  blog/emails-alerts-airflow-with-sendgrid: apache-airflow/emails-alerts-airflow-with-sendgrid.md 
-  blog/what-happens-during-docker-build-and-run: devops/what-happens-during-docker-build-and-run.md 
+  blog/emails-alerts-airflow-with-sendgrid: apache-airflow/emails-alerts-airflow-with-sendgrid.md
+  blog/what-happens-during-docker-build-and-run: devops/what-happens-during-docker-build-and-run.md
   blog/docker-introduction: devops/docker-introduction.md 
   blog/the-ideal-team-player-book-review: book-notes/the-ideal-team-player-book-review.md 
   blog/a-world-where-women-in-tech-rules: community/a-world-where-women-in-tech-rules.md 
