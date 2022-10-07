@@ -1,7 +1,7 @@
 # Coffee Chat
 
-Let's connect over a 15minute call where we can discuss anything you want quickly and make a pact to stick to it.
+I love meeting new people, connecting with them, and sharing ideas.&#x20;
 
-Goahead and block a slot with me
+Let's start with a 15-minute zoom call&#x20;
 
-[https://zcal.co/bhavaniravi/15mins](https://zcal.co/bhavaniravi/15mins)
+{% embed url="https://zcal.co/bhavaniravi/15mins" %}
