@@ -14,7 +14,7 @@ Think of the namespaces of a dictionary in a Python program. Namespaces are crea
 
 Open Python shell and type the following
 
-```python
+```
 globals()
 ```
 
@@ -34,7 +34,7 @@ There are different kinds of namespaces. Let's look at each of them in detail.
 
 In Python, we don't have to import certain functions or objects, they seem to be available to us in handy. But how?
 
-```python
+```
 sum([10, 20])
 max(10, 20)
 ```
@@ -43,7 +43,7 @@ The namespace containing the built-in names, such as sum, max, etc., is created 
 
 All the built-in objects are loaded into the program via `__builtins__` namespace
 
-```python
+```
 dir(__builtins__) # will print a huge list
 ```
 
@@ -55,7 +55,7 @@ The global namespace for a module is created when the module definition is read 
 
 The statements executed by the top-level invocation of the interpreter, either read from a script file or interactively, are considered part of a module called **main**, so they have their own global namespace
 
-```python
+```
 print ("Globals 1:", globals())
 
 x = 10
@@ -71,7 +71,7 @@ print ("Globals 2:", globals())
 **Output**
 
 {% code overflow="wrap" %}
-```python
+```
 Globals 2: {'__name__': '__main__', '__doc__': None, '__package__': None, '__loader__': <_frozen_importlib_external.SourceFileLoader object at 0x100b852e0>, '__spec__': None, '__annotations__': {}, '__builtins__': <module 'builtins' (built-in)>, '__file__': 'trial.py', '__cached__': None, 'x': 10, 'y': 26, 'd': {1: 2, 2: 3, 3: 4, 4: 5, 5: 6}, 'get_val': <function get_val at 0x100c09550>}
 ```
 {% endcode %}
@@ -92,7 +92,7 @@ Let's take a look at the following snippet of code. There are three things to no
 2. They are printed at two different places - Inside & outside the function
 3. The function is called to see what it prints&#x20;
 
-<pre class="language-python"><code class="lang-python">name = "global name"
+<pre><code>name = "global name"
 
 def new_function():
     name = "local name"
@@ -103,7 +103,7 @@ new_function()
 
 #### Output&#x20;
 
-```python
+```
 global name
 local name
 ```
@@ -119,7 +119,7 @@ As expected, the global variable's value was not affected by the local variable 
 
 Similar to `globals()` you can use `locals()` to get all the local objects pertaining to that scope
 
-```python
+```
 def new_function():
     a = 10
     b = 20
@@ -130,16 +130,16 @@ new_function()
 
 _At global scope \`globals()\` and \`locals()\` value is the same. Voila_
 
-```python
+```
 print (locals() == globals()) #  prints true
 ```
 
 ### Referring Global Variables&#x20;
 
-Now, what if there was a case where you had to tell the function scope to use the variable defined in the `global` scope? Worry not! We have a `global` variable.&#x20;
+Now, what if there was a case where you have to tell the function scope to use the variable defined in the `global` scope? Worry not! We have a `global` variable.&#x20;
 
-```python
-pythoname = "global name"
+```
+name = "global name"
 print (name)
 
 def new_function():
@@ -171,7 +171,7 @@ Python is known for its nested functions. _Oh! those decorators! Yet another fas
 
 We have a variable `new_1` defined in 3 different scopes Inner function, outer function, and global, and is printed at each level
 
-```python
+```
 new_1 = "global_1"
 
 def outer_function():
@@ -221,7 +221,7 @@ _We went through all this trouble to understand that the variable resolves itsel
 
 Similar to `global` keyword `nonlocal` is used to refer to variables at the enclosing namespace
 
-```python
+```
     def inner_function():
         nonlocal new_1
         new_1 = "inner_1"
@@ -242,7 +242,7 @@ global new_1= global_1
 
 Using `global` keyword instead of `nonlocal` will directly refer to the global variable discarding all other enclosing scopes
 
-```python
+```
     def inner_function():
         global new_1
         new_1 = "inner_1"

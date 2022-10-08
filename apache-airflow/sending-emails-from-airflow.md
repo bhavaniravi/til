@@ -17,13 +17,19 @@ description: >-
 
 # How to Send Email Alerts from Airflow?
 
-Airflow is an open-source workflow management software by apache if you are new to Airflow [check out the introduction blog](../blog/apache-airflow-introduction/).
+Airflow is an open-source workflow management software by apache if you are new to Airflow [check out the introduction blog](apache-airflow-introduction.md).
 
-Now that you understood what Airflow is let's discuss how you can send emails to update your team about the status of a task or send reports using airflow.
+Now that you understand what Airflow is, let's discuss how you can send emails to update your team about the status of a task or send reports using airflow.
 
 ## Sending Email from Airflow
 
 There is no one size fit all solution when it comes to sending emails from airflow. We will deep dive into all the methods available and the pros and cons of each in the following sections.
+
+If you're not sure what an SMTP server is or how to configure one. Checkout the SendGrid blog&#x20;
+
+{% content-ref url="sending-email-alerts-in-apache-airflow-with-sendgrid.md" %}
+[sending-email-alerts-in-apache-airflow-with-sendgrid.md](sending-email-alerts-in-apache-airflow-with-sendgrid.md)
+{% endcontent-ref %}
 
 All the methods below need an SMTP server, and the same to be configured in the `airflow.cfg` file.
 
@@ -160,3 +166,11 @@ email_task = PythonOperator(
 ***
 
 Keeping your stakeholders notified would be an important part of any workflow. Emails are the easiest way to achieve that.
+
+### Next Up...
+
+
+
+{% content-ref url="sending-email-alerts-in-apache-airflow-with-sendgrid.md" %}
+[sending-email-alerts-in-apache-airflow-with-sendgrid.md](sending-email-alerts-in-apache-airflow-with-sendgrid.md)
+{% endcontent-ref %}
