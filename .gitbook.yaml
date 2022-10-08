@@ -1,6 +1,6 @@
 redirects:
-  projects: projects/README.md
-  talks: talks/README.md
+  projects: about-me/projects/README.md
+  talks: about-me/talks/README.md
   opensource: open-source/contributions/README.md
   services: about-me/README.md
   blog/challenges-in-full-text-search: software-engineering/challenges-in-full-text-search.md 
@@ -12,7 +12,7 @@ redirects:
   blog/the-ideal-team-player-book-review: book-notes/the-ideal-team-player-book-review.md 
   blog/a-world-where-women-in-tech-rules: community/a-world-where-women-in-tech-rules.md 
   blog/generate-uml-diagrams-from-python-code: python/generate-uml-diagrams-from-python-code.md 
-  blog/david-and-Goliath-book-summary: book-notes/david-and-Goliath-book-summary.md
+  book-notes/david-and-goliath-book-summary.md: book-notes/david-and-Goliath-book-summary.md
   blog/deploying-airflow-on-kubernetes: apache-airflow/deploying-airflow-on-kubernetes.md 
   blog/merge-python-module-script: python/merge-python-module-script.md 
   blog/apache-airflow-introduction: apache-airflow/apache-airflow-introduction.md 
