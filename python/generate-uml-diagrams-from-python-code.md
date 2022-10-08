@@ -33,22 +33,30 @@ pip install pylint
 
 ## Generating Diagrams
 
-1. Let's choose a project, feel free to choose any python project of your choice
+1.Let's choose a project, feel free to choose any python project of your choice
 
 ```
 git clone <python requests>
 ```
 
-1. Create a python virtualenv with pylint installed. Activate the environment.
+2\. Create a python virtualenv with pylint installed. Activate the environment.
 
 ```
 pip install pylint
 ```
 
-1. Use `pyreverse` command to create the UML diagram image
+3\. Use `pyreverse` command to create the UML diagram image
 
 ```
 pyreverse -o png <path_to_src>
 ```
 
-The generated image looks something like this.
+[The generated image looks something like this.](https://i.imgur.com/ucWHkb5.jpg)
+
+<figure><img src="../.gitbook/assets/image.png" alt=""><figcaption></figcaption></figure>
+
+### Next up...
+
+{% content-ref url="advanced-python/" %}
+[advanced-python](advanced-python/)
+{% endcontent-ref %}
