@@ -1,45 +1,56 @@
 ---
-slug: "deploying-airflow-on-kubernetes"
-published_date: 2020-05-02
-created_date: 2020-05-03
-title: "How to Set up Airflow on Kubernetes?"
-template: "post"
+slug: deploying-airflow-on-kubernetes
+published_date: 2020-05-02T00:00:00.000Z
+created_date: 2020-05-03T00:00:00.000Z
+title: How to Set up Airflow on Kubernetes?
+template: post
 draft: false
-description: "The blog walks you through the steps on how to deploy Airflow on Kubernetes."
-subtitle: "This blog walks you through the steps on how to deploy Airflow on Kubernetes."
-tags: ["apache-airflow"]
-featuredImgPath: "https://i.imgur.com/duJj4Ei.png"
+subtitle: This blog walks you through the steps on how to deploy Airflow on Kubernetes.
+tags:
+  - apache-airflow
+featuredImgPath: https://i.imgur.com/duJj4Ei.png
 isexternal: true
+description: The blog walks you through the steps on how to deploy Airflow on Kubernetes.
 ---
 
-# Airflow on Kubernetes
+# How to Set up Airflow on Kubernetes?
 
-This blog walks you through the steps on how to deploy Airflow on Kubernetes. If you to jump on the code directly [here's the GitHub repo](https://github.com/bhavaniravi/airflow-kube-setup). 
+This blog walks you through the steps on how to deploy Airflow on Kubernetes. If you to jump on the code directly [here's the GitHub repo](https://github.com/bhavaniravi/airflow-kube-setup).
 
-## What is Airflow
+### What is Airflow
 
 > Airflow is a platform created by the community to programmatically author, schedule, and monitor workflows.
 
-Airflow lets you define workflow in the form of a directed acyclic graph(DAG) defined in a Python file. The most famous usecase of airflow is data/machine learning engineers constructing data pipelines that performs transformations.
+Airflow lets you define workflow as a directed acyclic graph(DAG) defined in a Python file. The most famous usecase of airflow is data/machine learning engineers constructing data pipelines that performs transformations.
 
-## Airflow with Kubernetes
+{% content-ref url="apache-airflow-introduction.md" %}
+[apache-airflow-introduction.md](apache-airflow-introduction.md)
+{% endcontent-ref %}
 
-There are a bunch of advantages of running Airflow over Kubernetes. 
+{% content-ref url="airflow-celery-vs-kubernetes-executor.md" %}
+[airflow-celery-vs-kubernetes-executor.md](airflow-celery-vs-kubernetes-executor.md)
+{% endcontent-ref %}
+
+### Airflow with Kubernetes
+
+There are a bunch of advantages of running Airflow over Kubernetes.
 
 ### Scalability
+
 Airflow runs one worker pod per airflow task, enabling Kubernetes to spin up and destroy pods depending on the load.
 
 ### Resource Optimization
+
 Kubernetes spins up worker pods only when there is a new job. Whereas the alternatives such as celery always have worker pods running to pick up tasks as they arrive.
 
-## Pre-Requsites
+### Pre-Requsites
 
 1. Kubectl
 2. Docker
 3. A Docker image registry to push your Docker images
 4. Kubernetes cluster on GCP/AWS.
 
-## Airflow Architechture
+### Airflow Architecture
 
 Airflow has 3 major components.
 
@@ -47,35 +58,21 @@ Airflow has 3 major components.
 2. Scheduler - Which runs on the background and schedules tasks and manages them
 3. Workers/Executors - These are the processes that execute the tasks. Worker processes are spun up by Schedulers and tracked on their completion
 
-<figure>
+Apart from these, there are
 
-
-![Airflow Architechture](https://i.imgur.com/fjNn8Ph.png)
-
-</figure>
-
-Apart from these, there are 
-
-1. Dag folders 
+1. Dag folders
 2. Log folders
 3. Database
 
-There are different kinds of Executors one can use with Airflow. 
+There are different kinds of Executors one can use with Airflow.
 
 1. LocalExecutor - Used mostly for playing around in the local machine.
 2. CeleryExecutor - Uses celery workers to run the tasks
 3. KubernetesExecutor - Uses Kubernetes pods to run the worker tasks
 
-## Airflow with Kubernetes
+aAirflow with Kubernetes
 
 On scheduling a task with airflow Kubernetes executor, the scheduler spins up a pod and runs the tasks. On completion of the task, the pod gets killed. It ensures maximum utilization of resources, unlike celery, which at any point must have a minimum number of workers running.
-
-<figure>
-
-![Airflow Kubernetes Architechture](https://i.imgur.com/b58ioMc.png)
-
-</figure>
-
 
 ### Building the Docker Image
 
@@ -147,7 +144,7 @@ spec:
  ...
 ```
 
-3. A service whose external IP is mapped to Airflow's webserver
+1. A service whose external IP is mapped to Airflow's webserver
 
 ```yaml
 apiVersion: v1
@@ -162,7 +159,7 @@ spec:
  name: airflow
 ```
 
-4. A serviceaccount which with `Role` to spin up and delete new pods. These provide permissions to the Airflow scheduler to spin up the worker pods.
+1. A serviceaccount which with `Role` to spin up and delete new pods. These provide permissions to the Airflow scheduler to spin up the worker pods.
 
 ```yaml
 apiVersion: v1
@@ -186,7 +183,7 @@ rules:
 --- 
 ```
 
-5. Two persistent volumes for storing dags and logs
+1. Two persistent volumes for storing dags and logs
 
 ```yaml
 kind: PersistentVolume
@@ -213,10 +210,10 @@ spec:
  storage: 2Gi
 ```
 
-7. An airflow config file is created as a kubernetes config map and attached to the pod. Checkout [`build/configmaps.yaml`]()
-8. The Postgres configuration is handled via a separate deployment
-9. The secrets like Postgres password are created using Kubernetes secrets
-10. If you want to additional env variables, use Kubernetes `configmap`.
+1. An airflow config file is created as a kubernetes config map and attached to the pod. Checkout [`build/configmaps.yaml`](deploying-airflow-on-kubernetes.md)
+2. The Postgres configuration is handled via a separate deployment
+3. The secrets like Postgres password are created using Kubernetes secrets
+4. If you want to additional env variables, use Kubernetes `configmap`.
 
 ### Deployment
 
@@ -226,10 +223,10 @@ You can deploy the airflow pods in 2 modes.
 2. Get use git to pull dags from
 
 To set up the pods, we need to run a `deploy.sh` script that does the following
+
 1. Convert the templatized config under `templates` to Kube config files under `build.`
 2. Deletes existing pods, deployments. if any in the namespace
 3. Create new pods, deployments, and other Kube resources
-
 
 ```
 export IMAGE=<IMAGE REPOSITORY URL>
@@ -248,8 +245,8 @@ By default, this setup copies all the examples into the dags; we can just run on
 4. On your terminal run `kubectl get pods --watch` to notice when worker pods are created
 5. Click on `TriggerDag` to trigger one of the jobs
 6. On the graph view, you can see the tasks running, and on your terminal new pods are created and shut down completing the tasks.
- 
-### Maintainence and modification
+
+### Maintainance and modification
 
 Once it is deployed, you don't have to run this script every time. You can use basic kubectl commands to delete or restart pods.
 
@@ -259,10 +256,19 @@ kubectl logs <POD_NAME> <Container_name>
 kubectl exec -it $pod_name --container webserver -- /bin/bash
 ```
 
-## Got a Question?
+### Got a Question?
 
 [Raise them as issues on the git repo](https://github.com/bhavaniravi/airflow-kube-setup/issues)
 
-## References
 
-Apache Airflow. https://airflow.incubator.apache.org/index.html
+
+### Next Up...
+
+{% content-ref url="dynamic-task-mapping.md" %}
+[dynamic-task-mapping.md](dynamic-task-mapping.md)
+{% endcontent-ref %}
+
+{% content-ref url="sending-email-alerts-in-apache-airflow-with-sendgrid.md" %}
+[sending-email-alerts-in-apache-airflow-with-sendgrid.md](sending-email-alerts-in-apache-airflow-with-sendgrid.md)
+{% endcontent-ref %}
+
