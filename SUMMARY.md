@@ -17,6 +17,7 @@
   * [Docker](open-source/contributions/docker.md)
   * [Rasa Open Source](open-source/contributions/rasa.md)
 * [Talks](about-me/talks/README.md)
+  * [Get Started With Technical Blogging](about-me/talks/get-started-with-technical-blogging.md)
   * [Introduction to MLOps](talks/introduction-to-mlops.md)
   * [All About Chatbots](talks/all-about-chatbots.md)
   * [Distributed Data-pipelines in Python](talks/distributed-data-pipelines-in-python.md)
