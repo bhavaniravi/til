@@ -104,8 +104,8 @@ new_function()
 #### Output&#x20;
 
 ```python
-global name
 local name
+global name
 ```
 
 As expected, the global variable's value was not affected by the local variable despite it being the same variable name. That is because
