@@ -177,6 +177,7 @@
 ## Life
 
 * [Project GoodVibes - A low-Key Gratitude Journaling](life/why-we-need-a-low-key-version-of-gratitude-journaling.md)
+* [Is this Burnout?](life/is-this-burnout.md)
 * [How to be (more) Productive?](life/how-to-be-productive.md)
 * [The Magic of Responsibility — A Story](life/the-magic-of-responsiblity.md)
 * [Shopping Like a Stingy-Minimalist](life/shopping-like-a-minimalist.md)
