@@ -23,7 +23,7 @@ To know more about me [Click here](start-here/about-me.md)
 
 BASE_URL = ""
 
-SKIP_CATEGORY = ["about-me"]
+SKIP_CATEGORY = ["about-me", "blogs", "start-here"]
 
 async def get_category_list():
     """

@@ -13,7 +13,6 @@ To know more about me [Click here](start-here/about-me.md)
 
 ## Categories
 * [Apache Airflow](#apache-airflow) [**`14`**]
-* [Blogs](#blogs) [**`35`**]
 * [Book Notes](#book-notes) [**`7`**]
 * [Community](#community) [**`3`**]
 * [Database](#database) [**`2`**]
@@ -27,7 +26,6 @@ To know more about me [Click here](start-here/about-me.md)
 * [Projects](#projects) [**`9`**]
 * [Python](#python) [**`6`**]
 * [Software Engineering](#software-engineering) [**`7`**]
-* [Start Here](#start-here) [**`2`**]
 * [Talks](#talks) [**`9`**]
 * [Technical Writing](#technical-writing) [**`2`**]
 * [Travel](#travel) [**`2`**]
@@ -53,46 +51,6 @@ To know more about me [Click here](start-here/about-me.md)
 - [Sending Email Alerts in Apache Airflow with Sendgrid](/apache-airflow/emails-alerts-airflow-with-sendgrid.md)
 - [Sending Email Alerts in Apache Airflow with Sendgrid](/apache-airflow/sending-email-alerts-in-apache-airflow-with-sendgrid.md)
 - [Using Airflow Providers With KubernetesPodOperator](/apache-airflow/using-airflow-providers-with-kubernetespodoperator.md)
-
-
-
-### Blogs
-
-- [7 Habits Of Highly Effective People](/blogs/7-habits-book-review.md)
-- [A Go to Guide to Run a Community](/blogs/how_to_run_a_community_seamlessly.md)
-- [A World Where WomenInTech Leads](/blogs/A_world_where_women_in_tech_rules.md)
-- [Airflow Operators - A Comparison](/blogs/airflow-operators-a-comparison.md)
-- [Airflow on Kubernetes](/blogs/airflow-on-kubernetes.md)
-- [All About Authentication Systems](/blogs/Authentication_in_python.md)
-- [An Introduction to Apache Airflow](/blogs/airflow-introduction.md)
-- [Are you an Ideal Team Player?](/blogs/The_ideal_team_player.md)
-- [Are your Secrets Safe In Python?](/blogs/are-your-secrets-safe-in-python.md)
-- [Asynchronous Task Execution In Python](/blogs/asynchronous_task_execution_in_python.md)
-- [Atomic Habits](/blogs/atomic-habits-book-review.md)
-- [Backend Engineer Behind the Scenes](/blogs/behind-the-scenes-of-a-backend-engineer-1.md)
-- [Caching in Python](/blogs/caching_in_python.md)
-- [Challenges In Full-Text-Search Systems](/blogs/fts_under_the_hood.md)
-- [David and Goliath Book Summary](/blogs/david-and-goliath.md)
-- [Docker - Virtualization vs. Containerization](/blogs/docker-virtualization-vs-containerization.md)
-- [End Goal](/blogs/end-goal.md)
-- [Generating UML Diagrams from Python Code](/blogs/how-to-generate-uml-diagrams-from-python-source-code-1.md)
-- [How I Got Out of a Knee Deep Git Problem](/blogs/The-git-problem.md)
-- [How I Wrote my 1st 100 Lines of Golang Code](/blogs/how-i-wrote-my-1st-100-lines-of-golang-code.md)
-- [How to Connect to Custom Oauth2 Provider Using Auth0?](/blogs/how-to-connect-to-custom-oauth2-provider-using-auth0.md)
-- [How to Send Emails from Airflow](/blogs/how-to-send-emails-from-airflow.md)
-- [How to be (more) Productive?](/blogs/how-to-be-more-productive.md)
-- [Introduction to Deploying Flask Applications in Kubernetes](/blogs/kubernetes-101-deploy-apps-in-kubernetes.md)
-- [Introduction to Docker - The What, Why and How](/blogs/introduction-to-docker-the-what-why-and-how.md)
-- [It Doesn't Have to be Crazy at Work](/blogs/review_it_doesn't_have_to_be_crazy_at_work.md)
-- [Merging Python Modules](/blogs/merging-python-modules.md)
-- [Sending Email Alerts in Apache Airflow with Sendgrid](/blogs/sending-email-alerts-in-apache-airflow-with-sendgrid.md)
-- [Shopping Like a Stingy-Minimalist](/blogs/shopping-like-a-stingy-minimalist.md)
-- [The Beauty of Your Brain](/blogs/The-Beauty-of-Your-Brain.md)
-- [The Magic of Responsibility — A Story](/blogs/The_magic_of_responsiblity.md)
-- [What Happens During Docker Build and Run?](/blogs/what-happens-during-docker-build-and-run.md)
-- [What's stopping you from being fit and How to overcome it?](/blogs/review_5-Reasons-Why-You-Should-Start-your-Fitness-Routine-ASAP--259c61b4094b.md)
-- [Why Should you Attend Tech Conferences?](/blogs/why_should_you_attend_tech_conferences.md)
-- [Writing Your Own Flask(like) Framework](/blogs/building-ownflask-a-flask-like-python-framework.md)
 
 
 
@@ -209,13 +167,6 @@ To know more about me [Click here](start-here/about-me.md)
 - [How to Do Code Reviews?](/software-engineering/how-to-do-code-reviews.md)
 - [Open-Closed Principle](/software-engineering/open-closed-principle.md)
 - [Strangler Fig Pattern](/software-engineering/strangler-fig-pattern.md)
-
-
-
-### Start Here
-
-- [About Me](/start-here/about-me.md)
-- [How I built my Digital Garden](/start-here/how-i-built-my-digital-garden.md)
 
 
 
