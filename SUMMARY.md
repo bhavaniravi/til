@@ -162,6 +162,7 @@
 * [Indie-Hacking](indie-hacking/indie-hacking.md)
 * [How to Plan and Build a Programming Project](indie-hacking/how-to-plan-and-build-a-programming-project.md)
 * [Side Projects: FAQ](misc/side-projects-twitter-space.md)
+* [Why I Started Building 100Ideas?](indie-hacking/why-i-started-building-100ideas.md)
 * [Marketing Your Side Project](https://github.com/portable-cto/side-project-marketing)
 
 ## Book Notes
