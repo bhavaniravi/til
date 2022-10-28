@@ -186,3 +186,7 @@
 * [End Goal - How to set goals and track them?](life/how-to-set-goals.md)
 * [5 Reasons Why You Should Start your Fitness Routine ASAP?](life/5-reasons-why-you-should-start-your-fitness-routineasap.md)
 * [How do you do so many things at the same time?](life/how-do-you-do-so-many-things-at-the-same-time.md)
+
+## MLOps
+
+* [Data & Model Versioning](mlops/data-and-model-versioning.md)
