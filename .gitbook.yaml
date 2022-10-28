@@ -21,7 +21,8 @@ redirects:
   blog/kubernetes-101-deploy-apps-in-kubernetes: devops/kubernetes-101-deploy-apps-in-kubernetes.md 
   blog/seven-habits-book-summary: book-notes/seven-habits-book-summary.md 
   blog/sending-emails-from-airflow: apache-airflow/sending-emails-from-airflow.md 
-  blog/building-own-flask-1: python/web/flask/building-own-flask-1.md 
+  blog/building-own-flask-1: python/flask/building-own-flask-1.md 
+  web/flask/building-own-flask-1: python/flask/building-own-flask-1.md 
   blog/it-doesn't-have-to-be-crazy-at-work: book-notes/it-doesn't-have-to-be-crazy-at-work.md 
   blog/shopping-like-a-minimalist: life/shopping-like-a-minimalist.md 
   blog/airflow-operators-comparison: apache-airflow/airflow-operators-comparison.md 

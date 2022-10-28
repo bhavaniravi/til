@@ -1,5 +1,21 @@
 [
  {
+  "title": "How to Fast-track Your Learning?",
+  "url": "/life/how-to-fast-track-your-learning"
+ },
+ {
+  "title": "Setting Up Apache Airflow For Local Development in Mac M1",
+  "url": "/apache-airflow/setting-up-apache-airflow-for-local-development-in-mac-m1"
+ },
+ {
+  "title": "Data & Model Versioning",
+  "url": "/mlops/data-and-model-versioning"
+ },
+ {
+  "title": "How to Design a Chatbot System Architecture",
+  "url": "/software-engineering/how-to-design-a-chatbot-system-architecture"
+ },
+ {
   "title": "Why I Started Building 100Ideas?",
   "url": "/indie-hacking/why-i-started-building-100ideas"
  },
@@ -22,21 +38,5 @@
  {
   "title": "iKeepLog",
   "url": "/projects/ikeeplog"
- },
- {
-  "title": "Interviewbot",
-  "url": "/projects/interviewbot"
- },
- {
-  "title": "Kissflow Case-Management Module",
-  "url": "/projects/kissflow-case"
- },
- {
-  "title": "Kissflow Project Management Module",
-  "url": "/projects/kissflow-projects"
- },
- {
-  "title": "Kissflow Reporting Module",
-  "url": "/projects/kissflow-reports"
  }
 ]

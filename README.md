@@ -12,7 +12,7 @@ To know more about me [Click here](start-here/about-me.md)
 ---
 
 ## Categories
-* [Apache Airflow](#apache-airflow) [**`14`**]
+* [Apache Airflow](#apache-airflow) [**`15`**]
 * [Book Notes](#book-notes) [**`7`**]
 * [Community](#community) [**`3`**]
 * [Database](#database) [**`2`**]
@@ -20,12 +20,13 @@ To know more about me [Click here](start-here/about-me.md)
 * [Frontend](#frontend) [**`0`**]
 * [Golang](#golang) [**`1`**]
 * [Indie Hacking](#indie-hacking) [**`3`**]
-* [Life](#life) [**`8`**]
+* [Life](#life) [**`9`**]
 * [Misc](#misc) [**`1`**]
+* [Mlops](#mlops) [**`1`**]
 * [Open Source](#open-source) [**`4`**]
 * [Projects](#projects) [**`9`**]
 * [Python](#python) [**`6`**]
-* [Software Engineering](#software-engineering) [**`7`**]
+* [Software Engineering](#software-engineering) [**`8`**]
 * [Talks](#talks) [**`9`**]
 * [Technical Writing](#technical-writing) [**`2`**]
 * [Travel](#travel) [**`2`**]
@@ -50,6 +51,7 @@ To know more about me [Click here](start-here/about-me.md)
 - [KubernetesPodOperator vs. KubernetesExecutor](/apache-airflow/kubernetespodoperator-vs.-kubernetesexecutor.md)
 - [Sending Email Alerts in Apache Airflow with Sendgrid](/apache-airflow/emails-alerts-airflow-with-sendgrid.md)
 - [Sending Email Alerts in Apache Airflow with Sendgrid](/apache-airflow/sending-email-alerts-in-apache-airflow-with-sendgrid.md)
+- [Setting Up Apache Airflow For Local Development in Mac M1](/apache-airflow/setting-up-apache-airflow-for-local-development-in-mac-m1.md)
 - [Using Airflow Providers With KubernetesPodOperator](/apache-airflow/using-airflow-providers-with-kubernetespodoperator.md)
 
 
@@ -109,6 +111,7 @@ To know more about me [Click here](start-here/about-me.md)
 
 - [End Goal](/life/how-to-set-goals.md)
 - [How do you do so many things at the same time?](/life/how-do-you-do-so-many-things-at-the-same-time.md)
+- [How to Fast-track Your Learning?](/life/how-to-fast-track-your-learning.md)
 - [How to be (more) Productive?](/life/how-to-be-productive.md)
 - [Is this Burnout?](/life/is-this-burnout.md)
 - [Project GoodVibes - A low-Key Gratitude Journaling](/life/why-we-need-a-low-key-version-of-gratitude-journaling.md)
@@ -121,6 +124,12 @@ To know more about me [Click here](start-here/about-me.md)
 ### Misc
 
 - [Side Projects: FAQ](/misc/side-projects-twitter-space.md)
+
+
+
+### Mlops
+
+- [Data & Model Versioning](/mlops/data-and-model-versioning.md)
 
 
 
@@ -164,6 +173,7 @@ To know more about me [Click here](start-here/about-me.md)
 - [Backend Engineer - Behind the Scenes](/software-engineering/backend-engineer-behind-the-scenes.md)
 - [Challenges in Full-Text Search](/software-engineering/challenges-in-full-text-search.md)
 - [How to Connect to Custom Oauth2 Provider Using Auth0?](/software-engineering/custom-oauth2-with-auth0.md)
+- [How to Design a Chatbot System Architecture](/software-engineering/how-to-design-a-chatbot-system-architecture.md)
 - [How to Do Code Reviews?](/software-engineering/how-to-do-code-reviews.md)
 - [Open-Closed Principle](/software-engineering/open-closed-principle.md)
 - [Strangler Fig Pattern](/software-engineering/strangler-fig-pattern.md)
