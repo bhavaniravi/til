@@ -88,6 +88,7 @@
 * [Backend Engineer - Behind the Scenes](software-engineering/backend-engineer-behind-the-scenes.md)
 * [How to Connect to Custom Oauth2 Provider Using Auth0?](software-engineering/custom-oauth2-with-auth0.md)
 * [All About Authentication Systems](software-engineering/authentication-in-python.md)
+* [How to Design a Chatbot System Architecture](software-engineering/how-to-design-a-chatbot-system-architecture.md)
 
 ## Open Source
 
