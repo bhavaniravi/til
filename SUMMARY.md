@@ -64,7 +64,6 @@
   * [Building OwnFlask - A Flask(like) Python Framework](python/flask/building-ownflask-a-flask-like-python-framework.md)
   * [ORM in Python Flask](python/flask/orm-in-python-flask.md)
 * [Django](python/web/django/README.md)
-  *
 * [Testing](python/testing/README.md)
   * [Why Pytest is my Favorite?](python/testing/why-pytest-is-my-favorite.md)
 * [How to Generate UML Diagrams from Python Source Code?](python/generate-uml-diagrams-from-python-code.md)
