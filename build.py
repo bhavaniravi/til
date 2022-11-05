@@ -8,7 +8,9 @@ import subprocess as sp
 import pathlib
 import asyncio
 
-HEADER = """---
+MAILCHIMP_TEXT = """{% @mailchimp/mailchimpSubscribe cta="Learn more Python, Data and Devops. No spam." %}"""
+
+HEADER = f"""---
 description: Not all those who wander are lost
 ---
 
@@ -19,11 +21,14 @@ description: Not all those who wander are lost
 _A digital garden is **an online space at the intersection of a notebook and a blog, where digital gardeners share seeds of thoughts to be cultivated in public**._
 To know more about me [Click here](start-here/about-me.md)
 
+{MAILCHIMP_TEXT}
+
 ---"""
 
 BASE_URL = ""
 
 SKIP_CATEGORY = ["about-me", "blogs", "start-here"]
+
 
 async def get_category_list():
     """
@@ -57,6 +62,8 @@ def get_title(til_file):
             if line.startswith("#"):
                 # print(line[1:])
                 return line[1:].lstrip()  # text after # and whitespace
+            elif line.startswith("title:"):
+                return line.split("title:")[-1]
 
 
 def get_tils(category):
@@ -72,6 +79,9 @@ def get_tils(category):
             # changing path separator for Windows paths
             # https://mail.python.org/pipermail/tutor/2011-July/084788.html
             titles.append((title, fullname.replace(os.path.sep, "/")))
+        if os.path.isdir(fullname):
+            print(fullname)
+            titles.extend(get_tils(fullname))
     return titles
 
 
@@ -126,28 +136,30 @@ async def create_readme(category_names, categories):
 
     with open("README.md", "w") as file:
         file.write(HEADER)
-        file.write("""\n\n## Categories\n""")
+        file.write("""\n\n## Categories\n\n""")
         # print the list of categories with links
-        for category in sorted(category_names):
-            tils = categories[category]
+        for category, tils in sorted(
+            categories.items(), key=lambda c: len(c[1]), reverse=True
+        ):
             file.write(
                 f"""* [{category.replace("-", " ").title()}](#{category.replace(' ', '-').lower()}) [**`{len(tils)}`**]\n"""
             )
 
         if len(category_names) > 0:
-            file.write("""\n---\n\n""")
+            file.write("""\n---\n""")
             # print the section for each category
-        for category in sorted(category_names):
-            
-            tils = categories[category]
+        for category, tils in sorted(
+            categories.items(), key=lambda c: len(c[1]), reverse=True
+        ):
             if len(tils) > 0:
-                file.write("\n\n\n### {0}\n\n".format(category.replace("-", " ").title()))
+                file.write(
+                    "\n\n\n### {0}\n\n".format(category.replace("-", " ").title())
+                )
                 # file.write("<ul>")
+                print(tils)
                 for (title, filename) in sorted(tils):
                     # file.write("\n<li>")
-                    file.write(
-                        f"""- [{title}](/{filename})"""
-                    )
+                    file.write(f"""* [{title}]({filename})""")
                     file.write("\n")
 
 

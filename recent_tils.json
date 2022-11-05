@@ -1,11 +1,19 @@
 [
  {
+  "title": "Building OwnFlask - A Flask(like) Python Framework",
+  "url": "/python/flask/building-ownflask-a-flask-like-python-framework"
+ },
+ {
   "title": "How to Fast-track Your Learning?",
   "url": "/life/how-to-fast-track-your-learning"
  },
  {
   "title": "Setting Up Apache Airflow For Local Development in Mac M1",
   "url": "/apache-airflow/setting-up-apache-airflow-for-local-development-in-mac-m1"
+ },
+ {
+  "title": "ORM in Python Flask",
+  "url": "/python/flask/orm-in-python-flask"
  },
  {
   "title": "Data & Model Versioning",
@@ -28,15 +36,7 @@
   "url": "/indie-hacking/how-to-plan-and-build-a-programming-project"
  },
  {
-  "title": "Contributions",
-  "url": "/open-source/contributions"
- },
- {
-  "title": "Analyza",
-  "url": "/projects/analyza"
- },
- {
-  "title": "iKeepLog",
-  "url": "/projects/ikeeplog"
+  "title": "Testing",
+  "url": "/python/testing/readme"
  }
 ]
