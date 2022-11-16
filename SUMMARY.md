@@ -47,9 +47,11 @@
 ## Python
 
 * [What are the Best Resources to Learn Python in 2022?](python/what-are-the-best-resources-to-learn-python.md)
+* [What is \_\_name\_\_ == "\_\_main\_\_" in Python?](python/what-is-\_\_name\_\_-\_\_main\_\_-in-python.md)
 * [How to get past Beginner Stage in Python?](https://thelearning.dev/how-to-get-past-beginner-stage-in-python)
 * [Advanced Python](python/advanced-python/README.md)
   * [Itertools Hacks](python/advanced-python/itertools-hacks.md)
+  * [Python Generators vs Iterators](python/advanced-python/python-generators-vs-iterators.md)
   * [Data Model in Python](python/advanced/data-model-in-python.md)
   * [Multi-Processing Vs Multi-Threading](python/advanced-python/multi-processing-vs-multi-threading.md)
   * [Bound vs Unbound Functions In Python](python/advanced-python/bound-vs-unbound-functions-in-python.md)
