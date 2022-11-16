@@ -55,8 +55,4 @@ pyreverse -o png <path_to_src>
 
 <figure><img src="../.gitbook/assets/image.png" alt=""><figcaption></figcaption></figure>
 
-### Next up...
-
-{% content-ref url="advanced-python/" %}
-[advanced-python](advanced-python/)
-{% endcontent-ref %}
+{% @mailchimp/mailchimpSubscribe cta="Never miss a Python article. No spam!" %}
