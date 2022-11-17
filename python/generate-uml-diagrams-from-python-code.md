@@ -10,14 +10,12 @@ published_date: 2021-10-13T00:00:00.000Z
 created_date: 2021-10-12T00:00:00.000Z
 draft: false
 description: >-
-  Trust me code moves faster than the digrams that you created for   the
-  documentation. How about a Python tool that you can add to your CI/CD  
-  pipeline that generates UML diagram for each version of y
+  Your code moves faster than the digrams you created for the documentation. How
+  about a Python tool that you can add to your CI/CD pipeline that generates UML
+  diagram for each version of your code
 ---
 
 # How to Generate UML Diagrams from Python Source Code?
-
-The Unified Modeling Language is a general-purpose, developmental, modeling language in the field of software engineering that is intended to provide a standard way to visualize the design of a system.
 
 Inspite of designing and thinking through the class structure before coding, developers might have to restructure and refactor the code during implementation. It is also a good idea to generate UML diagrams from code and see if it matches the actual design.
 
@@ -31,28 +29,28 @@ The package is now a part of `pylint` so to install it you need pylint installed
 pip install pylint
 ```
 
-## Generating Diagrams
+{% @mailchimp/mailchimpSubscribe cta="Never miss a Python article. No spam!" %}
 
-1.Let's choose a project, feel free to choose any python project of your choice
+## Generating UML Diagrams
 
-```
+1. Let's choose a project, feel free to choose any python project of your choice
+
+```git
 git clone <python requests>
 ```
 
 2\. Create a python virtualenv with pylint installed. Activate the environment.
 
-```
+```bash
 pip install pylint
 ```
 
 3\. Use `pyreverse` command to create the UML diagram image
 
-```
+```bash
 pyreverse -o png <path_to_src>
 ```
 
 [The generated image looks something like this.](https://i.imgur.com/ucWHkb5.jpg)
 
 <figure><img src="../.gitbook/assets/image.png" alt=""><figcaption></figcaption></figure>
-
-{% @mailchimp/mailchimpSubscribe cta="Never miss a Python article. No spam!" %}
