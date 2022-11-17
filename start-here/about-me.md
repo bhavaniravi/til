@@ -26,20 +26,18 @@ I am a Pythonista, Software Engineer, Trainer, Content Creator, and Artist. I'm 
 * I use **git** to version control all my projects(including this one)
 * I learned _**React & Javascript**_ via my frontend projects
 
+### Community & Training
+
+* I love sharing what I learn via blogs, youtube, tech talks. I also run online Bootcamps & Workshops
+* Invite me to speak
+* I've been a part of build2learn.in and Google Developers Group from 2016-2021
+
 ### Non-Technically Me
 
 * I dabble with Watercolors and acrylic paints on my weekends
 * I have developed some love for travel recently
 * I'm a slow thinker, I need time to process things, which is why I suck at ad-hoc meetings/interviews
 * The brain is a sacred space meant for thinking not remembering. I'm big on using notes as my second brain
-
-### Community & Training
-
-* I love sharing what I learn
-* I share via blogs, youtube, tech talks, workshops
-* I also run online Bootcamps
-* Invite me to speak
-* I've been a part of build2learn.in and Google Developers Group from 2016-2021
 
 ### Working With Me
 
@@ -53,12 +51,4 @@ The easiest way to get a response from me is to write me on Twitter or email to 
 
 ### FAQ&#x20;
 
-Did I miss something? [Ask me anything](about-me.md#contact-me)
-
-
-
-
-
-
-
-\
+Did I miss something? Write an email to me
