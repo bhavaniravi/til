@@ -1,13 +1,13 @@
 ---
 description: >-
-  Python snippets use __name__ == "__main__" checks to ensure that the module
-  specific code is ran only when they are run directly via Python. Let's see
-  that with an example
+  Python snippets use __name__ == "__main__" checks to ensure that the
+  module-specific code is ran only when they are run directly via Python. Let's
+  see that with an example
 ---
 
 # What is \_\_name\_\_ == "\_\_main\_\_" in Python?
 
-If you are a Python beginner, you would often see `if __name__ == '__main__'` and get confused about what it does. You are not alone. Most of my students at #PythonToProject Bootcamp struggle with this as well.
+If you are a Python beginner, you often see `if __name__ == '__main__'` and get confused about what it does. You are not alone. Most of my students at #PythonToProject Bootcamp struggle with this as well.
 
 The `if __name__ == '__main__':` ensures that the snippet under it gets executed only when the file is run directly.
 
