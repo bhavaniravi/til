@@ -1,13 +1,4 @@
 ---
-slug: distributed-data-pipelines-in-python
-published_date: 2020-11-13T00:00:00.000Z
-title: Distributed Data-pipelines in Python
-template: post
-draft: false
-location:
-  - Pycon Sweden
-tags:
-  - talk
 description: >-
   With ML being the new shiny object, No one really talks about the data
   pipelines that make the data consumable. Single streamlined data pipeline may

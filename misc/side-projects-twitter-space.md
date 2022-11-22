@@ -71,4 +71,4 @@ You don't. You rest, let your side project also rest and take it up when you gai
 
 ### Got another question?
 
-[Ask here!](../about-me-1/my-links.md)
+[Ask here!](../about-me/my-links.md)

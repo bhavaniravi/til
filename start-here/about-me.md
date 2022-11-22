@@ -45,8 +45,8 @@ The easiest way to get a response from me is to write me an email _**bhavanicode
 
 ### Non-Technically Me
 
-* I dabble with Watercolors and acrylic paints on my weekends
-* I have developed some love for travel recently
+* I dabble with [Watercolors and acrylic paints on my weekends](https://instagram.com/art.oh.heart)
+* I love traveling. Checked off 7 European cities so far.
 * I'm a slow thinker. I need time to process things, which is why I suck at ad-hoc meetings/interviews.
 * The brain is a sacred space meant for thinking, not remembering. I'm big on using notes as my second brain.
 
