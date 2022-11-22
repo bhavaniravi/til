@@ -10,6 +10,8 @@ Linkedin - [https://linkedin.com/in/bhavanicodes](https://linkedin.com/in/bhavan
 
 Youtube - [https://youtube.com/bhavaniravi](https://youtube.com/bhavaniravi)
 
-Zoom Chat - [https://zcal.co/bhavaniravi/15mins](https://zcal.co/bhavaniravi/15mins)
+Zoom Coffee Chat - [https://zcal.co/bhavaniravi/15mins](https://zcal.co/bhavaniravi/15mins)
+
+Custom Training - [https://1-on-1.com/bhavaniravi/10710](https://1-on-1.com/bhavaniravi/10710)
 
 > Any promotional messages will not be entertained or responded to

@@ -6,7 +6,7 @@ description: Not all those who wander are lost
 
 > Hi I'm Bhavani & Welcome to my digital garden 🪴
 
-_A digital garden is **an online space at the intersection of a notebook and a blog, where digital gardeners share seeds of thoughts to be cultivated in public**._ To know more about me [Click here](start-here/about-me.md)
+_A digital garden is **an online space at the intersection of a notebook and a blog, where digital gardeners share seeds of thoughts to be cultivated in public**._ To know more about me [Click here](about-me.md)
 
 {% @mailchimp/mailchimpSubscribe cta="Never miss an article. Python, Data, Devops" %}
 
@@ -109,39 +109,39 @@ _A digital garden is **an online space at the intersection of a notebook and a b
 
 ### Open Source
 
-* [Apache Airflow - Data Orchestrator](open-source/contributions/airflow.md)
-* [Django All-Auth](open-source/contributions/django-allauth.md)
-* [Docker](open-source/contributions/docker.md)
-* [Ownflask - An Attempt to understand "How Flask works"](open-source/contributions/ownflask.md)
-* [Python Pandas](open-source/contributions/pandas.md)
-* [Rasa Open Source](open-source/contributions/rasa.md)
+* [Apache Airflow - Data Orchestrator](about-me-1/opensource-contributions/airflow.md)
+* [Django All-Auth](about-me-1/opensource-contributions/django-allauth.md)
+* [Docker](about-me-1/opensource-contributions/docker.md)
+* [Ownflask - An Attempt to understand "How Flask works"](about-me-1/opensource-contributions/ownflask.md)
+* [Python Pandas](about-me-1/opensource-contributions/pandas.md)
+* [Rasa Open Source](about-me-1/opensource-contributions/rasa.md)
 * [Git Flight Rules - More than CheatSheet](open-source/git-flight-rules-more-than-cheatsheet.md)
 * [How to Make Your 1st OpenSource Contribution](open-source/how-to-make-your-1st-opensource-contribution.md)
 * [Repos You Can Contribute To](open-source/repos-you-can-contribute-to.md)
 
 ### Projects
 
-* [Analyza](projects/analyza.md)
-* [Interviewbot](projects/interviewbot.md)
-* [Kissflow Case-Management Module](projects/kissflow-case.md)
-* [Kissflow Project Management Module](projects/kissflow-projects.md)
-* [Kissflow Reporting Module](projects/kissflow-reports.md)
-* [Rasa Site Bot](projects/rasa-site-bot.md)
-* [Smart Automapper](projects/smart-automapper.md)
-* [Smart Data Query](projects/smart-data-query.md)
-* [iKeepLog](projects/ikeeplog.md)
+* [Analyza](about-me-1/projects/analyza.md)
+* [Interviewbot](about-me-1/projects/interviewbot.md)
+* [Kissflow Case-Management Module](about-me-1/projects/kissflow-case.md)
+* [Kissflow Project Management Module](about-me-1/projects/kissflow-projects.md)
+* [Kissflow Reporting Module](about-me-1/projects/kissflow-reports.md)
+* [Rasa Site Bot](about-me-1/projects/rasa-site-bot.md)
+* [Smart Automapper](about-me-1/projects/smart-automapper.md)
+* [Smart Data Query](about-me-1/projects/smart-data-query.md)
+* [iKeepLog](about-me-1/projects/ikeeplog.md)
 
 ### Talks
 
-* ["All About Chatbots"](talks/all-about-chatbots.md)
-* ["Becoming a Self-Made Developer"](talks/becoming-a-self-made-developer.md)
-* ["Getting Started With Open Source"](talks/open-source.md)
-* ["Introduction to Chatbots"](talks/Introduction-to-chatbots.md)
-* ["Multitenancy in Chatbots"](talks/chatbots-multitenancy-and-custom-entities.md)
-* ["Stand Out as an Engineer"](talks/stand-out-as-an-engineer.md)
-* [Data Pipelines using Airflow on Kubernetes](talks/airflow-on-kubernetes-talk.md)
-* [Distributed Data-pipelines in Python](talks/distributed-data-pipelines-in-python.md)
-* [Introduction to MLOps](talks/introduction-to-mlops.md)
+* ["All About Chatbots"](about-me-1/talks/all-about-chatbots.md)
+* ["Becoming a Self-Made Developer"](about-me-1/talks/becoming-a-self-made-developer.md)
+* ["Getting Started With Open Source"](about-me-1/talks/open-source.md)
+* ["Introduction to Chatbots"](about-me-1/talks/introduction-to-chatbots.md)
+* ["Multitenancy in Chatbots"](about-me-1/talks/chatbots-multitenancy-and-custom-entities.md)
+* ["Stand Out as an Engineer"](about-me-1/talks/stand-out-as-an-engineer.md)
+* [Data Pipelines using Airflow on Kubernetes](about-me-1/talks/airflow-on-kubernetes-talk.md)
+* [Distributed Data-pipelines in Python](about-me-1/talks/distributed-data-pipelines-in-python.md)
+* [Introduction to MLOps](about-me-1/talks/introduction-to-mlops.md)
 
 ### Life
 
