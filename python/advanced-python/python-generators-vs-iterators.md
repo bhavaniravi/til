@@ -9,9 +9,9 @@ description: >-
 
 In Python, both generators and iterators ensure data is not loaded into memory on the whole but rather processed chunk by chunk. But when to use a generator and iterator.
 
-### What is generator?
+### What is a Generator?
 
-A generator is a Python function that `yeilds` a result. Every generator is an iterator. A generator function returns a generator object
+A generator is a Python function that `yeild` a result. Every generator is an iterator. A generator function returns a generator object
 
 ```python
 def generate(n):
@@ -28,13 +28,13 @@ print (next(x))
 print (next(x)) # raises StopIteration
 ```
 
-### What is an iterator?
+### What is an Iterator?
 
 An iterator is a Python object which returns an iterable via `__iter__` method. An iterable has `__next__`
 
-[Python Iterators and Iterables](https://thelearning.dev/python-iterables-and-iterators) talks alot more about
+[Python Iterators and Iterables](https://thelearning.dev/python-iterables-and-iterators) talks about iterators in detail, but for now, let's look at a simple example
 
-```
+```python
 class GenerateN:
     def __init__(self, n):
         self.n = n
@@ -48,7 +48,7 @@ class GenerateN:
         return self.i
 ```
 
-```
+```python
 g = GenerateN(3)
 print (g)
 print (next(g))

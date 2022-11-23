@@ -1,5 +1,12 @@
 ---
-description: Everything you need to know about the technology behind chatbots
+slug: "all-about-chatbots"
+published_date: 2020-02-01
+title: "All About Chatbots"
+template: "post"
+draft: false
+location: ["Global Azure Bootcamp"]
+description: "Everything you need to know about the technology behind chatbots"
+tags: ["talk"]
 ---
 
 # All About Chatbots

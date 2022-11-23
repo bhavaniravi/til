@@ -1,9 +1,7 @@
 # Rasa Site Bot
-
 A bot that answers the FAQ questions that you get. It was built as a demo for PyConf Hyderbad by scraping their event details.
 
 ## Tech Stack
-
-* Flask
-* NLP
-* RasaHQ
+- Flask
+- NLP
+- RasaHQ

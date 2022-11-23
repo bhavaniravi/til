@@ -1,7 +1,12 @@
 ---
-description: >-
-  Why is it important to build complementary skills beyond coding and how to
-  build them
+slug: "stand-out-as-an-engineer"
+published_date: 2019-08-01
+title: "Stand Out as an Engineer"
+template: "post"
+draft: false
+location: ["Guvi.in"]
+description: "Why is it important to build complementary skills beyond coding and how to build them"
+tags: ["talk"]
 ---
 
 # Stand Out as an Engineer

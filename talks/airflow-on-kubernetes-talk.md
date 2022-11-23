@@ -1,4 +1,13 @@
 ---
+slug: airflow-on-kubernetes-talk
+published_date: 2020-06-01T00:00:00.000Z
+title: Data Pipelines using Airflow on Kubernetes
+template: post
+draft: false
+location:
+  - IWD India 2020
+tags:
+  - talk
 description: >-
   Airflow is an opensource platform to create, schedule and monitor workflows.
   In this talk we will explore - What is airflow? - How to create data
