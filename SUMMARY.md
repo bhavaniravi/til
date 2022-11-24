@@ -7,7 +7,6 @@
 ## About Me
 
 * [My Links](about-me/my-links.md)
-* [Coffee Chat](about-me/coffee-chat.md)
 * [Featured Stories](about-me/featured-stories.md)
 * [OpenSource Contributions](about-me/opensource-contributions/README.md)
   * [Django All-Auth](open-source/contributions/django-allauth.md)
