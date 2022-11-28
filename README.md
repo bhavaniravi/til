@@ -46,7 +46,7 @@ _A digital garden is **an online space at the intersection of a notebook and a b
 * [Building OwnFlask - A Flask(like) Python Framework](python/flask/building-ownflask-a-flask-like-python-framework.md)
 * [Data Model in Python](python/advanced-python/data-model-in-python.md)
 * [Data Model in Python](python/advanced/data-model-in-python.md)
-* [Django](python/django/)
+* [Django](python/web/django/)
 * [Flask](python/web/flask/)
 * [GIL](python/advanced-python/gil.md)
 * [Itertools Hacks](python/advanced-python/itertools-hacks.md)

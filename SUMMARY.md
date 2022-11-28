@@ -2,6 +2,7 @@
 
 * [Start Here](README.md)
   * [How I built my Digital Garden](start-here/how-i-built-my-digital-garden.md)
+  * [Why Gitbook?](readme/why-gitbook.md)
 * [About Me](start-here/about-me.md)
 
 ## About Me
@@ -64,7 +65,8 @@
   * [JWT Bases Authentication In Python + Flask](python/web/flask/jwt-bases-authentication-in-python-+-flask.md)
   * [Building OwnFlask - A Flask(like) Python Framework](python/flask/building-ownflask-a-flask-like-python-framework.md)
   * [ORM in Python Flask](python/flask/orm-in-python-flask.md)
-* [Django](python/django/README.md)
+  * [Migrating to Flask-SQLAlchemy 3.0](python/flask/migrating-to-flask-sqlalchemy-3.0.md)
+* [Django](python/web/django/README.md)
   * [Debugging MakerLog](python/django/debugging-makerlog.md)
 * [Testing](python/testing/README.md)
   * [Why Pytest is my Favorite?](python/testing/why-pytest-is-my-favorite.md)
@@ -123,8 +125,8 @@
 * [What is DevOps?](devops/what-is-devops.md)
 * [What Happens During Docker Build and Run?](devops/what-happens-during-docker-build-and-run.md)
 * [Introduction to Docker - The What, Why and How](devops/docker-introduction.md)
-* [Deploying Flask Applications in Kubernetes (Digitalocean)](devops/kubernetes-101-deploy-apps-in-kubernetes.md)
 * [Docker - Virtualization vs Containerization](devops/docker-virtualization-vs-containerization.md)
+* [Deploying Flask Applications in Kubernetes (Digitalocean)](devops/kubernetes-101-deploy-apps-in-kubernetes.md)
 * [AWS](devops/aws/README.md)
   * [IAM Users, Roles, and Policies](devops/aws/iam-users-roles-and-policies.md)
 

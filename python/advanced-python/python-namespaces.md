@@ -113,7 +113,7 @@ As expected, the global variable's value was not affected by the local variable 
 1. &#x20;The local namespace is different from the global namespace
 2. The Python interpreter looks for variables in the nearest local namespace before escalating the search to the global namespace
 
-<figure><img src="../../.gitbook/assets/image (2).png" alt=""><figcaption><p>Local namespace</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (2) (3).png" alt=""><figcaption><p>Local namespace</p></figcaption></figure>
 
 #### Locals Method
 

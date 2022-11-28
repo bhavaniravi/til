@@ -53,4 +53,4 @@ pyreverse -o png <path_to_src>
 
 [The generated image looks something like this.](https://i.imgur.com/ucWHkb5.jpg)
 
-<figure><img src="../.gitbook/assets/image.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (6).png" alt=""><figcaption></figcaption></figure>
