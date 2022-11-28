@@ -1,6 +1,13 @@
+---
+description: With Apache-Airflow's AWS providers S3 operations are a cake-walk.
+---
+
 # How to Copy/Move S3 Files With Apache Airflow
 
-Create an AWS account, and ensure you have the right roles and policies set before proceeding with the following code
+1. Create an AWS account, and ensure you have the [right roles and policies](../devops/aws/iam-users-roles-and-policies.md) set before proceeding with the following code
+2. Create a working instance of Apache Airflow in local or on your preferred cloud provider
+3. Create an Airflow connection with `AWS_SECRET, AWS_ACCESS and role_arn`
+4. The connection extras will look something like this `{"region_name": "us-west-2", "role_arn": "", "assume_role_method": "assume_role"}`
 
 ```python
 from datetime import datetime
@@ -33,3 +40,4 @@ with DAG(
 
 1. You can change the `transform_script` form `/bin/cp`  to `/bin/mv` to move files.
 2. Note that the `dest_key` has `{{ds}}` in it. This ensures a new blob is created every time the DAG runs.&#x20;
+3. You can also pass a python script as string to `transform_script`
