@@ -29,8 +29,6 @@ The package is now a part of [`pylint`](https://pypi.org/project/pylint/?utm\_so
 pip install pylint
 ```
 
-{% @mailchimp/mailchimpSubscribe cta="Never miss a Python article. No spam!" %}
-
 ## Generating UML Diagrams
 
 1. Let's choose a project; feel free to choose any python project. I'm using Python requests library's source code&#x20;
@@ -51,6 +49,8 @@ pip install pylint
 pyreverse -o png <path_to_src>
 ```
 
-[The generated image looks something like this.](https://i.imgur.com/ucWHkb5.jpg)
+The generated image looks something like this. (Click to open)
 
 <figure><img src="../.gitbook/assets/image (6).png" alt=""><figcaption></figcaption></figure>
+
+{% @mailchimp/mailchimpSubscribe cta="Never miss a Python article. No spam!" %}
