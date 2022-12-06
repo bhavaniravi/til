@@ -19,11 +19,11 @@ description: >-
 
 Inspite of designing and thinking through the class structure before coding, developers might have to restructure and refactor the code during implementation. It is also a good idea to generate UML diagrams from code and see if it matches the actual design.
 
-## Pyreverse
+## [Pyreverse](https://pypi.org/project/pylint/?utm\_source=bhavaniravi.com\&utm\_medium=website\&utm\_campaign=bhavaniravi-uml\&utm\_id=uml-diagrams)
 
-Pyreverse is a set of utilities to reverse engineering Python code. It uses a representation of a Python project in a class hierarchy which can be used to extract any information (such as generating UML diagrams or unit tests, as pyargo and py2tests).
+Pyreverse is a set of utilities to reverse engineering Python code. It uses a representation of a Python project in a class hierarchy which can be used to extract any information (such as generating UML diagrams or unit tests, such as pyargo and py2tests).
 
-The package is now a part of `pylint` so to install it you need pylint installed in your python environement.
+The package is now a part of [`pylint`](https://pypi.org/project/pylint/?utm\_source=bhavaniravi.com\&utm\_medium=website\&utm\_campaign=bhavaniravi-uml\&utm\_id=uml-diagrams) so to install it. You need pylint installed in your python environment.
 
 ```
 pip install pylint
@@ -33,7 +33,7 @@ pip install pylint
 
 ## Generating UML Diagrams
 
-1. Let's choose a project, feel free to choose any python project of your choice
+1. Let's choose a project; feel free to choose any python project. I'm using Python requests library's source code&#x20;
 
 ```git
 git clone <python requests>
