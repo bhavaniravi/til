@@ -153,6 +153,7 @@
 
 * [Why I Don't Recommend Medium as Your Blogging Site](technical-writing/why-i-dont-recommend-medium-as-your-blogging-site.md)
 * [How to Start a Technical Blog?](technical-writing/how-to-start-a-technical-blog.md)
+* ["Just Dump your Thoughts" is bad advice](technical-writing/just-dump-your-thoughts-is-bad-advice.md)
 
 ## Community
 
@@ -194,6 +195,7 @@
 * [5 Reasons Why You Should Start your Fitness Routine ASAP?](life/5-reasons-why-you-should-start-your-fitness-routineasap.md)
 * [How do you do so many things at the same time?](life/how-do-you-do-so-many-things-at-the-same-time.md)
 * [How to Fast-track Your Learning?](life/how-to-fast-track-your-learning.md)
+* [Apps Models Your Behavior](life/apps-models-your-behavior.md)
 
 ## MLOps
 
