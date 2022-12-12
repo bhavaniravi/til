@@ -195,7 +195,7 @@
 * [5 Reasons Why You Should Start your Fitness Routine ASAP?](life/5-reasons-why-you-should-start-your-fitness-routineasap.md)
 * [How do you do so many things at the same time?](life/how-do-you-do-so-many-things-at-the-same-time.md)
 * [How to Fast-track Your Learning?](life/how-to-fast-track-your-learning.md)
-* [Apps Models Your Behavior](life/apps-models-your-behavior.md)
+* [Are you constantly Distracted? It's not You.](life/are-you-constantly-distracted-its-not-you..md)
 
 ## MLOps
 

@@ -1,23 +1,25 @@
 ---
-slug: "apache-airflow-introduction"
-published_date: 2020-05-28
-created_date: 2020-05-28
-title: "An Introduction to Apache Airflow"
-template: "post"
+slug: apache-airflow-introduction
+published_date: 2020-05-28T00:00:00.000Z
+created_date: 2020-05-28T00:00:00.000Z
+title: An Introduction to Apache Airflow
+template: post
 draft: false
-description: "Airflow is a platform to programmatically author, schedule, and monitor workflows. In this blog we will underestand the basics of airflow"
-subtitle: "Introduction to basic airflow concepts"
-tags: ["apache-airflow"]
-featuredImgPath: "https://i.imgur.com/lYt622N.png"
+subtitle: Introduction to basic airflow concepts
+tags:
+  - apache-airflow
+featuredImgPath: https://i.imgur.com/lYt622N.png
 isexternal: true
+description: >-
+  Airflow is a platform to programmatically author, schedule, and monitor
+  workflows. In this blog we will underestand the basics of airflow
 ---
 
-
-# An Introduction to Apache Airflow 
+# An Introduction to Apache Airflow
 
 ## What is Airflow?
 
-> Airflow is a platform created by the community to programmatically author, schedule, and monitor workflows. 
+> Airflow is a platform created by the community to programmatically author, schedule, and monitor workflows.
 
 Machine learning is the hot topic of the industry. It won't be so cool if not for the data processing involved
 
@@ -27,15 +29,7 @@ Airflow is an ETL(Extract, Transform, Load) workflow orchestration tool, used in
 
 Imagine you have an ML model that does twitter sentiment analysis. Now you want to run that model for your favorite people on twitter for their tweets every day. Such a workflow would look something like this.
 
-<figure>
-
-![workflow as a graph with nodes](https://i.imgur.com/qgSw3xW.png)
-
-</figure>
-
-
 As you can see, the data flows from one end of the pipeline to the other end. There can be branches, but no cycles.
-
 
 ## What problems does Airflow solve?
 
@@ -46,10 +40,9 @@ Crons are an age-old way of scheduling tasks.
 3. Cron jobs are not reproducible unless externally configured. The Airflow keeps an audit trail of all tasks executed.
 4. Scalable
 
-
 ## How to define a workflow in Airflow?
 
-Workflows are defined using Python files. 
+Workflows are defined using Python files.
 
 ### DAG
 
@@ -68,19 +61,17 @@ dag = DAG(
     default_args=args,
     schedule_interval='* * * * *',
 )
-
 ```
 
 `start_date` enables you to run a task on a particular date.
 
-`Schedule_interval` is the interval in which each workflow is supposed to run. `'* * * * *'` means the tasks need to run every minute. Don't scratch your brain over this syntax. You can play around with these using https://crontab.guru/. 
-
+`Schedule_interval` is the interval in which each workflow is supposed to run. `'* * * * *'` means the tasks need to run every minute. Don't scratch your brain over this syntax. You can play around with these using https://crontab.guru/.
 
 ### Operator
 
-`Operators` define the nodes of the DAG. Each operator is an independent task. 
+`Operators` define the nodes of the DAG. Each operator is an independent task.
 
-In the following example, we use two Operators 
+In the following example, we use two Operators
 
 ```python
 from airflow.operators.bash_operator import BashOperator
@@ -100,7 +91,7 @@ run_this_last = PythonOperator(
 )
 ```
 
-2. `BashOperator` which runs a bash command
+1. `BashOperator` which runs a bash command
 
 ```python
 run_this = BashOperator(
@@ -110,34 +101,21 @@ run_this = BashOperator(
 )
 ```
 
-3. The tasks are linked together using `>>` python operator.
-
+1. The tasks are linked together using `>>` python operator.
 
 ```python
 run_this >> run_this_last
 ```
 
-A sample DAG with branches would look something like this. 
-
-<figure>
-
-![](https://i.imgur.com/VyqpE8n.png)
-
-</figure>
+A sample DAG with branches would look something like this.
 
 ## Airflow Architecture
-
-<figure>
-
-![](https://i.imgur.com/UT38Lok.png)
-
-</figure>
 
 Airflow has 4 major components.
 
 ### Webserver
 
-The webserver is the component that is responsible for handling all the UI and REST APIs. 
+The webserver is the component that is responsible for handling all the UI and REST APIs.
 
 ### Scheduler
 
@@ -153,13 +131,15 @@ Workers run the task that is being handed over by the executor.
 
 ### SequentialExecutor
 
-SequentialExecutor runs only one task at a time. The workers run the same machine as the scheduler is. 
+SequentialExecutor runs only one task at a time. The workers run the same machine as the scheduler is.
 
 #### Pros
+
 1. Simple and easy to setup
 2. Good for testing DAGs during development
 
 #### Cons
+
 1. Not scalable
 2. It cannot run multiple tasks at the same time.
 3. Not suitable for production
@@ -169,20 +149,21 @@ SequentialExecutor runs only one task at a time. The workers run the same machin
 LocalExecutor is the same as the Sequential Executor, except it can run multiple tasks at a time.
 
 #### Pros
+
 1. Can run multiple tasks
 2. Good for running DAGs during development
 
 #### Cons
+
 1. Not scalable
 2. Single point of failure
 3. Not suitable for production
 
-
 ### CeleryExecutor
 
-Celery is used for running distributed asynchronous python tasks. 
+Celery is used for running distributed asynchronous python tasks.
 
-Hence, CeleryExecutor has been a part of Airflow for a long time, even before Kubernetes. 
+Hence, CeleryExecutor has been a part of Airflow for a long time, even before Kubernetes.
 
 CeleryExecutors has a fixed number of workers running to pick-up the tasks as they get scheduled.
 
@@ -198,7 +179,7 @@ CeleryExecutors has a fixed number of workers running to pick-up the tasks as th
 
 ### KubernetesExecutor
 
-KubernetesExecutor runs each task in an individual Kubernetes pod. Unlike CeleryCelery, [it spins up worker pods on demand](/deploying-airflow-on-kubernetes/), hence enabling maximum usage of resources.
+KubernetesExecutor runs each task in an individual Kubernetes pod. Unlike CeleryCelery, [it spins up worker pods on demand](../deploying-airflow-on-kubernetes/), hence enabling maximum usage of resources.
 
 #### Pros
 
@@ -209,6 +190,6 @@ KubernetesExecutor runs each task in an individual Kubernetes pod. Unlike Celery
 
 1. Kubernetes is new to Airflow, and the documentation is not straightforward.
 
----
+***
 
-Now that we have understood Airflow's basics let's learn how to write our workflow in the next post. 
+Now that we have understood Airflow's basics let's learn how to write our workflow in the next post.
