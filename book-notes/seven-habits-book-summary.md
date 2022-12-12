@@ -1,23 +1,22 @@
 ---
-slug: seven-habits-book-summary
-published_date: 2020-03-10T00:00:00.000Z
-created_date: 2020-03-10T00:00:00.000Z
-title: 7 Habits of Highly Effective People - Book Summary
-template: post
+slug: "seven-habits-book-summary"
+published_date: 2020-03-10
+created_date: 2020-03-10
+title: "7 Habits of Highly Effective People - Book Summary"
+template: "post"
 draft: false
-subtitle: Things I learned by reading 7 Habits of Highly Effective People
-tags:
-  - book-notes
-featuredImgPath: https://i.imgur.com/RlofT9N.png
+description: ""
+subtitle: "Things I learned by reading 7 Habits of Highly Effective People"
+tags: ["book-notes"]
+featuredImgPath: "https://i.imgur.com/RlofT9N.png"
 isexternal: true
 ---
 
-# 7 Habits of Highly Effective People - Book Summary
+# 7 Habits Of Highly Effective People
 
 > I am mostly writing this summary for myself and a few of my friends, all the views are my perspective, you might have read the book and your views may or may not be different. After all, we are all humans, that's what this book is all about.
 
 ## Top 5 Takeaways
-
 1. Seek to understand
 2. Personal victory before the public victory
 3. Start with the end in mind
@@ -25,14 +24,13 @@ isexternal: true
 5. First Creation
 
 ## What I liked about this book?
-
 Trust me, the book is intense, even for someone who reads nothing but self-help and psychological books over the years. But the book is so fluidly written that you won’t even know you are learning so much. The book does something to your personality that’s beyond explanation. Everyone should read this book at least once in their life, and I can guarantee you would want to reread it.
 
 ## Why should you read this book?
-
-Most self-help books in the market are focused on "_how to improve your social image_" rather than "_how to be a great human being_." This is the same idea discussed in the first chapter of [Atomic habits](../blog/atomic-habits-book-summary/). To be that person, to build an identity as a fitness freak or a nonsmoker. But the seven habits go more in-depth and talks about concepts that lay the groundwork for building such habit systems.
+Most self-help books in the market are focused on "*how to improve your social image*" rather than "*how to be a great human being*." This is the same idea discussed in the first chapter of [Atomic habits](/blog/atomic-habits-book-summary). To be that person, to build an identity as a fitness freak or a nonsmoker. But the seven habits go more in-depth and talks about concepts that lay the groundwork for building such habit systems.
 
 Reading self-help books without understanding seven habits is like applying band-aid over a deep wound, will only fix the outside.
+
 
 ## Broad Ideas from the book
 
@@ -46,26 +44,25 @@ People look at the world from the paradigms or mental models they built from the
 
 #### List of Character Ethics
 
-* Equity
-* Justice
-* Integrity
-* Honesty
+- Equity
+- Justice
+- Integrity
+- Honesty
 
 Stephen calls this an inside-out approach
 
 > “Inside-Out" means to start first with self; even more fundamentally, to start with the most inside part of self — with your paradigms, your character, and your motives.”
 
 ### Private Victory
-
-* Being Proactive
-* Taking Initiative
-* Being Resourceful
+- Being Proactive
+- Taking Initiative
+- Being Resourceful
 
 #### Circle of Concern vs Infulence
 
-> * direct control (problems involving our behavior);
-> * indirect control (problems involving other people's behavior);
-> * no control (problems we can do nothing about, such as our past or situational realities)
+> - direct control (problems involving our behavior);  
+> - indirect control (problems involving other people's behavior); 
+> - no control (problems we can do nothing about, such as our past or situational realities)
 
 1. What is the current problem
 2. What is the expected long-term outcome
@@ -73,7 +70,7 @@ Stephen calls this an inside-out approach
 
 ### First Creation
 
-Most of the things that you want to achieve are life is first created in your head. This kind of synchronizes with Swami Vivekandha's quote.
+Most of the things that you want to achieve are life is first created in your head. This kind of synchronizes with Swami Vivekandha's quote. 
 
 > Take up one idea. Make that one idea your life; dream of it; think of it; live on that idea. Let the brain, the body, muscles, nerves, every part of your body be full of that idea, and just leave every other idea alone.
 
@@ -82,6 +79,13 @@ Being more self-aware prevents you from being reactive to your external environm
 ### 4 Quadrant time management
 
 The idea can be explained with a simple image. List down your tasks into these four quadrants; you would see the work that aligns with your mission statement are in quadrant II (important, not urgent). The more time you spend on doing those tasks will take you closer to your mission statement.
+
+<figure>
+
+![4 quadrant time management system](https://i.imgur.com/hhzaq1P.png)
+
+</figure>
+
 
 ### Types of Delegation
 
@@ -103,7 +107,7 @@ Of these, Win-Win works on the abundance mindset, For you to win another person 
 
 ### Empathetic Listening
 
-Empathetic listening is when you listen to understand and not to respond. Often we find ourselves projecting others problem in our paradigms, _that's what happened to me?_
+Empathetic listening is when you listen to understand and not to respond. Often we find ourselves projecting others problem in our paradigms, *that's what happened to me?*
 
 But with empathetic listening, you listen without reaction, judgment, suggestion.
 
@@ -160,6 +164,8 @@ Do the above reflections more than once and convert them into a personal mission
 
 > “No one can hurt you without your consent.”
 
-***
+---
 
-I would never stop here; I would buy the book, I would read and re-read it again and again until I master the seven habits and it becomes a part of me and who I am.
+I would never stop here; I would buy the book, I would read and re-read it again and again until I master the seven habits and it becomes a part of me and who I am. 
+
+
