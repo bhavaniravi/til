@@ -5,15 +5,17 @@ created_date: 2019-07-15T00:00:00.000Z
 title: A World Where WomenInTech Rules
 template: post
 draft: false
+subtitle: What are the societal changes an empowered woman in tech will bring
+tags:
+  - community
+featuredImgPath: https://cdn.pixabay.com/photo/2013/09/23/03/05/high-tech-185146_960_720.jpg
+isexternal: true
 description: >-
   In an imaginary world where women in tech rules, what are the societal changes
   we will see.
-subtitle: What are the societal changes an empowered woman in tech will bring
-tags: ["community"]
-featuredImgPath: 'https://cdn.pixabay.com/photo/2013/09/23/03/05/high-tech-185146_960_720.jpg'
-isexternal: true
 ---
-# A World Where WomenInTech Leads
+
+# A World Where WomenInTech Rules
 
 _What are the societal changes an empowered woman in tech will bring_
 
@@ -22,11 +24,6 @@ I was at Google's India Community Summit over the last weekend. [ICS2019](https:
 On the 2nd day of the summit, we had a special workshop for womentechmakers leaders. During the workshop, we were asked to brainstorm on an ideal world where women in tech are paid and treated equally where we no longer have to struggle for what we deserve.
 
 We were split into a team of 6 and asked to brainstorm ideas. Ideas started to flow. I took everything that bothers me in the current world and made it a part of my imaginary world. I am going to list them down and help you visualize how this world would look like.
-
-<figure>
-
-![](https://cdn.pixabay.com/photo/2013/09/23/03/05/high-tech-185146_960_720.jpg)
-</figure>
 
 ### Public Restrooms
 
@@ -50,6 +47,6 @@ Imagine a world, where domestic work is paid. Washing dishes, clothes, cleaning 
 
 In a world designed for women, we don't have to work in a station build for men's average height. We no longer have to travel on buses with handles that are far ahead of our reach. We can be sure that the cars we drive are safe for us because it is [tested with dummies of a female skeleton.](https://www.theguardian.com/lifeandstyle/2019/feb/23/truth-world-built-for-men-car-crashes)
 
----
+***
 
 In a world designed for women, we have more challenges to face than social norms and ideologies. When women in tech rule, we don't just change the way tech works but, the way the world operates.

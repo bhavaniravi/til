@@ -5,32 +5,27 @@ created_date: 2019-08-26T00:00:00.000Z
 title: Caching in Python
 template: post
 draft: false
+subtitle: A blog to help you understand caches in detail
+tags:
+  - python
+featuredImgPath: /media/caching-in-python.png
 description: >-
   Caching, is a concept that was gifted to software world from the hardware
   world, A temporary storage for fast and easy access of data.
-subtitle: A blog to help you understand caches in detail
-tags: ["python"]
-featuredImgPath: /media/caching-in-python.png
 ---
+
 # Caching in Python
 
 Caching, is a concept that was gifted to software world from the hardware world. A cache is a temporary storage area that stores the used items for easy access. To put it in layman’s terms, it is the chair we all have.
 
-<figure>
-
-![Image result for a chair with clothes memes](https://i.pinimg.com/originals/74/0d/3f/740d3fdb2d44fa270923baca7036d9c5.png)
-
-</figure>
-
 This blog covers the basics of
 
-1. [What are Caches?](#Conventional-Caches)
-2. [Caching Operations](#Caching-Operations)
-3. [Cache Eviction Policies](#Cache-Eviction-Policies)
-4. [Implementation of Cache Eviction Policies](#LRU-Implementation)
-5. [Distributed Caching](#Distributed-Caching)
-6. [Caching In Python](#Caching-In-Python)
-
+1. [What are Caches?](caching-in-python.md#Conventional-Caches)
+2. [Caching Operations](caching-in-python.md#Caching-Operations)
+3. [Cache Eviction Policies](caching-in-python.md#Cache-Eviction-Policies)
+4. [Implementation of Cache Eviction Policies](caching-in-python.md#LRU-Implementation)
+5. [Distributed Caching](caching-in-python.md#Distributed-Caching)
+6. [Caching In Python](caching-in-python.md#Caching-In-Python)
 
 ## Conventional Caches
 
@@ -47,44 +42,16 @@ When dealing with caches we always have a huge chunk of memory which is time con
 A read cache is a storage that stores the accessed items. Every time the client requests data from storage, the request hits the cache associated with the storage.
 
 1. If the requested data is available on the cache, then it is a **cache hit**.
-
-<figure>
-
-![https://drive.google.com/uc?id=1XYx5MptiwNKcOL608AxhKnqwz3YreBRW](https://drive.google.com/uc?id=1XYx5MptiwNKcOL608AxhKnqwz3YreBRW)
-
-</figure>
-
 2. if not it is a **Cache miss**.
-
-<figure>
-
-![https://drive.google.com/uc?id=151KU5oOAY1txG-u1Fdg6gigFkiHlUGKv](https://drive.google.com/uc?id=151KU5oOAY1txG-u1Fdg6gigFkiHlUGKv)
-
-</figure>
-
 3. Now when accessing a data from cache some other process changes the data at this point you need to reload the cache with the newly changed data this it is a **Cache invalidation**
-
-<figure>
-
-![https://drive.google.com/uc?id=1AbAc3ksg7ypkbHU0dS3L8_1_YEzG-fqJ](https://drive.google.com/uc?id=1AbAc3ksg7ypkbHU0dS3L8_1_YEzG-fqJ)
-
-</figure>
 
 ### Write Cache
 
 Write caches as the name suggests enables fast writes. Imagine a write-heavy system and we all know that writing to a DB is costly. Caches come handy and handle the DB write load which is later updated to the DB in batches. It is important to notice that, the data between the DB and the cache should always be synchronized. There are 3 ways one can implement a write cache.
 
 1. Write Through
-
 2. Write Back
-
 3. Write Around
-
-<figure>
-
-![https://drive.google.com/uc?id=1eLnTzi2raas9OLnQoH3E0hyzHv5u89Gf](https://drive.google.com/uc?id=1eLnTzi2raas9OLnQoH3E0hyzHv5u89Gf)
-
-</figure>
 
 #### Write Through
 
@@ -98,21 +65,17 @@ The write to the DB happens through the cache. Every time a new data is written 
 
 Write back is when the cache asynchronously updates the values to the DB at set intervals.
 
-This method swaps the advantage and disadvantage of *Write through*. Though writing to a cache is faster of **Data loss and inconsistency**
+This method swaps the advantage and disadvantage of _Write through_. Though writing to a cache is faster of **Data loss and inconsistency**
 
 #### Write Around
 
 Write the data directly to the storage and load the cache only when the data is read.
-    
- - **Advantages**
 
-    - A cache is not overloaded with data that is not read immediately after a write
-
-    - Reduces the latency of the write-through method
-
-- **Disadvantages**
-
-    - Reading recently written data will cause a cache miss and is not suitable for such use-cases.  
+* **Advantages**
+  * A cache is not overloaded with data that is not read immediately after a write
+  * Reduces the latency of the write-through method
+* **Disadvantages**
+  * Reading recently written data will cause a cache miss and is not suitable for such use-cases.
 
 ## Cache Eviction Policies
 
@@ -153,26 +116,14 @@ One thing we can do is have an array where we enter the element as and when it i
 
 A doubly linked list might fit the purpose. Add an item to the linked list every time it is accessed and maintain it’s a reference in a hash table enabling us to access it at O(1).
 
-<figure>
-
-![https://i2.wp.com/0x0fff.com/wp-content/uploads/2015/02/LRUCache.jpg?fit=709%2C436&ssl=1](https://i2.wp.com/0x0fff.com/wp-content/uploads/2015/02/LRUCache.jpg)
-
-</figure>
-
 When the element is already present, remove it from its current position and add it to the end of the linked list.
 
 ## Where to Place the Caches?
 
 The closer the caches are to its consumer faster it is. Which might implicitly mean to place caches along with the webserver in case of a web application. But there are a couple of problems
 
-1. When a server goes down, we lose all the data associated with the server’s cache 
+1. When a server goes down, we lose all the data associated with the server’s cache
 2. When there is a need to increase the size of the cache it would invade the memory allocated for the server.
-
-<figure>
-
-![https://drive.google.com/uc?id=17PYGD6Qvlq3fQvc0nNVE7mU0vx03Uq3-](https://drive.google.com/uc?id=17PYGD6Qvlq3fQvc0nNVE7mU0vx03Uq3-)
-
-</figure>
 
 The most viable solution is to maintain a cache outside the server. Though it incorporates additional latency, it is worth for the reliability of caches.
 
@@ -186,10 +137,9 @@ Finding the technologies to implement caches is the easiest of all steps. Caches
 2. You have done everything you can to improve the speed at DB level.
 3. You have learnt and researched on various caching methodologies and systems and found what fits your purpose.
 
-
 ## Implementation In Python
 
-To understand caching we need to understand the data we are dealing with. For this example I am using a simple MongoDB Schema of `User` and `Event` collections. 
+To understand caching we need to understand the data we are dealing with. For this example I am using a simple MongoDB Schema of `User` and `Event` collections.
 
 We will have APIs to get `User` and `Event` by their associated IDs. The following code snippet comprise a helper function to get a respective document from MongoDB
 
@@ -197,9 +147,7 @@ We will have APIs to get `User` and `Event` by their associated IDs. The followi
 def read_document(db, collection, _id):
     collection = db[collection]
     return collection.find_one({"_id": _id})
-
 ```
-
 
 ### Python inbuilt LRU-Caching
 
@@ -226,7 +174,7 @@ LRU-Caching like you see in the following example is easy to implement since it 
 
 ### Caching In Python Flask
 
-To support other caches like redis or memcache, Flask-Cache provides out of the box support. 
+To support other caches like redis or memcache, Flask-Cache provides out of the box support.
 
 ```
 config = {’CACHE_TYPE’: ‘redis’} # or memcache
@@ -245,12 +193,10 @@ def get_user(uid):
 
 With that, We have covered what caches are, when to use one and how to implement it in Python Flask.
 
-## Resources 
+## Resources
 
 1. [You’re Probably Wrong About Caching](https://msol.io/blog/tech/youre-probably-wrong-about-caching/)
 2. [Caching - Full Stack Python](https://www.fullstackpython.com/caching.html)
-3. [Redis Vs Memcache](https://medium.com/@Alibaba_Cloud/redis-vs-memcached-in-memory-data-storage-systems-3395279b0941)
+3. [Redis Vs Memcache](https://medium.com/@Alibaba\_Cloud/redis-vs-memcached-in-memory-data-storage-systems-3395279b0941)
 4. [Caching - A Trip Down the Rabbit Hole](https://www.youtube.com/watch?v=bIWnQ3F1eLA)
 5. [All About Caching](https://www.mnot.net/blog/caching/)
-
-

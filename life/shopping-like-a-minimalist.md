@@ -4,22 +4,24 @@ sub_title: >-
   In a world where ads constantly bombard us, streamlining your shopping process
   is one of the healthiest things you can do for your financial well-being.
 slug: shopping-like-a-minimalist
-tags: ["life"]
+tags:
+  - life
 featuredImgPath: >-
   https://images.unsplash.com/photo-1540959733332-eab4deabeeaf?iauto=format&fit=crop&w=1371&q=390
 isexternal: true
 published_date: '2020-12-16'
 created_date: '2020-12-16'
+draft: false
 description: >-
   In a world where ads constantly bombard us, streamlining your shopping process
   is one of the healthiest things you can do for your financial well-being.
-draft: false
 ---
+
 # Shopping Like a Stingy-Minimalist
 
 > If you are here looking for financial advice or money-saving tactics, I am sorry. This piece aims to capture my thoughts as I get myself through the new year shopping spree.
 
-If I call myself a stingy person, it would be a disgrace to all the stingy people out there. The dictionary meaning of stingy goes something like this. 
+If I call myself a stingy person, it would be a disgrace to all the stingy people out there. The dictionary meaning of stingy goes something like this.
 
 > Unwillingness to spend money.
 
@@ -29,13 +31,13 @@ For me, though, I want to spend money on the right things PERIOD. The process of
 
 ## Let's begin
 
-Now, this might sound a little weird. Every year I plan out and make a list of everything I would need for the next year. There are the usuals like Journal, Color pens. Before you settle for *that's reasonable,* I also plan out my clothing. Thank god I don't do it for my cheeses or chocolates. 
+Now, this might sound a little weird. Every year I plan out and make a list of everything I would need for the next year. There are the usuals like Journal, Color pens. Before you settle for _that's reasonable,_ I also plan out my clothing. Thank god I don't do it for my cheeses or chocolates.
 
 For me, shopping does not begin in amazon or a shop. It begins in my Journal. I create a shopping list page and start listing down all the items.
 
 Since this is a yearly process, the list usually grows more than I imagined and hence begins my road to misery and delight.
 
-The list sits there and grows and shrinks after my strikes and edits. I look at it every day, go through every item ask myself. 
+The list sits there and grows and shrinks after my strikes and edits. I look at it every day, go through every item ask myself.
 
 1. Is this necessary?
 2. Can you survive without this?
@@ -49,33 +51,27 @@ So I have this list complete. I wish the process ends there, but it doesn't. Nex
 
 Shopping for the items that you get from a store is relatively easy compared to online. It goes like this.
 
-A Physical store  
+A Physical store
 
 * Pick items
 * Add to cart
 * Checkout
 
-<figure> 
-
-![](https://i.imgur.com/WDCqpAM.png)
-
-</figure>
-
-An online store 
+An online store
 
 * Pick item
 * Read reviews
-* Read bad reviews 
-* Compare with other products 
-* Read other reviews 
-* Settle on something 
-* Add item to the cart 
-* Stare at it for weeks 
-* Add/edit/Move to wishlist 
-* One eternity later 
+* Read bad reviews
+* Compare with other products
+* Read other reviews
+* Settle on something
+* Add item to the cart
+* Stare at it for weeks
+* Add/edit/Move to wishlist
+* One eternity later
 * Checkout
 
-and the rest is history 
+and the rest is history
 
 ## Reflections
 
@@ -89,6 +85,6 @@ I asked around and found out this is a normal shopping pattern for most people. 
 
 In a world where ads constantly bombard us, streamlining your shopping process is one of the healthiest things you can do for your financial well-being.
 
-- - -
+***
 
-*P.S. A moment of silence for the Ipad I have meant to buy for the last 2 years, all the books and art supplies on my wishlist.*
+_P.S. A moment of silence for the Ipad I have meant to buy for the last 2 years, all the books and art supplies on my wishlist._

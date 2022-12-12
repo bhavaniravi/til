@@ -4,10 +4,10 @@
   * [How I built my Digital Garden](start-here/how-i-built-my-digital-garden.md)
   * [Why Gitbook?](readme/why-gitbook.md)
 * [About Me](start-here/about-me.md)
+* [My Links](my-links.md)
 
 ## About Me
 
-* [My Links](about-me/my-links.md)
 * [Featured Stories](about-me/featured-stories.md)
 * [OpenSource Contributions](about-me/opensource-contributions/README.md)
   * [Django All-Auth](open-source/contributions/django-allauth.md)
