@@ -7,8 +7,11 @@ import itertools
 import subprocess as sp
 import pathlib
 import asyncio
+import datetime
 
-MAILCHIMP_TEXT = """{% @mailchimp/mailchimpSubscribe cta="Learn more Python, Data and Devops. No spam." %}"""
+MAILCHIMP_TEXT = """{% embed url="https://bhavaniravi.substack.com/embed" %}
+Newsletter embed
+{% endembed %}"""
 
 HEADER = f"""---
 description: Not all those who wander are lost
@@ -80,9 +83,17 @@ def get_tils(category):
             # https://mail.python.org/pipermail/tutor/2011-July/084788.html
             titles.append((title, fullname.replace(os.path.sep, "/")))
         if os.path.isdir(fullname):
-            print(fullname)
+            # print(fullname)
             titles.extend(get_tils(fullname))
     return titles
+
+def write_mailchimp(category):
+    til_files = [x for x in os.listdir(category)]
+    for filename in til_files:
+        fullname = os.path.join(category, filename)
+        if (os.path.isfile(fullname)) and fullname.endswith(".md"):
+            with open(fullname, "a") as f:
+                f.write(f"--- \n {MAILCHIMP_TEXT}")
 
 
 def get_category_dict(category_names):
@@ -142,7 +153,7 @@ async def create_readme(category_names, categories):
             categories.items(), key=lambda c: len(c[1]), reverse=True
         ):
             file.write(
-                f"""* [{category.replace("-", " ").title()}](#{category.replace(' ', '-').lower()}) [**`{len(tils)}`**]\n"""
+                f"""* [{category.replace("-", " ").title()}](./#{category.replace(' ', '-').lower()}) [**`{len(tils)}`**]\n"""
             )
 
         if len(category_names) > 0:
@@ -156,10 +167,10 @@ async def create_readme(category_names, categories):
                     "\n\n\n### {0}\n\n".format(category.replace("-", " ").title())
                 )
                 # file.write("<ul>")
-                print(tils)
+                # print(tils)
                 for (title, filename) in sorted(tils):
                     # file.write("\n<li>")
-                    file.write(f"""* [{title}]({filename})""")
+                    file.write(f"""* [{title.strip()}]({filename})""")
                     file.write("\n")
 
 
@@ -169,31 +180,76 @@ async def create_recent_tils_file(categories):
     """
 
     print("Generating recent_tils.json")
-    cmd = "git log --no-color --date=format:'%d %b, %Y' --diff-filter=A --name-status --pretty=''"
+    cmd = """git ls-tree -r --name-only HEAD | while read filename; do
+  echo "$(git log -1 --format="%aD" -- $filename) $filename"
+done"""
     recent_tils = []
 
     result = sp.Popen(cmd, shell=True, stdout=sp.PIPE, stderr=sp.PIPE)
     out, err = result.communicate()
-    clean_output = out.decode("utf-8").strip("\n").replace("A\t", "").split("\n")
+    clean_output = [(" ".join(line.split(" ")[:-1]), line.split(" ")[-1]) for line in out.decode("utf-8").strip("\n").split("\n")]
+    print (clean_output)
     # filter filepaths that don't exist
     flattened_list = list(itertools.chain(*list(categories.values())))
     flattened_list = [item[1] for item in flattened_list]
     valid_files = list(
         filter(
-            lambda path: pathlib.Path(path).exists() and path in flattened_list,
+            lambda path: pathlib.Path(path[1]).exists() and path[1] in flattened_list,
             clean_output,
         )
     )
 
-    for til in valid_files[:10]:
+    for til in valid_files:
+        date = til[0]
+        til = til[1]
         til_dict = {}
         til_dict["title"] = get_title(til)
         til_dict["url"] = f"{BASE_URL}/{til[:til.rfind('.')].lower()}"
+        til_dict["date"] = date
         recent_tils.append(til_dict)
 
     with open("recent_tils.json", "w") as json_file:
         json.dump(recent_tils, json_file, ensure_ascii=False, indent=" ")
 
+
+
+def write_xml_file():
+    from xml.sax.saxutils import escape
+    HEAD = """<?xml version="1.0" encoding="UTF-8" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+<channel>
+    <atom:link href="https://raw.githubusercontent.com/bhavaniravi/til/main/feed.xml" rel="self" type="application/rss+xml" />
+"""
+
+    FOOTER = """</channel>
+</rss>
+"""
+    current_date = datetime.datetime.now()
+    ctime = current_date.ctime()
+    repo_name = os.path.basename(os.getcwd())
+
+    files = json.loads(open("recent_tils.json").read())
+    with open("feed.xml", "w") as feed:
+        feed.write(HEAD)
+        feed.write(
+            f"""<title>Bhavani Ravi's Blogs</title>\n<link>https://www.bhavaniravi.com</link>\n"""
+        )
+        feed.write(
+            f"""<description>Recently committed files in Bhavani's blog</description>\n"""
+        )
+        feed.write(f"""<lastBuildDate>f'{ctime[0:3]}, {current_date.day:02d} {ctime[4:7]} {current_date.strftime(' %Y %H:%M:%S %z')} GMT'</lastBuildDate>""")
+        feed.write
+        for item in files:
+            data = f"""<item>
+<guid>{"https://www.bhavaniravi.com/"+item["url"]}</guid>
+<title>{escape(item["title"])}</title>
+<pubDate>{item["date"]}</pubDate>
+<link>{"https://www.bhavaniravi.com/"+item["url"]}</link>
+
+</item>\n"""
+        
+            feed.write(data)
+        feed.write(FOOTER)
 
 async def main():
     """
@@ -211,16 +267,18 @@ async def main():
     count, categories = get_category_dict(category_names)
 
     task1 = asyncio.create_task(create_recent_tils_file(categories))
-    task2 = asyncio.create_task(create_readme(category_names, categories))
+    # task2 = asyncio.create_task(create_readme(category_names, categories))
     # task3 = asyncio.create_task(create_gitbooks_summary(category_names, categories))
     task4 = asyncio.create_task(create_til_count_file(count))
 
     await task1
-    await task2
+    # await task2
     # await task3
     await task4
+    write_xml_file()
 
-    print(count, "TILs read")
+
+    # print(count, "TILs read")
 
 
 asyncio.run(main())
