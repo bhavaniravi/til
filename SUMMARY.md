@@ -3,7 +3,6 @@
 * [Start Here](README.md)
   * [How I built my Digital Garden](start-here/how-i-built-my-digital-garden.md)
   * [Why Gitbook?](readme/why-gitbook.md)
-  * [RSS Feed](https://raw.githubusercontent.com/bhavaniravi/til/main/feed.xml)
   * [Work With Me](start-here/about-me.md)
   * [My Links](my-links.md)
 
