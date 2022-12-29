@@ -106,7 +106,7 @@ default_args = {
 with DAG('example_dag',
          start_date=datetime(2022, 1, 1),
          max_active_runs=1,
-         schedule_interval=None,  
+         schedule_interval=None,
          default_args=default_args,
          ) as dag:
 ​
@@ -120,4 +120,6 @@ Add this to your Airflow DAGs, and you will get an email on failure. You can als
 
 Airflow currently does not support `email_on_sucess`. The only way to achieve this is via `EmailOperator` or a custom `PythonOperator.`
 
-_Originally published in :_&#x20;
+--
+
+{% embed url="https://bhavaniravi.substack.com/embed" %} Newsletter embed {% endembed %}
