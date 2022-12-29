@@ -53,4 +53,4 @@ The generated image looks something like this. (Click to open)
 
 <figure><img src="../.gitbook/assets/image (6).png" alt=""><figcaption></figcaption></figure>
 
-> [Join the UML generator club](https://buttondown.email/bhavaniravi)
+{% embed url="https://bhavaniravi.substack.com/embed" %}
