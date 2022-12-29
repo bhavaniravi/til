@@ -6,7 +6,7 @@ description: Not all those who wander are lost
 
 > Hi I'm Bhavani & Welcome to my digital garden 🪴
 
-_A digital garden is **an online space at the intersection of a notebook and a blog, where digital gardeners share seeds of thoughts to be cultivated in public**._ To know more about me [Click here](start-here/about-me.md)
+_A digital garden is **an online space at the intersection of a notebook and a blog, where digital gardeners share seeds of thoughts to be cultivated in public**._ To learn more about me, [Click here](start-here/about-me.md)
 
 {% @mailchimp/mailchimpSubscribe cta="Never miss an article. Python, Data, Devops" %}
 
