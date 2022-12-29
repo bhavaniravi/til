@@ -5,950 +5,815 @@
 <title>Bhavani Ravi's Blogs</title>
 <link>https://www.bhavaniravi.com</link>
 <description>Recently committed files in Bhavani's blog</description>
-<lastBuildDate>f'Fri, 30 Dec  2022 02:15:47  GMT'</lastBuildDate><item>
-<guid>https://www.bhavaniravi.com//apache-airflow/airflow-celery-vs-kubernetes-executor</guid>
-<title>Airflow Celery vs Kubernetes Executor</title>
-<pubDate>Sat, 13 Aug 2022 00:57:07 +0000</pubDate>
-<link>https://www.bhavaniravi.com//apache-airflow/airflow-celery-vs-kubernetes-executor</link>
-
+<lastBuildDate>f'Fri, 30 Dec  2022 02:30:00  GMT'</lastBuildDate><item>
+    <guid>https://www.bhavaniravi.com/apache-airflow/airflow-celery-vs-kubernetes-executor</guid>
+    <title>Airflow Celery vs Kubernetes Executor</title>
+    <pubDate>Sat, 13 Aug 2022 00:57:07 +0000</pubDate>
+    <link>https://www.bhavaniravi.com/apache-airflow/airflow-celery-vs-kubernetes-executor</link>
 </item>
 <item>
-<guid>https://www.bhavaniravi.com//apache-airflow/airflow-configurations</guid>
-<title>Airflow Configurations</title>
-<pubDate>Sat, 13 Aug 2022 00:37:47 +0000</pubDate>
-<link>https://www.bhavaniravi.com//apache-airflow/airflow-configurations</link>
-
+    <guid>https://www.bhavaniravi.com/apache-airflow/airflow-configurations</guid>
+    <title>Airflow Configurations</title>
+    <pubDate>Sat, 13 Aug 2022 00:37:47 +0000</pubDate>
+    <link>https://www.bhavaniravi.com/apache-airflow/airflow-configurations</link>
 </item>
 <item>
-<guid>https://www.bhavaniravi.com//apache-airflow/airflow-major-topics</guid>
-<title>Airflow: Major Topics</title>
-<pubDate>Sat, 13 Aug 2022 00:57:07 +0000</pubDate>
-<link>https://www.bhavaniravi.com//apache-airflow/airflow-major-topics</link>
-
+    <guid>https://www.bhavaniravi.com/apache-airflow/airflow-major-topics</guid>
+    <title>Airflow: Major Topics</title>
+    <pubDate>Sat, 13 Aug 2022 00:57:07 +0000</pubDate>
+    <link>https://www.bhavaniravi.com/apache-airflow/airflow-major-topics</link>
 </item>
 <item>
-<guid>https://www.bhavaniravi.com//apache-airflow/airflow-operators-comparison</guid>
-<title> Airflow Operators - A Comparison</title>
-<pubDate>Wed, 21 Sep 2022 16:52:01 +0000</pubDate>
-<link>https://www.bhavaniravi.com//apache-airflow/airflow-operators-comparison</link>
-
+    <guid>https://www.bhavaniravi.com/apache-airflow/airflow-operators-comparison</guid>
+    <title> Airflow Operators - A Comparison</title>
+    <pubDate>Wed, 21 Sep 2022 16:52:01 +0000</pubDate>
+    <link>https://www.bhavaniravi.com/apache-airflow/airflow-operators-comparison</link>
 </item>
 <item>
-<guid>https://www.bhavaniravi.com//apache-airflow/apache-airflow-+-mongodb</guid>
-<title>Apache Airflow + MongoDB</title>
-<pubDate>Sat, 13 Aug 2022 00:57:07 +0000</pubDate>
-<link>https://www.bhavaniravi.com//apache-airflow/apache-airflow-+-mongodb</link>
-
+    <guid>https://www.bhavaniravi.com/apache-airflow/apache-airflow-+-mongodb</guid>
+    <title>Apache Airflow + MongoDB</title>
+    <pubDate>Sat, 13 Aug 2022 00:57:07 +0000</pubDate>
+    <link>https://www.bhavaniravi.com/apache-airflow/apache-airflow-+-mongodb</link>
 </item>
 <item>
-<guid>https://www.bhavaniravi.com//apache-airflow/apache-airflow-introduction</guid>
-<title> An Introduction to Apache Airflow</title>
-<pubDate>Mon, 12 Dec 2022 16:09:21 +0000</pubDate>
-<link>https://www.bhavaniravi.com//apache-airflow/apache-airflow-introduction</link>
-
+    <guid>https://www.bhavaniravi.com/apache-airflow/apache-airflow-introduction</guid>
+    <title> An Introduction to Apache Airflow</title>
+    <pubDate>Mon, 12 Dec 2022 16:09:21 +0000</pubDate>
+    <link>https://www.bhavaniravi.com/apache-airflow/apache-airflow-introduction</link>
 </item>
 <item>
-<guid>https://www.bhavaniravi.com//apache-airflow/can-next-scheduled-run-automatically-re-run-failed-task</guid>
-<title>Can Next Scheduled Run Automatically Re-Run failed Task?</title>
-<pubDate>Sat, 13 Aug 2022 00:37:47 +0000</pubDate>
-<link>https://www.bhavaniravi.com//apache-airflow/can-next-scheduled-run-automatically-re-run-failed-task</link>
-
+    <guid>https://www.bhavaniravi.com/apache-airflow/can-next-scheduled-run-automatically-re-run-failed-task</guid>
+    <title>Can Next Scheduled Run Automatically Re-Run failed Task?</title>
+    <pubDate>Sat, 13 Aug 2022 00:37:47 +0000</pubDate>
+    <link>https://www.bhavaniravi.com/apache-airflow/can-next-scheduled-run-automatically-re-run-failed-task</link>
 </item>
 <item>
-<guid>https://www.bhavaniravi.com//apache-airflow/deploying-airflow-on-kubernetes</guid>
-<title> How to Set up Airflow on Kubernetes?</title>
-<pubDate>Sat, 8 Oct 2022 07:46:31 +0000</pubDate>
-<link>https://www.bhavaniravi.com//apache-airflow/deploying-airflow-on-kubernetes</link>
-
+    <guid>https://www.bhavaniravi.com/apache-airflow/deploying-airflow-on-kubernetes</guid>
+    <title> How to Set up Airflow on Kubernetes?</title>
+    <pubDate>Sat, 8 Oct 2022 07:46:31 +0000</pubDate>
+    <link>https://www.bhavaniravi.com/apache-airflow/deploying-airflow-on-kubernetes</link>
 </item>
 <item>
-<guid>https://www.bhavaniravi.com//apache-airflow/dynamic-task-mapping</guid>
-<title>Dynamic Task Mapping</title>
-<pubDate>Sat, 13 Aug 2022 00:57:07 +0000</pubDate>
-<link>https://www.bhavaniravi.com//apache-airflow/dynamic-task-mapping</link>
-
+    <guid>https://www.bhavaniravi.com/apache-airflow/dynamic-task-mapping</guid>
+    <title>Dynamic Task Mapping</title>
+    <pubDate>Sat, 13 Aug 2022 00:57:07 +0000</pubDate>
+    <link>https://www.bhavaniravi.com/apache-airflow/dynamic-task-mapping</link>
 </item>
 <item>
-<guid>https://www.bhavaniravi.com//apache-airflow/emails-alerts-airflow-with-sendgrid</guid>
-<title> "Sending Email Alerts in Apache Airflow with Sendgrid"</title>
-<pubDate>Mon, 19 Sep 2022 15:04:02 +0530</pubDate>
-<link>https://www.bhavaniravi.com//apache-airflow/emails-alerts-airflow-with-sendgrid</link>
-
+    <guid>https://www.bhavaniravi.com/apache-airflow/emails-alerts-airflow-with-sendgrid</guid>
+    <title> "Sending Email Alerts in Apache Airflow with Sendgrid"</title>
+    <pubDate>Mon, 19 Sep 2022 15:04:02 +0530</pubDate>
+    <link>https://www.bhavaniravi.com/apache-airflow/emails-alerts-airflow-with-sendgrid</link>
 </item>
 <item>
-<guid>https://www.bhavaniravi.com//apache-airflow/how-to-copy-move-s3-files-with-apache-airflow</guid>
-<title>How to Copy/Move S3 Files With Apache Airflow</title>
-<pubDate>Mon, 28 Nov 2022 05:26:06 +0000</pubDate>
-<link>https://www.bhavaniravi.com//apache-airflow/how-to-copy-move-s3-files-with-apache-airflow</link>
-
+    <guid>https://www.bhavaniravi.com/apache-airflow/how-to-copy-move-s3-files-with-apache-airflow</guid>
+    <title>How to Copy/Move S3 Files With Apache Airflow</title>
+    <pubDate>Mon, 28 Nov 2022 05:26:06 +0000</pubDate>
+    <link>https://www.bhavaniravi.com/apache-airflow/how-to-copy-move-s3-files-with-apache-airflow</link>
 </item>
 <item>
-<guid>https://www.bhavaniravi.com//apache-airflow/kubernetespodoperator-vs.-kubernetesexecutor</guid>
-<title>KubernetesPodOperator vs. KubernetesExecutor</title>
-<pubDate>Sat, 13 Aug 2022 00:57:07 +0000</pubDate>
-<link>https://www.bhavaniravi.com//apache-airflow/kubernetespodoperator-vs.-kubernetesexecutor</link>
-
+    <guid>https://www.bhavaniravi.com/apache-airflow/kubernetespodoperator-vs.-kubernetesexecutor</guid>
+    <title>KubernetesPodOperator vs. KubernetesExecutor</title>
+    <pubDate>Sat, 13 Aug 2022 00:57:07 +0000</pubDate>
+    <link>https://www.bhavaniravi.com/apache-airflow/kubernetespodoperator-vs.-kubernetesexecutor</link>
 </item>
 <item>
-<guid>https://www.bhavaniravi.com//apache-airflow/sending-email-alerts-in-apache-airflow-with-sendgrid</guid>
-<title>Sending Email Alerts in Apache Airflow with Sendgrid</title>
-<pubDate>Thu, 29 Dec 2022 11:47:47 +0530</pubDate>
-<link>https://www.bhavaniravi.com//apache-airflow/sending-email-alerts-in-apache-airflow-with-sendgrid</link>
-
+    <guid>https://www.bhavaniravi.com/apache-airflow/sending-email-alerts-in-apache-airflow-with-sendgrid</guid>
+    <title>Sending Email Alerts in Apache Airflow with Sendgrid</title>
+    <pubDate>Thu, 29 Dec 2022 11:47:47 +0530</pubDate>
+    <link>https://www.bhavaniravi.com/apache-airflow/sending-email-alerts-in-apache-airflow-with-sendgrid</link>
 </item>
 <item>
-<guid>https://www.bhavaniravi.com//apache-airflow/sending-emails-from-airflow</guid>
-<title> How to Send Email Alerts from Airflow?</title>
-<pubDate>Sat, 8 Oct 2022 07:41:19 +0000</pubDate>
-<link>https://www.bhavaniravi.com//apache-airflow/sending-emails-from-airflow</link>
-
+    <guid>https://www.bhavaniravi.com/apache-airflow/sending-emails-from-airflow</guid>
+    <title> How to Send Email Alerts from Airflow?</title>
+    <pubDate>Sat, 8 Oct 2022 07:41:19 +0000</pubDate>
+    <link>https://www.bhavaniravi.com/apache-airflow/sending-emails-from-airflow</link>
 </item>
 <item>
-<guid>https://www.bhavaniravi.com//apache-airflow/setting-up-apache-airflow-for-local-development-in-mac-m1</guid>
-<title>Setting Up Apache Airflow For Local Development in Mac M1</title>
-<pubDate>Fri, 28 Oct 2022 14:27:29 +0000</pubDate>
-<link>https://www.bhavaniravi.com//apache-airflow/setting-up-apache-airflow-for-local-development-in-mac-m1</link>
-
+    <guid>https://www.bhavaniravi.com/apache-airflow/setting-up-apache-airflow-for-local-development-in-mac-m1</guid>
+    <title>Setting Up Apache Airflow For Local Development in Mac M1</title>
+    <pubDate>Fri, 28 Oct 2022 14:27:29 +0000</pubDate>
+    <link>https://www.bhavaniravi.com/apache-airflow/setting-up-apache-airflow-for-local-development-in-mac-m1</link>
 </item>
 <item>
-<guid>https://www.bhavaniravi.com//apache-airflow/using-airflow-providers-with-kubernetespodoperator</guid>
-<title>Using Airflow Providers With KubernetesPodOperator</title>
-<pubDate>Thu, 4 Aug 2022 13:45:38 +0000</pubDate>
-<link>https://www.bhavaniravi.com//apache-airflow/using-airflow-providers-with-kubernetespodoperator</link>
-
+    <guid>https://www.bhavaniravi.com/apache-airflow/using-airflow-providers-with-kubernetespodoperator</guid>
+    <title>Using Airflow Providers With KubernetesPodOperator</title>
+    <pubDate>Thu, 4 Aug 2022 13:45:38 +0000</pubDate>
+    <link>https://www.bhavaniravi.com/apache-airflow/using-airflow-providers-with-kubernetespodoperator</link>
 </item>
 <item>
-<guid>https://www.bhavaniravi.com//book-notes/atomic-habits-book-summary</guid>
-<title> "Atomic Habits Book Summary"</title>
-<pubDate>Mon, 19 Sep 2022 15:04:02 +0530</pubDate>
-<link>https://www.bhavaniravi.com//book-notes/atomic-habits-book-summary</link>
-
+    <guid>https://www.bhavaniravi.com/book-notes/atomic-habits-book-summary</guid>
+    <title> "Atomic Habits Book Summary"</title>
+    <pubDate>Mon, 19 Sep 2022 15:04:02 +0530</pubDate>
+    <link>https://www.bhavaniravi.com/book-notes/atomic-habits-book-summary</link>
 </item>
 <item>
-<guid>https://www.bhavaniravi.com//book-notes/david-and-goliath-book-summary</guid>
-<title> "David and Goliath Book Summary"</title>
-<pubDate>Mon, 19 Sep 2022 15:04:02 +0530</pubDate>
-<link>https://www.bhavaniravi.com//book-notes/david-and-goliath-book-summary</link>
-
+    <guid>https://www.bhavaniravi.com/book-notes/david-and-goliath-book-summary</guid>
+    <title> "David and Goliath Book Summary"</title>
+    <pubDate>Mon, 19 Sep 2022 15:04:02 +0530</pubDate>
+    <link>https://www.bhavaniravi.com/book-notes/david-and-goliath-book-summary</link>
 </item>
 <item>
-<guid>https://www.bhavaniravi.com//book-notes/it-doesn't-have-to-be-crazy-at-work</guid>
-<title> It Doesn't Have to be Crazy at Work</title>
-<pubDate>Mon, 19 Sep 2022 15:04:02 +0530</pubDate>
-<link>https://www.bhavaniravi.com//book-notes/it-doesn't-have-to-be-crazy-at-work</link>
-
+    <guid>https://www.bhavaniravi.com/book-notes/it-doesn't-have-to-be-crazy-at-work</guid>
+    <title> It Doesn't Have to be Crazy at Work</title>
+    <pubDate>Mon, 19 Sep 2022 15:04:02 +0530</pubDate>
+    <link>https://www.bhavaniravi.com/book-notes/it-doesn't-have-to-be-crazy-at-work</link>
 </item>
 <item>
-<guid>https://www.bhavaniravi.com//book-notes/seven-habits-book-summary</guid>
-<title> 7 Habits of Highly Effective People - Book Summary</title>
-<pubDate>Mon, 12 Dec 2022 16:09:21 +0000</pubDate>
-<link>https://www.bhavaniravi.com//book-notes/seven-habits-book-summary</link>
-
+    <guid>https://www.bhavaniravi.com/book-notes/seven-habits-book-summary</guid>
+    <title> 7 Habits of Highly Effective People - Book Summary</title>
+    <pubDate>Mon, 12 Dec 2022 16:09:21 +0000</pubDate>
+    <link>https://www.bhavaniravi.com/book-notes/seven-habits-book-summary</link>
 </item>
 <item>
-<guid>https://www.bhavaniravi.com//book-notes/show-your-work</guid>
-<title>Show Your Work</title>
-<pubDate>Sat, 3 Sep 2022 06:47:15 +0000</pubDate>
-<link>https://www.bhavaniravi.com//book-notes/show-your-work</link>
-
+    <guid>https://www.bhavaniravi.com/book-notes/show-your-work</guid>
+    <title>Show Your Work</title>
+    <pubDate>Sat, 3 Sep 2022 06:47:15 +0000</pubDate>
+    <link>https://www.bhavaniravi.com/book-notes/show-your-work</link>
 </item>
 <item>
-<guid>https://www.bhavaniravi.com//book-notes/the-beauty-of-your-brain</guid>
-<title> The Beauty of Your Brain</title>
-<pubDate>Mon, 12 Dec 2022 16:09:21 +0000</pubDate>
-<link>https://www.bhavaniravi.com//book-notes/the-beauty-of-your-brain</link>
-
+    <guid>https://www.bhavaniravi.com/book-notes/the-beauty-of-your-brain</guid>
+    <title> The Beauty of Your Brain</title>
+    <pubDate>Mon, 12 Dec 2022 16:09:21 +0000</pubDate>
+    <link>https://www.bhavaniravi.com/book-notes/the-beauty-of-your-brain</link>
 </item>
 <item>
-<guid>https://www.bhavaniravi.com//book-notes/the-ideal-team-player-book-review</guid>
-<title> Are you an Ideal Team Player?</title>
-<pubDate>Mon, 12 Dec 2022 16:09:21 +0000</pubDate>
-<link>https://www.bhavaniravi.com//book-notes/the-ideal-team-player-book-review</link>
-
+    <guid>https://www.bhavaniravi.com/book-notes/the-ideal-team-player-book-review</guid>
+    <title> Are you an Ideal Team Player?</title>
+    <pubDate>Mon, 12 Dec 2022 16:09:21 +0000</pubDate>
+    <link>https://www.bhavaniravi.com/book-notes/the-ideal-team-player-book-review</link>
 </item>
 <item>
-<guid>https://www.bhavaniravi.com//community/a-world-where-women-in-tech-rules</guid>
-<title> A World Where WomenInTech Rules</title>
-<pubDate>Mon, 12 Dec 2022 16:09:21 +0000</pubDate>
-<link>https://www.bhavaniravi.com//community/a-world-where-women-in-tech-rules</link>
-
+    <guid>https://www.bhavaniravi.com/community/a-world-where-women-in-tech-rules</guid>
+    <title> A World Where WomenInTech Rules</title>
+    <pubDate>Mon, 12 Dec 2022 16:09:21 +0000</pubDate>
+    <link>https://www.bhavaniravi.com/community/a-world-where-women-in-tech-rules</link>
 </item>
 <item>
-<guid>https://www.bhavaniravi.com//community/go-to-guide-to-run-communities</guid>
-<title> A Go to Guide to Run a Community</title>
-<pubDate>Wed, 21 Sep 2022 16:52:01 +0000</pubDate>
-<link>https://www.bhavaniravi.com//community/go-to-guide-to-run-communities</link>
-
+    <guid>https://www.bhavaniravi.com/community/go-to-guide-to-run-communities</guid>
+    <title> A Go to Guide to Run a Community</title>
+    <pubDate>Wed, 21 Sep 2022 16:52:01 +0000</pubDate>
+    <link>https://www.bhavaniravi.com/community/go-to-guide-to-run-communities</link>
 </item>
 <item>
-<guid>https://www.bhavaniravi.com//community/why-should-you-attend-tech-conferences</guid>
-<title> Why Should you Attend Tech Conferences?</title>
-<pubDate>Wed, 5 Oct 2022 02:43:59 +0000</pubDate>
-<link>https://www.bhavaniravi.com//community/why-should-you-attend-tech-conferences</link>
-
+    <guid>https://www.bhavaniravi.com/community/why-should-you-attend-tech-conferences</guid>
+    <title> Why Should you Attend Tech Conferences?</title>
+    <pubDate>Wed, 5 Oct 2022 02:43:59 +0000</pubDate>
+    <link>https://www.bhavaniravi.com/community/why-should-you-attend-tech-conferences</link>
 </item>
 <item>
-<guid>https://www.bhavaniravi.com//database/database-101</guid>
-<title>Types of Databases &amp; When to Use them</title>
-<pubDate>Sat, 13 Aug 2022 00:57:07 +0000</pubDate>
-<link>https://www.bhavaniravi.com//database/database-101</link>
-
+    <guid>https://www.bhavaniravi.com/database/database-101</guid>
+    <title>Types of Databases &amp; When to Use them</title>
+    <pubDate>Sat, 13 Aug 2022 00:57:07 +0000</pubDate>
+    <link>https://www.bhavaniravi.com/database/database-101</link>
 </item>
 <item>
-<guid>https://www.bhavaniravi.com//database/database-terms</guid>
-<title>Database Terms</title>
-<pubDate>Sat, 13 Aug 2022 00:37:47 +0000</pubDate>
-<link>https://www.bhavaniravi.com//database/database-terms</link>
-
+    <guid>https://www.bhavaniravi.com/database/database-terms</guid>
+    <title>Database Terms</title>
+    <pubDate>Sat, 13 Aug 2022 00:37:47 +0000</pubDate>
+    <link>https://www.bhavaniravi.com/database/database-terms</link>
 </item>
 <item>
-<guid>https://www.bhavaniravi.com//devops/aws/readme</guid>
-<title>AWS</title>
-<pubDate>Sun, 27 Nov 2022 05:34:04 +0000</pubDate>
-<link>https://www.bhavaniravi.com//devops/aws/readme</link>
-
+    <guid>https://www.bhavaniravi.com/devops/aws/readme</guid>
+    <title>AWS</title>
+    <pubDate>Sun, 27 Nov 2022 05:34:04 +0000</pubDate>
+    <link>https://www.bhavaniravi.com/devops/aws/readme</link>
 </item>
 <item>
-<guid>https://www.bhavaniravi.com//devops/aws/iam-users-roles-and-policies</guid>
-<title>IAM Users, Roles, and Policies</title>
-<pubDate>Sun, 27 Nov 2022 05:34:04 +0000</pubDate>
-<link>https://www.bhavaniravi.com//devops/aws/iam-users-roles-and-policies</link>
-
+    <guid>https://www.bhavaniravi.com/devops/aws/iam-users-roles-and-policies</guid>
+    <title>IAM Users, Roles, and Policies</title>
+    <pubDate>Sun, 27 Nov 2022 05:34:04 +0000</pubDate>
+    <link>https://www.bhavaniravi.com/devops/aws/iam-users-roles-and-policies</link>
 </item>
 <item>
-<guid>https://www.bhavaniravi.com//devops/docker-introduction</guid>
-<title> Introduction to Docker - The What, Why and How</title>
-<pubDate>Wed, 21 Sep 2022 16:52:01 +0000</pubDate>
-<link>https://www.bhavaniravi.com//devops/docker-introduction</link>
-
+    <guid>https://www.bhavaniravi.com/devops/docker-introduction</guid>
+    <title> Introduction to Docker - The What, Why and How</title>
+    <pubDate>Wed, 21 Sep 2022 16:52:01 +0000</pubDate>
+    <link>https://www.bhavaniravi.com/devops/docker-introduction</link>
 </item>
 <item>
-<guid>https://www.bhavaniravi.com//devops/docker-virtualization-vs-containerization</guid>
-<title> Docker - Virtualization vs Containerization</title>
-<pubDate>Mon, 19 Sep 2022 15:04:02 +0530</pubDate>
-<link>https://www.bhavaniravi.com//devops/docker-virtualization-vs-containerization</link>
-
+    <guid>https://www.bhavaniravi.com/devops/docker-virtualization-vs-containerization</guid>
+    <title> Docker - Virtualization vs Containerization</title>
+    <pubDate>Mon, 19 Sep 2022 15:04:02 +0530</pubDate>
+    <link>https://www.bhavaniravi.com/devops/docker-virtualization-vs-containerization</link>
 </item>
 <item>
-<guid>https://www.bhavaniravi.com//devops/kubernetes-101-deploy-apps-in-kubernetes</guid>
-<title> "Deploying Flask Applications in Kubernetes (Digitalocean)"</title>
-<pubDate>Mon, 19 Sep 2022 15:04:02 +0530</pubDate>
-<link>https://www.bhavaniravi.com//devops/kubernetes-101-deploy-apps-in-kubernetes</link>
-
+    <guid>https://www.bhavaniravi.com/devops/kubernetes-101-deploy-apps-in-kubernetes</guid>
+    <title> "Deploying Flask Applications in Kubernetes (Digitalocean)"</title>
+    <pubDate>Mon, 19 Sep 2022 15:04:02 +0530</pubDate>
+    <link>https://www.bhavaniravi.com/devops/kubernetes-101-deploy-apps-in-kubernetes</link>
 </item>
 <item>
-<guid>https://www.bhavaniravi.com//devops/what-happens-during-docker-build-and-run</guid>
-<title> What Happens During Docker Build and Run?</title>
-<pubDate>Wed, 21 Sep 2022 16:52:01 +0000</pubDate>
-<link>https://www.bhavaniravi.com//devops/what-happens-during-docker-build-and-run</link>
-
+    <guid>https://www.bhavaniravi.com/devops/what-happens-during-docker-build-and-run</guid>
+    <title> What Happens During Docker Build and Run?</title>
+    <pubDate>Wed, 21 Sep 2022 16:52:01 +0000</pubDate>
+    <link>https://www.bhavaniravi.com/devops/what-happens-during-docker-build-and-run</link>
 </item>
 <item>
-<guid>https://www.bhavaniravi.com//devops/what-is-devops</guid>
-<title>What is DevOps?</title>
-<pubDate>Thu, 4 Aug 2022 13:45:38 +0000</pubDate>
-<link>https://www.bhavaniravi.com//devops/what-is-devops</link>
-
+    <guid>https://www.bhavaniravi.com/devops/what-is-devops</guid>
+    <title>What is DevOps?</title>
+    <pubDate>Thu, 4 Aug 2022 13:45:38 +0000</pubDate>
+    <link>https://www.bhavaniravi.com/devops/what-is-devops</link>
 </item>
 <item>
-<guid>https://www.bhavaniravi.com//frontend/css/readme</guid>
-<title>CSS</title>
-<pubDate>Thu, 4 Aug 2022 13:45:38 +0000</pubDate>
-<link>https://www.bhavaniravi.com//frontend/css/readme</link>
-
+    <guid>https://www.bhavaniravi.com/frontend/css/readme</guid>
+    <title>CSS</title>
+    <pubDate>Thu, 4 Aug 2022 13:45:38 +0000</pubDate>
+    <link>https://www.bhavaniravi.com/frontend/css/readme</link>
 </item>
 <item>
-<guid>https://www.bhavaniravi.com//frontend/css/how-to-set-a-fixed-height-for-all-grid-rows</guid>
-<title>How to set a fixed height for all Grid rows?</title>
-<pubDate>Mon, 28 Nov 2022 03:46:55 +0000</pubDate>
-<link>https://www.bhavaniravi.com//frontend/css/how-to-set-a-fixed-height-for-all-grid-rows</link>
-
+    <guid>https://www.bhavaniravi.com/frontend/css/how-to-set-a-fixed-height-for-all-grid-rows</guid>
+    <title>How to set a fixed height for all Grid rows?</title>
+    <pubDate>Mon, 28 Nov 2022 03:46:55 +0000</pubDate>
+    <link>https://www.bhavaniravi.com/frontend/css/how-to-set-a-fixed-height-for-all-grid-rows</link>
 </item>
 <item>
-<guid>https://www.bhavaniravi.com//frontend/javascript/readme</guid>
-<title>Javascript</title>
-<pubDate>Thu, 4 Aug 2022 13:45:38 +0000</pubDate>
-<link>https://www.bhavaniravi.com//frontend/javascript/readme</link>
-
+    <guid>https://www.bhavaniravi.com/frontend/javascript/readme</guid>
+    <title>Javascript</title>
+    <pubDate>Thu, 4 Aug 2022 13:45:38 +0000</pubDate>
+    <link>https://www.bhavaniravi.com/frontend/javascript/readme</link>
 </item>
 <item>
-<guid>https://www.bhavaniravi.com//frontend/javascript/es6-export-vs-export-default</guid>
-<title>ES6 Export vs Export Default</title>
-<pubDate>Thu, 4 Aug 2022 13:45:38 +0000</pubDate>
-<link>https://www.bhavaniravi.com//frontend/javascript/es6-export-vs-export-default</link>
-
+    <guid>https://www.bhavaniravi.com/frontend/javascript/es6-export-vs-export-default</guid>
+    <title>ES6 Export vs Export Default</title>
+    <pubDate>Thu, 4 Aug 2022 13:45:38 +0000</pubDate>
+    <link>https://www.bhavaniravi.com/frontend/javascript/es6-export-vs-export-default</link>
 </item>
 <item>
-<guid>https://www.bhavaniravi.com//frontend/nodejs/readme</guid>
-<title>NodeJS</title>
-<pubDate>Thu, 4 Aug 2022 13:45:38 +0000</pubDate>
-<link>https://www.bhavaniravi.com//frontend/nodejs/readme</link>
-
+    <guid>https://www.bhavaniravi.com/frontend/nodejs/readme</guid>
+    <title>NodeJS</title>
+    <pubDate>Thu, 4 Aug 2022 13:45:38 +0000</pubDate>
+    <link>https://www.bhavaniravi.com/frontend/nodejs/readme</link>
 </item>
 <item>
-<guid>https://www.bhavaniravi.com//frontend/nodejs/cors-in-nodejs</guid>
-<title>CORS in NodeJS</title>
-<pubDate>Thu, 4 Aug 2022 13:45:38 +0000</pubDate>
-<link>https://www.bhavaniravi.com//frontend/nodejs/cors-in-nodejs</link>
-
+    <guid>https://www.bhavaniravi.com/frontend/nodejs/cors-in-nodejs</guid>
+    <title>CORS in NodeJS</title>
+    <pubDate>Thu, 4 Aug 2022 13:45:38 +0000</pubDate>
+    <link>https://www.bhavaniravi.com/frontend/nodejs/cors-in-nodejs</link>
 </item>
 <item>
-<guid>https://www.bhavaniravi.com//frontend/nodejs/how-to-mention-version-during-npm-install</guid>
-<title>How to Mention Version During NPM Install?</title>
-<pubDate>Thu, 4 Aug 2022 13:45:38 +0000</pubDate>
-<link>https://www.bhavaniravi.com//frontend/nodejs/how-to-mention-version-during-npm-install</link>
-
+    <guid>https://www.bhavaniravi.com/frontend/nodejs/how-to-mention-version-during-npm-install</guid>
+    <title>How to Mention Version During NPM Install?</title>
+    <pubDate>Thu, 4 Aug 2022 13:45:38 +0000</pubDate>
+    <link>https://www.bhavaniravi.com/frontend/nodejs/how-to-mention-version-during-npm-install</link>
 </item>
 <item>
-<guid>https://www.bhavaniravi.com//frontend/reactjs/readme</guid>
-<title>ReactJS</title>
-<pubDate>Thu, 4 Aug 2022 14:21:56 +0000</pubDate>
-<link>https://www.bhavaniravi.com//frontend/reactjs/readme</link>
-
+    <guid>https://www.bhavaniravi.com/frontend/reactjs/readme</guid>
+    <title>ReactJS</title>
+    <pubDate>Thu, 4 Aug 2022 14:21:56 +0000</pubDate>
+    <link>https://www.bhavaniravi.com/frontend/reactjs/readme</link>
 </item>
 <item>
-<guid>https://www.bhavaniravi.com//frontend/reactjs/how-to-import-a-file-in-reactjs</guid>
-<title>How to Import a File in ReactJS?</title>
-<pubDate>Thu, 4 Aug 2022 14:21:56 +0000</pubDate>
-<link>https://www.bhavaniravi.com//frontend/reactjs/how-to-import-a-file-in-reactjs</link>
-
+    <guid>https://www.bhavaniravi.com/frontend/reactjs/how-to-import-a-file-in-reactjs</guid>
+    <title>How to Import a File in ReactJS?</title>
+    <pubDate>Thu, 4 Aug 2022 14:21:56 +0000</pubDate>
+    <link>https://www.bhavaniravi.com/frontend/reactjs/how-to-import-a-file-in-reactjs</link>
 </item>
 <item>
-<guid>https://www.bhavaniravi.com//frontend/reactjs/how-to-shuffle-a-message-in-a-div-in-reactjs</guid>
-<title>How to Shuffle a Message in a Div in ReactJS?</title>
-<pubDate>Thu, 4 Aug 2022 14:21:56 +0000</pubDate>
-<link>https://www.bhavaniravi.com//frontend/reactjs/how-to-shuffle-a-message-in-a-div-in-reactjs</link>
-
+    <guid>https://www.bhavaniravi.com/frontend/reactjs/how-to-shuffle-a-message-in-a-div-in-reactjs</guid>
+    <title>How to Shuffle a Message in a Div in ReactJS?</title>
+    <pubDate>Thu, 4 Aug 2022 14:21:56 +0000</pubDate>
+    <link>https://www.bhavaniravi.com/frontend/reactjs/how-to-shuffle-a-message-in-a-div-in-reactjs</link>
 </item>
 <item>
-<guid>https://www.bhavaniravi.com//frontend/reactjs/interactablejs-with-react</guid>
-<title>InteractableJS with React</title>
-<pubDate>Thu, 4 Aug 2022 15:07:25 +0000</pubDate>
-<link>https://www.bhavaniravi.com//frontend/reactjs/interactablejs-with-react</link>
-
+    <guid>https://www.bhavaniravi.com/frontend/reactjs/interactablejs-with-react</guid>
+    <title>InteractableJS with React</title>
+    <pubDate>Thu, 4 Aug 2022 15:07:25 +0000</pubDate>
+    <link>https://www.bhavaniravi.com/frontend/reactjs/interactablejs-with-react</link>
 </item>
 <item>
-<guid>https://www.bhavaniravi.com//golang/learning-golang</guid>
-<title> How I Wrote my 1st 100 Lines of Golang Code</title>
-<pubDate>Mon, 19 Sep 2022 15:04:02 +0530</pubDate>
-<link>https://www.bhavaniravi.com//golang/learning-golang</link>
-
+    <guid>https://www.bhavaniravi.com/golang/learning-golang</guid>
+    <title> How I Wrote my 1st 100 Lines of Golang Code</title>
+    <pubDate>Mon, 19 Sep 2022 15:04:02 +0530</pubDate>
+    <link>https://www.bhavaniravi.com/golang/learning-golang</link>
 </item>
 <item>
-<guid>https://www.bhavaniravi.com//indie-hacking/how-to-plan-and-build-a-programming-project</guid>
-<title>How to Plan and Build a Programming Project</title>
-<pubDate>Fri, 7 Oct 2022 14:57:49 +0000</pubDate>
-<link>https://www.bhavaniravi.com//indie-hacking/how-to-plan-and-build-a-programming-project</link>
-
+    <guid>https://www.bhavaniravi.com/indie-hacking/how-to-plan-and-build-a-programming-project</guid>
+    <title>How to Plan and Build a Programming Project</title>
+    <pubDate>Fri, 7 Oct 2022 14:57:49 +0000</pubDate>
+    <link>https://www.bhavaniravi.com/indie-hacking/how-to-plan-and-build-a-programming-project</link>
 </item>
 <item>
-<guid>https://www.bhavaniravi.com//indie-hacking/indie-hacking</guid>
-<title>Indie-Hacking</title>
-<pubDate>Sat, 13 Aug 2022 00:37:47 +0000</pubDate>
-<link>https://www.bhavaniravi.com//indie-hacking/indie-hacking</link>
-
+    <guid>https://www.bhavaniravi.com/indie-hacking/indie-hacking</guid>
+    <title>Indie-Hacking</title>
+    <pubDate>Sat, 13 Aug 2022 00:37:47 +0000</pubDate>
+    <link>https://www.bhavaniravi.com/indie-hacking/indie-hacking</link>
 </item>
 <item>
-<guid>https://www.bhavaniravi.com//indie-hacking/why-i-started-building-100ideas</guid>
-<title>Why I Started Building 100Ideas?</title>
-<pubDate>Wed, 26 Oct 2022 14:11:34 +0000</pubDate>
-<link>https://www.bhavaniravi.com//indie-hacking/why-i-started-building-100ideas</link>
-
+    <guid>https://www.bhavaniravi.com/indie-hacking/why-i-started-building-100ideas</guid>
+    <title>Why I Started Building 100Ideas?</title>
+    <pubDate>Wed, 26 Oct 2022 14:11:34 +0000</pubDate>
+    <link>https://www.bhavaniravi.com/indie-hacking/why-i-started-building-100ideas</link>
 </item>
 <item>
-<guid>https://www.bhavaniravi.com//life/5-reasons-why-you-should-start-your-fitness-routineasap</guid>
-<title> 5 Reasons Why You Should Start your Fitness Routine ASAP?</title>
-<pubDate>Mon, 19 Sep 2022 15:04:02 +0530</pubDate>
-<link>https://www.bhavaniravi.com//life/5-reasons-why-you-should-start-your-fitness-routineasap</link>
-
+    <guid>https://www.bhavaniravi.com/life/5-reasons-why-you-should-start-your-fitness-routineasap</guid>
+    <title> 5 Reasons Why You Should Start your Fitness Routine ASAP?</title>
+    <pubDate>Mon, 19 Sep 2022 15:04:02 +0530</pubDate>
+    <link>https://www.bhavaniravi.com/life/5-reasons-why-you-should-start-your-fitness-routineasap</link>
 </item>
 <item>
-<guid>https://www.bhavaniravi.com//life/are-you-constantly-distracted-its-not-you.</guid>
-<title>Are you constantly Distracted? It's not You.</title>
-<pubDate>Mon, 12 Dec 2022 06:31:03 +0000</pubDate>
-<link>https://www.bhavaniravi.com//life/are-you-constantly-distracted-its-not-you.</link>
-
+    <guid>https://www.bhavaniravi.com/life/are-you-constantly-distracted-its-not-you.</guid>
+    <title>Are you constantly Distracted? It's not You.</title>
+    <pubDate>Mon, 12 Dec 2022 06:31:03 +0000</pubDate>
+    <link>https://www.bhavaniravi.com/life/are-you-constantly-distracted-its-not-you.</link>
 </item>
 <item>
-<guid>https://www.bhavaniravi.com//life/how-do-you-do-so-many-things-at-the-same-time</guid>
-<title>How do you do so many things at the same time?</title>
-<pubDate>Wed, 28 Sep 2022 02:38:23 +0000</pubDate>
-<link>https://www.bhavaniravi.com//life/how-do-you-do-so-many-things-at-the-same-time</link>
-
+    <guid>https://www.bhavaniravi.com/life/how-do-you-do-so-many-things-at-the-same-time</guid>
+    <title>How do you do so many things at the same time?</title>
+    <pubDate>Wed, 28 Sep 2022 02:38:23 +0000</pubDate>
+    <link>https://www.bhavaniravi.com/life/how-do-you-do-so-many-things-at-the-same-time</link>
 </item>
 <item>
-<guid>https://www.bhavaniravi.com//life/how-to-be-productive</guid>
-<title> How to be (more) Productive?</title>
-<pubDate>Wed, 21 Sep 2022 16:52:01 +0000</pubDate>
-<link>https://www.bhavaniravi.com//life/how-to-be-productive</link>
-
+    <guid>https://www.bhavaniravi.com/life/how-to-be-productive</guid>
+    <title> How to be (more) Productive?</title>
+    <pubDate>Wed, 21 Sep 2022 16:52:01 +0000</pubDate>
+    <link>https://www.bhavaniravi.com/life/how-to-be-productive</link>
 </item>
 <item>
-<guid>https://www.bhavaniravi.com//life/how-to-fast-track-your-learning</guid>
-<title>How to Fast-track Your Learning?</title>
-<pubDate>Fri, 28 Oct 2022 14:37:39 +0000</pubDate>
-<link>https://www.bhavaniravi.com//life/how-to-fast-track-your-learning</link>
-
+    <guid>https://www.bhavaniravi.com/life/how-to-fast-track-your-learning</guid>
+    <title>How to Fast-track Your Learning?</title>
+    <pubDate>Fri, 28 Oct 2022 14:37:39 +0000</pubDate>
+    <link>https://www.bhavaniravi.com/life/how-to-fast-track-your-learning</link>
 </item>
 <item>
-<guid>https://www.bhavaniravi.com//life/how-to-set-goals</guid>
-<title> End Goal - How to set goals and track them?</title>
-<pubDate>Mon, 19 Sep 2022 15:04:02 +0530</pubDate>
-<link>https://www.bhavaniravi.com//life/how-to-set-goals</link>
-
+    <guid>https://www.bhavaniravi.com/life/how-to-set-goals</guid>
+    <title> End Goal - How to set goals and track them?</title>
+    <pubDate>Mon, 19 Sep 2022 15:04:02 +0530</pubDate>
+    <link>https://www.bhavaniravi.com/life/how-to-set-goals</link>
 </item>
 <item>
-<guid>https://www.bhavaniravi.com//life/is-this-burnout</guid>
-<title>Is this Burnout?</title>
-<pubDate>Thu, 20 Oct 2022 14:08:22 +0000</pubDate>
-<link>https://www.bhavaniravi.com//life/is-this-burnout</link>
-
+    <guid>https://www.bhavaniravi.com/life/is-this-burnout</guid>
+    <title>Is this Burnout?</title>
+    <pubDate>Thu, 20 Oct 2022 14:08:22 +0000</pubDate>
+    <link>https://www.bhavaniravi.com/life/is-this-burnout</link>
 </item>
 <item>
-<guid>https://www.bhavaniravi.com//life/shopping-like-a-minimalist</guid>
-<title> Shopping Like a Stingy-Minimalist</title>
-<pubDate>Mon, 12 Dec 2022 16:09:21 +0000</pubDate>
-<link>https://www.bhavaniravi.com//life/shopping-like-a-minimalist</link>
-
+    <guid>https://www.bhavaniravi.com/life/shopping-like-a-minimalist</guid>
+    <title> Shopping Like a Stingy-Minimalist</title>
+    <pubDate>Mon, 12 Dec 2022 16:09:21 +0000</pubDate>
+    <link>https://www.bhavaniravi.com/life/shopping-like-a-minimalist</link>
 </item>
 <item>
-<guid>https://www.bhavaniravi.com//life/the-magic-of-responsiblity</guid>
-<title> "The Magic of Responsibility — A\_Story"</title>
-<pubDate>Wed, 21 Sep 2022 16:52:01 +0000</pubDate>
-<link>https://www.bhavaniravi.com//life/the-magic-of-responsiblity</link>
-
+    <guid>https://www.bhavaniravi.com/life/the-magic-of-responsiblity</guid>
+    <title> "The Magic of Responsibility — A\_Story"</title>
+    <pubDate>Wed, 21 Sep 2022 16:52:01 +0000</pubDate>
+    <link>https://www.bhavaniravi.com/life/the-magic-of-responsiblity</link>
 </item>
 <item>
-<guid>https://www.bhavaniravi.com//life/why-we-need-a-low-key-version-of-gratitude-journaling</guid>
-<title>Project GoodVibes - A low-Key Gratitude Journaling</title>
-<pubDate>Tue, 13 Sep 2022 02:59:38 +0000</pubDate>
-<link>https://www.bhavaniravi.com//life/why-we-need-a-low-key-version-of-gratitude-journaling</link>
-
+    <guid>https://www.bhavaniravi.com/life/why-we-need-a-low-key-version-of-gratitude-journaling</guid>
+    <title>Project GoodVibes - A low-Key Gratitude Journaling</title>
+    <pubDate>Tue, 13 Sep 2022 02:59:38 +0000</pubDate>
+    <link>https://www.bhavaniravi.com/life/why-we-need-a-low-key-version-of-gratitude-journaling</link>
 </item>
 <item>
-<guid>https://www.bhavaniravi.com//misc/side-projects-twitter-space</guid>
-<title>Side Projects: FAQ</title>
-<pubDate>Mon, 12 Dec 2022 16:09:21 +0000</pubDate>
-<link>https://www.bhavaniravi.com//misc/side-projects-twitter-space</link>
-
+    <guid>https://www.bhavaniravi.com/misc/side-projects-twitter-space</guid>
+    <title>Side Projects: FAQ</title>
+    <pubDate>Mon, 12 Dec 2022 16:09:21 +0000</pubDate>
+    <link>https://www.bhavaniravi.com/misc/side-projects-twitter-space</link>
 </item>
 <item>
-<guid>https://www.bhavaniravi.com//mlops/data-and-model-versioning</guid>
-<title>Data &amp; Model Versioning</title>
-<pubDate>Fri, 28 Oct 2022 13:59:06 +0000</pubDate>
-<link>https://www.bhavaniravi.com//mlops/data-and-model-versioning</link>
-
+    <guid>https://www.bhavaniravi.com/mlops/data-and-model-versioning</guid>
+    <title>Data &amp; Model Versioning</title>
+    <pubDate>Fri, 28 Oct 2022 13:59:06 +0000</pubDate>
+    <link>https://www.bhavaniravi.com/mlops/data-and-model-versioning</link>
 </item>
 <item>
-<guid>https://www.bhavaniravi.com//open-source/contributions/airflow</guid>
-<title> Apache Airflow - Data Orchestrator</title>
-<pubDate>Wed, 23 Nov 2022 01:55:08 +0000</pubDate>
-<link>https://www.bhavaniravi.com//open-source/contributions/airflow</link>
-
+    <guid>https://www.bhavaniravi.com/open-source/contributions/airflow</guid>
+    <title> Apache Airflow - Data Orchestrator</title>
+    <pubDate>Wed, 23 Nov 2022 01:55:08 +0000</pubDate>
+    <link>https://www.bhavaniravi.com/open-source/contributions/airflow</link>
 </item>
 <item>
-<guid>https://www.bhavaniravi.com//open-source/contributions/django-allauth</guid>
-<title> Django All-Auth</title>
-<pubDate>Wed, 23 Nov 2022 01:55:08 +0000</pubDate>
-<link>https://www.bhavaniravi.com//open-source/contributions/django-allauth</link>
-
+    <guid>https://www.bhavaniravi.com/open-source/contributions/django-allauth</guid>
+    <title> Django All-Auth</title>
+    <pubDate>Wed, 23 Nov 2022 01:55:08 +0000</pubDate>
+    <link>https://www.bhavaniravi.com/open-source/contributions/django-allauth</link>
 </item>
 <item>
-<guid>https://www.bhavaniravi.com//open-source/contributions/docker</guid>
-<title> Docker</title>
-<pubDate>Wed, 23 Nov 2022 01:55:08 +0000</pubDate>
-<link>https://www.bhavaniravi.com//open-source/contributions/docker</link>
-
+    <guid>https://www.bhavaniravi.com/open-source/contributions/docker</guid>
+    <title> Docker</title>
+    <pubDate>Wed, 23 Nov 2022 01:55:08 +0000</pubDate>
+    <link>https://www.bhavaniravi.com/open-source/contributions/docker</link>
 </item>
 <item>
-<guid>https://www.bhavaniravi.com//open-source/contributions/ownflask</guid>
-<title> Ownflask - An Attempt to understand "How Flask works"</title>
-<pubDate>Wed, 23 Nov 2022 01:55:08 +0000</pubDate>
-<link>https://www.bhavaniravi.com//open-source/contributions/ownflask</link>
-
+    <guid>https://www.bhavaniravi.com/open-source/contributions/ownflask</guid>
+    <title> Ownflask - An Attempt to understand "How Flask works"</title>
+    <pubDate>Wed, 23 Nov 2022 01:55:08 +0000</pubDate>
+    <link>https://www.bhavaniravi.com/open-source/contributions/ownflask</link>
 </item>
 <item>
-<guid>https://www.bhavaniravi.com//open-source/contributions/pandas</guid>
-<title> Python Pandas</title>
-<pubDate>Wed, 23 Nov 2022 01:55:08 +0000</pubDate>
-<link>https://www.bhavaniravi.com//open-source/contributions/pandas</link>
-
+    <guid>https://www.bhavaniravi.com/open-source/contributions/pandas</guid>
+    <title> Python Pandas</title>
+    <pubDate>Wed, 23 Nov 2022 01:55:08 +0000</pubDate>
+    <link>https://www.bhavaniravi.com/open-source/contributions/pandas</link>
 </item>
 <item>
-<guid>https://www.bhavaniravi.com//open-source/contributions/rasa</guid>
-<title> Rasa Open Source</title>
-<pubDate>Wed, 23 Nov 2022 01:55:08 +0000</pubDate>
-<link>https://www.bhavaniravi.com//open-source/contributions/rasa</link>
-
+    <guid>https://www.bhavaniravi.com/open-source/contributions/rasa</guid>
+    <title> Rasa Open Source</title>
+    <pubDate>Wed, 23 Nov 2022 01:55:08 +0000</pubDate>
+    <link>https://www.bhavaniravi.com/open-source/contributions/rasa</link>
 </item>
 <item>
-<guid>https://www.bhavaniravi.com//open-source/git-flight-rules-more-than-cheatsheet</guid>
-<title>Git Flight Rules - More than CheatSheet</title>
-<pubDate>Thu, 8 Sep 2022 04:43:11 +0000</pubDate>
-<link>https://www.bhavaniravi.com//open-source/git-flight-rules-more-than-cheatsheet</link>
-
+    <guid>https://www.bhavaniravi.com/open-source/git-flight-rules-more-than-cheatsheet</guid>
+    <title>Git Flight Rules - More than CheatSheet</title>
+    <pubDate>Thu, 8 Sep 2022 04:43:11 +0000</pubDate>
+    <link>https://www.bhavaniravi.com/open-source/git-flight-rules-more-than-cheatsheet</link>
 </item>
 <item>
-<guid>https://www.bhavaniravi.com//open-source/how-to-make-your-1st-opensource-contribution</guid>
-<title>How to Make Your 1st OpenSource Contribution</title>
-<pubDate>Sat, 13 Aug 2022 00:37:47 +0000</pubDate>
-<link>https://www.bhavaniravi.com//open-source/how-to-make-your-1st-opensource-contribution</link>
-
+    <guid>https://www.bhavaniravi.com/open-source/how-to-make-your-1st-opensource-contribution</guid>
+    <title>How to Make Your 1st OpenSource Contribution</title>
+    <pubDate>Sat, 13 Aug 2022 00:37:47 +0000</pubDate>
+    <link>https://www.bhavaniravi.com/open-source/how-to-make-your-1st-opensource-contribution</link>
 </item>
 <item>
-<guid>https://www.bhavaniravi.com//open-source/repos-you-can-contribute-to</guid>
-<title>Repos You Can Contribute To</title>
-<pubDate>Thu, 8 Sep 2022 04:43:11 +0000</pubDate>
-<link>https://www.bhavaniravi.com//open-source/repos-you-can-contribute-to</link>
-
+    <guid>https://www.bhavaniravi.com/open-source/repos-you-can-contribute-to</guid>
+    <title>Repos You Can Contribute To</title>
+    <pubDate>Thu, 8 Sep 2022 04:43:11 +0000</pubDate>
+    <link>https://www.bhavaniravi.com/open-source/repos-you-can-contribute-to</link>
 </item>
 <item>
-<guid>https://www.bhavaniravi.com//projects/analyza</guid>
-<title>Analyza</title>
-<pubDate>Wed, 23 Nov 2022 01:55:08 +0000</pubDate>
-<link>https://www.bhavaniravi.com//projects/analyza</link>
-
+    <guid>https://www.bhavaniravi.com/projects/analyza</guid>
+    <title>Analyza</title>
+    <pubDate>Wed, 23 Nov 2022 01:55:08 +0000</pubDate>
+    <link>https://www.bhavaniravi.com/projects/analyza</link>
 </item>
 <item>
-<guid>https://www.bhavaniravi.com//projects/ikeeplog</guid>
-<title>iKeepLog</title>
-<pubDate>Wed, 23 Nov 2022 01:55:08 +0000</pubDate>
-<link>https://www.bhavaniravi.com//projects/ikeeplog</link>
-
+    <guid>https://www.bhavaniravi.com/projects/ikeeplog</guid>
+    <title>iKeepLog</title>
+    <pubDate>Wed, 23 Nov 2022 01:55:08 +0000</pubDate>
+    <link>https://www.bhavaniravi.com/projects/ikeeplog</link>
 </item>
 <item>
-<guid>https://www.bhavaniravi.com//projects/interviewbot</guid>
-<title>Interviewbot</title>
-<pubDate>Wed, 23 Nov 2022 01:55:08 +0000</pubDate>
-<link>https://www.bhavaniravi.com//projects/interviewbot</link>
-
+    <guid>https://www.bhavaniravi.com/projects/interviewbot</guid>
+    <title>Interviewbot</title>
+    <pubDate>Wed, 23 Nov 2022 01:55:08 +0000</pubDate>
+    <link>https://www.bhavaniravi.com/projects/interviewbot</link>
 </item>
 <item>
-<guid>https://www.bhavaniravi.com//projects/kissflow-case</guid>
-<title>Kissflow Case-Management Module</title>
-<pubDate>Wed, 23 Nov 2022 01:55:08 +0000</pubDate>
-<link>https://www.bhavaniravi.com//projects/kissflow-case</link>
-
+    <guid>https://www.bhavaniravi.com/projects/kissflow-case</guid>
+    <title>Kissflow Case-Management Module</title>
+    <pubDate>Wed, 23 Nov 2022 01:55:08 +0000</pubDate>
+    <link>https://www.bhavaniravi.com/projects/kissflow-case</link>
 </item>
 <item>
-<guid>https://www.bhavaniravi.com//projects/kissflow-projects</guid>
-<title>Kissflow Project Management Module</title>
-<pubDate>Wed, 23 Nov 2022 01:55:08 +0000</pubDate>
-<link>https://www.bhavaniravi.com//projects/kissflow-projects</link>
-
+    <guid>https://www.bhavaniravi.com/projects/kissflow-projects</guid>
+    <title>Kissflow Project Management Module</title>
+    <pubDate>Wed, 23 Nov 2022 01:55:08 +0000</pubDate>
+    <link>https://www.bhavaniravi.com/projects/kissflow-projects</link>
 </item>
 <item>
-<guid>https://www.bhavaniravi.com//projects/kissflow-reports</guid>
-<title>Kissflow Reporting Module</title>
-<pubDate>Wed, 23 Nov 2022 01:55:08 +0000</pubDate>
-<link>https://www.bhavaniravi.com//projects/kissflow-reports</link>
-
+    <guid>https://www.bhavaniravi.com/projects/kissflow-reports</guid>
+    <title>Kissflow Reporting Module</title>
+    <pubDate>Wed, 23 Nov 2022 01:55:08 +0000</pubDate>
+    <link>https://www.bhavaniravi.com/projects/kissflow-reports</link>
 </item>
 <item>
-<guid>https://www.bhavaniravi.com//projects/rasa-site-bot</guid>
-<title>Rasa Site Bot</title>
-<pubDate>Wed, 23 Nov 2022 01:55:08 +0000</pubDate>
-<link>https://www.bhavaniravi.com//projects/rasa-site-bot</link>
-
+    <guid>https://www.bhavaniravi.com/projects/rasa-site-bot</guid>
+    <title>Rasa Site Bot</title>
+    <pubDate>Wed, 23 Nov 2022 01:55:08 +0000</pubDate>
+    <link>https://www.bhavaniravi.com/projects/rasa-site-bot</link>
 </item>
 <item>
-<guid>https://www.bhavaniravi.com//projects/smart-automapper</guid>
-<title>Smart Automapper</title>
-<pubDate>Wed, 23 Nov 2022 01:55:08 +0000</pubDate>
-<link>https://www.bhavaniravi.com//projects/smart-automapper</link>
-
+    <guid>https://www.bhavaniravi.com/projects/smart-automapper</guid>
+    <title>Smart Automapper</title>
+    <pubDate>Wed, 23 Nov 2022 01:55:08 +0000</pubDate>
+    <link>https://www.bhavaniravi.com/projects/smart-automapper</link>
 </item>
 <item>
-<guid>https://www.bhavaniravi.com//projects/smart-data-query</guid>
-<title>Smart Data Query</title>
-<pubDate>Wed, 23 Nov 2022 01:55:08 +0000</pubDate>
-<link>https://www.bhavaniravi.com//projects/smart-data-query</link>
-
+    <guid>https://www.bhavaniravi.com/projects/smart-data-query</guid>
+    <title>Smart Data Query</title>
+    <pubDate>Wed, 23 Nov 2022 01:55:08 +0000</pubDate>
+    <link>https://www.bhavaniravi.com/projects/smart-data-query</link>
 </item>
 <item>
-<guid>https://www.bhavaniravi.com//python/advanced-python/readme</guid>
-<title>Advanced Python</title>
-<pubDate>Wed, 21 Sep 2022 16:52:01 +0000</pubDate>
-<link>https://www.bhavaniravi.com//python/advanced-python/readme</link>
-
+    <guid>https://www.bhavaniravi.com/python/advanced-python/readme</guid>
+    <title>Advanced Python</title>
+    <pubDate>Wed, 21 Sep 2022 16:52:01 +0000</pubDate>
+    <link>https://www.bhavaniravi.com/python/advanced-python/readme</link>
 </item>
 <item>
-<guid>https://www.bhavaniravi.com//python/advanced-python/bound-vs-unbound-functions-in-python</guid>
-<title>Bound vs Unbound Functions In Python</title>
-<pubDate>Tue, 4 Oct 2022 06:29:08 +0000</pubDate>
-<link>https://www.bhavaniravi.com//python/advanced-python/bound-vs-unbound-functions-in-python</link>
-
+    <guid>https://www.bhavaniravi.com/python/advanced-python/bound-vs-unbound-functions-in-python</guid>
+    <title>Bound vs Unbound Functions In Python</title>
+    <pubDate>Tue, 4 Oct 2022 06:29:08 +0000</pubDate>
+    <link>https://www.bhavaniravi.com/python/advanced-python/bound-vs-unbound-functions-in-python</link>
 </item>
 <item>
-<guid>https://www.bhavaniravi.com//python/advanced-python/data-model-in-python</guid>
-<title>Data Model in Python</title>
-<pubDate>Mon, 19 Sep 2022 15:04:02 +0530</pubDate>
-<link>https://www.bhavaniravi.com//python/advanced-python/data-model-in-python</link>
-
+    <guid>https://www.bhavaniravi.com/python/advanced-python/data-model-in-python</guid>
+    <title>Data Model in Python</title>
+    <pubDate>Mon, 19 Sep 2022 15:04:02 +0530</pubDate>
+    <link>https://www.bhavaniravi.com/python/advanced-python/data-model-in-python</link>
 </item>
 <item>
-<guid>https://www.bhavaniravi.com//python/advanced-python/gil</guid>
-<title>GIL</title>
-<pubDate>Fri, 7 Oct 2022 14:57:49 +0000</pubDate>
-<link>https://www.bhavaniravi.com//python/advanced-python/gil</link>
-
+    <guid>https://www.bhavaniravi.com/python/advanced-python/gil</guid>
+    <title>GIL</title>
+    <pubDate>Fri, 7 Oct 2022 14:57:49 +0000</pubDate>
+    <link>https://www.bhavaniravi.com/python/advanced-python/gil</link>
 </item>
 <item>
-<guid>https://www.bhavaniravi.com//python/advanced-python/itertools-hacks</guid>
-<title>Itertools Hacks</title>
-<pubDate>Mon, 15 Aug 2022 13:46:10 +0000</pubDate>
-<link>https://www.bhavaniravi.com//python/advanced-python/itertools-hacks</link>
-
+    <guid>https://www.bhavaniravi.com/python/advanced-python/itertools-hacks</guid>
+    <title>Itertools Hacks</title>
+    <pubDate>Mon, 15 Aug 2022 13:46:10 +0000</pubDate>
+    <link>https://www.bhavaniravi.com/python/advanced-python/itertools-hacks</link>
 </item>
 <item>
-<guid>https://www.bhavaniravi.com//python/advanced-python/multi-processing-vs-multi-threading</guid>
-<title>Multi-Processing Vs Multi-Threading</title>
-<pubDate>Fri, 7 Oct 2022 14:57:49 +0000</pubDate>
-<link>https://www.bhavaniravi.com//python/advanced-python/multi-processing-vs-multi-threading</link>
-
+    <guid>https://www.bhavaniravi.com/python/advanced-python/multi-processing-vs-multi-threading</guid>
+    <title>Multi-Processing Vs Multi-Threading</title>
+    <pubDate>Fri, 7 Oct 2022 14:57:49 +0000</pubDate>
+    <link>https://www.bhavaniravi.com/python/advanced-python/multi-processing-vs-multi-threading</link>
 </item>
 <item>
-<guid>https://www.bhavaniravi.com//python/advanced-python/python-generators-vs-iterators</guid>
-<title>Python Generators vs Iterators</title>
-<pubDate>Wed, 23 Nov 2022 01:55:08 +0000</pubDate>
-<link>https://www.bhavaniravi.com//python/advanced-python/python-generators-vs-iterators</link>
-
+    <guid>https://www.bhavaniravi.com/python/advanced-python/python-generators-vs-iterators</guid>
+    <title>Python Generators vs Iterators</title>
+    <pubDate>Wed, 23 Nov 2022 01:55:08 +0000</pubDate>
+    <link>https://www.bhavaniravi.com/python/advanced-python/python-generators-vs-iterators</link>
 </item>
 <item>
-<guid>https://www.bhavaniravi.com//python/advanced-python/python-namespaces</guid>
-<title>Python Namespaces &amp; Variable Scope</title>
-<pubDate>Mon, 28 Nov 2022 03:46:55 +0000</pubDate>
-<link>https://www.bhavaniravi.com//python/advanced-python/python-namespaces</link>
-
+    <guid>https://www.bhavaniravi.com/python/advanced-python/python-namespaces</guid>
+    <title>Python Namespaces &amp; Variable Scope</title>
+    <pubDate>Mon, 28 Nov 2022 03:46:55 +0000</pubDate>
+    <link>https://www.bhavaniravi.com/python/advanced-python/python-namespaces</link>
 </item>
 <item>
-<guid>https://www.bhavaniravi.com//python/advanced-python/unbound-variables-in-python</guid>
-<title>Unbound Variables in Python</title>
-<pubDate>Tue, 4 Oct 2022 06:29:08 +0000</pubDate>
-<link>https://www.bhavaniravi.com//python/advanced-python/unbound-variables-in-python</link>
-
+    <guid>https://www.bhavaniravi.com/python/advanced-python/unbound-variables-in-python</guid>
+    <title>Unbound Variables in Python</title>
+    <pubDate>Tue, 4 Oct 2022 06:29:08 +0000</pubDate>
+    <link>https://www.bhavaniravi.com/python/advanced-python/unbound-variables-in-python</link>
 </item>
 <item>
-<guid>https://www.bhavaniravi.com//python/advanced/data-model-in-python</guid>
-<title>Data Model in Python</title>
-<pubDate>Sat, 8 Oct 2022 07:50:26 +0000</pubDate>
-<link>https://www.bhavaniravi.com//python/advanced/data-model-in-python</link>
-
+    <guid>https://www.bhavaniravi.com/python/advanced/data-model-in-python</guid>
+    <title>Data Model in Python</title>
+    <pubDate>Sat, 8 Oct 2022 07:50:26 +0000</pubDate>
+    <link>https://www.bhavaniravi.com/python/advanced/data-model-in-python</link>
 </item>
 <item>
-<guid>https://www.bhavaniravi.com//python/asynchronous-task-execution-in-python</guid>
-<title> Asynchronous Task Execution In Python</title>
-<pubDate>Wed, 21 Sep 2022 16:52:01 +0000</pubDate>
-<link>https://www.bhavaniravi.com//python/asynchronous-task-execution-in-python</link>
-
+    <guid>https://www.bhavaniravi.com/python/asynchronous-task-execution-in-python</guid>
+    <title> Asynchronous Task Execution In Python</title>
+    <pubDate>Wed, 21 Sep 2022 16:52:01 +0000</pubDate>
+    <link>https://www.bhavaniravi.com/python/asynchronous-task-execution-in-python</link>
 </item>
 <item>
-<guid>https://www.bhavaniravi.com//python/caching-in-python</guid>
-<title> Caching in Python</title>
-<pubDate>Mon, 12 Dec 2022 16:09:21 +0000</pubDate>
-<link>https://www.bhavaniravi.com//python/caching-in-python</link>
-
+    <guid>https://www.bhavaniravi.com/python/caching-in-python</guid>
+    <title> Caching in Python</title>
+    <pubDate>Mon, 12 Dec 2022 16:09:21 +0000</pubDate>
+    <link>https://www.bhavaniravi.com/python/caching-in-python</link>
 </item>
 <item>
-<guid>https://www.bhavaniravi.com//python/django/debugging-makerlog</guid>
-<title>Debugging MakerLog</title>
-<pubDate>Mon, 28 Nov 2022 03:46:55 +0000</pubDate>
-<link>https://www.bhavaniravi.com//python/django/debugging-makerlog</link>
-
+    <guid>https://www.bhavaniravi.com/python/django/debugging-makerlog</guid>
+    <title>Debugging MakerLog</title>
+    <pubDate>Mon, 28 Nov 2022 03:46:55 +0000</pubDate>
+    <link>https://www.bhavaniravi.com/python/django/debugging-makerlog</link>
 </item>
 <item>
-<guid>https://www.bhavaniravi.com//python/flask/building-ownflask-a-flask-like-python-framework</guid>
-<title>Building OwnFlask - A Flask(like) Python Framework</title>
-<pubDate>Fri, 4 Nov 2022 10:21:10 +0000</pubDate>
-<link>https://www.bhavaniravi.com//python/flask/building-ownflask-a-flask-like-python-framework</link>
-
+    <guid>https://www.bhavaniravi.com/python/flask/building-ownflask-a-flask-like-python-framework</guid>
+    <title>Building OwnFlask - A Flask(like) Python Framework</title>
+    <pubDate>Fri, 4 Nov 2022 10:21:10 +0000</pubDate>
+    <link>https://www.bhavaniravi.com/python/flask/building-ownflask-a-flask-like-python-framework</link>
 </item>
 <item>
-<guid>https://www.bhavaniravi.com//python/flask/migrating-to-flask-sqlalchemy-3.0</guid>
-<title>Migrating to Flask-SQLAlchemy 3.0</title>
-<pubDate>Mon, 28 Nov 2022 03:46:55 +0000</pubDate>
-<link>https://www.bhavaniravi.com//python/flask/migrating-to-flask-sqlalchemy-3.0</link>
-
+    <guid>https://www.bhavaniravi.com/python/flask/migrating-to-flask-sqlalchemy-3.0</guid>
+    <title>Migrating to Flask-SQLAlchemy 3.0</title>
+    <pubDate>Mon, 28 Nov 2022 03:46:55 +0000</pubDate>
+    <link>https://www.bhavaniravi.com/python/flask/migrating-to-flask-sqlalchemy-3.0</link>
 </item>
 <item>
-<guid>https://www.bhavaniravi.com//python/flask/orm-in-python-flask</guid>
-<title>ORM in Python Flask</title>
-<pubDate>Fri, 28 Oct 2022 14:08:53 +0000</pubDate>
-<link>https://www.bhavaniravi.com//python/flask/orm-in-python-flask</link>
-
+    <guid>https://www.bhavaniravi.com/python/flask/orm-in-python-flask</guid>
+    <title>ORM in Python Flask</title>
+    <pubDate>Fri, 28 Oct 2022 14:08:53 +0000</pubDate>
+    <link>https://www.bhavaniravi.com/python/flask/orm-in-python-flask</link>
 </item>
 <item>
-<guid>https://www.bhavaniravi.com//python/generate-uml-diagrams-from-python-code</guid>
-<title> How to Generate UML Diagrams from Python Source Code?</title>
-<pubDate>Thu, 29 Dec 2022 06:16:09 +0000</pubDate>
-<link>https://www.bhavaniravi.com//python/generate-uml-diagrams-from-python-code</link>
-
+    <guid>https://www.bhavaniravi.com/python/generate-uml-diagrams-from-python-code</guid>
+    <title> How to Generate UML Diagrams from Python Source Code?</title>
+    <pubDate>Thu, 29 Dec 2022 06:16:09 +0000</pubDate>
+    <link>https://www.bhavaniravi.com/python/generate-uml-diagrams-from-python-code</link>
 </item>
 <item>
-<guid>https://www.bhavaniravi.com//python/merge-python-module-script</guid>
-<title> Merging Python Modules</title>
-<pubDate>Wed, 21 Sep 2022 16:52:01 +0000</pubDate>
-<link>https://www.bhavaniravi.com//python/merge-python-module-script</link>
-
+    <guid>https://www.bhavaniravi.com/python/merge-python-module-script</guid>
+    <title> Merging Python Modules</title>
+    <pubDate>Wed, 21 Sep 2022 16:52:01 +0000</pubDate>
+    <link>https://www.bhavaniravi.com/python/merge-python-module-script</link>
 </item>
 <item>
-<guid>https://www.bhavaniravi.com//python/secrets-as-python-file</guid>
-<title> Are your Secrets Safe In Python?</title>
-<pubDate>Mon, 12 Dec 2022 16:09:21 +0000</pubDate>
-<link>https://www.bhavaniravi.com//python/secrets-as-python-file</link>
-
+    <guid>https://www.bhavaniravi.com/python/secrets-as-python-file</guid>
+    <title> Are your Secrets Safe In Python?</title>
+    <pubDate>Mon, 12 Dec 2022 16:09:21 +0000</pubDate>
+    <link>https://www.bhavaniravi.com/python/secrets-as-python-file</link>
 </item>
 <item>
-<guid>https://www.bhavaniravi.com//python/testing/readme</guid>
-<title>Testing</title>
-<pubDate>Wed, 28 Sep 2022 02:32:58 +0000</pubDate>
-<link>https://www.bhavaniravi.com//python/testing/readme</link>
-
+    <guid>https://www.bhavaniravi.com/python/testing/readme</guid>
+    <title>Testing</title>
+    <pubDate>Wed, 28 Sep 2022 02:32:58 +0000</pubDate>
+    <link>https://www.bhavaniravi.com/python/testing/readme</link>
 </item>
 <item>
-<guid>https://www.bhavaniravi.com//python/testing/why-pytest-is-my-favorite</guid>
-<title>Why Pytest is my Favorite?</title>
-<pubDate>Wed, 21 Sep 2022 16:52:01 +0000</pubDate>
-<link>https://www.bhavaniravi.com//python/testing/why-pytest-is-my-favorite</link>
-
+    <guid>https://www.bhavaniravi.com/python/testing/why-pytest-is-my-favorite</guid>
+    <title>Why Pytest is my Favorite?</title>
+    <pubDate>Wed, 21 Sep 2022 16:52:01 +0000</pubDate>
+    <link>https://www.bhavaniravi.com/python/testing/why-pytest-is-my-favorite</link>
 </item>
 <item>
-<guid>https://www.bhavaniravi.com//python/web/django/readme</guid>
-<title>Django</title>
-<pubDate>Mon, 28 Nov 2022 03:46:55 +0000</pubDate>
-<link>https://www.bhavaniravi.com//python/web/django/readme</link>
-
+    <guid>https://www.bhavaniravi.com/python/web/django/readme</guid>
+    <title>Django</title>
+    <pubDate>Mon, 28 Nov 2022 03:46:55 +0000</pubDate>
+    <link>https://www.bhavaniravi.com/python/web/django/readme</link>
 </item>
 <item>
-<guid>https://www.bhavaniravi.com//python/web/django/when-to-use-flask-vs-django</guid>
-<title>When to Use Flask vs Django?</title>
-<pubDate>Fri, 28 Oct 2022 14:27:29 +0000</pubDate>
-<link>https://www.bhavaniravi.com//python/web/django/when-to-use-flask-vs-django</link>
-
+    <guid>https://www.bhavaniravi.com/python/web/django/when-to-use-flask-vs-django</guid>
+    <title>When to Use Flask vs Django?</title>
+    <pubDate>Fri, 28 Oct 2022 14:27:29 +0000</pubDate>
+    <link>https://www.bhavaniravi.com/python/web/django/when-to-use-flask-vs-django</link>
 </item>
 <item>
-<guid>https://www.bhavaniravi.com//python/web/flask/readme</guid>
-<title>Flask</title>
-<pubDate>Fri, 28 Oct 2022 14:27:29 +0000</pubDate>
-<link>https://www.bhavaniravi.com//python/web/flask/readme</link>
-
+    <guid>https://www.bhavaniravi.com/python/web/flask/readme</guid>
+    <title>Flask</title>
+    <pubDate>Fri, 28 Oct 2022 14:27:29 +0000</pubDate>
+    <link>https://www.bhavaniravi.com/python/web/flask/readme</link>
 </item>
 <item>
-<guid>https://www.bhavaniravi.com//python/web/flask/building-own-flask-1</guid>
-<title> Building OwnFlask - A Flask(like) Python Framework</title>
-<pubDate>Fri, 28 Oct 2022 14:37:39 +0000</pubDate>
-<link>https://www.bhavaniravi.com//python/web/flask/building-own-flask-1</link>
-
+    <guid>https://www.bhavaniravi.com/python/web/flask/building-own-flask-1</guid>
+    <title> Building OwnFlask - A Flask(like) Python Framework</title>
+    <pubDate>Fri, 28 Oct 2022 14:37:39 +0000</pubDate>
+    <link>https://www.bhavaniravi.com/python/web/flask/building-own-flask-1</link>
 </item>
 <item>
-<guid>https://www.bhavaniravi.com//python/web/flask/jwt-bases-authentication-in-python-+-flask</guid>
-<title>JWT Bases Authentication In Python + Flask</title>
-<pubDate>Fri, 28 Oct 2022 14:27:29 +0000</pubDate>
-<link>https://www.bhavaniravi.com//python/web/flask/jwt-bases-authentication-in-python-+-flask</link>
-
+    <guid>https://www.bhavaniravi.com/python/web/flask/jwt-bases-authentication-in-python-+-flask</guid>
+    <title>JWT Bases Authentication In Python + Flask</title>
+    <pubDate>Fri, 28 Oct 2022 14:27:29 +0000</pubDate>
+    <link>https://www.bhavaniravi.com/python/web/flask/jwt-bases-authentication-in-python-+-flask</link>
 </item>
 <item>
-<guid>https://www.bhavaniravi.com//python/web/flask/quick-start-automation</guid>
-<title>Quick Start Automation</title>
-<pubDate>Fri, 28 Oct 2022 14:27:29 +0000</pubDate>
-<link>https://www.bhavaniravi.com//python/web/flask/quick-start-automation</link>
-
+    <guid>https://www.bhavaniravi.com/python/web/flask/quick-start-automation</guid>
+    <title>Quick Start Automation</title>
+    <pubDate>Fri, 28 Oct 2022 14:27:29 +0000</pubDate>
+    <link>https://www.bhavaniravi.com/python/web/flask/quick-start-automation</link>
 </item>
 <item>
-<guid>https://www.bhavaniravi.com//python/what-are-the-best-resources-to-learn-python</guid>
-<title>What are the Best Resources to Learn Python in 2022?</title>
-<pubDate>Sat, 13 Aug 2022 00:37:47 +0000</pubDate>
-<link>https://www.bhavaniravi.com//python/what-are-the-best-resources-to-learn-python</link>
-
+    <guid>https://www.bhavaniravi.com/python/what-are-the-best-resources-to-learn-python</guid>
+    <title>What are the Best Resources to Learn Python in 2022?</title>
+    <pubDate>Sat, 13 Aug 2022 00:37:47 +0000</pubDate>
+    <link>https://www.bhavaniravi.com/python/what-are-the-best-resources-to-learn-python</link>
 </item>
 <item>
-<guid>https://www.bhavaniravi.com//python/what-is-__name__-__main__-in-python</guid>
-<title>What is \_\_name\_\_ == "\_\_main\_\_" in Python?</title>
-<pubDate>Sun, 20 Nov 2022 01:19:19 +0000</pubDate>
-<link>https://www.bhavaniravi.com//python/what-is-__name__-__main__-in-python</link>
-
+    <guid>https://www.bhavaniravi.com/python/what-is-__name__-__main__-in-python</guid>
+    <title>What is \_\_name\_\_ == "\_\_main\_\_" in Python?</title>
+    <pubDate>Sun, 20 Nov 2022 01:19:19 +0000</pubDate>
+    <link>https://www.bhavaniravi.com/python/what-is-__name__-__main__-in-python</link>
 </item>
 <item>
-<guid>https://www.bhavaniravi.com//readme/why-gitbook</guid>
-<title>Why Gitbook?</title>
-<pubDate>Mon, 28 Nov 2022 03:46:55 +0000</pubDate>
-<link>https://www.bhavaniravi.com//readme/why-gitbook</link>
-
+    <guid>https://www.bhavaniravi.com/readme/why-gitbook</guid>
+    <title>Why Gitbook?</title>
+    <pubDate>Mon, 28 Nov 2022 03:46:55 +0000</pubDate>
+    <link>https://www.bhavaniravi.com/readme/why-gitbook</link>
 </item>
 <item>
-<guid>https://www.bhavaniravi.com//software-engineering/authentication-in-python</guid>
-<title> All About Authentication Systems</title>
-<pubDate>Mon, 12 Dec 2022 16:09:21 +0000</pubDate>
-<link>https://www.bhavaniravi.com//software-engineering/authentication-in-python</link>
-
+    <guid>https://www.bhavaniravi.com/software-engineering/authentication-in-python</guid>
+    <title> All About Authentication Systems</title>
+    <pubDate>Mon, 12 Dec 2022 16:09:21 +0000</pubDate>
+    <link>https://www.bhavaniravi.com/software-engineering/authentication-in-python</link>
 </item>
 <item>
-<guid>https://www.bhavaniravi.com//software-engineering/backend-engineer-behind-the-scenes</guid>
-<title> Backend Engineer - Behind the Scenes</title>
-<pubDate>Wed, 21 Sep 2022 16:52:01 +0000</pubDate>
-<link>https://www.bhavaniravi.com//software-engineering/backend-engineer-behind-the-scenes</link>
-
+    <guid>https://www.bhavaniravi.com/software-engineering/backend-engineer-behind-the-scenes</guid>
+    <title> Backend Engineer - Behind the Scenes</title>
+    <pubDate>Wed, 21 Sep 2022 16:52:01 +0000</pubDate>
+    <link>https://www.bhavaniravi.com/software-engineering/backend-engineer-behind-the-scenes</link>
 </item>
 <item>
-<guid>https://www.bhavaniravi.com//software-engineering/challenges-in-full-text-search</guid>
-<title> Challenges In Full-Text-Search Systems</title>
-<pubDate>Wed, 21 Sep 2022 16:52:01 +0000</pubDate>
-<link>https://www.bhavaniravi.com//software-engineering/challenges-in-full-text-search</link>
-
+    <guid>https://www.bhavaniravi.com/software-engineering/challenges-in-full-text-search</guid>
+    <title> Challenges In Full-Text-Search Systems</title>
+    <pubDate>Wed, 21 Sep 2022 16:52:01 +0000</pubDate>
+    <link>https://www.bhavaniravi.com/software-engineering/challenges-in-full-text-search</link>
 </item>
 <item>
-<guid>https://www.bhavaniravi.com//software-engineering/custom-oauth2-with-auth0</guid>
-<title> How to Connect to Custom Oauth2 Provider Using Auth0?</title>
-<pubDate>Wed, 21 Sep 2022 16:52:01 +0000</pubDate>
-<link>https://www.bhavaniravi.com//software-engineering/custom-oauth2-with-auth0</link>
-
+    <guid>https://www.bhavaniravi.com/software-engineering/custom-oauth2-with-auth0</guid>
+    <title> How to Connect to Custom Oauth2 Provider Using Auth0?</title>
+    <pubDate>Wed, 21 Sep 2022 16:52:01 +0000</pubDate>
+    <link>https://www.bhavaniravi.com/software-engineering/custom-oauth2-with-auth0</link>
 </item>
 <item>
-<guid>https://www.bhavaniravi.com//software-engineering/git-and-github/readme</guid>
-<title>Git &amp; GitHub</title>
-<pubDate>Sat, 13 Aug 2022 00:37:47 +0000</pubDate>
-<link>https://www.bhavaniravi.com//software-engineering/git-and-github/readme</link>
-
+    <guid>https://www.bhavaniravi.com/software-engineering/git-and-github/readme</guid>
+    <title>Git &amp; GitHub</title>
+    <pubDate>Sat, 13 Aug 2022 00:37:47 +0000</pubDate>
+    <link>https://www.bhavaniravi.com/software-engineering/git-and-github/readme</link>
 </item>
 <item>
-<guid>https://www.bhavaniravi.com//software-engineering/git-and-github/git-rebase</guid>
-<title>Git Rebase</title>
-<pubDate>Thu, 4 Aug 2022 13:45:38 +0000</pubDate>
-<link>https://www.bhavaniravi.com//software-engineering/git-and-github/git-rebase</link>
-
+    <guid>https://www.bhavaniravi.com/software-engineering/git-and-github/git-rebase</guid>
+    <title>Git Rebase</title>
+    <pubDate>Thu, 4 Aug 2022 13:45:38 +0000</pubDate>
+    <link>https://www.bhavaniravi.com/software-engineering/git-and-github/git-rebase</link>
 </item>
 <item>
-<guid>https://www.bhavaniravi.com//software-engineering/git-and-github/the-git-problem</guid>
-<title> How I Got Out of a Knee Deep Git Problem</title>
-<pubDate>Mon, 19 Sep 2022 15:04:02 +0530</pubDate>
-<link>https://www.bhavaniravi.com//software-engineering/git-and-github/the-git-problem</link>
-
+    <guid>https://www.bhavaniravi.com/software-engineering/git-and-github/the-git-problem</guid>
+    <title> How I Got Out of a Knee Deep Git Problem</title>
+    <pubDate>Mon, 19 Sep 2022 15:04:02 +0530</pubDate>
+    <link>https://www.bhavaniravi.com/software-engineering/git-and-github/the-git-problem</link>
 </item>
 <item>
-<guid>https://www.bhavaniravi.com//software-engineering/how-to-design-a-chatbot-system-architecture</guid>
-<title>How to Design a Chatbot System Architecture</title>
-<pubDate>Fri, 28 Oct 2022 13:47:43 +0000</pubDate>
-<link>https://www.bhavaniravi.com//software-engineering/how-to-design-a-chatbot-system-architecture</link>
-
+    <guid>https://www.bhavaniravi.com/software-engineering/how-to-design-a-chatbot-system-architecture</guid>
+    <title>How to Design a Chatbot System Architecture</title>
+    <pubDate>Fri, 28 Oct 2022 13:47:43 +0000</pubDate>
+    <link>https://www.bhavaniravi.com/software-engineering/how-to-design-a-chatbot-system-architecture</link>
 </item>
 <item>
-<guid>https://www.bhavaniravi.com//software-engineering/how-to-do-code-reviews</guid>
-<title>How to Do Code Reviews?</title>
-<pubDate>Thu, 4 Aug 2022 22:06:57 +0000</pubDate>
-<link>https://www.bhavaniravi.com//software-engineering/how-to-do-code-reviews</link>
-
+    <guid>https://www.bhavaniravi.com/software-engineering/how-to-do-code-reviews</guid>
+    <title>How to Do Code Reviews?</title>
+    <pubDate>Thu, 4 Aug 2022 22:06:57 +0000</pubDate>
+    <link>https://www.bhavaniravi.com/software-engineering/how-to-do-code-reviews</link>
 </item>
 <item>
-<guid>https://www.bhavaniravi.com//software-engineering/open-closed-principle</guid>
-<title>Open-Closed Principle</title>
-<pubDate>Mon, 12 Sep 2022 02:17:41 +0000</pubDate>
-<link>https://www.bhavaniravi.com//software-engineering/open-closed-principle</link>
-
+    <guid>https://www.bhavaniravi.com/software-engineering/open-closed-principle</guid>
+    <title>Open-Closed Principle</title>
+    <pubDate>Mon, 12 Sep 2022 02:17:41 +0000</pubDate>
+    <link>https://www.bhavaniravi.com/software-engineering/open-closed-principle</link>
 </item>
 <item>
-<guid>https://www.bhavaniravi.com//software-engineering/strangler-fig-pattern</guid>
-<title>Strangler Fig Pattern</title>
-<pubDate>Thu, 4 Aug 2022 22:06:57 +0000</pubDate>
-<link>https://www.bhavaniravi.com//software-engineering/strangler-fig-pattern</link>
-
+    <guid>https://www.bhavaniravi.com/software-engineering/strangler-fig-pattern</guid>
+    <title>Strangler Fig Pattern</title>
+    <pubDate>Thu, 4 Aug 2022 22:06:57 +0000</pubDate>
+    <link>https://www.bhavaniravi.com/software-engineering/strangler-fig-pattern</link>
 </item>
 <item>
-<guid>https://www.bhavaniravi.com//talks/introduction-to-chatbots</guid>
-<title> "Introduction to Chatbots"</title>
-<pubDate>Wed, 23 Nov 2022 01:55:08 +0000</pubDate>
-<link>https://www.bhavaniravi.com//talks/introduction-to-chatbots</link>
-
+    <guid>https://www.bhavaniravi.com/talks/introduction-to-chatbots</guid>
+    <title> "Introduction to Chatbots"</title>
+    <pubDate>Wed, 23 Nov 2022 01:55:08 +0000</pubDate>
+    <link>https://www.bhavaniravi.com/talks/introduction-to-chatbots</link>
 </item>
 <item>
-<guid>https://www.bhavaniravi.com//talks/airflow-on-kubernetes-talk</guid>
-<title> Data Pipelines using Airflow on Kubernetes</title>
-<pubDate>Wed, 23 Nov 2022 01:55:08 +0000</pubDate>
-<link>https://www.bhavaniravi.com//talks/airflow-on-kubernetes-talk</link>
-
+    <guid>https://www.bhavaniravi.com/talks/airflow-on-kubernetes-talk</guid>
+    <title> Data Pipelines using Airflow on Kubernetes</title>
+    <pubDate>Wed, 23 Nov 2022 01:55:08 +0000</pubDate>
+    <link>https://www.bhavaniravi.com/talks/airflow-on-kubernetes-talk</link>
 </item>
 <item>
-<guid>https://www.bhavaniravi.com//talks/all-about-chatbots</guid>
-<title> "All About Chatbots"</title>
-<pubDate>Wed, 23 Nov 2022 01:55:08 +0000</pubDate>
-<link>https://www.bhavaniravi.com//talks/all-about-chatbots</link>
-
+    <guid>https://www.bhavaniravi.com/talks/all-about-chatbots</guid>
+    <title> "All About Chatbots"</title>
+    <pubDate>Wed, 23 Nov 2022 01:55:08 +0000</pubDate>
+    <link>https://www.bhavaniravi.com/talks/all-about-chatbots</link>
 </item>
 <item>
-<guid>https://www.bhavaniravi.com//talks/becoming-a-self-made-developer</guid>
-<title> "Becoming a Self-Made Developer"</title>
-<pubDate>Wed, 23 Nov 2022 01:55:08 +0000</pubDate>
-<link>https://www.bhavaniravi.com//talks/becoming-a-self-made-developer</link>
-
+    <guid>https://www.bhavaniravi.com/talks/becoming-a-self-made-developer</guid>
+    <title> "Becoming a Self-Made Developer"</title>
+    <pubDate>Wed, 23 Nov 2022 01:55:08 +0000</pubDate>
+    <link>https://www.bhavaniravi.com/talks/becoming-a-self-made-developer</link>
 </item>
 <item>
-<guid>https://www.bhavaniravi.com//talks/chatbots-multitenancy-and-custom-entities</guid>
-<title> "Multitenancy in Chatbots"</title>
-<pubDate>Wed, 23 Nov 2022 01:55:08 +0000</pubDate>
-<link>https://www.bhavaniravi.com//talks/chatbots-multitenancy-and-custom-entities</link>
-
+    <guid>https://www.bhavaniravi.com/talks/chatbots-multitenancy-and-custom-entities</guid>
+    <title> "Multitenancy in Chatbots"</title>
+    <pubDate>Wed, 23 Nov 2022 01:55:08 +0000</pubDate>
+    <link>https://www.bhavaniravi.com/talks/chatbots-multitenancy-and-custom-entities</link>
 </item>
 <item>
-<guid>https://www.bhavaniravi.com//talks/distributed-data-pipelines-in-python</guid>
-<title> Distributed Data-pipelines in Python</title>
-<pubDate>Wed, 23 Nov 2022 01:55:08 +0000</pubDate>
-<link>https://www.bhavaniravi.com//talks/distributed-data-pipelines-in-python</link>
-
+    <guid>https://www.bhavaniravi.com/talks/distributed-data-pipelines-in-python</guid>
+    <title> Distributed Data-pipelines in Python</title>
+    <pubDate>Wed, 23 Nov 2022 01:55:08 +0000</pubDate>
+    <link>https://www.bhavaniravi.com/talks/distributed-data-pipelines-in-python</link>
 </item>
 <item>
-<guid>https://www.bhavaniravi.com//talks/introduction-to-mlops</guid>
-<title>Introduction to MLOps</title>
-<pubDate>Tue, 22 Nov 2022 02:00:37 +0000</pubDate>
-<link>https://www.bhavaniravi.com//talks/introduction-to-mlops</link>
-
+    <guid>https://www.bhavaniravi.com/talks/introduction-to-mlops</guid>
+    <title>Introduction to MLOps</title>
+    <pubDate>Tue, 22 Nov 2022 02:00:37 +0000</pubDate>
+    <link>https://www.bhavaniravi.com/talks/introduction-to-mlops</link>
 </item>
 <item>
-<guid>https://www.bhavaniravi.com//talks/open-source</guid>
-<title> "Getting Started With Open Source"</title>
-<pubDate>Wed, 23 Nov 2022 01:55:08 +0000</pubDate>
-<link>https://www.bhavaniravi.com//talks/open-source</link>
-
+    <guid>https://www.bhavaniravi.com/talks/open-source</guid>
+    <title> "Getting Started With Open Source"</title>
+    <pubDate>Wed, 23 Nov 2022 01:55:08 +0000</pubDate>
+    <link>https://www.bhavaniravi.com/talks/open-source</link>
 </item>
 <item>
-<guid>https://www.bhavaniravi.com//talks/stand-out-as-an-engineer</guid>
-<title> "Stand Out as an Engineer"</title>
-<pubDate>Wed, 23 Nov 2022 01:55:08 +0000</pubDate>
-<link>https://www.bhavaniravi.com//talks/stand-out-as-an-engineer</link>
-
+    <guid>https://www.bhavaniravi.com/talks/stand-out-as-an-engineer</guid>
+    <title> "Stand Out as an Engineer"</title>
+    <pubDate>Wed, 23 Nov 2022 01:55:08 +0000</pubDate>
+    <link>https://www.bhavaniravi.com/talks/stand-out-as-an-engineer</link>
 </item>
 <item>
-<guid>https://www.bhavaniravi.com//technical-writing/how-to-start-a-technical-blog</guid>
-<title>How to Start a Technical Blog?</title>
-<pubDate>Mon, 15 Aug 2022 13:52:20 +0000</pubDate>
-<link>https://www.bhavaniravi.com//technical-writing/how-to-start-a-technical-blog</link>
-
+    <guid>https://www.bhavaniravi.com/technical-writing/how-to-start-a-technical-blog</guid>
+    <title>How to Start a Technical Blog?</title>
+    <pubDate>Mon, 15 Aug 2022 13:52:20 +0000</pubDate>
+    <link>https://www.bhavaniravi.com/technical-writing/how-to-start-a-technical-blog</link>
 </item>
 <item>
-<guid>https://www.bhavaniravi.com//technical-writing/just-dump-your-thoughts-is-bad-advice</guid>
-<title>"Just Dump your Thoughts" is bad advice</title>
-<pubDate>Mon, 12 Dec 2022 05:51:47 +0000</pubDate>
-<link>https://www.bhavaniravi.com//technical-writing/just-dump-your-thoughts-is-bad-advice</link>
-
+    <guid>https://www.bhavaniravi.com/technical-writing/just-dump-your-thoughts-is-bad-advice</guid>
+    <title>"Just Dump your Thoughts" is bad advice</title>
+    <pubDate>Mon, 12 Dec 2022 05:51:47 +0000</pubDate>
+    <link>https://www.bhavaniravi.com/technical-writing/just-dump-your-thoughts-is-bad-advice</link>
 </item>
 <item>
-<guid>https://www.bhavaniravi.com//technical-writing/why-i-dont-recommend-medium-as-your-blogging-site</guid>
-<title>Why I Don't Recommend Medium as Your Blogging Site</title>
-<pubDate>Mon, 12 Sep 2022 02:17:41 +0000</pubDate>
-<link>https://www.bhavaniravi.com//technical-writing/why-i-dont-recommend-medium-as-your-blogging-site</link>
-
+    <guid>https://www.bhavaniravi.com/technical-writing/why-i-dont-recommend-medium-as-your-blogging-site</guid>
+    <title>Why I Don't Recommend Medium as Your Blogging Site</title>
+    <pubDate>Mon, 12 Sep 2022 02:17:41 +0000</pubDate>
+    <link>https://www.bhavaniravi.com/technical-writing/why-i-dont-recommend-medium-as-your-blogging-site</link>
 </item>
 <item>
-<guid>https://www.bhavaniravi.com//travel/traveling-to-leh-ladhak</guid>
-<title>Traveling to Leh Ladhak</title>
-<pubDate>Thu, 20 Oct 2022 14:19:02 +0000</pubDate>
-<link>https://www.bhavaniravi.com//travel/traveling-to-leh-ladhak</link>
-
+    <guid>https://www.bhavaniravi.com/travel/traveling-to-leh-ladhak</guid>
+    <title>Traveling to Leh Ladhak</title>
+    <pubDate>Thu, 20 Oct 2022 14:19:02 +0000</pubDate>
+    <link>https://www.bhavaniravi.com/travel/traveling-to-leh-ladhak</link>
 </item>
 <item>
-<guid>https://www.bhavaniravi.com//travel/travelling-to-europe</guid>
-<title>Travelling To Europe</title>
-<pubDate>Thu, 8 Sep 2022 04:44:45 +0000</pubDate>
-<link>https://www.bhavaniravi.com//travel/travelling-to-europe</link>
-
+    <guid>https://www.bhavaniravi.com/travel/travelling-to-europe</guid>
+    <title>Travelling To Europe</title>
+    <pubDate>Thu, 8 Sep 2022 04:44:45 +0000</pubDate>
+    <link>https://www.bhavaniravi.com/travel/travelling-to-europe</link>
 </item>
 </channel>
 </rss>

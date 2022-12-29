@@ -3,9 +3,9 @@
 - [Start Here](README.md)
   - [How I built my Digital Garden](start-here/how-i-built-my-digital-garden.md)
   - [Why Gitbook?](readme/why-gitbook.md)
-- [About Me](start-here/about-me.md)
-- [My Links](my-links.md)
-- [RSS Feed](feed.xml)
+  - [RSS Feed](https://raw.githubusercontent.com/bhavaniravi/til/main/feed.xml)
+  - [About Me](start-here/about-me.md)
+  - [My Links](my-links.md)
 
 ## About Me
 

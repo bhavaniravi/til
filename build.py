@@ -241,11 +241,10 @@ def write_xml_file():
         feed.write
         for item in files:
             data = f"""<item>
-<guid>{"https://www.bhavaniravi.com/"+item["url"]}</guid>
-<title>{escape(item["title"])}</title>
-<pubDate>{item["date"]}</pubDate>
-<link>{"https://www.bhavaniravi.com/"+item["url"]}</link>
-
+    <guid>{"https://www.bhavaniravi.com"+item["url"]}</guid>
+    <title>{escape(item["title"])}</title>
+    <pubDate>{item["date"]}</pubDate>
+    <link>{"https://www.bhavaniravi.com"+item["url"]}</link>
 </item>\n"""
         
             feed.write(data)
