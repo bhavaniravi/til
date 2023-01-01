@@ -101,21 +101,21 @@
 
 ## Apache Airflow
 
-* [Airflow: Major Topics](apache-airflow/airflow-major-topics.md)
-* [Airflow Configurations](apache-airflow/airflow-configurations.md)
-* [Airflow Operators - A Comparison](apache-airflow/airflow-operators-comparison.md)
-* [Using Airflow Providers With KubernetesPodOperator](apache-airflow/using-airflow-providers-with-kubernetespodoperator.md)
-* [Can Next Scheduled Run Automatically Re-Run failed Task?](apache-airflow/can-next-scheduled-run-automatically-re-run-failed-task.md)
-* [Dynamic Task Mapping](apache-airflow/dynamic-task-mapping.md)
-* [KubernetesPodOperator vs. KubernetesExecutor](apache-airflow/kubernetespodoperator-vs.-kubernetesexecutor.md)
-* [Apache Airflow + MongoDB](apache-airflow/apache-airflow-+-mongodb.md)
-* [Airflow Celery vs Kubernetes Executor](apache-airflow/airflow-celery-vs-kubernetes-executor.md)
-* [Sending Email Alerts in Apache Airflow with Sendgrid](apache-airflow/sending-email-alerts-in-apache-airflow-with-sendgrid.md)
-* [How to Set up Airflow on Kubernetes?](apache-airflow/deploying-airflow-on-kubernetes.md)
-* [An Introduction to Apache Airflow](apache-airflow/apache-airflow-introduction.md)
-* [How to Send Email Alerts from Airflow?](apache-airflow/sending-emails-from-airflow.md)
-* [Setting Up Apache Airflow For Local Development in Mac M1](apache-airflow/setting-up-apache-airflow-for-local-development-in-mac-m1.md)
-* [How to Copy/Move S3 Files With Apache Airflow](apache-airflow/how-to-copy-move-s3-files-with-apache-airflow.md)
+- [Airflow Celery vs Kubernetes Executor](apache-airflow/airflow-celery-vs-kubernetes-executor.md)
+- [Sending Email Alerts in Apache Airflow with Sendgrid](apache-airflow/sending-email-alerts-in-apache-airflow-with-sendgrid.md)
+- [How to Set up Airflow on Kubernetes?](apache-airflow/deploying-airflow-on-kubernetes.md)
+- [Airflow: Major Topics](apache-airflow/airflow-major-topics.md)
+- [Airflow Configurations](apache-airflow/airflow-configurations.md)
+- [Airflow Operators - A Comparison](apache-airflow/airflow-operators-comparison.md)
+- [Using Airflow Providers With KubernetesPodOperator](apache-airflow/using-airflow-providers-with-kubernetespodoperator.md)
+- [Can Next Scheduled Run Automatically Re-Run failed Task?](apache-airflow/can-next-scheduled-run-automatically-re-run-failed-task.md)
+- [Dynamic Task Mapping](apache-airflow/dynamic-task-mapping.md)
+- [KubernetesPodOperator vs. KubernetesExecutor](apache-airflow/kubernetespodoperator-vs.-kubernetesexecutor.md)
+- [Apache Airflow + MongoDB](apache-airflow/apache-airflow-+-mongodb.md)
+- [An Introduction to Apache Airflow](apache-airflow/apache-airflow-introduction.md)
+- [How to Send Email Alerts from Airflow?](apache-airflow/sending-emails-from-airflow.md)
+- [Setting Up Apache Airflow For Local Development in Mac M1](apache-airflow/setting-up-apache-airflow-for-local-development-in-mac-m1.md)
+- [How to Copy/Move S3 Files With Apache Airflow](apache-airflow/how-to-copy-move-s3-files-with-apache-airflow.md)
 
 ## Database
 
