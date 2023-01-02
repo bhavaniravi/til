@@ -6,8 +6,10 @@
   * [Work With Me](start-here/about-me.md)
   * [My Links](my-links.md)
 
-## Courses
+## products
 
+* [Apache Airflow Starter Pack](products/apache-airflow-starter-pack.md)
+* [Write Your 1st Blog Post](https://bhavaniravi.gumroad.com/l/technical-blogging)
 * [How to Build a Chatbot?](https://www.linkedin.com/learning/developing-chatbots-with-azure/)
 * [Python Pandas Essentials](https://www.guvi.in/courses/pandasEng?itm\_source=bhavaniravi.com)
 * [PythonToProject - Live Bootcamp](https://bhavaniravi.gumroad.com/l/LaFSj)
@@ -67,15 +69,13 @@
   * [Building OwnFlask - A Flask(like) Python Framework](python/flask/building-ownflask-a-flask-like-python-framework.md)
   * [ORM in Python Flask](python/flask/orm-in-python-flask.md)
   * [Migrating to Flask-SQLAlchemy 3.0](python/flask/migrating-to-flask-sqlalchemy-3.0.md)
-* [Django](python/web/django/README.md)
-  * [Debugging MakerLog](python/django/debugging-makerlog.md)
-* [Testing](python/testing/README.md)
-  * [Why Pytest is my Favorite?](python/testing/why-pytest-is-my-favorite.md)
+* [Django](python/django.md)
 * [How to Generate UML Diagrams from Python Source Code?](python/generate-uml-diagrams-from-python-code.md)
 * [Merging Python Modules](python/merge-python-module-script.md)
 * [Are your Secrets Safe In Python?](python/secrets-as-python-file.md)
 * [Asynchronous Task Execution In Python](python/asynchronous-task-execution-in-python.md)
 * [Caching in Python](python/caching-in-python.md)
+* [Debugging MakerLog](python/debugging-makerlog.md)
 
 ## Software Engineering
 
@@ -93,6 +93,7 @@
 * [How to Connect to Custom Oauth2 Provider Using Auth0?](software-engineering/custom-oauth2-with-auth0.md)
 * [All About Authentication Systems](software-engineering/authentication-in-python.md)
 * [How to Design a Chatbot System Architecture](software-engineering/how-to-design-a-chatbot-system-architecture.md)
+* [Types of Databases & When to Use them](software-engineering/database-101.md)
 
 ## Open Source
 
@@ -101,26 +102,21 @@
 
 ## Apache Airflow
 
-- [Airflow Celery vs Kubernetes Executor](apache-airflow/airflow-celery-vs-kubernetes-executor.md)
-- [Sending Email Alerts in Apache Airflow with Sendgrid](apache-airflow/sending-email-alerts-in-apache-airflow-with-sendgrid.md)
-- [How to Set up Airflow on Kubernetes?](apache-airflow/deploying-airflow-on-kubernetes.md)
-- [Airflow: Major Topics](apache-airflow/airflow-major-topics.md)
-- [Airflow Configurations](apache-airflow/airflow-configurations.md)
-- [Airflow Operators - A Comparison](apache-airflow/airflow-operators-comparison.md)
-- [Using Airflow Providers With KubernetesPodOperator](apache-airflow/using-airflow-providers-with-kubernetespodoperator.md)
-- [Can Next Scheduled Run Automatically Re-Run failed Task?](apache-airflow/can-next-scheduled-run-automatically-re-run-failed-task.md)
-- [Dynamic Task Mapping](apache-airflow/dynamic-task-mapping.md)
-- [KubernetesPodOperator vs. KubernetesExecutor](apache-airflow/kubernetespodoperator-vs.-kubernetesexecutor.md)
-- [Apache Airflow + MongoDB](apache-airflow/apache-airflow-+-mongodb.md)
-- [An Introduction to Apache Airflow](apache-airflow/apache-airflow-introduction.md)
-- [How to Send Email Alerts from Airflow?](apache-airflow/sending-emails-from-airflow.md)
-- [Setting Up Apache Airflow For Local Development in Mac M1](apache-airflow/setting-up-apache-airflow-for-local-development-in-mac-m1.md)
-- [How to Copy/Move S3 Files With Apache Airflow](apache-airflow/how-to-copy-move-s3-files-with-apache-airflow.md)
-
-## Database
-
-* [Types of Databases & When to Use them](database/database-101.md)
-* [Database Terms](database/database-terms.md)
+* [Airflow Celery vs Kubernetes Executor](apache-airflow/airflow-celery-vs-kubernetes-executor.md)
+* [Sending Email Alerts in Apache Airflow with Sendgrid](apache-airflow/sending-email-alerts-in-apache-airflow-with-sendgrid.md)
+* [How to Set up Airflow on Kubernetes?](apache-airflow/deploying-airflow-on-kubernetes.md)
+* [Airflow: Major Topics](apache-airflow/airflow-major-topics.md)
+* [Airflow Configurations](apache-airflow/airflow-configurations.md)
+* [Airflow Operators - A Comparison](apache-airflow/airflow-operators-comparison.md)
+* [Using Airflow Providers With KubernetesPodOperator](apache-airflow/using-airflow-providers-with-kubernetespodoperator.md)
+* [Can Next Scheduled Run Automatically Re-Run failed Task?](apache-airflow/can-next-scheduled-run-automatically-re-run-failed-task.md)
+* [Dynamic Task Mapping](apache-airflow/dynamic-task-mapping.md)
+* [KubernetesPodOperator vs. KubernetesExecutor](apache-airflow/kubernetespodoperator-vs.-kubernetesexecutor.md)
+* [Apache Airflow + MongoDB](apache-airflow/apache-airflow-+-mongodb.md)
+* [An Introduction to Apache Airflow](apache-airflow/apache-airflow-introduction.md)
+* [How to Send Email Alerts from Airflow?](apache-airflow/sending-emails-from-airflow.md)
+* [Setting Up Apache Airflow For Local Development in Mac M1](apache-airflow/setting-up-apache-airflow-for-local-development-in-mac-m1.md)
+* [How to Copy/Move S3 Files With Apache Airflow](apache-airflow/how-to-copy-move-s3-files-with-apache-airflow.md)
 
 ## Devops
 
@@ -131,6 +127,7 @@
 * [Deploying Flask Applications in Kubernetes (Digitalocean)](devops/kubernetes-101-deploy-apps-in-kubernetes.md)
 * [AWS](devops/aws/README.md)
   * [IAM Users, Roles, and Policies](devops/aws/iam-users-roles-and-policies.md)
+* [Data & Model Versioning](devops/data-and-model-versioning.md)
 
 ## Frontend
 
@@ -197,7 +194,3 @@
 * [How do you do so many things at the same time?](life/how-do-you-do-so-many-things-at-the-same-time.md)
 * [How to Fast-track Your Learning?](life/how-to-fast-track-your-learning.md)
 * [Are you constantly Distracted? It's not You.](life/are-you-constantly-distracted-its-not-you..md)
-
-## MLOps
-
-* [Data & Model Versioning](mlops/data-and-model-versioning.md)
