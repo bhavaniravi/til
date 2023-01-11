@@ -4,7 +4,7 @@ description: Setup Airflow Infrastructure and training for your team
 
 # Apache Airflow Starter Pack
 
-Teams adopting Airflow spend about <mark style="background-color:red;">3 months</mark> setting up their Dev and production infrastructure and figuring out how to design and implement their tasks.
+Teams adopting Airflow spend the most time setting up their Dev and production infrastructure, figuring out how to design and implement their tasks.
 
 With the starter package, I will&#x20;
 

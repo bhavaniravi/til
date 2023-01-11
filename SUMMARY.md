@@ -128,6 +128,7 @@
 * [AWS](devops/aws/README.md)
   * [IAM Users, Roles, and Policies](devops/aws/iam-users-roles-and-policies.md)
 * [Data & Model Versioning](devops/data-and-model-versioning.md)
+* [Docker CLI Cheatsheet](devops/docker-cli-cheatsheet.md)
 
 ## Frontend
 
