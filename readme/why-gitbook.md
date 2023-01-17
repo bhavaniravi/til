@@ -35,7 +35,7 @@ WordPress had all 3. It had great themes and a large community to seek help. SEO
 
 This was my 1st ever website under my domain name. WordPress was easy to start and add more content.&#x20;
 
-<figure><img src="../.gitbook/assets/image (2).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (2) (4).png" alt=""><figcaption></figcaption></figure>
 
 #### 2018
 
