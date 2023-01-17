@@ -4,9 +4,11 @@ description: Setup Airflow Infrastructure and training for your team
 
 # Apache Airflow Starter Pack
 
-Airflow has a steep learning curve. Teams adopting Airflow spend about [<mark style="background-color:red;">3 months</mark>](https://airflow.apache.org/use-cases/onefootball/#what-are-the-results) setting up their Dev and production infrastructure and figuring out how to design and implement their pipelines.
+Airflow has a steep learning curve. Teams adopting Airflow spend about three[ <mark style="background-color:red;">months</mark>](https://airflow.apache.org/use-cases/onefootball/#what-are-the-results) setting up their Dev and production infrastructure and figuring out how to design and implement their pipelines.
 
-With the starter package, I will&#x20;
+I have created an Airflow starter package to overcome the hurdles of getting started with Airflow. I've worked with Airflow for the last 3 years, contributed to its source code, and helped customers with infra and pipeline issues.&#x20;
+
+With the starter package, I will work with you as a consultant and help you
 
 * Set up the infrastructure in your environment. Docker/Kubernetes/VPC, you can decide.
 * Train your team to get up to speed on Airflow concepts, infrastructure, and design patterns.
