@@ -10,6 +10,7 @@ created_date: 2021-10-12
 description: How to set goals and track them
 draft: false
 ---
+
 # End Goal
 
 Often what's stopping you from reaching your end goal is the end goal itself.
@@ -18,7 +19,7 @@ Ambitious, long-term goals are supposed to be our driving force, a lighthouse th
 
 what's stopping you from reaching your end goal is the end goal itself.
 
-So what should we do? Just drop setting goals and walk along with whatever the path life takes us? 
+So what should we do? Just drop setting goals and walk along with whatever the path life takes us?
 
 Absolutely not!
 
@@ -37,8 +38,14 @@ Here is a framework I follow,
 1. Create one big goal life goal
 2. Create a yearly goal. You can call these broad goals
 3. You already have a timeline attached to it, 1 year.
-4. Create smaller goals for each quarter, month and week. 
+4. Create smaller goals for each quarter, month and week.
 
 You can change your goal anytime during the course. Just because you made one doesn't mean you have to stick with it for eternity. If you don't enjoy the process no point sticking to it
 
 Life is the most uncertain never-ending sea. Goals are the lighthouse that lets you navigate them.
+
+---
+
+{% embed url="https://bhavaniravi.substack.com/embed" %}
+Newsletter embed
+{% endembed %}

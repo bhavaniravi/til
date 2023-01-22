@@ -123,5 +123,8 @@ From a recent Google lighthouse run, I found that some pages take about 2.5 seco
 
 > I have reported all this to Gitbook team and they were kind enough to forward it to their product team. I'm hoping to see them added soon
 
+---
 
-
+{% embed url="https://bhavaniravi.substack.com/embed" %}
+Newsletter embed
+{% endembed %}

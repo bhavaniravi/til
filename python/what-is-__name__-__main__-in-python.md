@@ -46,3 +46,9 @@ The output will be
 app.py __name__=app
 temp.py __name__=__main__
 ```
+
+---
+
+{% embed url="https://bhavaniravi.substack.com/embed" %}
+Newsletter embed
+{% endembed %}

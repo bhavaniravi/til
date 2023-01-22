@@ -8,33 +8,33 @@ Social media is not helping newbies—the idea of wanting to be good at everythi
 
 I have also contributed to this problem. From the outside, it might look as if I am
 
-* Reading
-* Blogging
-* Coding
-* Public Speaking
-* Personal branding
-* Networking
+- Reading
+- Blogging
+- Coding
+- Public Speaking
+- Personal branding
+- Networking
 
 But in reality, all I was doing is things I love and finding different mediums to share them with people.
 
 As a newbie, spend most of your time getting good at your craft. It's not a race. Learn things at your own pace. Share your progress in a medium you are comfortable with.
 
-* 2 line tweet is ok&#x20;
-* 10 line blog is ok&#x20;
-* 15 line LinkedIn post is ok&#x20;
-* A page on a google doc is ok&#x20;
-* A 2 min vlog is ok
+- 2 line tweet is ok&#x20;
+- 10 line blog is ok&#x20;
+- 15 line LinkedIn post is ok&#x20;
+- A page on a google doc is ok&#x20;
+- A 2 min vlog is ok
 
 Any log you can look at 3 years from now and see how far you have come along is ok.
 
 Let's look at my coding journey a bit
 
-* 2012 - 2017 - Coding&#x20;
-* 2017 - 2018 - Coding + Tweeting&#x20;
-* 2018 - 2019 - Coding + Tweeting + Blogging&#x20;
-* 2019 - 2020 - Coding + Videos&#x20;
-* 2020- 2021 - Coding + Courses
-* 2021 - 2022 - Coding + Consulting + Indie-hacking
+- 2012 - 2017 - Coding&#x20;
+- 2017 - 2018 - Coding + Tweeting&#x20;
+- 2018 - 2019 - Coding + Tweeting + Blogging&#x20;
+- 2019 - 2020 - Coding + Videos&#x20;
+- 2020- 2021 - Coding + Courses
+- 2021 - 2022 - Coding + Consulting + Indie-hacking
 
 See how the craft is always a constant, you cannot stop sharpening the saw.
 
@@ -43,3 +43,9 @@ Time is an essential factor in this. I am privileged in this aspect.
 When my friends traveled 3 hours to college, my house was 20 mins away. All the hours I saved traveling I spent on coding after college. I live with my parents, who take care of themselves which is a huge previlege
 
 You might have things to take care of in life, prioritize.
+
+---
+
+{% embed url="https://bhavaniravi.substack.com/embed" %}
+Newsletter embed
+{% endembed %}

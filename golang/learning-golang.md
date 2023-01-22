@@ -3,16 +3,17 @@ title: How I Wrote my 1st 100 Lines of Golang Code
 sub_title: Learn Golang the practical way
 slug: learning-golang
 tags: ["golang"]
-featuredImgPath: 'https://i.imgur.com/L69ncMb.png'
+featuredImgPath: "https://i.imgur.com/L69ncMb.png"
 isexternal: true
-published_date: '2020-08-09'
-created_date: '2020-08-09'
+published_date: "2020-08-09"
+created_date: "2020-08-09"
 description: >-
   No documentation, No tutorial, No resources. Just Google search.  I'm not
   kidding, The syntax is boring.   I had a problem and I wanted a solution and I
   wanted to build the solution using Golang.
 draft: false
 ---
+
 # How I Wrote my 1st 100 Lines of Golang Code
 
 > Not a blog, just a log :)
@@ -45,7 +46,7 @@ A command line tool that will `list` my famous tweets from last year
 
 No documentation, No tutorial, No resources. Just Google search.
 
-I'm not kidding, The syntax is boring. 
+I'm not kidding, The syntax is boring.
 
 I had a problem and I wanted a solution and I wanted to build the solution using Golang.
 
@@ -61,3 +62,9 @@ Here are two options
 ## Got More Questions?
 
 Write them to my [twitter](https://twitter.com/BhavaniRavi_)/[email](bhava0895@gmail.com)/[linkedin](https://linkedin.com/in/bhavanir).
+
+---
+
+{% embed url="https://bhavaniravi.substack.com/embed" %}
+Newsletter embed
+{% endembed %}

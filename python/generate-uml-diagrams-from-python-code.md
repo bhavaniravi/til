@@ -53,6 +53,8 @@ The generated image looks something like this. (Click to open)
 
 <figure><img src="../.gitbook/assets/image (6).png" alt=""><figcaption></figcaption></figure>
 
+--- 
+
 {% embed url="https://bhavaniravi.substack.com/embed" %}
 Newsletter embed
 {% endembed %}

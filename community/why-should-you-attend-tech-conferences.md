@@ -82,3 +82,9 @@ After waves of conferences over zoom, the world is finally opening up for in-per
 _Never miss an article, stay up-to-date with tech tutorials_
 
 {% embed url="https://www.getrevue.co/profile/bhavaniravi" %}
+
+---
+
+{% embed url="https://bhavaniravi.substack.com/embed" %}
+Newsletter embed
+{% endembed %}

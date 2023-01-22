@@ -9,8 +9,8 @@ tags:
 featuredImgPath: >-
   https://images.unsplash.com/photo-1540959733332-eab4deabeeaf?iauto=format&fit=crop&w=1371&q=390
 isexternal: true
-published_date: '2020-12-16'
-created_date: '2020-12-16'
+published_date: "2020-12-16"
+created_date: "2020-12-16"
 draft: false
 description: >-
   In a world where ads constantly bombard us, streamlining your shopping process
@@ -53,23 +53,23 @@ Shopping for the items that you get from a store is relatively easy compared to 
 
 A Physical store
 
-* Pick items
-* Add to cart
-* Checkout
+- Pick items
+- Add to cart
+- Checkout
 
 An online store
 
-* Pick item
-* Read reviews
-* Read bad reviews
-* Compare with other products
-* Read other reviews
-* Settle on something
-* Add item to the cart
-* Stare at it for weeks
-* Add/edit/Move to wishlist
-* One eternity later
-* Checkout
+- Pick item
+- Read reviews
+- Read bad reviews
+- Compare with other products
+- Read other reviews
+- Settle on something
+- Add item to the cart
+- Stare at it for weeks
+- Add/edit/Move to wishlist
+- One eternity later
+- Checkout
 
 and the rest is history
 
@@ -85,6 +85,12 @@ I asked around and found out this is a normal shopping pattern for most people. 
 
 In a world where ads constantly bombard us, streamlining your shopping process is one of the healthiest things you can do for your financial well-being.
 
-***
+---
 
 _P.S. A moment of silence for the Ipad I have meant to buy for the last 2 years, all the books and art supplies on my wishlist._
+
+---
+
+{% embed url="https://bhavaniravi.substack.com/embed" %}
+Newsletter embed
+{% endembed %}

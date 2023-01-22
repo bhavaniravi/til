@@ -22,7 +22,7 @@ git remote add upstream git@github.com:apache/airflow.git
 
 ```
 brew install mysql
-brew services start mysql   
+brew services start mysql
 ```
 
 ### Create Virtualenv
@@ -162,3 +162,9 @@ mypy <filepath>
 pytest <path-to-file>::function_name
 pytest <path-to-file>::className::func_name
 ```
+
+---
+
+{% embed url="https://bhavaniravi.substack.com/embed" %}
+Newsletter embed
+{% endembed %}

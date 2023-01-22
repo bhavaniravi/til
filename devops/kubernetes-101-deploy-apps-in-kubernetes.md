@@ -15,15 +15,15 @@ draft: false
 
 ## What is Kubernetes?
 
-Kubernetes, aka K8s, are container orchestration tools. We saw what containers are and how they work in the previous blogs. Kubernetes lets you run and manage these containers in a controlled manager. 
+Kubernetes, aka K8s, are container orchestration tools. We saw what containers are and how they work in the previous blogs. Kubernetes lets you run and manage these containers in a controlled manager.
 
 ## Why use K8s?
 
-The advantage of using a container is that it's OS independent, lightweight, shippable. Another significant advantage is that you can scale the containers up and down without much overhead. Container orchestration tools like Kubernetes let you do this seamlessly. 
+The advantage of using a container is that it's OS independent, lightweight, shippable. Another significant advantage is that you can scale the containers up and down without much overhead. Container orchestration tools like Kubernetes let you do this seamlessly.
 
 Yes, Kubernetes is too much to wrap your head around. So let's take it to step by step.
 
-- - -
+---
 
 ## Kubernetes Resources
 
@@ -35,22 +35,22 @@ Inside every Node, we will have the capabilities to run the containers in a smal
 
 When you want to run the same container(Pod) many times, you can define a **Deployment**
 
-Once the application is running inside the Pod, you will  expose it to the outside world via the **Service**
+Once the application is running inside the Pod, you will expose it to the outside world via the **Service**
 
 With that, we have got a high-level understanding of the most used Kubernetes keywords
 
-* Pod
-* Deployment
-* Service
-* Node
-* Cluster
-* Namespace
+- Pod
+- Deployment
+- Service
+- Node
+- Cluster
+- Namespace
 
 We will see more resources as we go along this journey. For now, let's see how to set up a cluster and expose it using the resources mentioned earlier on Digitalocean.
 
 ## Why Digitalocean?
 
-Because I have some free credits, you can spin up one at just 10$/month. 
+Because I have some free credits, you can spin up one at just 10$/month.
 
 [With my referral link, get 100$ worth credits instantly](https://m.do.co/c/41c2c624a048)
 
@@ -65,12 +65,12 @@ Remember, you can host any application in any language on a Kubernetes environme
 
 You can spin up a Kubernetes cluster without hassle in any managed services such as AWS, GCP, or Digitalocean. Note that these managed services come out of the box. You can also install Kubernetes on a bare-metal machine like you do any other software. But that is a problem for another time.
 
-For now, check out how to create a K8 cluster on Digitalocean from 
+For now, check out how to create a K8 cluster on Digitalocean from
 [here](https://docs.digitalocean.com/products/kubernetes/quickstart/#create-clusters)
 
 ## DigitalOcean CLI
 
-I hope you have your Digitalocean account set up? 
+I hope you have your Digitalocean account set up?
 
 > You might need to pay a 5$ fee initially and set up your card. Remove it later. You won't be charged any.
 
@@ -81,16 +81,16 @@ Digitalocean CLI tool is terrific for creating Kubernetes resources. I use it th
 
 ```
 export DO_TOKEN=<Token-here>
-doctl auth init -t $DO_TOKEN 
+doctl auth init -t $DO_TOKEN
 ```
 
 ## How to deploy an application in the Kubernetes cluster
 
 Now for the fun part. What do you need to deploy?
 
-* Dockerized sample application
-* Kubectl access
-* Kubernetes spec
+- Dockerized sample application
+- Kubectl access
+- Kubernetes spec
 
 Let's do this one by done.
 
@@ -122,7 +122,7 @@ The docker images can be referenced by registry, image, and tag. Currently, we h
 
 ```
 docker tag flask-tutorial:0.0.1 registry.digitalocean.com/do-registry/flask-tutorial:1.0.0
-doctl registry login 
+doctl registry login
 docker push registry.digitalocean.com/do-registry/flask-tutorial:1.0.0
 ```
 
@@ -132,16 +132,16 @@ Follow [Digitalocean Cluster creation tutorial and create a Kubernetes cluster](
 
 ### Kubectl Access
 
-To create kubectl resources like pods, deployments, etc., you need kubectl and cluster config. A DevOps engineer will work with multiple Kubernetes Cluster. The cluster config has information about the Cluster and lets you switch between them. 
+To create kubectl resources like pods, deployments, etc., you need kubectl and cluster config. A DevOps engineer will work with multiple Kubernetes Cluster. The cluster config has information about the Cluster and lets you switch between them.
 
 ```
-doctl Kubernetes cluster kubeconfig save terraform-do-cluster 
+doctl Kubernetes cluster kubeconfig save terraform-do-cluster
 ```
 
 To list all the configured clusters.
 
 ```
-kubectl config get-clusters   
+kubectl config get-clusters
 ```
 
 Choose the Cluster you want to work with
@@ -157,10 +157,10 @@ kubectl config use-context <cluster-name>
 ```
 kubectl get namespaces
 kubectl create namespace todoapp
-kubectl config set-context --current --namespace=todoapp 
+kubectl config set-context --current --namespace=todoapp
 ```
 
-2. Create Pod, deployment spec. Create a file `deployment.yaml` 
+2. Create Pod, deployment spec. Create a file `deployment.yaml`
 
 ```
 ---
@@ -219,10 +219,16 @@ kubectl get service # wait until external IP is set
 
 Open the browser and hit `http://<external-ip>:8000/`, you should see the flask homepage.
 
-To check the logs use 
+To check the logs use
 
 ```
 kubectl get logs -f <pod-name>
 ```
 
 We have just nicked the surface of Kubernetes. You can create a custom resource with other resources, and there is this whole unexplored territory of how Kubernetes works internally. We will explore all of these in the upcoming articles.
+
+---
+
+{% embed url="https://bhavaniravi.substack.com/embed" %}
+Newsletter embed
+{% endembed %}

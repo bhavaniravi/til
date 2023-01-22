@@ -6,8 +6,8 @@ tags:
   - apache-airflow
 featuredImgPath: https://i.imgur.com/UvlPSAW.png
 isexternal: true
-published_date: '2021-01-12'
-created_date: '2021-01-10'
+published_date: "2021-01-12"
+created_date: "2021-01-10"
 draft: false
 description: >-
   Airflow provides a variety of operators to couple your business logic into
@@ -24,7 +24,7 @@ Airflow provides a variety of operators to couple your business logic into execu
 Using `PythonOperator`, all the business logic and it's associated code resides in the airflow DAG directory. The `PythonOperator` imports and runs them during the execution
 
 ```
-airflow 
+airflow
     \__dags
         \_classification_workflow.py
         \_ tweet_classification
@@ -99,3 +99,9 @@ KubernetesPodOperator(
 ### Cons:
 
 Complex on the infrastructure, since it uses docker and Kubernetes.
+
+---
+
+{% embed url="https://bhavaniravi.substack.com/embed" %}
+Newsletter embed
+{% endembed %}

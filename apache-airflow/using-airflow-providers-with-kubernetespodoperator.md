@@ -20,3 +20,8 @@ create_object = S3CreateObjectOperator(
 create_object.execute(dict())
 ```
 
+---
+
+{% embed url="https://bhavaniravi.substack.com/embed" %}
+Newsletter embed
+{% endembed %}

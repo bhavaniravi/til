@@ -44,7 +44,7 @@ The ast module came in handy to load the Python module and load it into a tree. 
 
 ```
 def get_imports(path):
-    with open(path) as fh:        
+    with open(path) as fh:
        root = ast.parse(fh.read(), path)
 ```
 
@@ -54,7 +54,7 @@ Next, we loop through these nodes and capture classes and imports.
 for node in ast.iter_child_nodes(root):
     if isinstance(node, ast.Import):
         module = []
-    elif isinstance(node, ast.ImportFrom):  
+    elif isinstance(node, ast.ImportFrom):
         module = node.module.split('.')
 ```
 
@@ -75,7 +75,7 @@ for n in node.names:
     else:
         statement = f"from {'.'.join(module)} import {n.name}"
         if n.asname:
-            statement = statement + f"as {n.asname}" 
+            statement = statement + f"as {n.asname}"
 
     imports.append(statement)
 ```
@@ -102,9 +102,15 @@ The `astunparse` [module](https://github.com/simonpercivall/astunparse/blob/2acc
 The current script is pretty limited in its capabilities. I'm not going to work on them until a need arises.
 
 1. It will work only on modules' import statements and classes. Any other python construct will be ignored
-2. Unparse makes all docstrings a single line with  with single quotes.
+2. Unparse makes all docstrings a single line with with single quotes.
 3. The current script does not handle multiple imports.
 
-***
+---
 
 The snippet, along with an example directory, is available in my [github repository](https://github.com/bhavaniravi/mergepy/tree/main)
+
+---
+
+{% embed url="https://bhavaniravi.substack.com/embed" %}
+Newsletter embed
+{% endembed %}

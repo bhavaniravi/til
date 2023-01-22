@@ -5,7 +5,8 @@ Finding Discrepencey in Clinical trials data, the project was used for Pfizer CO
 I deployed maintained and built the data pipelines to pull data from different sources using Apache Airflow.
 Gained lot of experience with GKE and EKS since the product was built to host in different platforms based on customer requirements.
 
-## Tech Stack 
+## Tech Stack
+
 - Airflow
 - Flask
 - Postgres
@@ -13,6 +14,12 @@ Gained lot of experience with GKE and EKS since the product was built to host in
 - Kubernetes
 - AWS EKS & GCP's GKE
 
-## Client 
+## Client
 
 [Saama Technologies](https://www.saama.com)
+
+---
+
+{% embed url="https://bhavaniravi.substack.com/embed" %}
+Newsletter embed
+{% endembed %}

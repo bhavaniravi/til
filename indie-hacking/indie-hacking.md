@@ -5,3 +5,9 @@ Indie hacking is a term given to developers who are building and launching produ
 I was greatly inspired by Tony Dinh's Indie hacking journey and jumped the wagon in Aug 2022.
 
 I'm currently building #100Ideas a place to brainstrom ideas without a million button clicks
+
+---
+
+{% embed url="https://bhavaniravi.substack.com/embed" %}
+Newsletter embed
+{% endembed %}

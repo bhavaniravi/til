@@ -24,3 +24,10 @@ KubernetesExecutor is where Airflow spins up a new pod to run an Airflow task. U
 
 
 One dowside of kubernetes executor can be the time it takes to spin up the pod but compared to the advantages it can be close to null
+
+
+--- 
+
+{% embed url="https://bhavaniravi.substack.com/embed" %}
+Newsletter embed
+{% endembed %}

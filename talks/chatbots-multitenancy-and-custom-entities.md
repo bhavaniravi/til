@@ -21,8 +21,8 @@ Software devs are so common that to Stand out as a developer, coding is not enou
 
 {% embed url="https://docs.google.com/presentation/d/e/2PACX-1vSIlCRwV9vQS3nSwcfIKbeYRLrNY5PEBwuMLrwOQtBdJjUC8YrUj-SM2ANUPsyfRAejKFwP3cbhczWu/embed?start=false&loop=false&delayms=60000" %}
 
+---
 
-
-
-
-
+{% embed url="https://bhavaniravi.substack.com/embed" %}
+Newsletter embed
+{% endembed %}

@@ -43,7 +43,7 @@ That’s not the end, here comes the best part, Once the mom is done she looked 
 
 Both the mom and the girl had an insane amount of maturity and understanding. Their chemistry awestruck me. It doesn’t happen in one day. It started growing when the mom first introduced her to what a shoe is? Why should we wear one? How to wear one? and patiently answered every other question that has popped in the kid’s mind. The mom must have really lead by an example by showing patience to a curious kid, listening to her before yelling because she was occupied.
 
-***
+---
 
 I exactly felt like a new kid when I entered orangescape a year back. The first 3 months were hard, my brain was bouncing in a hyper state with all the new information it was receiving(metadata, criteria, condition, **component**).&#x20;
 
@@ -52,3 +52,9 @@ I was that curious kid who asked a million questions and bothered my managers [A
 It all didn’t happen in a day. But finally, after a year, I see that I have learned, evolved, existed, extended, sometimes even stretched. It was all worth it. It was not a cake walk but a walk filled with a lot of cakes(That’s how we celebrate).
 
 https://twitter.com/BhavaniRavi\_/status/1130512904896126980
+
+---
+
+{% embed url="https://bhavaniravi.substack.com/embed" %}
+Newsletter embed
+{% endembed %}

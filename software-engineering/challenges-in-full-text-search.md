@@ -23,7 +23,6 @@ Now that we know the necessity of search feature in an app, the struggle comes w
 
 \
 
-
 ## What is Full-Text-Searching?
 
 Full text search is an advanced method of searching through documents and DB records. While conventional searches use pattern matching(grep/regex) methods and scanning through the documents, full-text search promises fast retrieval of data with advanced indexing and more intuitive search results based on relevance.
@@ -97,10 +96,10 @@ For example, the Levenshtein distance between the words “ax” and “axe” i
 Indexes are built based on the data in the databases. In any real time system the data changes frequently. For e.g., An item might go out of stock or the prices might vary and so on. In this case the index becomes invalid and searching over it often gives wrong results. This can be handled in 2 ways
 
 1. Drop the index and rebuild it for the newly available data
-   * It is time consuming&#x20;
-   * User can’t do FTS until the whole index is rebuilt again
+   - It is time consuming&#x20;
+   - User can’t do FTS until the whole index is rebuilt again
 2. Keep track of all the updates and inserts to the DB and update the index asynchronously
-   * The only drawback in this method is the inconsistency in data, which is much better when compared to shutting off the feature for few minutes.
+   - The only drawback in this method is the inconsistency in data, which is much better when compared to shutting off the feature for few minutes.
 
 ## Full-Text-Search In Distributed Systems
 
@@ -123,3 +122,9 @@ As the system scales and when you adapt to a microservices architecture next set
 6. [How does FTS work what can it do?](https://www.youtube.com/watch?v=VBc4qammHrY)
 7. [https://conferences.xeraa.net/videos/ovUA3r](https://conferences.xeraa.net/videos/ovUA3r)
 8. [How dropbox solves full text search](https://blogs.dropbox.com/tech/2015/03/firefly-instant-full-text-search-engine/)
+
+---
+
+{% embed url="https://bhavaniravi.substack.com/embed" %}
+Newsletter embed
+{% endembed %}

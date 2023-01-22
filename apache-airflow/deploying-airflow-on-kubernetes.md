@@ -150,13 +150,13 @@ spec:
 apiVersion: v1
 kind: Service
 metadata:
- name: Airflow
+  name: Airflow
 spec:
- type: LoadBalancer
- ports:
- - port: 8080
- selector:
- name: airflow
+  type: LoadBalancer
+  ports:
+    - port: 8080
+  selector:
+  name: airflow
 ```
 
 1. A serviceaccount which with `Role` to spin up and delete new pods. These provide permissions to the Airflow scheduler to spin up the worker pods.
@@ -180,7 +180,7 @@ rules:
 - apiGroups: ["batch", "extensions"]
  resources: ["jobs"]
  verbs: ["get", "list", "watch", "create", "update", "patch", "delete"]
---- 
+---
 ```
 
 1. Two persistent volumes for storing dags and logs
@@ -189,25 +189,25 @@ rules:
 kind: PersistentVolume
 apiVersion: v1
 metadata:
- name: airflow-dags
+  name: airflow-dags
 spec:
- accessModes:
- - ReadOnlyMany
- capacity:
- storage: 2Gi
- hostPath:
- path: /airflow-dags/
+  accessModes:
+    - ReadOnlyMany
+  capacity:
+  storage: 2Gi
+  hostPath:
+  path: /airflow-dags/
 ---
 kind: PersistentVolumeClaim
 apiVersion: v1
 metadata:
- name: airflow-dags
+  name: airflow-dags
 spec:
- accessModes:
- - ReadOnlyMany
- resources:
- requests:
- storage: 2Gi
+  accessModes:
+    - ReadOnlyMany
+  resources:
+  requests:
+  storage: 2Gi
 ```
 
 1. An airflow config file is created as a kubernetes config map and attached to the pod. Checkout [`build/configmaps.yaml`](deploying-airflow-on-kubernetes.md)
@@ -251,7 +251,7 @@ By default, this setup copies all the examples into the dags; we can just run on
 Once it is deployed, you don't have to run this script every time. You can use basic kubectl commands to delete or restart pods.
 
 ```
-kubectl get pods --watch 
+kubectl get pods --watch
 kubectl logs <POD_NAME> <Container_name>
 kubectl exec -it $pod_name --container webserver -- /bin/bash
 ```
@@ -259,8 +259,6 @@ kubectl exec -it $pod_name --container webserver -- /bin/bash
 ### Got a Question?
 
 [Raise them as issues on the git repo](https://github.com/bhavaniravi/airflow-kube-setup/issues)
-
-
 
 ### Next Up...
 
@@ -272,3 +270,8 @@ kubectl exec -it $pod_name --container webserver -- /bin/bash
 [sending-email-alerts-in-apache-airflow-with-sendgrid.md](sending-email-alerts-in-apache-airflow-with-sendgrid.md)
 {% endcontent-ref %}
 
+---
+
+{% embed url="https://bhavaniravi.substack.com/embed" %}
+Newsletter embed
+{% endembed %}

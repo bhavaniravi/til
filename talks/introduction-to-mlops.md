@@ -9,3 +9,9 @@ A walkthrough on how to consturuct a CI/CD pipeline for your Machine learning pr
 ## Video
 
 {% embed url="https://www.youtube.com/embed/-XABFDwndFI" %}
+
+---
+
+{% embed url="https://bhavaniravi.substack.com/embed" %}
+Newsletter embed
+{% endembed %}

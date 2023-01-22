@@ -19,3 +19,9 @@ Check if restart is set to always
 ```
 restarts: "no" #don't miss the quote
 ```
+
+---
+
+{% embed url="https://bhavaniravi.substack.com/embed" %}
+Newsletter embed
+{% endembed %}

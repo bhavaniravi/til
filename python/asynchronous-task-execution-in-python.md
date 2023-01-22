@@ -33,8 +33,8 @@ Conventional tasks queues have two programs (a producer and a consumer) with a d
 
 **Disadvantages**
 
-* Maintaining tasks on a DB table means that the table grows based on the number of tasks. It becomes complicated when the DB grows so much that we have to deal the problem of scaling.
-* For every consumer that's free it queries the DB with task flag `Scheduled`, to fetch a scheduled task that it can run. The querying becomes costly as the size of the DB grows.
+- Maintaining tasks on a DB table means that the table grows based on the number of tasks. It becomes complicated when the DB grows so much that we have to deal the problem of scaling.
+- For every consumer that's free it queries the DB with task flag `Scheduled`, to fetch a scheduled task that it can run. The querying becomes costly as the size of the DB grows.
 
 ## Cron
 
@@ -54,10 +54,10 @@ I wrote a simple python script to trigger a Mac notification that asks me to tak
 import os
 
 def notify(title, text):
-    os.system(""" 
+    os.system("""
     osascript -e 'display notification "{}" with title "{}"'
     """.format(text, title))
-    
+
 notify("Take a break", "You are sitting for too long")
 ```
 
@@ -83,19 +83,19 @@ I will be using a treasure hunter program as an example to explain the concepts 
 
 ```
 # Create treasure
-def creating_treasure():  
-    """  
-    Creates N files with treasure randomly set in one of the files       
-    """  
-    treasure_in = randint(1, N)  
-    for i in range(0, N):  
-        logging.debug(i)  
-        with open(f"treasure_data/file_{i}.txt", "w") as f:  
-            if i != treasure_in:  
-                f.writelines(["Not a treasure\n"] * N)  
-            else:  
-                f.writelines(["Treasure\n"] * N)  
-    print (f"treasure is in {treasure_in}")  
+def creating_treasure():
+    """
+    Creates N files with treasure randomly set in one of the files
+    """
+    treasure_in = randint(1, N)
+    for i in range(0, N):
+        logging.debug(i)
+        with open(f"treasure_data/file_{i}.txt", "w") as f:
+            if i != treasure_in:
+                f.writelines(["Not a treasure\n"] * N)
+            else:
+                f.writelines(["Treasure\n"] * N)
+    print (f"treasure is in {treasure_in}")
 creating_treasure()
 ```
 
@@ -110,35 +110,35 @@ Python threading is an age-old story. Though it gives an idea of running multipl
 The `treasure_hunter` program implemented using threading would have threads looking through different ranges of files.
 
 ```
-N = 10000   
-treasure_found = False  
-num_of_threads = 10  
+N = 10000
+treasure_found = False
+num_of_threads = 10
 count = int(N/num_of_threads)
 ```
 
 We have a common flag `treasure_found` for all threads to set.
 
 ```
-def find_treasure(start, end):  
-    logging.debug(f"{start}, {end}")  
-    global treasure_found  
-    for i in range(start, end):  
-        if treasure_found:  
-            return  
-		with open(f"treasure_data/file_{i}.txt", "r") as f:  
-            if f.readlines()[0] == "Treasure\n":  
-                treasure_found = i  
-                return  
-  
+def find_treasure(start, end):
+    logging.debug(f"{start}, {end}")
+    global treasure_found
+    for i in range(start, end):
+        if treasure_found:
+            return
+		with open(f"treasure_data/file_{i}.txt", "r") as f:
+            if f.readlines()[0] == "Treasure\n":
+                treasure_found = i
+                return
 
-start_time = time.time()  
 
-threads = [threading.Thread(target=find_treasure, args=[i, i+count])  
-           for i in range(0, N, count)]  
-[thread.start() for thread in threads]  
-[thread.join() for thread in threads]  
-  
-print("--- %s seconds ---" % (time.time() - start_time))  
+start_time = time.time()
+
+threads = [threading.Thread(target=find_treasure, args=[i, i+count])
+           for i in range(0, N, count)]
+[thread.start() for thread in threads]
+[thread.join() for thread in threads]
+
+print("--- %s seconds ---" % (time.time() - start_time))
 print (f"Found treasure {treasure_found}")
 ```
 
@@ -149,16 +149,16 @@ The multiprocessing module enables us to overcome the disadvantage of threading.
 Multiprocessing also works well on CPU intensive tasks as we can use all the cores available independently. When designing a multiprocessing problem, the processes often share a queue from where each process can load tasks for its next execution.
 
 ```
-num_of_process = 100  
+num_of_process = 100
 
-start_time = time.time()  
-processes = [Process(target=find_treasure, args=[i, int(i+N/num_of_process)])  
-             for i in range(0, N, int(N/num_of_process))]  
-             
-[process.start() for process in processes]  
-[process.join() for process in processes]  
-  
-print("--- %s seconds ---" % (time.time() - start_time))  
+start_time = time.time()
+processes = [Process(target=find_treasure, args=[i, int(i+N/num_of_process)])
+             for i in range(0, N, int(N/num_of_process))]
+
+[process.start() for process in processes]
+[process.join() for process in processes]
+
+print("--- %s seconds ---" % (time.time() - start_time))
 print (f"Found treasure {treasure_found}")
 ```
 
@@ -167,23 +167,23 @@ print (f"Found treasure {treasure_found}")
 In the above two examples, the switching between the threads or processes is handled by the CPU. In certain cases, the developer might be more aware of when a context switch should happen over CPU. Instead of spinning up processes or threads, it lets the program(developer) decide when a program can halt and leave a way for the execution of other tasks.
 
 ```
-async def find_treasure(start, end):  
-    global treasure_found  
-    for i in range(start, end):  
-        if treasure_found:   
-            return  
+async def find_treasure(start, end):
+    global treasure_found
+    for i in range(start, end):
+        if treasure_found:
+            return
         # Await until file is read
-		await read_file(i)  
-  
-  
-async def main():  
-    tasks = [find_treasure(i, i+count)  
-            for i in range(0, N, count)]  
-    await asyncio.gather(  
-            *tasks  
-    )  
+		await read_file(i)
 
-asyncio.run(main())  
+
+async def main():
+    tasks = [find_treasure(i, i+count)
+            for i in range(0, N, count)]
+    await asyncio.gather(
+            *tasks
+    )
+
+asyncio.run(main())
 ```
 
 ## Celery
@@ -215,13 +215,13 @@ Let's say you are backing up `N-items` into a DB as your task. In case two worke
 Redis by default is an in-memory database and that's about it. RQ (Redis queue) is a task scheduler to asynchronously execute tasks, which uses redis' `Queue` data structure and has an inbuilt worker implementation. The architecture and working is very similar to that of Celery.
 
 ```
-N = 10000  
-num_of_process = 10  
-count = int(N/num_of_process)  
-  
-start_time = time.time()  
-q = Queue(connection=Redis())  
-results = [q.enqueue(find_treasure, i, i+count)  
+N = 10000
+num_of_process = 10
+count = int(N/num_of_process)
+
+start_time = time.time()
+q = Queue(connection=Redis())
+results = [q.enqueue(find_treasure, i, i+count)
            for i in range(0, N, count)]
 ```
 
@@ -297,4 +297,10 @@ I referred to a whole bunch of links and read through all the documentation befo
 6. [Celery Vs RQ](https://stackoverflow.com/questions/13440875/pros-and-cons-to-use-celery-vs-rq)
 7. [https://www.fullstackpython.com/task-queues.html](https://www.fullstackpython.com/task-queues.html)
 8. [https://www.youtube.com/watch?v=nrzLdMWTRMM](https://www.youtube.com/watch?v=nrzLdMWTRMM)
-9. [Google Task Queue vs Pub/Sub](https://groups.google.com/d/msg/google-appengine/IcIjLfgnNXs/-m\_ik7h6DgAJ)
+9. [Google Task Queue vs Pub/Sub](https://groups.google.com/d/msg/google-appengine/IcIjLfgnNXs/-m_ik7h6DgAJ)
+
+---
+
+{% embed url="https://bhavaniravi.substack.com/embed" %}
+Newsletter embed
+{% endembed %}

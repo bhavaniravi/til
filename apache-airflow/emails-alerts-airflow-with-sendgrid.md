@@ -12,7 +12,8 @@ description: Email alerts are an important part of any automation pipeline. The
   send emails
 draft: false
 ---
-#  Sending Email Alerts in Apache Airflow with Sendgrid
+
+# Sending Email Alerts in Apache Airflow with Sendgrid
 
 Airflow is the automation tool used to [create and manage reproducible data pipelines](/blog/apache-airflow-introduction/). There are specific mechanisms to send alerts to users when there is an error when executing these pipelines.
 
@@ -24,7 +25,7 @@ One of the most common ways of sending these alerts is email. Other's include sl
 
 Before we use SendGrid with Airflow, you to an account with Sendgrid, go ahead and register yourself. You get 100 emails/day on the free plan, which is good enough for this exercise.
 
-Next, you need to authenticate your domain. 
+Next, you need to authenticate your domain.
 
 <figure>
 
@@ -36,12 +37,12 @@ You will get a set of DNS records to add to the DNS provider on adding your doma
 
 ## Types of Sendgrid Email Integration
 
-There are two types of email [integration in Sengrid](https://app.sendgrid.com/guide/integrate) 
+There are two types of email [integration in Sengrid](https://app.sendgrid.com/guide/integrate)
 
 1. Web API
 2. SMTP Relay
 
-**Web API** providers SDK in different languages for you to integrate email sending logic to the code. 
+**Web API** providers SDK in different languages for you to integrate email sending logic to the code.
 
 <figure>
 
@@ -49,7 +50,7 @@ There are two types of email [integration in Sengrid](https://app.sendgrid.com/g
 
 </figure>
 
-**SMTP Relay** is used when you already have an email sending app and want to configure the SMTP server. 
+**SMTP Relay** is used when you already have an email sending app and want to configure the SMTP server.
 
 Since Airflow already has the email sending logic, it needs the SMTP details to start sending emails.
 
@@ -67,12 +68,11 @@ Now it's only a matter of adding it to Airflow.
 
 ## Integrate Sendgrid to Airflow
 
-There are two ways you can integrate SendGrid with Airflow. 
+There are two ways you can integrate SendGrid with Airflow.
 
 ### Using Default SMTP
 
 With default SMTP configuration airflow uses the default SMTP email backend `airflow.utils.email.send_email_smtp` to send the email. Set the following airflow configurations and you're good to go
-
 
 ```
 AIRFLOW__SMTP__SMTP_HOST=smtp.sendgrid.net
@@ -133,7 +133,7 @@ default_args = {
 with DAG('example_dag',
          start_date=datetime(2022, 1, 1),
          max_active_runs=1,
-         schedule_interval=None,  
+         schedule_interval=None,
          default_args=default_args,
          ) as dag:
 
@@ -146,3 +146,9 @@ with DAG('example_dag',
 Add this to your Airflow DAGs, and you will get an email on failure. You can also set `email_on_retry` as `True` to send emails on retry.
 
 Airflow currently does not support `email_on_sucess`. The only way to achieve this is via `EmailOperator` or a custom `PythonOperator.`
+
+---
+
+{% embed url="https://bhavaniravi.substack.com/embed" %}
+Newsletter embed
+{% endembed %}

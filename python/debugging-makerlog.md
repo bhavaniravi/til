@@ -9,3 +9,9 @@ description: >-
 This post is a WIP. Please bear with me until I publish this.
 
 {% @mailchimp/mailchimpSubscribe cta="Don't miss any blogs. No spam, ever." %}
+
+---
+
+{% embed url="https://bhavaniravi.substack.com/embed" %}
+Newsletter embed
+{% endembed %}

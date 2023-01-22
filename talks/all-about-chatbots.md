@@ -16,3 +16,9 @@ The talk walks you through from the basic of chatbot technologies to deep dive m
 ## Slide
 
 {% embed url="https://docs.google.com/presentation/d/e/2PACX-1vTMi7lsoxGdrJ2gIjsdjRACufN1E2lyb1prpChC7DjhzSoadbD5InPilRlEtyCyinJs-oSGBOkcnkCR/embed?start=false&loop=false&delayms=3000" %}
+
+---
+
+{% embed url="https://bhavaniravi.substack.com/embed" %}
+Newsletter embed
+{% endembed %}

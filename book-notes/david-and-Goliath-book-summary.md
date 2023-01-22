@@ -13,27 +13,29 @@ isexternal: false
 ---
 
 # David and Goliath Book Summary
+
 ## The underdogs, misfits and the art of battling giants
 
-David and Goliath is the 3rd book I read in 2020. I am a big fan of Malcolm Gladwell, so this blog could be biased.  Like his every other book, Malcolm questions the obvious. Be it Outliers, Talking to strangers, or David and Goliath, he makes us look at the world the way we would have never thought of before. 
+David and Goliath is the 3rd book I read in 2020. I am a big fan of Malcolm Gladwell, so this blog could be biased. Like his every other book, Malcolm questions the obvious. Be it Outliers, Talking to strangers, or David and Goliath, he makes us look at the world the way we would have never thought of before.
 
 ## What I liked about this book?
 
-From the time I got the book, to writing this summary, I thought the title of the book was *David vs. Goliath*. When I realized it was *David and Goliath*, it put a lot of things in perspective. It was never about the fight. It was not even about the battle. It was about how we all have our strengths and weaknesses and how we can use them to our advantage to get our way through this world. Of course, in sports, someone has to lose so that someone has to win, but in life? 
+From the time I got the book, to writing this summary, I thought the title of the book was _David vs. Goliath_. When I realized it was _David and Goliath_, it put a lot of things in perspective. It was never about the fight. It was not even about the battle. It was about how we all have our strengths and weaknesses and how we can use them to our advantage to get our way through this world. Of course, in sports, someone has to lose so that someone has to win, but in life?
 
 ## Big Takeaways
 
-Went too philosophical there, didn't I? 
+Went too philosophical there, didn't I?
 
 Unlike the first two books I read [Atomic habits](/blog/seven-habits-book-summary) and [7 habits of highly effective people](/blog/atomic-habits-book-summary), this book is not a self-help book, not a practical guide that would change your life. It is a book filled with case studies to prove that our conventional ideas can be questioned and proved wrong.
 
 ## Question the Conventional Wisdom
 
-For those of you who don't know the David and Goliath story, *Goliath* the mighty warrior challenges the opponent army to fight on single combat. He asked them to send one of their mightiest warriors. No one came had the guts to face *Goliath* given his threatening figure and armor, except for *David* the shepherd boy. 
+For those of you who don't know the David and Goliath story, _Goliath_ the mighty warrior challenges the opponent army to fight on single combat. He asked them to send one of their mightiest warriors. No one came had the guts to face _Goliath_ given his threatening figure and armor, except for _David_ the shepherd boy.
 
-David refuses to use any of the weapons offered by his army. He resided to use his slingshot. As David ran towards Goliath, the overconfident Goliath calls out saying *"“Am I a dog, that you come at me with sticks?”"*. Despite all that, David shoots a pebble at the giant's head to make him fall dead. 
+David refuses to use any of the weapons offered by his army. He resided to use his slingshot. As David ran towards Goliath, the overconfident Goliath calls out saying _"“Am I a dog, that you come at me with sticks?”"_. Despite all that, David shoots a pebble at the giant's head to make him fall dead.
 
-Conventional wisdom dictates that courage alone is enough to fight and defeat the giants of this world. The book begins by questioning that takeaway of that story. 
+Conventional wisdom dictates that courage alone is enough to fight and defeat the giants of this world. The book begins by questioning that takeaway of that story.
+
 - Was Goliath as mighty as he looked?
 - Was it just the courage that made David come forward?
 - How could a stone in a slingshot make a person drop dead?
@@ -68,12 +70,18 @@ The book states that dyslexics have the advantage of winning over people as they
 
 ### Play your Game
 
-The third idea is all about *playing by your strengths* even when it looked stupid. One look at David people would have laughed at him, called him foolish, but none of that stopped him. He knew what his strengths are. He didn't opt to use any weapons offered by the army.
+The third idea is all about _playing by your strengths_ even when it looked stupid. One look at David people would have laughed at him, called him foolish, but none of that stopped him. He knew what his strengths are. He didn't opt to use any weapons offered by the army.
 
 He knew what he was good at. He knew what the end goal was. He played by his strengths and won the battle.
 
 ---
 
-When a situation presents itself, look at your options, Look beyond the conventional wisdom. *By putting out advantage, we hide our disadvantage.* 
+When a situation presents itself, look at your options, Look beyond the conventional wisdom. _By putting out advantage, we hide our disadvantage._
 
 The world is filled with David's and Goliath's, neither weak neither strong, trying to co-exist while fighting their own inner battles.
+
+---
+
+{% embed url="https://bhavaniravi.substack.com/embed" %}
+Newsletter embed
+{% endembed %}

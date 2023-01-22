@@ -12,6 +12,7 @@ description: Docker is one of the most powerful tools to ship and deliver
   inventions that went in at the OS level that made Docker possible
 draft: false
 ---
+
 # Docker - Virtualization vs. Containerization
 
 When the internet became a thing, we started hosting things on bare metal servers. In the last five years, we have moved from there to this fancy thing called Docker that changed our lives.
@@ -36,7 +37,7 @@ Taking this up a notch, IBM came up with the brilliant idea of running multiple 
 
 ### Hardware Level Virtualization
 
-Hardware virtualization is the isolation of hardware resources to run multiple OS. 
+Hardware virtualization is the isolation of hardware resources to run multiple OS.
 
 **Full virtualization** is when the hardware system is emulated. The Guest OS does not know whether it deals with actual or simulated hardware. The hypervisor is the piece of software that does the job of emulation so perfectly.
 
@@ -71,3 +72,9 @@ UFS in Docker is the core of keeping it lightweight. When running a Docker conta
 ---
 
 Docker is one of the most powerful tools to ship and deliver software. While celebrating that, we shouldn't forget the predecessor inventions that went in at the OS level that made Docker possible
+
+---
+
+{% embed url="https://bhavaniravi.substack.com/embed" %}
+Newsletter embed
+{% endembed %}

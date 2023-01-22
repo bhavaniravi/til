@@ -5,16 +5,17 @@ created_date: 2019-07-24T00:00:00.000Z
 title: It Doesn't Have to be Crazy at Work
 template: post
 draft: true
-description: ''
+description: ""
 subtitle: >-
   Guideliness from the book for founders and CEO's on how to run a company
   without chaos
 tags: ["book-notes"]
-featuredImgPath: 'https://images-na.ssl-images-amazon.com/images/I/81nvF-p7odL.jpg'
+featuredImgPath: "https://images-na.ssl-images-amazon.com/images/I/81nvF-p7odL.jpg"
 isexternal: true
 ---
 
 # It Doesn't Have to be Crazy at Work
+
 _A must read book for founders and CEO's on how to run a company without chaos_
 
 There are two kinds of people in the world. The hustle, the moonshot, the 10x engineers, kind of people and there are others who love what they do, provides equal importance to work and life, understands the difference between both. The book was writtern by once such person [Jason Fried]() and he runs one such company [basecamp](). It closely aligns with my ideas of what workplace should be like, hence skyrocketed into top of my favorite list.
@@ -71,7 +72,6 @@ If you are so ambitious and would love the idea of spending all your time for yo
 
 > A deadline with a flexible scope invites pushback, compromises, and tradeoffs—all ingredients in healthy, calm projects. It’s when you try to fix both scope and time that you have a recipe for dread, overwork, and exhaustion.
 
-
 ### Buring the midnight oil
 
 > Continued sleep deprivation batters your IQ and saps your creativity. You may be too tired to notice, but the people you work with will.
@@ -85,7 +85,6 @@ If you are so ambitious and would love the idea of spending all your time for yo
 ### Presentations
 
 > The person making the pitch has presumably put a lot of time, thought, and energy into gathering their thoughts and presenting them clearly to an audience. But the rest of the people in the room are asked to react. Not absorb, not think it over, not consider— just react. Knee-jerk it.
-
 
 > Don’t meet, write. Don’t react, consider.
 
@@ -103,11 +102,12 @@ If you are so ambitious and would love the idea of spending all your time for yo
 > No is no to one thing. Yes is no to a thousand things.
 > Promises are easy and cheap to make, actual work is hard and expensive. If it wasn’t, you’d just have done it now rather than promised it later.
 
-
-
 <figure>
 ![](https://images-na.ssl-images-amazon.com/images/I/81nvF-p7odL.jpg)
 </figure>
 
+---
 
-
+{% embed url="https://bhavaniravi.substack.com/embed" %}
+Newsletter embed
+{% endembed %}

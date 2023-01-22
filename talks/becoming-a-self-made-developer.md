@@ -17,3 +17,8 @@ A live podcast style conversation Facebook Developer Circle Chennai with Faceboo
 
 {% embed url="https://www.youtube.com/embed/Pd1VkI6uBhI" %}
 
+---
+
+{% embed url="https://bhavaniravi.substack.com/embed" %}
+Newsletter embed
+{% endembed %}

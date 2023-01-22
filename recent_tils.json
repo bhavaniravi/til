@@ -1,5 +1,10 @@
 [
  {
+  "title": "Apache Airflow Guides",
+  "url": "/apache-airflow/readme",
+  "date": "Mon, 2 Jan 2023 00:03:15 +0530"
+ },
+ {
   "title": "Airflow Celery vs Kubernetes Executor",
   "url": "/apache-airflow/airflow-celery-vs-kubernetes-executor",
   "date": "Sat, 13 Aug 2022 00:57:07 +0000"
@@ -130,16 +135,6 @@
   "date": "Wed, 5 Oct 2022 02:43:59 +0000"
  },
  {
-  "title": "Types of Databases & When to Use them",
-  "url": "/database/database-101",
-  "date": "Sat, 13 Aug 2022 00:57:07 +0000"
- },
- {
-  "title": "Database Terms",
-  "url": "/database/database-terms",
-  "date": "Sat, 13 Aug 2022 00:37:47 +0000"
- },
- {
   "title": "AWS",
   "url": "/devops/aws/readme",
   "date": "Sun, 27 Nov 2022 05:34:04 +0000"
@@ -148,6 +143,16 @@
   "title": "IAM Users, Roles, and Policies",
   "url": "/devops/aws/iam-users-roles-and-policies",
   "date": "Sun, 27 Nov 2022 05:34:04 +0000"
+ },
+ {
+  "title": "Data & Model Versioning",
+  "url": "/devops/data-and-model-versioning",
+  "date": "Mon, 2 Jan 2023 19:56:27 +0000"
+ },
+ {
+  "title": "Docker CLI Cheatsheet",
+  "url": "/devops/docker-cli-cheatsheet",
+  "date": "Wed, 11 Jan 2023 17:28:42 +0000"
  },
  {
   "title": " Introduction to Docker - The What, Why and How",
@@ -305,11 +310,6 @@
   "date": "Mon, 12 Dec 2022 16:09:21 +0000"
  },
  {
-  "title": "Data & Model Versioning",
-  "url": "/mlops/data-and-model-versioning",
-  "date": "Fri, 28 Oct 2022 13:59:06 +0000"
- },
- {
   "title": " Apache Airflow - Data Orchestrator",
   "url": "/open-source/contributions/airflow",
   "date": "Wed, 23 Nov 2022 01:55:08 +0000"
@@ -353,6 +353,11 @@
   "title": "Repos You Can Contribute To",
   "url": "/open-source/repos-you-can-contribute-to",
   "date": "Thu, 8 Sep 2022 04:43:11 +0000"
+ },
+ {
+  "title": "Apache Airflow Starter Pack",
+  "url": "/products/apache-airflow-starter-pack",
+  "date": "Tue, 17 Jan 2023 14:12:08 +0000"
  },
  {
   "title": "Analyza",
@@ -461,8 +466,13 @@
  },
  {
   "title": "Debugging MakerLog",
-  "url": "/python/django/debugging-makerlog",
-  "date": "Mon, 28 Nov 2022 03:46:55 +0000"
+  "url": "/python/debugging-makerlog",
+  "date": "Mon, 2 Jan 2023 19:56:27 +0000"
+ },
+ {
+  "title": "Django",
+  "url": "/python/django",
+  "date": "Mon, 2 Jan 2023 19:56:27 +0000"
  },
  {
   "title": "Building OwnFlask - A Flask(like) Python Framework",
@@ -493,21 +503,6 @@
   "title": " Are your Secrets Safe In Python?",
   "url": "/python/secrets-as-python-file",
   "date": "Mon, 12 Dec 2022 16:09:21 +0000"
- },
- {
-  "title": "Testing",
-  "url": "/python/testing/readme",
-  "date": "Wed, 28 Sep 2022 02:32:58 +0000"
- },
- {
-  "title": "Why Pytest is my Favorite?",
-  "url": "/python/testing/why-pytest-is-my-favorite",
-  "date": "Wed, 21 Sep 2022 16:52:01 +0000"
- },
- {
-  "title": "Django",
-  "url": "/python/web/django/readme",
-  "date": "Mon, 28 Nov 2022 03:46:55 +0000"
  },
  {
   "title": "When to Use Flask vs Django?",
@@ -547,7 +542,7 @@
  {
   "title": "Why Gitbook?",
   "url": "/readme/why-gitbook",
-  "date": "Mon, 28 Nov 2022 03:46:55 +0000"
+  "date": "Tue, 17 Jan 2023 09:10:55 +0000"
  },
  {
   "title": " All About Authentication Systems",
@@ -568,6 +563,11 @@
   "title": " How to Connect to Custom Oauth2 Provider Using Auth0?",
   "url": "/software-engineering/custom-oauth2-with-auth0",
   "date": "Wed, 21 Sep 2022 16:52:01 +0000"
+ },
+ {
+  "title": "Types of Databases & When to Use them",
+  "url": "/software-engineering/database-101",
+  "date": "Mon, 2 Jan 2023 19:56:27 +0000"
  },
  {
   "title": "Git & GitHub",

@@ -22,7 +22,7 @@ From the looks of it, it might look like a simple feature but since the DAGs and
 
 ### Dynamic Task Mapping
 
-****
+---
 
 ```python
 from airflow import DAG
@@ -37,7 +37,7 @@ def get_s3_files(current_prefix):
     return [[file] for file in current_files]
 
 
-with DAG(dag_id='mapping_elt', 
+with DAG(dag_id='mapping_elt',
         start_date=datetime(2022, 4, 2),
         catchup=False,
         template_searchpath='/usr/local/airflow/include',
@@ -56,5 +56,11 @@ with DAG(dag_id='mapping_elt',
 
 **More documentation and example here:**
 
-* [Official Dynamic Task Mapping documentation](https://airflow.apache.org/docs/apache-airflow/2.3.0/concepts/dynamic-task-mapping.html)
-* [Tutorial from Astronomer](https://www.astronomer.io/guides/dynamic-tasks)
+- [Official Dynamic Task Mapping documentation](https://airflow.apache.org/docs/apache-airflow/2.3.0/concepts/dynamic-task-mapping.html)
+- [Tutorial from Astronomer](https://www.astronomer.io/guides/dynamic-tasks)
+
+---
+
+{% embed url="https://bhavaniravi.substack.com/embed" %}
+Newsletter embed
+{% endembed %}

@@ -5,7 +5,13 @@
 <title>Bhavani Ravi's Blogs</title>
 <link>https://www.bhavaniravi.com</link>
 <description>Recently committed files in Bhavani's blog</description>
-<lastBuildDate>f'Fri, 30 Dec  2022 02:30:00  GMT'</lastBuildDate><item>
+<lastBuildDate>f'Sun, 22 Jan  2023 07:00:54  GMT'</lastBuildDate><item>
+    <guid>https://www.bhavaniravi.com/apache-airflow/readme</guid>
+    <title>Apache Airflow Guides</title>
+    <pubDate>Mon, 2 Jan 2023 00:03:15 +0530</pubDate>
+    <link>https://www.bhavaniravi.com/apache-airflow/readme</link>
+</item>
+<item>
     <guid>https://www.bhavaniravi.com/apache-airflow/airflow-celery-vs-kubernetes-executor</guid>
     <title>Airflow Celery vs Kubernetes Executor</title>
     <pubDate>Sat, 13 Aug 2022 00:57:07 +0000</pubDate>
@@ -162,18 +168,6 @@
     <link>https://www.bhavaniravi.com/community/why-should-you-attend-tech-conferences</link>
 </item>
 <item>
-    <guid>https://www.bhavaniravi.com/database/database-101</guid>
-    <title>Types of Databases &amp; When to Use them</title>
-    <pubDate>Sat, 13 Aug 2022 00:57:07 +0000</pubDate>
-    <link>https://www.bhavaniravi.com/database/database-101</link>
-</item>
-<item>
-    <guid>https://www.bhavaniravi.com/database/database-terms</guid>
-    <title>Database Terms</title>
-    <pubDate>Sat, 13 Aug 2022 00:37:47 +0000</pubDate>
-    <link>https://www.bhavaniravi.com/database/database-terms</link>
-</item>
-<item>
     <guid>https://www.bhavaniravi.com/devops/aws/readme</guid>
     <title>AWS</title>
     <pubDate>Sun, 27 Nov 2022 05:34:04 +0000</pubDate>
@@ -184,6 +178,18 @@
     <title>IAM Users, Roles, and Policies</title>
     <pubDate>Sun, 27 Nov 2022 05:34:04 +0000</pubDate>
     <link>https://www.bhavaniravi.com/devops/aws/iam-users-roles-and-policies</link>
+</item>
+<item>
+    <guid>https://www.bhavaniravi.com/devops/data-and-model-versioning</guid>
+    <title>Data &amp; Model Versioning</title>
+    <pubDate>Mon, 2 Jan 2023 19:56:27 +0000</pubDate>
+    <link>https://www.bhavaniravi.com/devops/data-and-model-versioning</link>
+</item>
+<item>
+    <guid>https://www.bhavaniravi.com/devops/docker-cli-cheatsheet</guid>
+    <title>Docker CLI Cheatsheet</title>
+    <pubDate>Wed, 11 Jan 2023 17:28:42 +0000</pubDate>
+    <link>https://www.bhavaniravi.com/devops/docker-cli-cheatsheet</link>
 </item>
 <item>
     <guid>https://www.bhavaniravi.com/devops/docker-introduction</guid>
@@ -372,12 +378,6 @@
     <link>https://www.bhavaniravi.com/misc/side-projects-twitter-space</link>
 </item>
 <item>
-    <guid>https://www.bhavaniravi.com/mlops/data-and-model-versioning</guid>
-    <title>Data &amp; Model Versioning</title>
-    <pubDate>Fri, 28 Oct 2022 13:59:06 +0000</pubDate>
-    <link>https://www.bhavaniravi.com/mlops/data-and-model-versioning</link>
-</item>
-<item>
     <guid>https://www.bhavaniravi.com/open-source/contributions/airflow</guid>
     <title> Apache Airflow - Data Orchestrator</title>
     <pubDate>Wed, 23 Nov 2022 01:55:08 +0000</pubDate>
@@ -430,6 +430,12 @@
     <title>Repos You Can Contribute To</title>
     <pubDate>Thu, 8 Sep 2022 04:43:11 +0000</pubDate>
     <link>https://www.bhavaniravi.com/open-source/repos-you-can-contribute-to</link>
+</item>
+<item>
+    <guid>https://www.bhavaniravi.com/products/apache-airflow-starter-pack</guid>
+    <title>Apache Airflow Starter Pack</title>
+    <pubDate>Tue, 17 Jan 2023 14:12:08 +0000</pubDate>
+    <link>https://www.bhavaniravi.com/products/apache-airflow-starter-pack</link>
 </item>
 <item>
     <guid>https://www.bhavaniravi.com/projects/analyza</guid>
@@ -558,10 +564,16 @@
     <link>https://www.bhavaniravi.com/python/caching-in-python</link>
 </item>
 <item>
-    <guid>https://www.bhavaniravi.com/python/django/debugging-makerlog</guid>
+    <guid>https://www.bhavaniravi.com/python/debugging-makerlog</guid>
     <title>Debugging MakerLog</title>
-    <pubDate>Mon, 28 Nov 2022 03:46:55 +0000</pubDate>
-    <link>https://www.bhavaniravi.com/python/django/debugging-makerlog</link>
+    <pubDate>Mon, 2 Jan 2023 19:56:27 +0000</pubDate>
+    <link>https://www.bhavaniravi.com/python/debugging-makerlog</link>
+</item>
+<item>
+    <guid>https://www.bhavaniravi.com/python/django</guid>
+    <title>Django</title>
+    <pubDate>Mon, 2 Jan 2023 19:56:27 +0000</pubDate>
+    <link>https://www.bhavaniravi.com/python/django</link>
 </item>
 <item>
     <guid>https://www.bhavaniravi.com/python/flask/building-ownflask-a-flask-like-python-framework</guid>
@@ -598,24 +610,6 @@
     <title> Are your Secrets Safe In Python?</title>
     <pubDate>Mon, 12 Dec 2022 16:09:21 +0000</pubDate>
     <link>https://www.bhavaniravi.com/python/secrets-as-python-file</link>
-</item>
-<item>
-    <guid>https://www.bhavaniravi.com/python/testing/readme</guid>
-    <title>Testing</title>
-    <pubDate>Wed, 28 Sep 2022 02:32:58 +0000</pubDate>
-    <link>https://www.bhavaniravi.com/python/testing/readme</link>
-</item>
-<item>
-    <guid>https://www.bhavaniravi.com/python/testing/why-pytest-is-my-favorite</guid>
-    <title>Why Pytest is my Favorite?</title>
-    <pubDate>Wed, 21 Sep 2022 16:52:01 +0000</pubDate>
-    <link>https://www.bhavaniravi.com/python/testing/why-pytest-is-my-favorite</link>
-</item>
-<item>
-    <guid>https://www.bhavaniravi.com/python/web/django/readme</guid>
-    <title>Django</title>
-    <pubDate>Mon, 28 Nov 2022 03:46:55 +0000</pubDate>
-    <link>https://www.bhavaniravi.com/python/web/django/readme</link>
 </item>
 <item>
     <guid>https://www.bhavaniravi.com/python/web/django/when-to-use-flask-vs-django</guid>
@@ -662,7 +656,7 @@
 <item>
     <guid>https://www.bhavaniravi.com/readme/why-gitbook</guid>
     <title>Why Gitbook?</title>
-    <pubDate>Mon, 28 Nov 2022 03:46:55 +0000</pubDate>
+    <pubDate>Tue, 17 Jan 2023 09:10:55 +0000</pubDate>
     <link>https://www.bhavaniravi.com/readme/why-gitbook</link>
 </item>
 <item>
@@ -688,6 +682,12 @@
     <title> How to Connect to Custom Oauth2 Provider Using Auth0?</title>
     <pubDate>Wed, 21 Sep 2022 16:52:01 +0000</pubDate>
     <link>https://www.bhavaniravi.com/software-engineering/custom-oauth2-with-auth0</link>
+</item>
+<item>
+    <guid>https://www.bhavaniravi.com/software-engineering/database-101</guid>
+    <title>Types of Databases &amp; When to Use them</title>
+    <pubDate>Mon, 2 Jan 2023 19:56:27 +0000</pubDate>
+    <link>https://www.bhavaniravi.com/software-engineering/database-101</link>
 </item>
 <item>
     <guid>https://www.bhavaniravi.com/software-engineering/git-and-github/readme</guid>

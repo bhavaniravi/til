@@ -6,8 +6,8 @@ tags:
   - apache-airflow
 featuredImgPath: https://i.imgur.com/BBjdWBE.png
 isexternal: true
-published_date: '2021-01-10'
-created_date: '2021-01-10'
+published_date: "2021-01-10"
+created_date: "2021-01-10"
 draft: false
 description: >-
   Airflow allows multiple ways to keep the users informed about the status of a
@@ -87,7 +87,7 @@ The above use case can be achieved using a callback mechanism. Let's start by wr
 
 ```
 def send_email(**context):
-    
+
     task = context['ti'].task
     for parent_task in task.upstream_list:
         ti = TaskInstance(parent_task, args.execution_date)
@@ -96,16 +96,16 @@ def send_email(**context):
             break
         else:
             status = "Successful"
-    
-    
+
+
     subject = "Order {status}""
     body = f"""
         Hi {user}, <br>
         # Type your message here
-         
+
         <br> Thank You. <br>
     """
-    
+
     send_email(dag.default_args["email"], subject, body)
 ```
 
@@ -151,7 +151,7 @@ While callbacks completely fit our purpose, there is still one problem. With cal
 
 ## PythonOperator
 
-To achieve the combined benefits of customization and added advantage of airflow task, we can couple the above send\_email function to an airflow `PythonOperator.`
+To achieve the combined benefits of customization and added advantage of airflow task, we can couple the above send_email function to an airflow `PythonOperator.`
 
 ```
 email_task = PythonOperator(
@@ -163,14 +163,18 @@ email_task = PythonOperator(
 )
 ```
 
-***
+---
 
 Keeping your stakeholders notified would be an important part of any workflow. Emails are the easiest way to achieve that.
 
 ### Next Up...
 
-
-
 {% content-ref url="sending-email-alerts-in-apache-airflow-with-sendgrid.md" %}
 [sending-email-alerts-in-apache-airflow-with-sendgrid.md](sending-email-alerts-in-apache-airflow-with-sendgrid.md)
 {% endcontent-ref %}
+
+---
+
+{% embed url="https://bhavaniravi.substack.com/embed" %}
+Newsletter embed
+{% endembed %}

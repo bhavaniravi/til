@@ -18,34 +18,37 @@ There is a whole page in [Airflow docs](https://airflow.apache.org/docs/apache-a
 
 ### Database
 
-**load\_default\_connections**&#x20;
+**load_default_connections**&#x20;
 
-&#x20;**** This is a new configuration in 2.3.0 but also an odd one out. Setting this to true will create default Airflow connections in the metadata DB
+&#x20;\*\*\*\* This is a new configuration in 2.3.0 but also an odd one out. Setting this to true will create default Airflow connections in the metadata DB
 
-**max\_db\_retries**
+**max_db_retries**
 
-**sql\_alchemy\_conn**
+**sql_alchemy_conn**
 
-**sql\_alchemy\_connect\_args**
+**sql_alchemy_connect_args**
 
-**sql\_alchemy\_engine\_args**
+**sql_alchemy_engine_args**
 
 &#x20;You can pass a variety of parameters to [sqlalchemy engine](https://docs.sqlalchemy.org/en/14/core/engines.html#engine-creation-api). These can be defined as a dictionary
 
-**sql\_alchemy\_max\_overflow**
+**sql_alchemy_max_overflow**
 
 Manage sqlalchemy **pool** using&#x20;
 
-* **sql\_alchemy\_pool\_enabled,**&#x20;
-* **sql\_alchemy\_pool\_pre\_ping**
-* **sql\_alchemy\_pool\_recycle**&#x20;
-* **sql\_alchemy\_pool\_size**
+- **sql_alchemy_pool_enabled,**&#x20;
+- **sql_alchemy_pool_pre_ping**
+- **sql_alchemy_pool_recycle**&#x20;
+- **sql_alchemy_pool_size**
 
-**sql\_alchemy\_schema**
+**sql_alchemy_schema**
 
-**sql\_engine\_collation\_for\_ids**
+**sql_engine_collation_for_ids**
 
-**sql\_engine\_encoding**
+**sql_engine_encoding**
 
+---
 
-
+{% embed url="https://bhavaniravi.substack.com/embed" %}
+Newsletter embed
+{% endembed %}

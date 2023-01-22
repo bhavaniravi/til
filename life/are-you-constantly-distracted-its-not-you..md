@@ -25,3 +25,9 @@ That is when I figured I should never use Logseq for writing.&#x20;
 \--
 
 Next time you curse yourself for being distracted, look a little deeper, and maybe it's not you; it's the system.
+
+---
+
+{% embed url="https://bhavaniravi.substack.com/embed" %}
+Newsletter embed
+{% endembed %}

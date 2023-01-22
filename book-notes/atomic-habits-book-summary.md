@@ -21,6 +21,7 @@ isexternal: true
 I was skeptical when I saw all the hype the book was creating when it came to the market, I listened to the audiobook last year, This year I wanted to assimilate every page of this book and I hope the reflections ahead will make you want to read the book too, because it's worth it.
 
 ## Top 5 Takeaways
+
 1. Habits are easy to form if it's based on building your identity
 2. Make good habits easy and satisfying
 3. Showing up is as important as doing things
@@ -28,6 +29,7 @@ I was skeptical when I saw all the hype the book was creating when it came to th
 5. [Motivation is overrated](https://medium.com/@bhavaniravi/why-motivation-alone-is-not-getting-you-anywhere-atomic-habits-cc3eb1cbe2d2)
 
 ## What I liked about the book?
+
 - The book is short, crisp and to the point.
 - The chapters are just 5-7 minutes long making it easy to read
 - Every chapter starts with a title that induces interest followed by a story, that puts things in perspective before reading the actual content
@@ -61,12 +63,12 @@ Call up a friend and tell them you are going to quit/finish something and if you
 
 ### Use Friction to your advantage
 
-Keep the good habit triggers closer and bad habit triggers far far away. 
+Keep the good habit triggers closer and bad habit triggers far far away.
 
 - Put your gym clothes on
 - Never roll up your gym mat
 - Have books lying around you
-- Hide the cigarettes or even better lock it 
+- Hide the cigarettes or even better lock it
 
 ### Goldilocks Rule - To Stay motivated
 
@@ -76,18 +78,19 @@ When trying to incorporate new habits don't push yourself. Stretch yourself just
 
 ### 2-minutes rule
 
-To get beyond procrastination break good habits into 2-minute chunks 
+To get beyond procrastination break good habits into 2-minute chunks
 
 > “Read before bed each night” becomes “Read one page.” <br> “Do thirty minutes of yoga” becomes “Take out my yoga mat< <br> “Study for class” becomes “Open my notes.” <br> “Fold the laundry” becomes “Fold one pair of socks.” <br> “Run three miles” becomes “Tie my running shoes.”
 
 ## Parallel Ideas
 
 ### Good Habits vs positivity
+
 The more you do good habits, the easier it becomes, I was writing my yearly reflections and most of it was positive, I looked back 10 years and most of the moments I remembered are positive. It’s not like nothing negative had ever happened to me but, The more you reinforce your brain to look at positive things, the hazier the negative things become.
 
 ### Little bits of improvement
 
-One of the famous ruling entertainment channel is known their games and reality shows, despite their competitors trying to invest more money, make it big, bringing in more celebrities but nothing can beat them. 
+One of the famous ruling entertainment channel is known their games and reality shows, despite their competitors trying to invest more money, make it big, bringing in more celebrities but nothing can beat them.
 
 One day I happen to stumble upon a spiritual channel with singers performing. It caught my attention because all the singers and musicians were making eye contact, smiling at each other, nodding their heads as to how much they enjoy it, transferring their enthusiasm across television. Though their backdrop was boring, their equipment is not fancy, It still got my attention.
 
@@ -95,11 +98,11 @@ Now coming back to the successful channel, they have every piece right, from lig
 
 That's when it hit me if we focus on little pieces of our lives and improve it by a percent it would make a huge difference.
 
-###  Environment Induces Habits
+### Environment Induces Habits
 
 Some habits are not noticeable until there is a presence of higher power, this can be peer pressure, a more authoritative person or just the environment.
 
-For eg., when I was in college I used to have long nails. After I started my job for the last 3 years I never had nails . I thought I just grew out of it. But when I took a break last November the nails grew back but when I went back to the job in October all nails gone. 
+For eg., when I was in college I used to have long nails. After I started my job for the last 3 years I never had nails . I thought I just grew out of it. But when I took a break last November the nails grew back but when I went back to the job in October all nails gone.
 
 Turns out I have the habit of ripping them off when I work on problems. Some habits like these are environmentally induced and are so grained that it goes unnoticed unless you make a major change to your environment.
 
@@ -107,3 +110,9 @@ Turns out I have the habit of ripping them off when I work on problems. Some hab
 
 Choosing the right habit is an explore exploit the problem, The book states that not all habits fit you
 People tend to beat themselves up if they can’t get a habit right but, with the right activity, you do more, the more you do the more it becomes a habit.
+
+---
+
+{% embed url="https://bhavaniravi.substack.com/embed" %}
+Newsletter embed
+{% endembed %}

@@ -9,4 +9,11 @@ Trello like Project management suite for Kissflow Digital workspace product. Thi
 - Docker
 
 ## Client
+
 [Kissflow](https://kissflow.com)
+
+---
+
+{% embed url="https://bhavaniravi.substack.com/embed" %}
+Newsletter embed
+{% endembed %}

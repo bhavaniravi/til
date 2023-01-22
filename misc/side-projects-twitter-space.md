@@ -20,32 +20,32 @@ For me productivity is all about energy. Since you are already worn out of work/
 
 Absolutely yes. If making money is your goal, pick a project that solves a niche problem. Find out if people are ready to pay for it. Then invest your time building it
 
-* what problem are you solving&#x20;
-* Who are you solving it for
-* Will they pay for it
-* How are you going to reach these people&#x20;
+- what problem are you solving&#x20;
+- Who are you solving it for
+- Will they pay for it
+- How are you going to reach these people&#x20;
 
 ### Is making money a bad motivator for Side-Projects?
 
 Absolutely not. what motivates you motivates you
 
-* To build a brand&#x20;
-* To learn a technology
-* To land an internship or job
-* To make money
-* To make meaning out of my ideas
-* Showcasing your work to others
-* Get more practice
+- To build a brand&#x20;
+- To learn a technology
+- To land an internship or job
+- To make money
+- To make meaning out of my ideas
+- Showcasing your work to others
+- Get more practice
 
 ### But I don't know what to build?
 
 Finding an idea for a project might be daunting for some people. worry not here are a few tricks.&#x20;
 
-* Instead of looking for ideas look for problem
-* Keep a notebook with you all the time
-* Note down what irritates/frustrates you in day-day basics even the minor ones
-* Those are your problem list
-* At the end of the day find out which&#x20;
+- Instead of looking for ideas look for problem
+- Keep a notebook with you all the time
+- Note down what irritates/frustrates you in day-day basics even the minor ones
+- Those are your problem list
+- At the end of the day find out which&#x20;
 
 ### Doesn't matter how much I try I can't find the motivation?
 
@@ -57,9 +57,9 @@ Considering the state of tech interviews with a very hard soul I'm gonna suggest
 
 ### **I want to help other people’s side project, How to do that?**
 
-* Find an online community&#x20;
-* Openly announce your intention to help along with your skills
-* Another easiest way to work on other people's project is open source
+- Find an online community&#x20;
+- Openly announce your intention to help along with your skills
+- Another easiest way to work on other people's project is open source
 
 ### Should side project only be about tech?
 
@@ -72,3 +72,9 @@ You don't. You rest, let your side project also rest and take it up when you gai
 ### Got another question?
 
 [Ask here!](../my-links.md)
+
+---
+
+{% embed url="https://bhavaniravi.substack.com/embed" %}
+Newsletter embed
+{% endembed %}

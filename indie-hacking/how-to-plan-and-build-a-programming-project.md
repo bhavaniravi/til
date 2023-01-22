@@ -12,7 +12,7 @@ You want to learn to program, pick a tutorial online, and they will teach you th
 
 I'm not saying "Build projects" advice is bad. I also received the same advice when I was in college ,but there are a lot of missing pieces to this broad advice. No one tells to what to build and more importantly how to build. But wait what about online courses
 
-I'll tell you exactly how it goes. You search udemy for "Python Project based learning" and get a list of courses each teaching anything from 10-100 projects.  You will purchase the one with the best reviews and good content
+I'll tell you exactly how it goes. You search udemy for "Python Project based learning" and get a list of courses each teaching anything from 10-100 projects. You will purchase the one with the best reviews and good content
 
 There are 3 things that might happen next
 
@@ -30,16 +30,16 @@ The goal of the project in the learning phase can be as simple as a piece of cod
 
 It can be as simple as a&#x20;
 
-* Todo list app
-* Calculator app
-* Grocery list app
-* Weather app
+- Todo list app
+- Calculator app
+- Grocery list app
+- Weather app
 
 Or as complex as
 
-* Ecommerce application
-* Streaming app
-* Chat app
+- Ecommerce application
+- Streaming app
+- Chat app
 
 #### But simple apps won't help me get a job
 
@@ -49,5 +49,8 @@ That's a valid fear to have and it is true too. Recruiters don't take todo apps 
 
 Now you have picked a project to build but where do you start? Should you directly open the code editor and&#x20;
 
+---
 
-
+{% embed url="https://bhavaniravi.substack.com/embed" %}
+Newsletter embed
+{% endembed %}

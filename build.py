@@ -87,13 +87,14 @@ def get_tils(category):
             titles.extend(get_tils(fullname))
     return titles
 
-def write_mailchimp(category):
+
+async def write_mailchimp(category):
     til_files = [x for x in os.listdir(category)]
     for filename in til_files:
         fullname = os.path.join(category, filename)
         if (os.path.isfile(fullname)) and fullname.endswith(".md"):
             with open(fullname, "a") as f:
-                f.write(f"--- \n {MAILCHIMP_TEXT}")
+                f.write(f"\n\n--- \n\n {MAILCHIMP_TEXT}")
 
 
 def get_category_dict(category_names):
@@ -187,8 +188,11 @@ done"""
 
     result = sp.Popen(cmd, shell=True, stdout=sp.PIPE, stderr=sp.PIPE)
     out, err = result.communicate()
-    clean_output = [(" ".join(line.split(" ")[:-1]), line.split(" ")[-1]) for line in out.decode("utf-8").strip("\n").split("\n")]
-    print (clean_output)
+    clean_output = [
+        (" ".join(line.split(" ")[:-1]), line.split(" ")[-1])
+        for line in out.decode("utf-8").strip("\n").split("\n")
+    ]
+    print(clean_output)
     # filter filepaths that don't exist
     flattened_list = list(itertools.chain(*list(categories.values())))
     flattened_list = [item[1] for item in flattened_list]
@@ -212,9 +216,9 @@ done"""
         json.dump(recent_tils, json_file, ensure_ascii=False, indent=" ")
 
 
-
 def write_xml_file():
     from xml.sax.saxutils import escape
+
     HEAD = """<?xml version="1.0" encoding="UTF-8" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
 <channel>
@@ -237,7 +241,9 @@ def write_xml_file():
         feed.write(
             f"""<description>Recently committed files in Bhavani's blog</description>\n"""
         )
-        feed.write(f"""<lastBuildDate>f'{ctime[0:3]}, {current_date.day:02d} {ctime[4:7]} {current_date.strftime(' %Y %H:%M:%S %z')} GMT'</lastBuildDate>""")
+        feed.write(
+            f"""<lastBuildDate>f'{ctime[0:3]}, {current_date.day:02d} {ctime[4:7]} {current_date.strftime(' %Y %H:%M:%S %z')} GMT'</lastBuildDate>"""
+        )
         feed.write
         for item in files:
             data = f"""<item>
@@ -246,9 +252,10 @@ def write_xml_file():
     <pubDate>{item["date"]}</pubDate>
     <link>{"https://www.bhavaniravi.com"+item["url"]}</link>
 </item>\n"""
-        
+
             feed.write(data)
         feed.write(FOOTER)
+
 
 async def main():
     """
@@ -269,13 +276,14 @@ async def main():
     # task2 = asyncio.create_task(create_readme(category_names, categories))
     # task3 = asyncio.create_task(create_gitbooks_summary(category_names, categories))
     task4 = asyncio.create_task(create_til_count_file(count))
+    # for category in categories:
+    #     asyncio.create_task(write_mailchimp(category))
 
     await task1
     # await task2
     # await task3
     await task4
     write_xml_file()
-
 
     # print(count, "TILs read")
 
