@@ -277,7 +277,8 @@ async def main():
     # task3 = asyncio.create_task(create_gitbooks_summary(category_names, categories))
     task4 = asyncio.create_task(create_til_count_file(count))
     # for category in categories:
-    #     asyncio.create_task(write_mailchimp(category))
+    #     if category != "products":
+    #         asyncio.create_task(write_mailchimp(category))
 
     await task1
     # await task2
