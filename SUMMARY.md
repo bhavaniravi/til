@@ -129,6 +129,9 @@
   * [IAM Users, Roles, and Policies](devops/aws/iam-users-roles-and-policies.md)
 * [Data & Model Versioning](devops/data-and-model-versioning.md)
 * [Docker CLI Cheatsheet](devops/docker-cli-cheatsheet.md)
+* [Data Engineering](devops/data-engineering/README.md)
+  * [Data Engineering Zoomcamp](devops/data-engineering/data-engineering-zoomcamp/README.md)
+    * [Data Engineering Zoomcamp - Week 1 Reflections](devops/data-engineering/data-engineering-zoomcamp/data-engineering-zoomcamp-week-1-reflections.md)
 
 ## Frontend
 
