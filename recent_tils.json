@@ -2,137 +2,137 @@
  {
   "title": "Apache Airflow Guides",
   "url": "/apache-airflow/readme",
-  "date": "Mon, 2 Jan 2023 00:03:15 +0530"
+  "date": "Sun, 22 Jan 2023 07:01:21 +0530"
  },
  {
   "title": "Airflow Celery vs Kubernetes Executor",
   "url": "/apache-airflow/airflow-celery-vs-kubernetes-executor",
-  "date": "Sat, 13 Aug 2022 00:57:07 +0000"
+  "date": "Sun, 22 Jan 2023 07:01:21 +0530"
  },
  {
   "title": "Airflow Configurations",
   "url": "/apache-airflow/airflow-configurations",
-  "date": "Sat, 13 Aug 2022 00:37:47 +0000"
+  "date": "Sun, 22 Jan 2023 07:01:21 +0530"
  },
  {
   "title": "Airflow: Major Topics",
   "url": "/apache-airflow/airflow-major-topics",
-  "date": "Sat, 13 Aug 2022 00:57:07 +0000"
+  "date": "Sun, 22 Jan 2023 07:01:21 +0530"
  },
  {
   "title": " Airflow Operators - A Comparison",
   "url": "/apache-airflow/airflow-operators-comparison",
-  "date": "Wed, 21 Sep 2022 16:52:01 +0000"
+  "date": "Sun, 22 Jan 2023 07:01:21 +0530"
  },
  {
   "title": "Apache Airflow + MongoDB",
   "url": "/apache-airflow/apache-airflow-+-mongodb",
-  "date": "Sat, 13 Aug 2022 00:57:07 +0000"
+  "date": "Sun, 22 Jan 2023 07:01:21 +0530"
  },
  {
   "title": " An Introduction to Apache Airflow",
   "url": "/apache-airflow/apache-airflow-introduction",
-  "date": "Mon, 12 Dec 2022 16:09:21 +0000"
+  "date": "Sun, 22 Jan 2023 07:01:21 +0530"
  },
  {
   "title": "Can Next Scheduled Run Automatically Re-Run failed Task?",
   "url": "/apache-airflow/can-next-scheduled-run-automatically-re-run-failed-task",
-  "date": "Sat, 13 Aug 2022 00:37:47 +0000"
+  "date": "Sun, 22 Jan 2023 07:01:21 +0530"
  },
  {
   "title": " How to Set up Airflow on Kubernetes?",
   "url": "/apache-airflow/deploying-airflow-on-kubernetes",
-  "date": "Sat, 8 Oct 2022 07:46:31 +0000"
+  "date": "Sun, 22 Jan 2023 07:01:21 +0530"
  },
  {
   "title": "Dynamic Task Mapping",
   "url": "/apache-airflow/dynamic-task-mapping",
-  "date": "Sat, 13 Aug 2022 00:57:07 +0000"
+  "date": "Sun, 22 Jan 2023 07:01:21 +0530"
  },
  {
   "title": " \"Sending Email Alerts in Apache Airflow with Sendgrid\"",
   "url": "/apache-airflow/emails-alerts-airflow-with-sendgrid",
-  "date": "Mon, 19 Sep 2022 15:04:02 +0530"
+  "date": "Sun, 22 Jan 2023 07:01:21 +0530"
  },
  {
   "title": "How to Copy/Move S3 Files With Apache Airflow",
   "url": "/apache-airflow/how-to-copy-move-s3-files-with-apache-airflow",
-  "date": "Mon, 28 Nov 2022 05:26:06 +0000"
+  "date": "Sun, 22 Jan 2023 07:01:21 +0530"
  },
  {
   "title": "KubernetesPodOperator vs. KubernetesExecutor",
   "url": "/apache-airflow/kubernetespodoperator-vs.-kubernetesexecutor",
-  "date": "Sat, 13 Aug 2022 00:57:07 +0000"
+  "date": "Sun, 22 Jan 2023 07:01:21 +0530"
  },
  {
   "title": "Sending Email Alerts in Apache Airflow with Sendgrid",
   "url": "/apache-airflow/sending-email-alerts-in-apache-airflow-with-sendgrid",
-  "date": "Thu, 29 Dec 2022 11:47:47 +0530"
+  "date": "Sun, 22 Jan 2023 07:01:21 +0530"
  },
  {
   "title": " How to Send Email Alerts from Airflow?",
   "url": "/apache-airflow/sending-emails-from-airflow",
-  "date": "Sat, 8 Oct 2022 07:41:19 +0000"
+  "date": "Sun, 22 Jan 2023 07:01:21 +0530"
  },
  {
   "title": "Setting Up Apache Airflow For Local Development in Mac M1",
   "url": "/apache-airflow/setting-up-apache-airflow-for-local-development-in-mac-m1",
-  "date": "Fri, 28 Oct 2022 14:27:29 +0000"
+  "date": "Sun, 22 Jan 2023 07:01:21 +0530"
  },
  {
   "title": "Using Airflow Providers With KubernetesPodOperator",
   "url": "/apache-airflow/using-airflow-providers-with-kubernetespodoperator",
-  "date": "Thu, 4 Aug 2022 13:45:38 +0000"
+  "date": "Sun, 22 Jan 2023 07:01:21 +0530"
  },
  {
   "title": " \"Atomic Habits Book Summary\"",
   "url": "/book-notes/atomic-habits-book-summary",
-  "date": "Mon, 19 Sep 2022 15:04:02 +0530"
+  "date": "Sun, 22 Jan 2023 07:01:21 +0530"
  },
  {
   "title": " \"David and Goliath Book Summary\"",
   "url": "/book-notes/david-and-goliath-book-summary",
-  "date": "Mon, 19 Sep 2022 15:04:02 +0530"
+  "date": "Sun, 22 Jan 2023 07:01:21 +0530"
  },
  {
   "title": " It Doesn't Have to be Crazy at Work",
   "url": "/book-notes/it-doesn't-have-to-be-crazy-at-work",
-  "date": "Mon, 19 Sep 2022 15:04:02 +0530"
+  "date": "Sun, 22 Jan 2023 07:01:21 +0530"
  },
  {
   "title": " 7 Habits of Highly Effective People - Book Summary",
   "url": "/book-notes/seven-habits-book-summary",
-  "date": "Mon, 12 Dec 2022 16:09:21 +0000"
+  "date": "Sun, 22 Jan 2023 07:01:21 +0530"
  },
  {
   "title": "Show Your Work",
   "url": "/book-notes/show-your-work",
-  "date": "Sat, 3 Sep 2022 06:47:15 +0000"
+  "date": "Sun, 22 Jan 2023 07:01:21 +0530"
  },
  {
   "title": " The Beauty of Your Brain",
   "url": "/book-notes/the-beauty-of-your-brain",
-  "date": "Mon, 12 Dec 2022 16:09:21 +0000"
+  "date": "Sun, 22 Jan 2023 07:01:21 +0530"
  },
  {
   "title": " Are you an Ideal Team Player?",
   "url": "/book-notes/the-ideal-team-player-book-review",
-  "date": "Mon, 12 Dec 2022 16:09:21 +0000"
+  "date": "Sun, 22 Jan 2023 07:01:21 +0530"
  },
  {
   "title": " A World Where WomenInTech Rules",
   "url": "/community/a-world-where-women-in-tech-rules",
-  "date": "Mon, 12 Dec 2022 16:09:21 +0000"
+  "date": "Sun, 22 Jan 2023 07:01:21 +0530"
  },
  {
   "title": " A Go to Guide to Run a Community",
   "url": "/community/go-to-guide-to-run-communities",
-  "date": "Wed, 21 Sep 2022 16:52:01 +0000"
+  "date": "Sun, 22 Jan 2023 07:01:21 +0530"
  },
  {
   "title": " Why Should you Attend Tech Conferences?",
   "url": "/community/why-should-you-attend-tech-conferences",
-  "date": "Wed, 5 Oct 2022 02:43:59 +0000"
+  "date": "Sun, 22 Jan 2023 07:01:21 +0530"
  },
  {
   "title": "AWS",
@@ -147,37 +147,57 @@
  {
   "title": "Data & Model Versioning",
   "url": "/devops/data-and-model-versioning",
-  "date": "Mon, 2 Jan 2023 19:56:27 +0000"
+  "date": "Sun, 22 Jan 2023 07:01:21 +0530"
+ },
+ {
+  "title": "Data Engineering",
+  "url": "/devops/data-engineering/readme",
+  "date": "Thu, 9 Feb 2023 14:57:20 +0000"
+ },
+ {
+  "title": "Data Dictionary",
+  "url": "/devops/data-engineering/data-dictionary",
+  "date": "Wed, 15 Feb 2023 20:23:43 +0530"
+ },
+ {
+  "title": "Data Engineering Zoomcamp",
+  "url": "/devops/data-engineering/data-engineering-zoomcamp/readme",
+  "date": "Thu, 9 Feb 2023 14:57:20 +0000"
+ },
+ {
+  "title": "Data Engineering Zoomcamp - Week 1 Reflections",
+  "url": "/devops/data-engineering/data-engineering-zoomcamp/data-engineering-zoomcamp-week-1-reflections",
+  "date": "Thu, 9 Feb 2023 14:57:20 +0000"
  },
  {
   "title": "Docker CLI Cheatsheet",
   "url": "/devops/docker-cli-cheatsheet",
-  "date": "Wed, 11 Jan 2023 17:28:42 +0000"
+  "date": "Sun, 22 Jan 2023 07:01:21 +0530"
  },
  {
   "title": " Introduction to Docker - The What, Why and How",
   "url": "/devops/docker-introduction",
-  "date": "Wed, 21 Sep 2022 16:52:01 +0000"
+  "date": "Sun, 22 Jan 2023 07:01:21 +0530"
  },
  {
   "title": " Docker - Virtualization vs Containerization",
   "url": "/devops/docker-virtualization-vs-containerization",
-  "date": "Mon, 19 Sep 2022 15:04:02 +0530"
+  "date": "Sun, 22 Jan 2023 07:01:21 +0530"
  },
  {
   "title": " \"Deploying Flask Applications in Kubernetes (Digitalocean)\"",
   "url": "/devops/kubernetes-101-deploy-apps-in-kubernetes",
-  "date": "Mon, 19 Sep 2022 15:04:02 +0530"
+  "date": "Sun, 22 Jan 2023 07:01:21 +0530"
  },
  {
   "title": " What Happens During Docker Build and Run?",
   "url": "/devops/what-happens-during-docker-build-and-run",
-  "date": "Wed, 21 Sep 2022 16:52:01 +0000"
+  "date": "Sun, 22 Jan 2023 07:01:21 +0530"
  },
  {
   "title": "What is DevOps?",
   "url": "/devops/what-is-devops",
-  "date": "Thu, 4 Aug 2022 13:45:38 +0000"
+  "date": "Sun, 22 Jan 2023 07:01:21 +0530"
  },
  {
   "title": "CSS",
@@ -237,77 +257,82 @@
  {
   "title": " How I Wrote my 1st 100 Lines of Golang Code",
   "url": "/golang/learning-golang",
-  "date": "Mon, 19 Sep 2022 15:04:02 +0530"
+  "date": "Sun, 22 Jan 2023 07:01:21 +0530"
  },
  {
   "title": "How to Plan and Build a Programming Project",
   "url": "/indie-hacking/how-to-plan-and-build-a-programming-project",
-  "date": "Fri, 7 Oct 2022 14:57:49 +0000"
+  "date": "Sun, 22 Jan 2023 07:01:21 +0530"
  },
  {
   "title": "Indie-Hacking",
   "url": "/indie-hacking/indie-hacking",
-  "date": "Sat, 13 Aug 2022 00:37:47 +0000"
+  "date": "Sun, 22 Jan 2023 07:01:21 +0530"
  },
  {
   "title": "Why I Started Building 100Ideas?",
   "url": "/indie-hacking/why-i-started-building-100ideas",
-  "date": "Wed, 26 Oct 2022 14:11:34 +0000"
+  "date": "Sun, 22 Jan 2023 07:01:21 +0530"
  },
  {
   "title": " 5 Reasons Why You Should Start your Fitness Routine ASAP?",
   "url": "/life/5-reasons-why-you-should-start-your-fitness-routineasap",
-  "date": "Mon, 19 Sep 2022 15:04:02 +0530"
+  "date": "Sun, 22 Jan 2023 07:01:21 +0530"
  },
  {
   "title": "Are you constantly Distracted? It's not You.",
   "url": "/life/are-you-constantly-distracted-its-not-you.",
-  "date": "Mon, 12 Dec 2022 06:31:03 +0000"
+  "date": "Sun, 22 Jan 2023 07:01:21 +0530"
  },
  {
   "title": "How do you do so many things at the same time?",
   "url": "/life/how-do-you-do-so-many-things-at-the-same-time",
-  "date": "Wed, 28 Sep 2022 02:38:23 +0000"
+  "date": "Sun, 22 Jan 2023 07:01:21 +0530"
  },
  {
   "title": " How to be (more) Productive?",
   "url": "/life/how-to-be-productive",
-  "date": "Wed, 21 Sep 2022 16:52:01 +0000"
+  "date": "Sun, 22 Jan 2023 07:01:21 +0530"
  },
  {
   "title": "How to Fast-track Your Learning?",
   "url": "/life/how-to-fast-track-your-learning",
-  "date": "Fri, 28 Oct 2022 14:37:39 +0000"
+  "date": "Sun, 22 Jan 2023 07:01:21 +0530"
  },
  {
   "title": " End Goal - How to set goals and track them?",
   "url": "/life/how-to-set-goals",
-  "date": "Mon, 19 Sep 2022 15:04:02 +0530"
+  "date": "Sun, 22 Jan 2023 07:01:21 +0530"
  },
  {
   "title": "Is this Burnout?",
   "url": "/life/is-this-burnout",
-  "date": "Thu, 20 Oct 2022 14:08:22 +0000"
+  "date": "Sun, 22 Jan 2023 07:01:21 +0530"
+ },
+ {
+  "title": "Life Lessons After a Depressive Episode",
+  "url": "/life/life-lessons-after-a-depressive-episode",
+  "date": "Tue, 14 Feb 2023 13:57:28 +0000"
  },
  {
   "title": " Shopping Like a Stingy-Minimalist",
   "url": "/life/shopping-like-a-minimalist",
-  "date": "Mon, 12 Dec 2022 16:09:21 +0000"
+  "date": "Sun, 22 Jan 2023 07:01:21 +0530"
  },
  {
   "title": " \"The Magic of Responsibility — A\\_Story\"",
   "url": "/life/the-magic-of-responsiblity",
-  "date": "Wed, 21 Sep 2022 16:52:01 +0000"
+  "date": "Sun, 22 Jan 2023 07:01:21 +0530"
  },
  {
   "title": "Project GoodVibes - A low-Key Gratitude Journaling",
   "url": "/life/why-we-need-a-low-key-version-of-gratitude-journaling",
-  "date": "Tue, 13 Sep 2022 02:59:38 +0000"
+  "date": "Sun, 22 Jan 2023 07:01:21 +0530"
  },
  {
   "title": "Side Projects: FAQ",
   "url": "/misc/side-projects-twitter-space",
-  "date": "Mon, 12 Dec 2022 16:09:21 +0000"
+  "date": "Sun, 22 Jan 2023 07:01:21 +0530"
  },
  {
   "title": " Apache Airflow - Data Orchestrator",
@@ -342,67 +367,67 @@
  {
   "title": "Git Flight Rules - More than CheatSheet",
   "url": "/open-source/git-flight-rules-more-than-cheatsheet",
-  "date": "Thu, 8 Sep 2022 04:43:11 +0000"
+  "date": "Sun, 22 Jan 2023 07:01:21 +0530"
  },
  {
   "title": "How to Make Your 1st OpenSource Contribution",
   "url": "/open-source/how-to-make-your-1st-opensource-contribution",
-  "date": "Sat, 13 Aug 2022 00:37:47 +0000"
+  "date": "Sun, 22 Jan 2023 07:01:21 +0530"
  },
  {
   "title": "Repos You Can Contribute To",
   "url": "/open-source/repos-you-can-contribute-to",
-  "date": "Thu, 8 Sep 2022 04:43:11 +0000"
+  "date": "Sun, 22 Jan 2023 07:01:21 +0530"
  },
  {
   "title": "Apache Airflow Starter Pack",
   "url": "/products/apache-airflow-starter-pack",
-  "date": "Tue, 17 Jan 2023 14:12:08 +0000"
+  "date": "Sun, 22 Jan 2023 07:06:41 +0530"
  },
  {
   "title": "Analyza",
   "url": "/projects/analyza",
-  "date": "Wed, 23 Nov 2022 01:55:08 +0000"
+  "date": "Sun, 22 Jan 2023 07:01:21 +0530"
  },
  {
   "title": "iKeepLog",
   "url": "/projects/ikeeplog",
-  "date": "Wed, 23 Nov 2022 01:55:08 +0000"
+  "date": "Sun, 22 Jan 2023 07:01:21 +0530"
  },
  {
   "title": "Interviewbot",
   "url": "/projects/interviewbot",
-  "date": "Wed, 23 Nov 2022 01:55:08 +0000"
+  "date": "Sun, 22 Jan 2023 07:01:21 +0530"
  },
  {
   "title": "Kissflow Case-Management Module",
   "url": "/projects/kissflow-case",
-  "date": "Wed, 23 Nov 2022 01:55:08 +0000"
+  "date": "Sun, 22 Jan 2023 07:01:21 +0530"
  },
  {
   "title": "Kissflow Project Management Module",
   "url": "/projects/kissflow-projects",
-  "date": "Wed, 23 Nov 2022 01:55:08 +0000"
+  "date": "Sun, 22 Jan 2023 07:01:21 +0530"
  },
  {
   "title": "Kissflow Reporting Module",
   "url": "/projects/kissflow-reports",
-  "date": "Wed, 23 Nov 2022 01:55:08 +0000"
+  "date": "Sun, 22 Jan 2023 07:01:21 +0530"
  },
  {
   "title": "Rasa Site Bot",
   "url": "/projects/rasa-site-bot",
-  "date": "Wed, 23 Nov 2022 01:55:08 +0000"
+  "date": "Sun, 22 Jan 2023 07:01:21 +0530"
  },
  {
   "title": "Smart Automapper",
   "url": "/projects/smart-automapper",
-  "date": "Wed, 23 Nov 2022 01:55:08 +0000"
+  "date": "Sun, 22 Jan 2023 07:01:21 +0530"
  },
  {
   "title": "Smart Data Query",
   "url": "/projects/smart-data-query",
-  "date": "Wed, 23 Nov 2022 01:55:08 +0000"
+  "date": "Sun, 22 Jan 2023 07:01:21 +0530"
  },
  {
   "title": "Advanced Python",
@@ -457,22 +482,22 @@
  {
   "title": " Asynchronous Task Execution In Python",
   "url": "/python/asynchronous-task-execution-in-python",
-  "date": "Wed, 21 Sep 2022 16:52:01 +0000"
+  "date": "Sun, 22 Jan 2023 07:01:21 +0530"
  },
  {
   "title": " Caching in Python",
   "url": "/python/caching-in-python",
-  "date": "Mon, 12 Dec 2022 16:09:21 +0000"
+  "date": "Sun, 22 Jan 2023 07:01:21 +0530"
  },
  {
   "title": "Debugging MakerLog",
   "url": "/python/debugging-makerlog",
-  "date": "Mon, 2 Jan 2023 19:56:27 +0000"
+  "date": "Sun, 22 Jan 2023 07:01:21 +0530"
  },
  {
   "title": "Django",
   "url": "/python/django",
-  "date": "Mon, 2 Jan 2023 19:56:27 +0000"
+  "date": "Sun, 22 Jan 2023 07:01:21 +0530"
  },
  {
   "title": "Building OwnFlask - A Flask(like) Python Framework",
@@ -492,17 +517,22 @@
  {
   "title": " How to Generate UML Diagrams from Python Source Code?",
   "url": "/python/generate-uml-diagrams-from-python-code",
-  "date": "Thu, 29 Dec 2022 06:16:09 +0000"
+  "date": "Sun, 22 Jan 2023 07:01:21 +0530"
  },
  {
   "title": " Merging Python Modules",
   "url": "/python/merge-python-module-script",
-  "date": "Wed, 21 Sep 2022 16:52:01 +0000"
+  "date": "Sun, 22 Jan 2023 07:01:21 +0530"
  },
  {
   "title": " Are your Secrets Safe In Python?",
   "url": "/python/secrets-as-python-file",
-  "date": "Mon, 12 Dec 2022 16:09:21 +0000"
+  "date": "Sun, 22 Jan 2023 07:01:21 +0530"
+ },
+ {
+  "title": "# How did it start?",
+  "url": "/python/uml-isnt-dead",
+  "date": "Wed, 15 Feb 2023 20:23:43 +0530"
  },
  {
   "title": "When to Use Flask vs Django?",
@@ -532,42 +562,42 @@
  {
   "title": "What are the Best Resources to Learn Python in 2022?",
   "url": "/python/what-are-the-best-resources-to-learn-python",
-  "date": "Sat, 13 Aug 2022 00:37:47 +0000"
+  "date": "Sun, 22 Jan 2023 07:01:21 +0530"
  },
  {
   "title": "What is \\_\\_name\\_\\_ == \"\\_\\_main\\_\\_\" in Python?",
   "url": "/python/what-is-__name__-__main__-in-python",
-  "date": "Sun, 20 Nov 2022 01:19:19 +0000"
+  "date": "Sun, 22 Jan 2023 07:01:21 +0530"
  },
  {
   "title": "Why Gitbook?",
   "url": "/readme/why-gitbook",
-  "date": "Tue, 17 Jan 2023 09:10:55 +0000"
+  "date": "Sun, 22 Jan 2023 07:01:21 +0530"
  },
  {
   "title": " All About Authentication Systems",
   "url": "/software-engineering/authentication-in-python",
-  "date": "Mon, 12 Dec 2022 16:09:21 +0000"
+  "date": "Sun, 22 Jan 2023 07:01:21 +0530"
  },
  {
   "title": " Backend Engineer - Behind the Scenes",
   "url": "/software-engineering/backend-engineer-behind-the-scenes",
-  "date": "Wed, 21 Sep 2022 16:52:01 +0000"
+  "date": "Sun, 22 Jan 2023 07:01:21 +0530"
  },
  {
   "title": " Challenges In Full-Text-Search Systems",
   "url": "/software-engineering/challenges-in-full-text-search",
-  "date": "Wed, 21 Sep 2022 16:52:01 +0000"
+  "date": "Sun, 22 Jan 2023 07:01:21 +0530"
  },
  {
   "title": " How to Connect to Custom Oauth2 Provider Using Auth0?",
   "url": "/software-engineering/custom-oauth2-with-auth0",
-  "date": "Wed, 21 Sep 2022 16:52:01 +0000"
+  "date": "Sun, 22 Jan 2023 07:01:21 +0530"
  },
  {
   "title": "Types of Databases & When to Use them",
   "url": "/software-engineering/database-101",
-  "date": "Mon, 2 Jan 2023 19:56:27 +0000"
+  "date": "Sun, 22 Jan 2023 07:01:21 +0530"
  },
  {
   "title": "Git & GitHub",
@@ -587,91 +617,91 @@
  {
   "title": "How to Design a Chatbot System Architecture",
   "url": "/software-engineering/how-to-design-a-chatbot-system-architecture",
-  "date": "Fri, 28 Oct 2022 13:47:43 +0000"
+  "date": "Sun, 22 Jan 2023 07:01:21 +0530"
  },
  {
   "title": "How to Do Code Reviews?",
   "url": "/software-engineering/how-to-do-code-reviews",
-  "date": "Thu, 4 Aug 2022 22:06:57 +0000"
+  "date": "Sun, 22 Jan 2023 07:01:21 +0530"
  },
  {
   "title": "Open-Closed Principle",
   "url": "/software-engineering/open-closed-principle",
-  "date": "Mon, 12 Sep 2022 02:17:41 +0000"
+  "date": "Sun, 22 Jan 2023 07:01:21 +0530"
  },
  {
   "title": "Strangler Fig Pattern",
   "url": "/software-engineering/strangler-fig-pattern",
-  "date": "Thu, 4 Aug 2022 22:06:57 +0000"
+  "date": "Sun, 22 Jan 2023 07:01:21 +0530"
  },
  {
   "title": " \"Introduction to Chatbots\"",
   "url": "/talks/introduction-to-chatbots",
-  "date": "Wed, 23 Nov 2022 01:55:08 +0000"
+  "date": "Sun, 22 Jan 2023 07:01:21 +0530"
  },
  {
   "title": " Data Pipelines using Airflow on Kubernetes",
   "url": "/talks/airflow-on-kubernetes-talk",
-  "date": "Wed, 23 Nov 2022 01:55:08 +0000"
+  "date": "Sun, 22 Jan 2023 07:01:21 +0530"
  },
  {
   "title": " \"All About Chatbots\"",
   "url": "/talks/all-about-chatbots",
-  "date": "Wed, 23 Nov 2022 01:55:08 +0000"
+  "date": "Sun, 22 Jan 2023 07:01:21 +0530"
  },
  {
   "title": " \"Becoming a Self-Made Developer\"",
   "url": "/talks/becoming-a-self-made-developer",
-  "date": "Wed, 23 Nov 2022 01:55:08 +0000"
+  "date": "Sun, 22 Jan 2023 07:01:21 +0530"
  },
  {
   "title": " \"Multitenancy in Chatbots\"",
   "url": "/talks/chatbots-multitenancy-and-custom-entities",
-  "date": "Wed, 23 Nov 2022 01:55:08 +0000"
+  "date": "Sun, 22 Jan 2023 07:01:21 +0530"
  },
  {
   "title": " Distributed Data-pipelines in Python",
   "url": "/talks/distributed-data-pipelines-in-python",
-  "date": "Wed, 23 Nov 2022 01:55:08 +0000"
+  "date": "Sun, 22 Jan 2023 07:01:21 +0530"
  },
  {
   "title": "Introduction to MLOps",
   "url": "/talks/introduction-to-mlops",
-  "date": "Tue, 22 Nov 2022 02:00:37 +0000"
+  "date": "Sun, 22 Jan 2023 07:01:21 +0530"
  },
  {
   "title": " \"Getting Started With Open Source\"",
   "url": "/talks/open-source",
-  "date": "Wed, 23 Nov 2022 01:55:08 +0000"
+  "date": "Sun, 22 Jan 2023 07:01:21 +0530"
  },
  {
   "title": " \"Stand Out as an Engineer\"",
   "url": "/talks/stand-out-as-an-engineer",
-  "date": "Wed, 23 Nov 2022 01:55:08 +0000"
+  "date": "Sun, 22 Jan 2023 07:01:21 +0530"
  },
  {
   "title": "How to Start a Technical Blog?",
   "url": "/technical-writing/how-to-start-a-technical-blog",
-  "date": "Mon, 15 Aug 2022 13:52:20 +0000"
+  "date": "Sun, 22 Jan 2023 07:01:21 +0530"
  },
  {
   "title": "\"Just Dump your Thoughts\" is bad advice",
   "url": "/technical-writing/just-dump-your-thoughts-is-bad-advice",
-  "date": "Mon, 12 Dec 2022 05:51:47 +0000"
+  "date": "Sun, 22 Jan 2023 07:01:21 +0530"
  },
  {
   "title": "Why I Don't Recommend Medium as Your Blogging Site",
   "url": "/technical-writing/why-i-dont-recommend-medium-as-your-blogging-site",
-  "date": "Mon, 12 Sep 2022 02:17:41 +0000"
+  "date": "Sun, 22 Jan 2023 07:01:21 +0530"
  },
  {
   "title": "Traveling to Leh Ladhak",
   "url": "/travel/traveling-to-leh-ladhak",
-  "date": "Thu, 20 Oct 2022 14:19:02 +0000"
+  "date": "Sun, 22 Jan 2023 07:01:21 +0530"
  },
  {
   "title": "Travelling To Europe",
   "url": "/travel/travelling-to-europe",
-  "date": "Thu, 8 Sep 2022 04:44:45 +0000"
+  "date": "Sun, 22 Jan 2023 07:01:21 +0530"
  }
 ]

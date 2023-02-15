@@ -154,7 +154,7 @@ async def create_readme(category_names, categories):
             categories.items(), key=lambda c: len(c[1]), reverse=True
         ):
             file.write(
-                f"""* [{category.replace("-", " ").title()}](./#{category.replace(' ', '-').lower()}) [**`{len(tils)}`**]\n"""
+                f"""- [{category.replace("-", " ").title()}](./#{category.replace(' ', '-').lower()}) [**`{len(tils)}`**]\n"""
             )
 
         if len(category_names) > 0:
@@ -171,7 +171,7 @@ async def create_readme(category_names, categories):
                 # print(tils)
                 for (title, filename) in sorted(tils):
                     # file.write("\n<li>")
-                    file.write(f"""* [{title.strip()}]({filename})""")
+                    file.write(f"""- [{title.strip()}]({filename})""")
                     file.write("\n")
 
 
