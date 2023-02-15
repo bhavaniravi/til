@@ -1,6 +1,4 @@
-﻿# UML isn’t Dead
-
-If you’ve studied software design at the university, there is no chance you missed UML diagrams. But, *“when did you last use UML diagrams?”* and the answer unanimously came across as *“UML is pretty much dead*, *I used sequence diagrams occasionally, and that’s pretty much it”.* I did some research, and I found some interesting stuff. Buckle up and hold on as we go through this ride.
+﻿If you’ve studied software design at the university, there is no chance you missed UML diagrams. But, *“when did you last use UML diagrams?”* and the answer unanimously came across as *“UML is pretty much dead*, *I used sequence diagrams occasionally, and that’s pretty much it”.* I did some research, and I found some interesting stuff. Buckle up and hold on as we go through this ride.
 
 ## How did it start?
 
