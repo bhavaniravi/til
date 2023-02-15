@@ -71,7 +71,7 @@
   - [Migrating to Flask-SQLAlchemy 3.0](python/flask/migrating-to-flask-sqlalchemy-3.0.md)
 - [Django](python/django.md)
 - [How to Generate UML Diagrams from Python Source Code?](python/generate-uml-diagrams-from-python-code.md)
-- [UML isn't Dead](python/uml-isn't-dead.md)
+- [UML isn't Dead](python/uml-isnt-dead.md)
 - [Merging Python Modules](python/merge-python-module-script.md)
 - [Are your Secrets Safe In Python?](python/secrets-as-python-file.md)
 - [Asynchronous Task Execution In Python](python/asynchronous-task-execution-in-python.md)
