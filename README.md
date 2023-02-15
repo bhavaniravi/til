@@ -8,15 +8,20 @@ description: Not all those who wander are lost
 
 _A digital garden is **an online space at the intersection of a notebook and a blog, where digital gardeners share seeds of thoughts to be cultivated in public**._&#x20;
 
-Here are some of my favorite sections of this blog
+## Who am I?
 
-* [Advanced Python Concepts](python/advanced-python/)
-* [Apache Airflow Guides](broken-reference)
-* &#x20;DevOps[ - Docker - Kubernetes - AWS](./#devops)
-* [Technical Writing](broken-reference)
-* [Why should you build a side project?](broken-reference)
-* [Goals Burnout, Productivity, Distraction](./#life)
-* and a lot more on the sidebar
+- What do I do?
+[Find out here](start-here/about-me.md)
+
+## What's do you wanna learn?
+
+- [Advanced Python Concepts](python/advanced-python/)
+- [Apache Airflow Guides](broken-reference)
+- &#x20;DevOps[ - Docker - Kubernetes - AWS](./#devops)
+- [Technical Writing](broken-reference)
+- [Why should you build a side project?](broken-reference)
+- [Goals Burnout, Productivity, Distraction](./#life)
+- and a lot more on the sidebar
 
 I know that's a lot. I explore a variety of technical topics and write about them.
 
