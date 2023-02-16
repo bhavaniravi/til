@@ -8,11 +8,9 @@ It all started when I had to generate class diagrams for a data ingestion engine
 
 Later in 2022, when I wanted to write a Github action, I used the same blog post as a reference and the generated ERD images as a part of the code review comment.
 
-Are there other tools in the same arena? Is it possible to generate full fletched diagrams just by using codebase as your source of truth? Are there tools like this available already
+Are there other tools in the same arena? Is it possible to generate full fletched diagrams just by using codebase as your source of truth? Are there tools like this available already? [Like Simon Brown, I hate diagramming tools. Too much mouse involvement, never up to date](https://dev.to/simonbrown/visio-draw-io-lucidchart-gliffy-etc-not-recommended-for-software-architecture-diagrams-4bmm).
 
-[Like Simon Brown, I hate diagramming tools. Too much mouse involvement, never up to date](https://dev.to/simonbrown/visio-draw-io-lucidchart-gliffy-etc-not-recommended-for-software-architecture-diagrams-4bmm)
-
-UML diagrams are no longer used for system design. I’m not sure how people are designing systems these days. The code is extremely user-friendly, it’s easier to visualize things from the code base, or is it so?
+UML diagrams are no longer used for system design. I’m not sure how people are designing systems these days. The code is extremely user-friendly. It’s easier to visualize things from the code base, or is it so?
 
 A quick search on jobs from indeed and LinkedIn shows that the UML skills have been taken out of the Software Engineers’ plate and moved to Solution Architect and Business Analyst’s bucket.
 
@@ -92,6 +90,12 @@ ZenUML is a tool similar to plantUML. It claims to have better DSL syntax than P
 
 These tools have a structure that will let you write these diagrams in text format. We are skipping the general-purpose diagramming tools such as Draw.io.
 
+#### [Mermaid](https://mermaid.js.org/)
+
+> JavaScript based diagramming and charting tool that renders Markdown-inspired text definitions to create and modify diagrams dynamically.
+
+Mermaid can create a variety of Charts and graphs, Gantt, Class, ERD, and Sequence diagrams. It has its own syntax to generate diagrams. You can try it live at [https://mermaid.live/](https://mermaid.live/)
+
 #### [WeSsequence Diagrams](https://www.websequencediagrams.com/)
 
 Websequence Diagrams is a simple and easy-to-use online tool. It comes with an online editor with many pre-defined examples to customize. It supports PlantUML syntax.
@@ -108,7 +112,7 @@ Eraser is a beautiful visual + code-based tool that lets you document your cloud
 
 #### [Aivosto](https://www.aivosto.com/visustin.html)
 
-* Supports 49 languages [https://www.aivosto.com/visustin.html](https://www.aivosto.com/visustin.html)
+Supports 49 languages [https://www.aivosto.com/visustin.html](https://www.aivosto.com/visustin.html)
 
 #### [Draw.io](https://draw.io)
 
