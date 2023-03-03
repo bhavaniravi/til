@@ -13,17 +13,17 @@ I have changed this website quite a lot in the last 3 years. It moved from WordP
 
 > The site you are reading on currently is hosted via Gitbook.
 
-Before I answer, why Gitbook? You need to have the context of what all I have tried before landing here&#x20;
+Before I answer, why Gitbook? You need to have the context of what all I have tried before landing here
 
 ### Why So Much Change?
 
-tl;dr Well, as I evolved, I wanted a site that grew with me. Some platforms were too restrictive. Others were just too... you know...&#x20;
+tl;dr Well, as I evolved, I wanted a site that grew with me. Some platforms were too restrictive. Others were just too... you know...
 
 Nope let me tell you exactly why
 
 ### WordPress
 
-When my mentor asked me to set up a blog online, my immediate choice was WordPress. Whenever I choose a technology, it's because&#x20;
+When my mentor asked me to set up a blog online, my immediate choice was WordPress. Whenever I choose a technology, it's because
 
 1. It gets the job done well
 2. It has enough support online
@@ -33,19 +33,19 @@ WordPress had all 3. It had great themes and a large community to seek help. SEO
 
 ### 2017
 
-This was my 1st ever website under my domain name. WordPress was easy to start and add more content.&#x20;
+This was my 1st ever website under my domain name. WordPress was easy to start and add more content.
 
-<figure><img src="../.gitbook/assets/image (2) (4).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (2) (4) (1).png" alt=""><figcaption></figcaption></figure>
 
 #### 2018
 
 As you can see, between 2017 and 2018, the content didn't change much, but the theme did. At this point, I was trying to get a landing page done, but I couldn't make peace with any of them.
 
-The landing page-specific themes didn't have a good blog layout, and vice versa.&#x20;
+The landing page-specific themes didn't have a good blog layout, and vice versa.
 
 <figure><img src="../.gitbook/assets/image (7).png" alt=""><figcaption></figcaption></figure>
 
-### Medium&#x20;
+### Medium
 
 #### 2019
 
@@ -53,7 +53,7 @@ Around the same time, I took up #100DaysOfBlogging Challenge with my colleagues,
 
 #### PayWall
 
-Things started looking bad when Medium added a paywall. It became an awful place to read things. Every blog you open is behind a paywall. I, for one, support all creators being paid. But then, Medium's interface could have been designed better for unpaid users.&#x20;
+Things started looking bad when Medium added a paywall. It became an awful place to read things. Every blog you open is behind a paywall. I, for one, support all creators being paid. But then, Medium's interface could have been designed better for unpaid users.
 
 #### SEO
 
@@ -69,7 +69,7 @@ Until now, I haven't considered static site generators because I knew I could no
 
 It had a nice landing page; it had a blog page that looked exactly like Medium, which I took a tonne of time to build. All the content was in markdown. So I wrote them on either VSCode or Hackmd.io.
 
-<figure><img src="../.gitbook/assets/image.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (2).png" alt=""><figcaption></figcaption></figure>
 
 By 2021, I started launching courses, ebooks, and products. This was also the time I started consulting, quitting my full-time job. For every product/service I added to the website, I had to change the code and add new pages, which took a toll on me.
 
@@ -97,7 +97,7 @@ They enable HTTPS to your site, one more thing you don't have to worry about
 
 #### GitHub support
 
-Gitbook stores all your entries as markdown files in a Git repo in GitHub or Gitlab. If, years down the line, you choose to migrate to a different platform, you don't have to wait around HTTPhem to send you a dump.&#x20;
+Gitbook stores all your entries as markdown files in a Git repo in GitHub or Gitlab. If, years down the line, you choose to migrate to a different platform, you don't have to wait around HTTPhem to send you a dump.
 
 #### Google Analytics
 
@@ -123,7 +123,7 @@ From a recent Google lighthouse run, I found that some pages take about 2.5 seco
 
 > I have reported all this to Gitbook team and they were kind enough to forward it to their product team. I'm hoping to see them added soon
 
----
+***
 
 {% embed url="https://bhavaniravi.substack.com/embed" %}
 Newsletter embed

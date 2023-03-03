@@ -1,17 +1,21 @@
 ---
-slug: "kubernetes-101-deploy-apps-in-kubernetes"
-title: "Deploying Flask Applications in Kubernetes (Digitalocean)"
-sub_title: "Basics of kubernetes and deploying apps in K8 environment"
-tags: ["devops"]
-featuredImgPath: "https://i.imgur.com/uTbgOJD.png"
+slug: kubernetes-101-deploy-apps-in-kubernetes
+title: Deploying Flask Applications in Kubernetes (Digitalocean)
+sub_title: Basics of kubernetes and deploying apps in K8 environment
+tags:
+  - devops
+featuredImgPath: https://i.imgur.com/uTbgOJD.png
 isexternal: true
-published_date: 2022-03-06
-created_date: 2022-03-06
-description: "The word Kubernetes and the keywords around it are scary for people. In this blog, we will demistify what those words mean and how to deploy a web application in kuberenetes environment"
+published_date: 2022-03-06T00:00:00.000Z
+created_date: 2022-03-06T00:00:00.000Z
 draft: false
+description: >-
+  The word Kubernetes and the keywords around it are scary for people. In this
+  blog, we will demistify what those words mean and how to deploy a web
+  application in kuberenetes environment
 ---
 
-# Introduction to Deploying Flask Applications in Kubernetes
+# Deploying Flask Applications in Kubernetes (Digitalocean)
 
 ## What is Kubernetes?
 
@@ -23,7 +27,7 @@ The advantage of using a container is that it's OS independent, lightweight, shi
 
 Yes, Kubernetes is too much to wrap your head around. So let's take it to step by step.
 
----
+***
 
 ## Kubernetes Resources
 
@@ -39,12 +43,12 @@ Once the application is running inside the Pod, you will expose it to the outsid
 
 With that, we have got a high-level understanding of the most used Kubernetes keywords
 
-- Pod
-- Deployment
-- Service
-- Node
-- Cluster
-- Namespace
+* Pod
+* Deployment
+* Service
+* Node
+* Cluster
+* Namespace
 
 We will see more resources as we go along this journey. For now, let's see how to set up a cluster and expose it using the resources mentioned earlier on Digitalocean.
 
@@ -56,8 +60,7 @@ Because I have some free credits, you can spin up one at just 10$/month.
 
 ## Sample Application
 
-For simplicity's sake, I will use a simple "Todo" flask application as a sample.
-The step-by-step development of this app has been shared in [Build your first flask app tutorial](https://medium.com/bhavaniravi/build-your-1st-python-web-app-with-flask-b039d11f101c)
+For simplicity's sake, I will use a simple "Todo" flask application as a sample. The step-by-step development of this app has been shared in [Build your first flask app tutorial](https://medium.com/bhavaniravi/build-your-1st-python-web-app-with-flask-b039d11f101c)
 
 Remember, you can host any application in any language on a Kubernetes environment.
 
@@ -65,8 +68,7 @@ Remember, you can host any application in any language on a Kubernetes environme
 
 You can spin up a Kubernetes cluster without hassle in any managed services such as AWS, GCP, or Digitalocean. Note that these managed services come out of the box. You can also install Kubernetes on a bare-metal machine like you do any other software. But that is a problem for another time.
 
-For now, check out how to create a K8 cluster on Digitalocean from
-[here](https://docs.digitalocean.com/products/kubernetes/quickstart/#create-clusters)
+For now, check out how to create a K8 cluster on Digitalocean from [here](https://docs.digitalocean.com/products/kubernetes/quickstart/#create-clusters)
 
 ## DigitalOcean CLI
 
@@ -88,9 +90,9 @@ doctl auth init -t $DO_TOKEN
 
 Now for the fun part. What do you need to deploy?
 
-- Dockerized sample application
-- Kubectl access
-- Kubernetes spec
+* Dockerized sample application
+* Kubectl access
+* Kubernetes spec
 
 Let's do this one by done.
 
@@ -114,7 +116,7 @@ Now the application runs on your local machine. You need it somewhere on the clo
 
 To create a registry in Digitalocean.
 
-1. Go to <https://cloud.digitalocean.com/registry>
+1. Go to [https://cloud.digitalocean.com/registry](https://cloud.digitalocean.com/registry)
 2. Give a registry name
 3. Select a plan and click "Create registry."
 
@@ -160,7 +162,7 @@ kubectl create namespace todoapp
 kubectl config set-context --current --namespace=todoapp
 ```
 
-2. Create Pod, deployment spec. Create a file `deployment.yaml`
+1. Create Pod, deployment spec. Create a file `deployment.yaml`
 
 ```
 ---
@@ -189,7 +191,7 @@ spec:
             - containerPort: 8888
 ```
 
-3. Create a service spec in file `service.yaml` to expose your application to the outside world. I have created a service of type `LoadBalancer` for ease of usage. But it is always a good idea to have an ingress installed at the Cluster and route your request to a `ClusterIP` type service.
+1. Create a service spec in file `service.yaml` to expose your application to the outside world. I have created a service of type `LoadBalancer` for ease of usage. But it is always a good idea to have an ingress installed at the Cluster and route your request to a `ClusterIP` type service.
 
 ```
 apiVersion: v1
@@ -227,7 +229,7 @@ kubectl get logs -f <pod-name>
 
 We have just nicked the surface of Kubernetes. You can create a custom resource with other resources, and there is this whole unexplored territory of how Kubernetes works internally. We will explore all of these in the upcoming articles.
 
----
+***
 
 {% embed url="https://bhavaniravi.substack.com/embed" %}
 Newsletter embed
