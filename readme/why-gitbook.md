@@ -43,7 +43,7 @@ As you can see, between 2017 and 2018, the content didn't change much, but the t
 
 The landing page-specific themes didn't have a good blog layout, and vice versa.
 
-<figure><img src="../.gitbook/assets/image (7) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (7).png" alt=""><figcaption></figcaption></figure>
 
 ### Medium
 
@@ -69,7 +69,7 @@ Until now, I haven't considered static site generators because I knew I could no
 
 It had a nice landing page; it had a blog page that looked exactly like Medium, which I took a tonne of time to build. All the content was in markdown. So I wrote them on either VSCode or Hackmd.io.
 
-<figure><img src="../.gitbook/assets/image.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (8).png" alt=""><figcaption></figcaption></figure>
 
 By 2021, I started launching courses, ebooks, and products. This was also the time I started consulting, quitting my full-time job. For every product/service I added to the website, I had to change the code and add new pages, which took a toll on me.
 

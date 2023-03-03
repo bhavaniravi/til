@@ -6,7 +6,7 @@ description: >-
 
 # How to Plan and Build a Programming Project
 
-_The blog is a WIP. I will finish soon and publish it_
+_**Published on: 4th March 2023**_
 
 You want to learn to program, pick a tutorial online, and they will teach you the basics. Now you got good with syntax. But when writing a simple for loop, you get stuck. You look for solutions online, and people suggest _"Build projects"._ Instead of fixing your 1st problem, they now give you a new problem.
 
@@ -61,7 +61,7 @@ Take a blank sheet of paper and answer the following questions
 
 #### Design
 
-<figure><img src="../.gitbook/assets/image (7).png" alt=""><figcaption><p>An ER Diagram created by one of my students for their V0.1 of whishlist app</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/image.png" alt=""><figcaption><p>An ER Diagram created by one of my students for their V0.1 of whishlist app</p></figcaption></figure>
 
 1. For each feature, think about the user flow. What will the UI look like? Where does the data come from? Where does it get stored? How is it consumed?
 2. Know the tech&#x20;
