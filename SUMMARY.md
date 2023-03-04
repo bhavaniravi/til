@@ -201,3 +201,4 @@
 * [Are you constantly Distracted? It's not You.](life/are-you-constantly-distracted-its-not-you.md)
 *
 * [Life Lessons After a Depressive Episode](life/life-lessons-after-a-depressive-episode.md)
+* [La Vie En Rose](life/la-vie-en-rose.md)
