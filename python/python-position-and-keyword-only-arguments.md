@@ -1,5 +1,5 @@
 ---
-description: What does / and * mean in a Python function call
+description: What does / and * mean in a Python function definition mean
 ---
 
 # Python Position and Keyword Only Arguments
