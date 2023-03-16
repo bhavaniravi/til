@@ -126,6 +126,7 @@
 * [Introduction to Docker - The What, Why and How](devops/docker-introduction.md)
 * [Docker - Virtualization vs Containerization](devops/docker-virtualization-vs-containerization.md)
 * [Deploying Flask Applications in Kubernetes (Digitalocean)](devops/kubernetes-101-deploy-apps-in-kubernetes.md)
+* [Local K8 Cluster With Kind](devops/local-k8-cluster-with-kind.md)
 * [AWS](devops/aws/README.md)
   * [IAM Users, Roles, and Policies](devops/aws/iam-users-roles-and-policies.md)
 * [Data & Model Versioning](devops/data-and-model-versioning.md)
