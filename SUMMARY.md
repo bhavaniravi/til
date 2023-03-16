@@ -51,6 +51,8 @@
 
 * [What are the Best Resources to Learn Python in 2022?](python/what-are-the-best-resources-to-learn-python.md)
 * [What is \_\_name\_\_ == "\_\_main\_\_" in Python?](python/what-is-\_\_name\_\_-\_\_main\_\_-in-python.md)
+* [Python Position and Keyword Only Arguments](python/python-position-and-keyword-only-arguments.md)
+* [What does \_\_new\_\_ function in Python do?](python/what-does-\_\_new\_\_-function-in-python-do.md)
 * [How to get past Beginner Stage in Python?](https://thelearning.dev/how-to-get-past-beginner-stage-in-python)
 * [Advanced Python](python/advanced-python/README.md)
   * [Itertools Hacks](python/advanced-python/itertools-hacks.md)
