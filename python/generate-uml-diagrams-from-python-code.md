@@ -17,7 +17,9 @@ description: >-
 
 # How to Generate UML Diagrams from Python Source Code?
 
-Inspite of designing and thinking through the class structure before coding, developers might have to restructure and refactor the code during implementation. It is also a good idea to generate UML diagrams from code and see if it matches the actual design.
+In spite of designing and thinking through the class structure before coding, developers might have to restructure and refactor the code during implementation. It is also a good idea to generate UML diagrams from code and see if it matches the actual design.
+
+I've explored a variety of [code diagram generators](uml-isnt-dead.md), and the one that stood out for me was a  Pyreverse example
 
 ## [Pyreverse](https://pypi.org/project/pylint/?utm\_source=bhavaniravi.com\&utm\_medium=website\&utm\_campaign=bhavaniravi-uml\&utm\_id=uml-diagrams)
 
@@ -31,7 +33,7 @@ pip install pylint
 
 ## Generating UML Diagrams
 
-1. Let's choose a project; feel free to choose any python project. I'm using Python requests library's source code&#x20;
+1. Let's choose a project; feel free to choose any python project. I'm using Python requests library's source code
 
 ```git
 git clone <python requests>
@@ -53,7 +55,7 @@ The generated image looks something like this. (Click to open)
 
 <figure><img src="../.gitbook/assets/image (6).png" alt=""><figcaption></figcaption></figure>
 
---- 
+***
 
 {% embed url="https://bhavaniravi.substack.com/embed" %}
 Newsletter embed
