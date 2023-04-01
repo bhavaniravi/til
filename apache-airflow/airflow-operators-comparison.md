@@ -6,8 +6,8 @@ tags:
   - apache-airflow
 featuredImgPath: https://i.imgur.com/UvlPSAW.png
 isexternal: true
-published_date: "2021-01-12"
-created_date: "2021-01-10"
+published_date: '2021-01-12'
+created_date: '2021-01-10'
 draft: false
 description: >-
   Airflow provides a variety of operators to couple your business logic into
@@ -21,7 +21,7 @@ Airflow provides a variety of operators to couple your business logic into execu
 
 ## PythonOperator
 
-Using `PythonOperator`, all the business logic and it's associated code resides in the airflow DAG directory. The `PythonOperator` imports and runs them during the execution
+When using the Airflow PythonThe best operator, all the business logic and its associated code reside in the airflow DAG directory. The `PythonOperator` imports and runs them during the execution
 
 ```
 airflow
@@ -37,7 +37,7 @@ airflow
 
 ### Pros
 
-1. Best option when the code is in the same repo as airflow
+1. Best option is when the code is in the same repo as the Airflow
 2. Simple and easy to use
 3. Works well on small teams
 
@@ -50,11 +50,14 @@ airflow
 
 ## DockerOperator
 
-When using `DockerOperator`, all the business logic and it's associated code resides in a docker image. During execution
+When using Airflow's Docker operator, all the business logic and its associated code reside in a docker image.&#x20;
+
+During execution
 
 1. Airflow pulls the specified image
 2. Spins up a container
 3. Executes the respective command.
+4. We have to ensure that a docker daemon is running
 
 ```
 DockerOperator(
@@ -71,6 +74,7 @@ DockerOperator(
 
 1. Works well across cross-functional teams
 2. Can run projects that are not built-in Python
+3. Works well when your infra is already working on a Docker system -e.g., Docker compose
 
 ### Cons
 
@@ -100,7 +104,7 @@ KubernetesPodOperator(
 
 Complex on the infrastructure, since it uses docker and Kubernetes.
 
----
+***
 
 {% embed url="https://bhavaniravi.substack.com/embed" %}
 Newsletter embed
