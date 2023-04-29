@@ -4,17 +4,17 @@ description: We should preach something more
 
 # "Just Dump your Thoughts" is bad advice
 
-When you want to start writing online, one common advice is, _“**Just dump your thoughts**”._ I'm guilty of suggesting this too. But as I wrote more chapters of the [technical blogging book](https://app.gitbook.com/s/90WGyrYL7zgQF3GRGcz8/) and talked to more and more people, I realized something. It’s the most unhelpful advice.
+When you want to start writing online, one common advice is, _“**Just dump your thoughts**”._ I'm guilty of suggesting this too. But as I wrote more chapters of the [technical blogging book](http://localhost:5000/s/90WGyrYL7zgQF3GRGcz8/) and talked to more and more people, I realized something. It’s the most unhelpful advice.
 
 ### **Empty Advice**
 
 The sad part is the internet is full of it.
 
-- Wake up early
-- Workout daily
-- Journal everyday
-- Mediate
-- …
+* Wake up early
+* Workout daily
+* Journal everyday
+* Mediate
+* …
 
 Now all of these are great advice and life-changing habits. Empty advice without actionable takeaways leads us nowhere, instead creating a sense of scarcity among us
 
@@ -38,13 +38,13 @@ This mental model helped me plan my other trips with ease. There were cases wher
 
 _Let’s expand on **Just Dump your thoughts.**_
 
-- Open an empty piece of paper or a document.
-- Set a timer for 5 minutes
-- Close your eyes
-- Notice your thought as it occurs. Do you hear an inner voice? Great,
-- Now open your eyes and give them words
+* Open an empty piece of paper or a document.
+* Set a timer for 5 minutes
+* Close your eyes
+* Notice your thought as it occurs. Do you hear an inner voice? Great,
+* Now open your eyes and give them words
 
----
+***
 
 {% embed url="https://bhavaniravi.substack.com/embed" %}
 Newsletter embed

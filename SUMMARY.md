@@ -51,8 +51,6 @@
 
 * [What are the Best Resources to Learn Python in 2022?](python/what-are-the-best-resources-to-learn-python.md)
 * [What is \_\_name\_\_ == "\_\_main\_\_" in Python?](python/what-is-\_\_name\_\_-\_\_main\_\_-in-python.md)
-* [Python Position and Keyword Only Arguments](python/python-position-and-keyword-only-arguments.md)
-* [What does \_\_new\_\_ function in Python do?](python/what-does-\_\_new\_\_-function-in-python-do.md)
 * [How to get past Beginner Stage in Python?](https://thelearning.dev/how-to-get-past-beginner-stage-in-python)
 * [Advanced Python](python/advanced-python/README.md)
   * [Itertools Hacks](python/advanced-python/itertools-hacks.md)
@@ -63,6 +61,8 @@
   * [Unbound Variables in Python](python/advanced-python/unbound-variables-in-python.md)
   * [Python Namespaces & Variable Scope](python/advanced-python/python-namespaces.md)
   * [GIL](python/advanced-python/gil.md)
+  * [Python Position and Keyword Only Arguments](python/advanced-python/python-position-and-keyword-only-arguments.md)
+  * [What does \_\_new\_\_ function in Python do?](python/advanced-python/what-does-\_\_new\_\_-function-in-python-do.md)
 * [Flask](python/web/flask/README.md)
   * [Quick Start Automation](python/web/flask/quick-start-automation.md)
   * [Build Your 1st Flask App](https://medium.com/bhavaniravi/build-your-1st-python-web-app-with-flask-b039d11f101c)
@@ -71,7 +71,6 @@
   * [Building OwnFlask - A Flask(like) Python Framework](python/web/flask/building-own-flask-1.md)
   * [ORM in Python Flask](python/flask/orm-in-python-flask.md)
   * [Migrating to Flask-SQLAlchemy 3.0](python/flask/migrating-to-flask-sqlalchemy-3.0.md)
-* [Django](python/django.md)
 * [How to Generate UML Diagrams from Python Source Code?](python/generate-uml-diagrams-from-python-code.md)
 * [UML isn't Dead](python/uml-isnt-dead.md)
 * [Merging Python Modules](python/merge-python-module-script.md)
@@ -97,6 +96,7 @@
 * [All About Authentication Systems](software-engineering/authentication-in-python.md)
 * [How to Design a Chatbot System Architecture](software-engineering/how-to-design-a-chatbot-system-architecture.md)
 * [Types of Databases & When to Use them](software-engineering/database-101.md)
+* [How to hunt down a bug or an Issue](software-engineering/how-to-hunt-down-a-bug-or-an-issue.md)
 
 ## Open Source
 
