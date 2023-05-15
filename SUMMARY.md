@@ -13,7 +13,6 @@
 * [How to Build a Chatbot?](https://www.linkedin.com/learning/developing-chatbots-with-azure/)
 * [Python Pandas Essentials](https://www.guvi.in/courses/pandasEng?itm\_source=bhavaniravi.com)
 * [PythonToProject - Live Bootcamp](https://bhavaniravi.gumroad.com/l/LaFSj)
-* [1:1 Career Coaching](https://1-on-1.com/bhavaniravi/10710)
 
 ## About Me
 
