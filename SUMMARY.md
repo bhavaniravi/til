@@ -136,6 +136,7 @@
 * [Data Engineering](devops/data-engineering/README.md)
   * [Data Engineering Zoomcamp](devops/data-engineering/data-engineering-zoomcamp/README.md)
     * [Data Engineering Zoomcamp - Week 1 Reflections](devops/data-engineering/data-engineering-zoomcamp/data-engineering-zoomcamp-week-1-reflections.md)
+  * [🔗 Airbyte First Look](devops/data-engineering/airbyte-first-look.md)
 
 ## Frontend
 
@@ -202,6 +203,5 @@
 * [How do you do so many things at the same time?](life/how-do-you-do-so-many-things-at-the-same-time.md)
 * [How to Fast-track Your Learning?](life/how-to-fast-track-your-learning.md)
 * [Are you constantly Distracted? It's not You.](life/are-you-constantly-distracted-its-not-you.md)
-*
 * [Life Lessons After a Depressive Episode](life/life-lessons-after-a-depressive-episode.md)
 * [La Vie En Rose](life/la-vie-en-rose.md)
