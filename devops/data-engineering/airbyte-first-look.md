@@ -8,7 +8,17 @@ Businesses produce and accumulate data. Before making sense of this data, we mus
 
 Airbyte is an ELT(Extract, Load, Transform) accumulating its market of Fivetran by using open source to its advantage.
 
-It's not just the open source that makes Airbyte so special. It's also the features, and it's ecosystem. Let's learn more about it
+It's not just the open source that makes Airbyte so special. It's also the features and its ecosystem. Let's learn more about it.
+
+<div>
+
+<figure><img src="https://hackmd.io/_uploads/B1vvxkoB2.png" alt=""><figcaption></figcaption></figure>
+
+ 
+
+<figure><img src="../../.gitbook/assets/Screenshot 2023-05-24 at 6.24.47 AM.png" alt=""><figcaption><p>Airbyte illustration</p></figcaption></figure>
+
+</div>
 
 ### [Connectors](https://docs.airbyte.com/integrations)
 
@@ -58,6 +68,8 @@ When looking for ELT systems, we look for a few things
 ### [Setup and Usage](https://docs.airbyte.com/cloud/getting-started-with-airbyte-cloud)
 
 If you want to try Airbyte locally, It is pretty easy to set up. You clone the Airbyte repo and run a script. Airbyte spins up several Docker containers and prepares your app for use.
+
+<figure><img src="../../.gitbook/assets/upload_ecc12e163aa72e584f24f8a9148cb5bd.png" alt=""><figcaption><p>Airbyte UI with connection configured</p></figcaption></figure>
 
 ### [Documentation](https://docs.airbyte.com/cloud/core-concepts)
 

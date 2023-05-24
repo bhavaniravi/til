@@ -159,7 +159,7 @@ You can see that the reference to old value is removed and a new reference is ma
 
 Things get interesting when objects are deleted. Let's say we are deleting b with `del b` statement. The value remains in the memory while the reference to the object is removed.
 
-![](<../../.gitbook/assets/image (5) (1).png>)
+![](<../../.gitbook/assets/image (1) (1).png>)
 
 **Garbage collector** goes through them and removes all the values in the memory for which the reference count is 0
 
