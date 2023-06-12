@@ -167,6 +167,7 @@
 * [A Go to Guide to Run a Community](community/go-to-guide-to-run-communities.md)
 * [A World Where WomenInTech Rules](community/a-world-where-women-in-tech-rules.md)
 * [Why Should you Attend Tech Conferences?](community/why-should-you-attend-tech-conferences.md)
+* [Why Should We Care about Diversity in Tech?](community/why-should-we-care-about-diversity-in-tech.md)
 
 ## Travel
 
