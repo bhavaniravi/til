@@ -4,24 +4,26 @@ sub_title: Pydantic cool features and what makes it better than Dataclasses and 
 slug: pydantic-tips-tricks
 tags:
   - python
-featuredImgPath: 
+featuredImgPath: null
 isexternal: true
-published_date: "2023-07-02"
-created_date: "2023-06-30"
+published_date: '2023-07-02'
+created_date: '2023-06-30'
 draft: false
 description: >-
-  Pydantic is a Python library for data validation and settings management using Python type hinting. In this post, we will look at some of the tips and tricks of Pydantic and compare it with Dataclasses and Attrs
+  Pydantic is a Python library for data validation and settings management using
+  Python-type hinting. In this post, we will look at some of the tips and tricks
+  of Pydantic
 ---
 
-# Pydantic - Tips, Tricks and Comparison with Dataclasses and Attrs
+# Pydantic Tips & Tricks
 
-Recently, I got introduced to Pydantic. I was heavily using FastAPI and absolutely love how it enforces you to use Pydantic for Data serialization and validation. Life before Pydantic was mostly flask and Django. While both of these were great frameworks, we need something like FastAPI to even see where it is flawed. Enough about FastAPI, this post is not about that. Let's go back to Pydantic
+Recently, I got introduced to Pydantic. I was heavily using FastAPI and absolutely love how it enforces you to use Pydantic for Data serialization and validation. Life before Pydantic was mostly Flask and Django. While both of these were great frameworks, we need something like FastAPI even to see where it is flawed. Enough about FastAPI. This post is not about that.&#x20;
 
-> The blog post is published on 2nd July 2023, but will keep on updated as I learn more Pydantic tricks
+Let's go back to Pydantic.
 
 ## What is Pydantic?
 
-It is a Python library. You do `pip install pydantic` and come into some powerful stuff. It is a library for data validation and settings management using Python type hinting. It is primarily used to validate data coming into your application and serialize data going out of your application. It is a superset of Python's dataclasses and attrs library.
+It is a Python library. You do `pip install pydantic` and come into some powerful stuff. It is primarily used to validate data coming into your application and serialize data going out of your application.
 
 A simple pydantic model looks like this
 
@@ -42,11 +44,11 @@ class BookModel:
     published_date: datetime.date
 ```
 
-For the rest of this post we will use the above snippet as our example and make changes to it and explore Pydantic features.
+For the rest of this post, we will use the above snippet as our example and make changes to it and explore Pydantic features.
 
-### Data Serialization
+### Data Serialization&#x20;
 
-1. Data serialization from Dict
+**1. Data serialization from Dict**
 
 ```python
 book_dict = {
@@ -63,7 +65,7 @@ book_dict = {
 book = BookModel(**book_dict)
 ```
 
-2. Data serialization from JSON
+2. **Data serialization from JSON**
 
 ```python
 import json
@@ -71,11 +73,11 @@ book_json = json.dumps(book_dict)
 book = BookModel.parse_raw(book_json)
 ```
 
-Pretty cool right? Now let's see what happens when you poke around with wrong data format
+Pretty cool, right? Now let's see what happens when you poke around with the wrong data format
 
 ### Data Validation
 
-1. Marking fields as optional
+1. **Marking fields as optional**
 
 ```python
 from typing import Optional
@@ -85,7 +87,7 @@ class BookModel:
     published_date: Optional[datetime.date]
 ```
 
-2. Make year greater than 1800
+2. **Check if the year is greater than 1800**
 
 ```python
 from pydantic import Field
@@ -95,9 +97,9 @@ class BookModel:
     published_date: datetime.date | None = Field(None, gt=datetime.date(1800, 1, 1))
 ```
 
-3. Validate ISBN
+3. **Validate ISBN**
 
-To add a custom validation to a field, you can use the `validator` decorator
+To add custom validation to a field, you can use the `validator` decorator
 
 ```python
 from pydantic import validator
@@ -112,7 +114,7 @@ class BookModel:
             raise ValueError("Invalid ISBN")
 ```
 
-4. Validate all fields
+4. **Validate all fields**
 
 There will be cases where you want to validate one field based on another field. You can use the `root_validator` decorator to validate all fields
 
@@ -129,7 +131,9 @@ class Book(BaseModel):
 
 ```
 
-5. So how does it work?
+5. **So how does it work?**
+
+After adding all the above validators, run the following code. You will encounter a series of validation errors. Now imagine this class hooked to an HTTP request body. You no longer have to handle independent validations.
 
 ```python
 book = BookModel(name= "The Alchemist",
@@ -143,7 +147,7 @@ book = BookModel(name= "The Alchemist",
 
 ### Configure Models
 
-1. Configuring fields
+1. **Configuring fields**
 
 ```python
 from pydantic import Field
@@ -156,9 +160,9 @@ class BookModel:
     published_date: datetime.date = Field(..., gt=datetime.date(1800, 1, 1))
 ```
 
-2. Configuring model
+2. **Configuring model**
 
-We can add `Config` class to configure the model to tweak the behavior of the model. For example, we can set `extra` to `forbid` to prevent extra fields from being added to the model. We can also set `allow_population_by_field_name` to `True` to allow population of model by field name. We can also set `fields` to a dictionary of field name and its configuration. For example, we can set `alias` for a field.
+We can add `Config` class to configure the model to tweak the behavior of the model. For example, we can set `extra` to `forbid` to prevent extra fields from being added to the model. We can also set `allow_population_by_field_name` to `True` to allow the population of the model by field name. We can also set `fields` to a dictionary of field names and its configuration. For example, we can set `alias` for a field.
 
 ```python
 from pydantic import BaseModel, Field
@@ -179,7 +183,7 @@ class BookModel(BaseModel):
         }
 ```
 
-3. Setting common alias
+3. **Setting common alias**
 
 ```python
 from pydantic import BaseModel, Field
@@ -196,11 +200,11 @@ class BookModel(BaseModel):
 
 ```
 
-There are a lot more config which you can explore in the [docs](https://docs.pydantic.dev/latest/usage/model_config/)
+There are a lot more configs which you can explore in the [docs](https://docs.pydantic.dev/latest/usage/model\_config/)
 
-### Inheritance whoooho!
+### Inheritance woohoo!
 
-Inheritance with pydantic becomes even more powerful since we are also inherting the config from the parent class.
+Inheritance with pydantic becomes even more powerful since we are also inheriting the config from the parent class.
 
 ```python
 class EbookModel(BookModel):
@@ -215,7 +219,7 @@ class PaperBookModel(BookModel):
 
 ### DeSerializing Data
 
-1. Serialize to Dict
+1. **Serialize to Dict**
 
 ```python
 
@@ -226,28 +230,20 @@ book_model.dict(include={"name", "price", "publisher": {"name"}}) # only these f
 book_model.dict(exclude_unset=True) # removes all None
 ```
 
-2. Serialize to JSON
+2. **Serialize to JSON**
 
 ```python
 book_model.json() # all fields
 book_model.json(exclude={"isbn"}) # exclude isbn
 ```
 
-3. Pickle
+3. **Pickle**
 
 ```python
 import pickle
 
 book_model_bytes = pickle.dumps(book_model)
 ```
-
-## Pydantic Settings
-
-Pydantic settings are a way to configure the behavior of the model. We can configure the settings in 3 ways
-
-1. Config class
-2. Decorator
-3. Context manager
 
 ## Comparison with other libraries
 
@@ -324,9 +320,9 @@ class Book:
 
 That's a lot of hoops to jump through. The code doesn't look clean. We cannot blame Dataclass completely for this. Dataclasses were not designed to validate data. They were designed to create classes with less boilerplate. To keep it generic we had to compensate on lack of powerful features like pydantic.
 
-## Want validation? but with dataclass?
+#### Want validation? but with dataclass?
 
-Pydantic got you covered in that aspect `from pydantic.dataclasses import dataclass` and you can use it just like you would use dataclass.
+Pydantic got you covered in that aspect `from pydantic.dataclasses import dataclass` , and you can use it just like you would use dataclass.
 
 ### Attrs
 
