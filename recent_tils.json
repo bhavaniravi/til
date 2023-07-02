@@ -467,7 +467,7 @@
  {
   "title": "Data Model in Python",
   "url": "/python/advanced-python/data-model-in-python",
-  "date": "Mon, 19 Sep 2022 15:04:02 +0530"
+  "date": "Sun, 2 Jul 2023 15:54:56 +0530"
  },
  {
   "title": "GIL",
@@ -483,6 +483,11 @@
   "title": "Multi-Processing Vs Multi-Threading",
   "url": "/python/advanced-python/multi-processing-vs-multi-threading",
   "date": "Fri, 7 Oct 2022 14:57:49 +0000"
+ },
+ {
+  "title": " Pydantic Tips, Tricks and Comparison with Dataclasses and Attrs",
+  "url": "/python/advanced-python/pydantic-tips-tricks",
+  "date": "Sun, 2 Jul 2023 15:54:56 +0530"
  },
  {
   "title": "Python Generators vs Iterators",
@@ -508,11 +513,6 @@
   "title": "What does \\_\\_new\\_\\_ function in Python do?",
   "url": "/python/advanced-python/what-does-__new__-function-in-python-do",
   "date": "Sat, 29 Apr 2023 22:39:12 +0000"
- },
- {
-  "title": "Data Model in Python",
-  "url": "/python/advanced/data-model-in-python",
-  "date": "Mon, 12 Jun 2023 07:49:51 +0000"
  },
  {
   "title": " Asynchronous Task Execution In Python",
@@ -553,11 +553,6 @@
   "title": " Merging Python Modules",
   "url": "/python/merge-python-module-script",
   "date": "Sun, 22 Jan 2023 07:01:21 +0530"
- },
- {
-  "title": " Pydantic Tips, Tricks and Comparison with Dataclasses and Attrs",
-  "url": "/python/pydantic-tips-tricks",
-  "date": "Sun, 2 Jul 2023 15:37:36 +0530"
  },
  {
   "title": " Are your Secrets Safe In Python?",
@@ -685,9 +680,9 @@
   "date": "Sun, 22 Jan 2023 07:01:21 +0530"
  },
  {
-  "title": " \"All About Chatbots\"",
+  "title": " All About Chatbots",
   "url": "/talks/all-about-chatbots",
-  "date": "Sun, 22 Jan 2023 07:01:21 +0530"
+  "date": "Sun, 2 Jul 2023 10:21:59 +0000"
  },
  {
   "title": " \"Becoming a Self-Made Developer\"",
@@ -702,12 +697,12 @@
  {
   "title": " Distributed Data-pipelines in Python",
   "url": "/talks/distributed-data-pipelines-in-python",
-  "date": "Sun, 22 Jan 2023 07:01:21 +0530"
+  "date": "Sun, 2 Jul 2023 10:21:59 +0000"
  },
  {
   "title": "Introduction to MLOps",
   "url": "/talks/introduction-to-mlops",
-  "date": "Sun, 22 Jan 2023 07:01:21 +0530"
+  "date": "Sun, 2 Jul 2023 10:21:59 +0000"
  },
  {
   "title": " \"Getting Started With Open Source\"",

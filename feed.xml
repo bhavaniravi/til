@@ -5,7 +5,7 @@
 <title>Bhavani Ravi's Blogs</title>
 <link>https://www.bhavaniravi.com</link>
 <description>Recently committed files in Bhavani's blog</description>
-<lastBuildDate>f'Sun, 02 Jul  2023 15:52:28  GMT'</lastBuildDate><item>
+<lastBuildDate>f'Sun, 02 Jul  2023 15:58:58  GMT'</lastBuildDate><item>
     <guid>https://www.bhavaniravi.com/apache-airflow/readme</guid>
     <title>Apache Airflow Guides</title>
     <pubDate>Sun, 22 Jan 2023 07:01:21 +0530</pubDate>
@@ -588,6 +588,12 @@
     <link>https://www.bhavaniravi.com/python/advanced-python/multi-processing-vs-multi-threading</link>
 </item>
 <item>
+    <guid>https://www.bhavaniravi.com/python/advanced-python/pydantic-tips-tricks</guid>
+    <title> Pydantic Tips, Tricks and Comparison with Dataclasses and Attrs</title>
+    <pubDate>Sun, 2 Jul 2023 15:54:56 +0530</pubDate>
+    <link>https://www.bhavaniravi.com/python/advanced-python/pydantic-tips-tricks</link>
+</item>
+<item>
     <guid>https://www.bhavaniravi.com/python/advanced-python/python-generators-vs-iterators</guid>
     <title>Python Generators vs Iterators</title>
     <pubDate>Wed, 23 Nov 2022 01:55:08 +0000</pubDate>
@@ -616,12 +622,6 @@
     <title>What does \_\_new\_\_ function in Python do?</title>
     <pubDate>Sat, 29 Apr 2023 22:39:12 +0000</pubDate>
     <link>https://www.bhavaniravi.com/python/advanced-python/what-does-__new__-function-in-python-do</link>
-</item>
-<item>
-    <guid>https://www.bhavaniravi.com/python/advanced/data-model-in-python</guid>
-    <title>Data Model in Python</title>
-    <pubDate>Mon, 12 Jun 2023 07:49:51 +0000</pubDate>
-    <link>https://www.bhavaniravi.com/python/advanced/data-model-in-python</link>
 </item>
 <item>
     <guid>https://www.bhavaniravi.com/python/asynchronous-task-execution-in-python</guid>
@@ -670,12 +670,6 @@
     <title> Merging Python Modules</title>
     <pubDate>Sun, 22 Jan 2023 07:01:21 +0530</pubDate>
     <link>https://www.bhavaniravi.com/python/merge-python-module-script</link>
-</item>
-<item>
-    <guid>https://www.bhavaniravi.com/python/pydantic-tips-tricks</guid>
-    <title> Pydantic Tips, Tricks and Comparison with Dataclasses and Attrs</title>
-    <pubDate>Sun, 2 Jul 2023 15:37:36 +0530</pubDate>
-    <link>https://www.bhavaniravi.com/python/pydantic-tips-tricks</link>
 </item>
 <item>
     <guid>https://www.bhavaniravi.com/python/secrets-as-python-file</guid>
@@ -829,7 +823,7 @@
 </item>
 <item>
     <guid>https://www.bhavaniravi.com/talks/all-about-chatbots</guid>
-    <title> "All About Chatbots"</title>
+    <title> All About Chatbots</title>
     <pubDate>Sun, 22 Jan 2023 07:01:21 +0530</pubDate>
     <link>https://www.bhavaniravi.com/talks/all-about-chatbots</link>
 </item>
