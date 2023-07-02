@@ -1,3 +1,7 @@
+---
+description: Google Devfest - India (2021)
+---
+
 # Introduction to MLOps
 
 A walkthrough on how to consturuct a CI/CD pipeline for your Machine learning projects and deoply them in a containerized environment using Docker and Kuberenetes
@@ -10,7 +14,7 @@ A walkthrough on how to consturuct a CI/CD pipeline for your Machine learning pr
 
 {% embed url="https://www.youtube.com/embed/-XABFDwndFI" %}
 
----
+***
 
 {% embed url="https://bhavaniravi.substack.com/embed" %}
 Newsletter embed
