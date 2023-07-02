@@ -25,6 +25,7 @@
   * [Docker](open-source/contributions/docker.md)
   * [Rasa Open Source](open-source/contributions/rasa.md)
 * [Talks](about-me/talks/README.md)
+  * [Apache Airflow Bad Vs Best Practices](about-me/talks/apache-airflow-bad-vs-best-practices.md)
   * [Technical Blogging 101](about-me/talks/technical-blogging-101.md)
   * [Introduction to MLOps](talks/introduction-to-mlops.md)
   * [All About Chatbots](talks/all-about-chatbots.md)
