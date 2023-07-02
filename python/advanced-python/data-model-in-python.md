@@ -147,7 +147,7 @@ But that's not the awestrucking part, when learning C/C++ we are asked to visual
 
 In this case the reference count of value "avc" is 2
 
-![Memory representation of Python object](<../../.gitbook/assets/image (2).png>)
+![Memory representation of Python object](<../../.gitbook/assets/image (2) (1).png>)
 
 Now let's update the value of b and see what happens `b = "ram`"
 
@@ -159,7 +159,7 @@ You can see that the reference to old value is removed and a new reference is ma
 
 Things get interesting when objects are deleted. Let's say we are deleting b with `del b` statement. The value remains in the memory while the reference to the object is removed.
 
-![](<../../.gitbook/assets/image (1).png>)
+![](<../../.gitbook/assets/image (5) (1).png>)
 
 **Garbage collector** goes through them and removes all the values in the memory for which the reference count is 0
 

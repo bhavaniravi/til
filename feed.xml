@@ -5,7 +5,7 @@
 <title>Bhavani Ravi's Blogs</title>
 <link>https://www.bhavaniravi.com</link>
 <description>Recently committed files in Bhavani's blog</description>
-<lastBuildDate>f'Wed, 15 Feb  2023 20:26:51  GMT'</lastBuildDate><item>
+<lastBuildDate>f'Sun, 02 Jul  2023 15:52:28  GMT'</lastBuildDate><item>
     <guid>https://www.bhavaniravi.com/apache-airflow/readme</guid>
     <title>Apache Airflow Guides</title>
     <pubDate>Sun, 22 Jan 2023 07:01:21 +0530</pubDate>
@@ -32,7 +32,7 @@
 <item>
     <guid>https://www.bhavaniravi.com/apache-airflow/airflow-operators-comparison</guid>
     <title> Airflow Operators - A Comparison</title>
-    <pubDate>Sun, 22 Jan 2023 07:01:21 +0530</pubDate>
+    <pubDate>Sat, 1 Apr 2023 06:45:28 +0000</pubDate>
     <link>https://www.bhavaniravi.com/apache-airflow/airflow-operators-comparison</link>
 </item>
 <item>
@@ -162,6 +162,12 @@
     <link>https://www.bhavaniravi.com/community/go-to-guide-to-run-communities</link>
 </item>
 <item>
+    <guid>https://www.bhavaniravi.com/community/why-should-we-care-about-diversity-in-tech</guid>
+    <title>Why Should We Care about Diversity in Tech?</title>
+    <pubDate>Mon, 12 Jun 2023 07:49:51 +0000</pubDate>
+    <link>https://www.bhavaniravi.com/community/why-should-we-care-about-diversity-in-tech</link>
+</item>
+<item>
     <guid>https://www.bhavaniravi.com/community/why-should-you-attend-tech-conferences</guid>
     <title> Why Should you Attend Tech Conferences?</title>
     <pubDate>Sun, 22 Jan 2023 07:01:21 +0530</pubDate>
@@ -190,6 +196,12 @@
     <title>Data Engineering</title>
     <pubDate>Thu, 9 Feb 2023 14:57:20 +0000</pubDate>
     <link>https://www.bhavaniravi.com/devops/data-engineering/readme</link>
+</item>
+<item>
+    <guid>https://www.bhavaniravi.com/devops/data-engineering/airbyte-first-look</guid>
+    <title>🔗 Airbyte First Look</title>
+    <pubDate>Wed, 24 May 2023 01:30:42 +0000</pubDate>
+    <link>https://www.bhavaniravi.com/devops/data-engineering/airbyte-first-look</link>
 </item>
 <item>
     <guid>https://www.bhavaniravi.com/devops/data-engineering/data-dictionary</guid>
@@ -228,10 +240,22 @@
     <link>https://www.bhavaniravi.com/devops/docker-virtualization-vs-containerization</link>
 </item>
 <item>
+    <guid>https://www.bhavaniravi.com/devops/get-started-with-docker-compose</guid>
+    <title>Get started with Docker-Compose</title>
+    <pubDate>Sat, 1 Apr 2023 06:45:28 +0000</pubDate>
+    <link>https://www.bhavaniravi.com/devops/get-started-with-docker-compose</link>
+</item>
+<item>
     <guid>https://www.bhavaniravi.com/devops/kubernetes-101-deploy-apps-in-kubernetes</guid>
-    <title> "Deploying Flask Applications in Kubernetes (Digitalocean)"</title>
-    <pubDate>Sun, 22 Jan 2023 07:01:21 +0530</pubDate>
+    <title> Deploying Flask Applications in Kubernetes (Digitalocean)</title>
+    <pubDate>Fri, 3 Mar 2023 08:42:46 +0000</pubDate>
     <link>https://www.bhavaniravi.com/devops/kubernetes-101-deploy-apps-in-kubernetes</link>
+</item>
+<item>
+    <guid>https://www.bhavaniravi.com/devops/local-k8-cluster-with-kind</guid>
+    <title>Local K8 Cluster With Kind</title>
+    <pubDate>Thu, 16 Mar 2023 06:25:51 +0000</pubDate>
+    <link>https://www.bhavaniravi.com/devops/local-k8-cluster-with-kind</link>
 </item>
 <item>
     <guid>https://www.bhavaniravi.com/devops/what-happens-during-docker-build-and-run</guid>
@@ -320,7 +344,7 @@
 <item>
     <guid>https://www.bhavaniravi.com/indie-hacking/how-to-plan-and-build-a-programming-project</guid>
     <title>How to Plan and Build a Programming Project</title>
-    <pubDate>Sun, 22 Jan 2023 07:01:21 +0530</pubDate>
+    <pubDate>Fri, 3 Mar 2023 08:45:44 +0000</pubDate>
     <link>https://www.bhavaniravi.com/indie-hacking/how-to-plan-and-build-a-programming-project</link>
 </item>
 <item>
@@ -342,10 +366,10 @@
     <link>https://www.bhavaniravi.com/life/5-reasons-why-you-should-start-your-fitness-routineasap</link>
 </item>
 <item>
-    <guid>https://www.bhavaniravi.com/life/are-you-constantly-distracted-its-not-you.</guid>
+    <guid>https://www.bhavaniravi.com/life/are-you-constantly-distracted-its-not-you</guid>
     <title>Are you constantly Distracted? It's not You.</title>
-    <pubDate>Sun, 22 Jan 2023 07:01:21 +0530</pubDate>
-    <link>https://www.bhavaniravi.com/life/are-you-constantly-distracted-its-not-you.</link>
+    <pubDate>Mon, 20 Feb 2023 00:35:51 +0530</pubDate>
+    <link>https://www.bhavaniravi.com/life/are-you-constantly-distracted-its-not-you</link>
 </item>
 <item>
     <guid>https://www.bhavaniravi.com/life/how-do-you-do-so-many-things-at-the-same-time</guid>
@@ -376,6 +400,12 @@
     <title>Is this Burnout?</title>
     <pubDate>Sun, 22 Jan 2023 07:01:21 +0530</pubDate>
     <link>https://www.bhavaniravi.com/life/is-this-burnout</link>
+</item>
+<item>
+    <guid>https://www.bhavaniravi.com/life/la-vie-en-rose</guid>
+    <title>La Vie En Rose</title>
+    <pubDate>Sat, 4 Mar 2023 03:54:53 +0000</pubDate>
+    <link>https://www.bhavaniravi.com/life/la-vie-en-rose</link>
 </item>
 <item>
     <guid>https://www.bhavaniravi.com/life/life-lessons-after-a-depressive-episode</guid>
@@ -464,7 +494,7 @@
 <item>
     <guid>https://www.bhavaniravi.com/products/apache-airflow-starter-pack</guid>
     <title>Apache Airflow Starter Pack</title>
-    <pubDate>Sun, 22 Jan 2023 07:06:41 +0530</pubDate>
+    <pubDate>Fri, 3 Mar 2023 08:44:49 +0000</pubDate>
     <link>https://www.bhavaniravi.com/products/apache-airflow-starter-pack</link>
 </item>
 <item>
@@ -570,15 +600,27 @@
     <link>https://www.bhavaniravi.com/python/advanced-python/python-namespaces</link>
 </item>
 <item>
+    <guid>https://www.bhavaniravi.com/python/advanced-python/python-position-and-keyword-only-arguments</guid>
+    <title>Python Position and Keyword Only Arguments</title>
+    <pubDate>Sat, 29 Apr 2023 22:39:12 +0000</pubDate>
+    <link>https://www.bhavaniravi.com/python/advanced-python/python-position-and-keyword-only-arguments</link>
+</item>
+<item>
     <guid>https://www.bhavaniravi.com/python/advanced-python/unbound-variables-in-python</guid>
     <title>Unbound Variables in Python</title>
     <pubDate>Tue, 4 Oct 2022 06:29:08 +0000</pubDate>
     <link>https://www.bhavaniravi.com/python/advanced-python/unbound-variables-in-python</link>
 </item>
 <item>
+    <guid>https://www.bhavaniravi.com/python/advanced-python/what-does-__new__-function-in-python-do</guid>
+    <title>What does \_\_new\_\_ function in Python do?</title>
+    <pubDate>Sat, 29 Apr 2023 22:39:12 +0000</pubDate>
+    <link>https://www.bhavaniravi.com/python/advanced-python/what-does-__new__-function-in-python-do</link>
+</item>
+<item>
     <guid>https://www.bhavaniravi.com/python/advanced/data-model-in-python</guid>
     <title>Data Model in Python</title>
-    <pubDate>Sat, 8 Oct 2022 07:50:26 +0000</pubDate>
+    <pubDate>Mon, 12 Jun 2023 07:49:51 +0000</pubDate>
     <link>https://www.bhavaniravi.com/python/advanced/data-model-in-python</link>
 </item>
 <item>
@@ -598,12 +640,6 @@
     <title>Debugging MakerLog</title>
     <pubDate>Sun, 22 Jan 2023 07:01:21 +0530</pubDate>
     <link>https://www.bhavaniravi.com/python/debugging-makerlog</link>
-</item>
-<item>
-    <guid>https://www.bhavaniravi.com/python/django</guid>
-    <title>Django</title>
-    <pubDate>Sun, 22 Jan 2023 07:01:21 +0530</pubDate>
-    <link>https://www.bhavaniravi.com/python/django</link>
 </item>
 <item>
     <guid>https://www.bhavaniravi.com/python/flask/building-ownflask-a-flask-like-python-framework</guid>
@@ -626,7 +662,7 @@
 <item>
     <guid>https://www.bhavaniravi.com/python/generate-uml-diagrams-from-python-code</guid>
     <title> How to Generate UML Diagrams from Python Source Code?</title>
-    <pubDate>Sun, 22 Jan 2023 07:01:21 +0530</pubDate>
+    <pubDate>Sat, 1 Apr 2023 07:07:41 +0000</pubDate>
     <link>https://www.bhavaniravi.com/python/generate-uml-diagrams-from-python-code</link>
 </item>
 <item>
@@ -636,6 +672,12 @@
     <link>https://www.bhavaniravi.com/python/merge-python-module-script</link>
 </item>
 <item>
+    <guid>https://www.bhavaniravi.com/python/pydantic-tips-tricks</guid>
+    <title> Pydantic Tips, Tricks and Comparison with Dataclasses and Attrs</title>
+    <pubDate>Sun, 2 Jul 2023 15:37:36 +0530</pubDate>
+    <link>https://www.bhavaniravi.com/python/pydantic-tips-tricks</link>
+</item>
+<item>
     <guid>https://www.bhavaniravi.com/python/secrets-as-python-file</guid>
     <title> Are your Secrets Safe In Python?</title>
     <pubDate>Sun, 22 Jan 2023 07:01:21 +0530</pubDate>
@@ -643,8 +685,8 @@
 </item>
 <item>
     <guid>https://www.bhavaniravi.com/python/uml-isnt-dead</guid>
-    <title># How did it start?</title>
-    <pubDate>Wed, 15 Feb 2023 20:23:43 +0530</pubDate>
+    <title>UML isn't Dead</title>
+    <pubDate>Thu, 16 Feb 2023 04:52:46 +0000</pubDate>
     <link>https://www.bhavaniravi.com/python/uml-isnt-dead</link>
 </item>
 <item>
@@ -692,7 +734,7 @@
 <item>
     <guid>https://www.bhavaniravi.com/readme/why-gitbook</guid>
     <title>Why Gitbook?</title>
-    <pubDate>Sun, 22 Jan 2023 07:01:21 +0530</pubDate>
+    <pubDate>Fri, 3 Mar 2023 08:45:44 +0000</pubDate>
     <link>https://www.bhavaniravi.com/readme/why-gitbook</link>
 </item>
 <item>
@@ -754,6 +796,12 @@
     <title>How to Do Code Reviews?</title>
     <pubDate>Sun, 22 Jan 2023 07:01:21 +0530</pubDate>
     <link>https://www.bhavaniravi.com/software-engineering/how-to-do-code-reviews</link>
+</item>
+<item>
+    <guid>https://www.bhavaniravi.com/software-engineering/how-to-hunt-down-a-bug-or-an-issue</guid>
+    <title>How to hunt down a bug or an Issue</title>
+    <pubDate>Sat, 29 Apr 2023 22:39:12 +0000</pubDate>
+    <link>https://www.bhavaniravi.com/software-engineering/how-to-hunt-down-a-bug-or-an-issue</link>
 </item>
 <item>
     <guid>https://www.bhavaniravi.com/software-engineering/open-closed-principle</guid>
@@ -830,7 +878,7 @@
 <item>
     <guid>https://www.bhavaniravi.com/technical-writing/just-dump-your-thoughts-is-bad-advice</guid>
     <title>"Just Dump your Thoughts" is bad advice</title>
-    <pubDate>Sun, 22 Jan 2023 07:01:21 +0530</pubDate>
+    <pubDate>Sat, 29 Apr 2023 22:39:12 +0000</pubDate>
     <link>https://www.bhavaniravi.com/technical-writing/just-dump-your-thoughts-is-bad-advice</link>
 </item>
 <item>
