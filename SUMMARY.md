@@ -129,21 +129,21 @@
 
 ## Devops
 
-* [What is DevOps?](devops/what-is-devops.md)
-* [What Happens During Docker Build and Run?](devops/what-happens-during-docker-build-and-run.md)
-* [Introduction to Docker - The What, Why and How](devops/docker-introduction.md)
-* [Docker - Virtualization vs Containerization](devops/docker-virtualization-vs-containerization.md)
-* [Deploying Flask Applications in Kubernetes (Digitalocean)](devops/kubernetes-101-deploy-apps-in-kubernetes.md)
-* [Local K8 Cluster With Kind](devops/local-k8-cluster-with-kind.md)
-* [Get started with Docker-Compose](devops/get-started-with-docker-compose.md)
-* [AWS](devops/aws/README.md)
-  * [IAM Users, Roles, and Policies](devops/aws/iam-users-roles-and-policies.md)
-* [Data & Model Versioning](devops/data-and-model-versioning.md)
-* [Docker CLI Cheatsheet](devops/docker-cli-cheatsheet.md)
-* [Data Engineering](devops/data-engineering/README.md)
-  * [Data Engineering Zoomcamp](devops/data-engineering/data-engineering-zoomcamp/README.md)
-    * [Data Engineering Zoomcamp - Week 1 Reflections](devops/data-engineering/data-engineering-zoomcamp/data-engineering-zoomcamp-week-1-reflections.md)
-  * [🔗 Airbyte First Look](devops/data-engineering/airbyte-first-look.md)
+- [What is DevOps?](devops/what-is-devops.md)
+- [What Happens During Docker Build and Run?](devops/what-happens-during-docker-build-and-run.md)
+- [Introduction to Docker - The What, Why and How](devops/docker-introduction.md)
+- [Docker - Virtualization vs Containerization](devops/docker-virtualization-vs-containerization.md)
+- [Deploying Flask Applications in Kubernetes (Digitalocean)](devops/kubernetes-101-deploy-apps-in-kubernetes.md)
+- [Local K8 Cluster With Kind](devops/local-k8-cluster-with-kind.md)
+- [Get started with Docker-Compose](devops/get-started-with-docker-compose.md)
+- [AWS](devops/aws/README.md)
+  - [IAM Users, Roles, and Policies](devops/aws/iam-users-roles-and-policies.md)
+- [Data & Model Versioning](devops/data-and-model-versioning.md)
+- [Docker CLI Cheatsheet](devops/docker-cli-cheatsheet.md)
+
+## Data Engineering
+
+- [🔗 Airbyte First Look](data-engineering/airbyte-first-look.md)
 
 ## Frontend
 

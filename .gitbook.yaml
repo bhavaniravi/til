@@ -45,3 +45,4 @@ redirects:
   blog/docker-virtualization-vs-containerization: devops/docker-virtualization-vs-containerization.md
   blog/5-reasons-why-you-should-start-your-fitness-routineasap: life/5-reasons-why-you-should-start-your-fitness-routineasap.md
   blog/caching-in-python: python/caching-in-python.md
+  devops/data-engineering: data-engineering/README.md
