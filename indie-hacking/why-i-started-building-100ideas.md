@@ -1,10 +1,10 @@
 ---
-description: "Brainstorming: The Good, Bad and Ugly"
+description: 'Brainstorming: The Good, Bad and Ugly'
 ---
 
 # Why I Started Building 100Ideas?
 
-The moment I say brainstorming, some people's brain goes to a whiteboard and a room full of people or miro over a zoom call people talking over each other. I'm not here to talk about that kind of brainstorming. I'm talking about the ones that happen in your personal space, the scribbles on your notebook, or that empty document you randomly opened to dump your ideas.&#x20;
+The moment I say brainstorming, some people's brain goes to a whiteboard and a room full of people or miro over a zoom call people talking over each other. I'm not here to talk about that kind of brainstorming. I'm talking about the ones that happen in your personal space, the scribbles on your notebook, or that empty document you randomly opened to dump your ideas.
 
 > The ones that never get looked at. #GuiltyAsCharged
 
@@ -14,7 +14,7 @@ So what about it?
 
 ### Brainstorming is Great
 
-1. It helps you dump all your thoughts and see them visually&#x20;
+1. It helps you dump all your thoughts and see them visually
 2. It clears your brain for new ideas
 3. It helps you feel like you're in control of your thoughts. I have never left a brainstorming session without taking away something from it.
 4. It is good to stroke your ego. When good ideas pop up, you can pat your back and go, _"I made this"_
@@ -49,7 +49,7 @@ The above reasons are why I started building 100Ideas. If you relate to the prob
 
 {% embed url="https://100ideas.in" %}
 
----
+
 
 {% embed url="https://bhavaniravi.substack.com/embed" %}
 Newsletter embed

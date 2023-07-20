@@ -270,7 +270,7 @@ kubectl exec -it $pod_name --container webserver -- /bin/bash
 [sending-email-alerts-in-apache-airflow-with-sendgrid.md](sending-email-alerts-in-apache-airflow-with-sendgrid.md)
 {% endcontent-ref %}
 
----
+
 
 {% embed url="https://bhavaniravi.substack.com/embed" %}
 Newsletter embed

@@ -2,7 +2,7 @@
 
 ### KubernetesExecutor
 
-KubernetesExecutor is where Airflow spins up a new pod to run an Airflow task. Unlike Celery executor the advantage is you don't have a bunch of workers always running. KubernetesExecutor is on-demand thereby reducing cost.\
+KubernetesExecutor is where Airflow spins up a new pod to run an Airflow task. Unlike Celery executor the advantage is you don't have a bunch of workers always running. KubernetesExecutor is on-demand thereby reducing cost.\\
 
 One dowside of kubernetes executor can be the time it takes to spin up the pod but compared to the advantages it can be close to null
 
@@ -26,7 +26,7 @@ KubernetesPodOperator(
 3. Supports different languages and frameworks
 4. Decouples DAG and the business logic
 
----
+
 
 {% embed url="https://bhavaniravi.substack.com/embed" %}
 Newsletter embed

@@ -4,11 +4,11 @@ A Slack based chatbot that logs your work and learning everyday. This project wo
 
 ## Tech Stack
 
-- Flask
-- Slack API
-- Dialogflow
+* Flask
+* Slack API
+* Dialogflow
 
----
+
 
 {% embed url="https://bhavaniravi.substack.com/embed" %}
 Newsletter embed

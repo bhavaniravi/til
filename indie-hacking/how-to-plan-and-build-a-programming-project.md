@@ -61,7 +61,7 @@ Take a blank sheet of paper and answer the following questions
 
 #### Design
 
-<figure><img src="../.gitbook/assets/image.png" alt=""><figcaption><p>An ER Diagram created by one of my students for their V0.1 of whishlist app</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (9).png" alt=""><figcaption><p>An ER Diagram created by one of my students for their V0.1 of whishlist app</p></figcaption></figure>
 
 1. For each feature, think about the user flow. What will the UI look like? Where does the data come from? Where does it get stored? How is it consumed?
 2. Know the tech&#x20;

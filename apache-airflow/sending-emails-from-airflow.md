@@ -6,8 +6,8 @@ tags:
   - apache-airflow
 featuredImgPath: https://i.imgur.com/BBjdWBE.png
 isexternal: true
-published_date: "2021-01-10"
-created_date: "2021-01-10"
+published_date: '2021-01-10'
+created_date: '2021-01-10'
 draft: false
 description: >-
   Airflow allows multiple ways to keep the users informed about the status of a
@@ -25,7 +25,7 @@ Now that you understand what Airflow is, let's discuss how you can send emails t
 
 There is no one size fit all solution when it comes to sending emails from airflow. We will deep dive into all the methods available and the pros and cons of each in the following sections.
 
-If you're not sure what an SMTP server is or how to configure one. Checkout the SendGrid blog&#x20;
+If you're not sure what an SMTP server is or how to configure one. Checkout the SendGrid blog
 
 {% content-ref url="sending-email-alerts-in-apache-airflow-with-sendgrid.md" %}
 [sending-email-alerts-in-apache-airflow-with-sendgrid.md](sending-email-alerts-in-apache-airflow-with-sendgrid.md)
@@ -151,7 +151,7 @@ While callbacks completely fit our purpose, there is still one problem. With cal
 
 ## PythonOperator
 
-To achieve the combined benefits of customization and added advantage of airflow task, we can couple the above send_email function to an airflow `PythonOperator.`
+To achieve the combined benefits of customization and added advantage of airflow task, we can couple the above send\_email function to an airflow `PythonOperator.`
 
 ```
 email_task = PythonOperator(
@@ -163,7 +163,7 @@ email_task = PythonOperator(
 )
 ```
 
----
+
 
 Keeping your stakeholders notified would be an important part of any workflow. Emails are the easiest way to achieve that.
 
@@ -173,7 +173,7 @@ Keeping your stakeholders notified would be an important part of any workflow. E
 [sending-email-alerts-in-apache-airflow-with-sendgrid.md](sending-email-alerts-in-apache-airflow-with-sendgrid.md)
 {% endcontent-ref %}
 
----
+
 
 {% embed url="https://bhavaniravi.substack.com/embed" %}
 Newsletter embed

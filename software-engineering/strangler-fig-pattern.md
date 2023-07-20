@@ -1,6 +1,6 @@
 # Strangler Fig Pattern
 
-I came across this pattern in a Reddit thread where the [person asked how to stay on top of modern ](https://www.reddit.com/r/ExperiencedDevs/comments/w71nh2/how_to_keep_up_modern_dev_skills/)technologies, and it straight-up pointed to this [Freecodecamp article](https://www.freecodecamp.org/news/what-is-the-strangler-pattern-in-software-development/amp/)
+I came across this pattern in a Reddit thread where the [person asked how to stay on top of modern ](https://www.reddit.com/r/ExperiencedDevs/comments/w71nh2/how\_to\_keep\_up\_modern\_dev\_skills/)technologies, and it straight-up pointed to this [Freecodecamp article](https://www.freecodecamp.org/news/what-is-the-strangler-pattern-in-software-development/amp/)
 
 > Strangler fig pattern aims to incrementally update large legacy codebases without strangling the functionality of the system
 >
@@ -12,9 +12,9 @@ Repeating this pattern will result in updating legacy systems with limited risk 
 
 ### Further Reading
 
-- [7 Programming Anti-Patterns](https://thelearning.dev/7-programming-anti-patterns)
+* [7 Programming Anti-Patterns](https://thelearning.dev/7-programming-anti-patterns)
 
----
+
 
 {% embed url="https://bhavaniravi.substack.com/embed" %}
 Newsletter embed

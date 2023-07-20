@@ -6,7 +6,7 @@ I was greatly inspired by Tony Dinh's Indie hacking journey and jumped the wagon
 
 I'm currently building #100Ideas a place to brainstrom ideas without a million button clicks
 
----
+
 
 {% embed url="https://bhavaniravi.substack.com/embed" %}
 Newsletter embed

@@ -52,6 +52,10 @@ What does that even mean?&#x20;
 
 It means _**life in pink hues seeing your life through pink glasses**_&#x20;
 
-As if you're in love all the time Sounds about right...
+As if you're in love all the time&#x20;
+
+Sounds about right...
 
 \#SelfLove
+
+<figure><img src="../.gitbook/assets/image.png" alt=""><figcaption><p>A snap from my solo Switzerland trip, where I felt like a snow queen with Eiger Mountains in the background</p></figcaption></figure>

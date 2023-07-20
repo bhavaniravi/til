@@ -16,13 +16,13 @@ The general idea is this let's say you have 3 tasks A -> B -> C. Assuming A read
               |---> Task B.N --|
 ```
 
-From the looks of it, it might look like a simple feature but since the DAGs and tasks are generated before the tasks are executed achieving this during Dag runtime was a problem.&#x20;
+From the looks of it, it might look like a simple feature but since the DAGs and tasks are generated before the tasks are executed achieving this during Dag runtime was a problem.
 
 **But, not after Airflow introduced Dynamic Task Mapping in 2.3**
 
 ### Dynamic Task Mapping
 
----
+
 
 ```python
 from airflow import DAG
@@ -56,10 +56,10 @@ with DAG(dag_id='mapping_elt',
 
 **More documentation and example here:**
 
-- [Official Dynamic Task Mapping documentation](https://airflow.apache.org/docs/apache-airflow/2.3.0/concepts/dynamic-task-mapping.html)
-- [Tutorial from Astronomer](https://www.astronomer.io/guides/dynamic-tasks)
+* [Official Dynamic Task Mapping documentation](https://airflow.apache.org/docs/apache-airflow/2.3.0/concepts/dynamic-task-mapping.html)
+* [Tutorial from Astronomer](https://www.astronomer.io/guides/dynamic-tasks)
 
----
+
 
 {% embed url="https://bhavaniravi.substack.com/embed" %}
 Newsletter embed

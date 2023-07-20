@@ -7,8 +7,8 @@ tags:
 featuredImgPath: >-
   https://lh3.googleusercontent.com/BrtspPWUUvqGlTyO6BJBzbZQeS7-KHRh48y5-8aD62Hk5t0Ab2CR8AeIYlfhEo-XUq3QmyeHbXnyVih_K0OrIuG2wyNfc8CcuFzG5odWUIyGLtJrbnb0UTTYUV1U1hqLcn4cJNwUPhU=w857-h643-no
 isexternal: true
-published_date: "2020-04-10"
-created_date: "2020-04-10"
+published_date: '2020-04-10'
+created_date: '2020-04-10'
 draft: false
 description: >-
   The process of dissecting a complicated problem into solvable pieces is what
@@ -45,20 +45,20 @@ The first three weeks are crucial because there is uncertainty everywhere. Neith
 
 During this time, I can't devote to anything else. You won't see me tweeting, writing a blog post, or working on side projects. The brain will be occupied entirely by
 
-- What the hell is this?
-- Why am I doing this?
-- What am I doing wrong?
-- Why the hell is it so hard?
-- Why don't people write documentation?
+* What the hell is this?
+* Why am I doing this?
+* What am I doing wrong?
+* Why the hell is it so hard?
+* Why don't people write documentation?
 
 Few things I do at this part apart from doubting myself is
 
-- Reading through the requirements and user stories like the bible.
-- Staring at the wall for hours and visualize the flow
-- Sketching the ideas after ideas
-- Share them visualization with your teammates to validate and iterate
-- Million Google searches
-- Check if the technology choice accommodates all the requirements
+* Reading through the requirements and user stories like the bible.
+* Staring at the wall for hours and visualize the flow
+* Sketching the ideas after ideas
+* Share them visualization with your teammates to validate and iterate
+* Million Google searches
+* Check if the technology choice accommodates all the requirements
 
 ### The Spark
 
@@ -136,7 +136,7 @@ Post-release as the users start using the product bug counts are bound to increa
 
 None of this might sound easy or humanly possible. Yes, there are deadlines, uncertainties that put pressure on you. The process of dissecting a complicated problem into solvable pieces is what makes this job so exciting and lovable.
 
----
+
 
 {% embed url="https://bhavaniravi.substack.com/embed" %}
 Newsletter embed

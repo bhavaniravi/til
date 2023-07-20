@@ -1,12 +1,17 @@
 ---
-slug: "introduction-to-chatbots"
-published_date: 2020-07-12
-title: "Introduction to Chatbots"
-template: "post"
+slug: introduction-to-chatbots
+published_date: 2020-07-12T00:00:00.000Z
+title: Introduction to Chatbots
+template: post
 draft: false
-location: ["Womenwhocode Global"]
-description: "Chatbots have found it's place of emerging technology 3 years back in this talk we will start with basics of chatbot and walkthrough how the technology evolved over the 3 year period"
-tags: ["talk"]
+location:
+  - Womenwhocode Global
+tags:
+  - talk
+description: >-
+  Chatbots have found it's place of emerging technology 3 years back in this
+  talk we will start with basics of chatbot and walkthrough how the technology
+  evolved over the 3 year period
 ---
 
 # Introduction to Chatbots
@@ -23,7 +28,7 @@ Chatbots have found it's place of emerging technology 3 years back in this talk 
 
 {% embed url="https://www.youtube.com/embed/hHNFwpCMppI?start=4" %}
 
----
+
 
 {% embed url="https://bhavaniravi.substack.com/embed" %}
 Newsletter embed

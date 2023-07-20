@@ -6,8 +6,8 @@ tags:
   - life
 featuredImgPath: https://i.imgur.com/I2TtWvg.png
 isexternal: true
-published_date: "2020-09-14"
-created_date: "2020-09-14"
+published_date: '2020-09-14'
+created_date: '2020-09-14'
 draft: false
 description: >-
   In a technology-filled life, scrolling twitter for 2 hours can feel productive
@@ -127,7 +127,7 @@ Get a good sleeping routine. I can't even start to explain how fixing my sleep h
 
 Productivity in human beings, unlike machines, is to keep the energy and motivation up. To build momentum to start and finish the projects that we take up. There is no right or wrong way to try these methods. Try each of them, and develop a technique that suits you. Lastly, none of the frameworks will work if you are unwilling to put your part.
 
----
+
 
 {% embed url="https://bhavaniravi.substack.com/embed" %}
 Newsletter embed

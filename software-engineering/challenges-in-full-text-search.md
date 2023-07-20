@@ -21,7 +21,7 @@ Text problems are the most interesting ones to solve. From being a part of a CS 
 
 Now that we know the necessity of search feature in an app, the struggle comes when your data grows. Ordinary regex or grep based search methods won’t hold good for this scale of data. Full-text search is more intuitive than just pattern matching. The main idea is to give the user with the relevant results. We need a swiss army knife a Full-text-search to solve our search problems. This blog will cover what Full-text-search and it solves those problems.
 
-\
+\\
 
 ## What is Full-Text-Searching?
 
@@ -54,15 +54,15 @@ As we discussed conventional `grep` based systems no longer works at the speed, 
 1. Take all the words from the documents and remove stop/noise words
 2. Stem the words based on the language
 3. Create a table of words mapping it to its occurrence in the document
-4. On entering a search query tokenize, stem the words and cross check across the index.&#x20;
+4. On entering a search query tokenize, stem the words and cross check across the index.
 
 ## Proximity - Word Vectors
 
 Proximity is “how relevant your search results are?” to the search query. When talking about Proximity we often focus on finding the documents that relates to the “Intention of the user”.
 
-For e.g., when searching for a white shirt, the color “white” carries a specific weight.&#x20;
+For e.g., when searching for a white shirt, the color “white” carries a specific weight.
 
-The proximity is calculated by a relevance score using one of the following methods&#x20;
+The proximity is calculated by a relevance score using one of the following methods
 
 1. **Field Length Normalization** - Smaller the field size the more relevant for eg., “Item Name” has a higher weight than “Description”
 2. **Frequency** - The larger the number of time a term occurs in a document more relevant .
@@ -70,24 +70,24 @@ The proximity is calculated by a relevance score using one of the following meth
 
 Once documents are matched from the index a relevance score is calculated based on one of the above methods and the results are sorted according to this score.
 
-## Abbreviations, synonyms, homonyms and Phonetics&#x20;
+## Abbreviations, synonyms, homonyms and Phonetics
 
-In the era of instant messaging we are used to use not only the accepted abbreviations like W.H.O but we also create ones of our own like TC and AFK. Now when searching for “world health” valid to bring out documents that mentions “W.H.O”.&#x20;
+In the era of instant messaging we are used to use not only the accepted abbreviations like W.H.O but we also create ones of our own like TC and AFK. Now when searching for “world health” valid to bring out documents that mentions “W.H.O”.
 
 1. Search Thesaurus - Where a mapping all the abbreviations and its associated expansion is saved.
 2. Text Normalization - On creating an index the abbreviations are normalized to its actual text searching on it works like searching over an actual text.
 
 ## Searching Through Images
 
-Gif-search is an example of Full text search in images. Google Images works based on the relationship between a blog post, alt-text and an image in the page. Gif-ly works by associating emotions of the gif as a metadata along with the images.&#x20;
+Gif-search is an example of Full text search in images. Google Images works based on the relationship between a blog post, alt-text and an image in the page. Gif-ly works by associating emotions of the gif as a metadata along with the images.
 
 For a true FTS to work over a bunch of images one way to do is by extracting text from those images using an OCR and using it as the metadata for search
 
 ## Handling Misspellings - Fuzzy Search
 
-Fuzzy search is a terminology used in Elasticsearch. It uses Damerau-Levenshtein distance formula.&#x20;
+Fuzzy search is a terminology used in Elasticsearch. It uses Damerau-Levenshtein distance formula.
 
-The Damerau-Levenshtein distance between two pieces of text is the number of insertions, deletions, substitutions, and transpositions needed to make one string match the other.&#x20;
+The Damerau-Levenshtein distance between two pieces of text is the number of insertions, deletions, substitutions, and transpositions needed to make one string match the other.
 
 For example, the Levenshtein distance between the words “ax” and “axe” is 1 due to the single deletion required.
 
@@ -96,17 +96,17 @@ For example, the Levenshtein distance between the words “ax” and “axe” i
 Indexes are built based on the data in the databases. In any real time system the data changes frequently. For e.g., An item might go out of stock or the prices might vary and so on. In this case the index becomes invalid and searching over it often gives wrong results. This can be handled in 2 ways
 
 1. Drop the index and rebuild it for the newly available data
-   - It is time consuming&#x20;
-   - User can’t do FTS until the whole index is rebuilt again
+   * It is time consuming
+   * User can’t do FTS until the whole index is rebuilt again
 2. Keep track of all the updates and inserts to the DB and update the index asynchronously
-   - The only drawback in this method is the inconsistency in data, which is much better when compared to shutting off the feature for few minutes.
+   * The only drawback in this method is the inconsistency in data, which is much better when compared to shutting off the feature for few minutes.
 
 ## Full-Text-Search In Distributed Systems
 
 As the system scales and when you adapt to a microservices architecture next set of challenges occurs.
 
 1. [How to search through the data which is spread across different microservices?](https://slack.engineering/search-at-slack-431f8c80619e)
-2. As the data scales a user with less data might get his response faster, when compared to one whose drive is overflowing. [how to efficiently index the documents so that the latency does not vary for different users.](https://blogs.dropbox.com/tech/2015/03/firefly-instant-full-text-search-engine/) &#x20;
+2. As the data scales a user with less data might get his response faster, when compared to one whose drive is overflowing. [how to efficiently index the documents so that the latency does not vary for different users.](https://blogs.dropbox.com/tech/2015/03/firefly-instant-full-text-search-engine/)
 
 ## How to get Started?
 
@@ -123,7 +123,7 @@ As the system scales and when you adapt to a microservices architecture next set
 7. [https://conferences.xeraa.net/videos/ovUA3r](https://conferences.xeraa.net/videos/ovUA3r)
 8. [How dropbox solves full text search](https://blogs.dropbox.com/tech/2015/03/firefly-instant-full-text-search-engine/)
 
----
+
 
 {% embed url="https://bhavaniravi.substack.com/embed" %}
 Newsletter embed

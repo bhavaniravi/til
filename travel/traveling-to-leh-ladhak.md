@@ -4,11 +4,11 @@ I traveled to Leh in August 2022. When I visited Switzerland, my friend mentione
 
 It was one of my most memorable trips. The thrills of driving in the middle of the mountains, on the mountains, camping, seeing so many stars.
 
-I will update this section with more information about the places we visited and how we planned.&#x20;
+I will update this section with more information about the places we visited and how we planned.
 
 For now, Let's Leh
 
----
+
 
 {% embed url="https://bhavaniravi.substack.com/embed" %}
 Newsletter embed

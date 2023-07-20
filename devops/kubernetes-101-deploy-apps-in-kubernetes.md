@@ -27,7 +27,7 @@ The advantage of using a container is that it's OS independent, lightweight, shi
 
 Yes, Kubernetes is too much to wrap your head around. So let's take it to step by step.
 
-***
+
 
 ## Kubernetes Resources
 
@@ -229,7 +229,7 @@ kubectl get logs -f <pod-name>
 
 We have just nicked the surface of Kubernetes. You can create a custom resource with other resources, and there is this whole unexplored territory of how Kubernetes works internally. We will explore all of these in the upcoming articles.
 
-***
+
 
 {% embed url="https://bhavaniravi.substack.com/embed" %}
 Newsletter embed

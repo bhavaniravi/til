@@ -4,16 +4,16 @@ A chatbot that automates technical screening interview process, Enabling recruit
 
 ## Tech Stack
 
-- Django
-- NLP
-- Microsoft LUIS
-- AWS
+* Django
+* NLP
+* Microsoft LUIS
+* AWS
 
 ## Client
 
 [Focus Infotech](https://focusinfotech.com)
 
----
+
 
 {% embed url="https://bhavaniravi.substack.com/embed" %}
 Newsletter embed

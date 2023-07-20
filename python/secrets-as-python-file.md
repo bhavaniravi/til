@@ -6,8 +6,8 @@ tags:
   - python
 featuredImgPath: https://i.imgur.com/9lCN0V6.png
 isexternal: true
-published_date: "2020-05-14"
-created_date: "2020-05-14"
+published_date: '2020-05-14'
+created_date: '2020-05-14'
 draft: false
 description: >-
   Secrets and token stored as Python config or secrets file has a chance of
@@ -16,7 +16,7 @@ description: >-
 
 # Are your Secrets Safe In Python?
 
-On scrolling through Hackernews, I stumbled upon this article where [Jesse](https://twitter.com/__jesse_li) points out how you or your organization can have [secrets hidden in the form of `pyc` files](https://blog.jse.li/posts/pyc/).
+On scrolling through Hackernews, I stumbled upon this article where [Jesse](https://twitter.com/\_\_jesse\_li) points out how you or your organization can have [secrets hidden in the form of `pyc` files](https://blog.jse.li/posts/pyc/).
 
 While Jesse's code has scrolled through Github repos and intimated the code owners, there is a good chance that our private repo could have some hanging around.
 
@@ -33,7 +33,7 @@ pip install uncompyle6
 
 ### Code
 
-If you want to jump ahead to the whole code checkout [the Github repo](https://github.com/bhavaniravi/pyc_secrets)
+If you want to jump ahead to the whole code checkout [the Github repo](https://github.com/bhavaniravi/pyc\_secrets)
 
 1. Import necessary packages
 
@@ -109,7 +109,7 @@ for item in items:
     print("\n\n\n")
 ```
 
----
+
 
 {% embed url="https://bhavaniravi.substack.com/embed" %}
 Newsletter embed

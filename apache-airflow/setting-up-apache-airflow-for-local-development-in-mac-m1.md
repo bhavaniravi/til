@@ -129,7 +129,8 @@ ERROR: ResolutionImpossible: for help visit https://pip.pypa.io/en/latest/user_g
   2 warnings and 1 error generated.
   error: command 'clang' failed with exit status 1
   ----------------------------------------
-  ERROR: Failed building wheel for pygraphviz</code></pre>
+  ERROR: Failed building wheel for pygraphviz
+</code></pre>
 
 To mitigate this error
 
@@ -163,7 +164,7 @@ pytest <path-to-file>::function_name
 pytest <path-to-file>::className::func_name
 ```
 
----
+
 
 {% embed url="https://bhavaniravi.substack.com/embed" %}
 Newsletter embed

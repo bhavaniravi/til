@@ -5,12 +5,12 @@ created_date: 2019-07-24T00:00:00.000Z
 title: It Doesn't Have to be Crazy at Work
 template: post
 draft: true
-description: ""
 subtitle: >-
   Guideliness from the book for founders and CEO's on how to run a company
   without chaos
-tags: ["book-notes"]
-featuredImgPath: "https://images-na.ssl-images-amazon.com/images/I/81nvF-p7odL.jpg"
+tags:
+  - book-notes
+featuredImgPath: https://images-na.ssl-images-amazon.com/images/I/81nvF-p7odL.jpg
 isexternal: true
 ---
 
@@ -18,12 +18,11 @@ isexternal: true
 
 _A must read book for founders and CEO's on how to run a company without chaos_
 
-There are two kinds of people in the world. The hustle, the moonshot, the 10x engineers, kind of people and there are others who love what they do, provides equal importance to work and life, understands the difference between both. The book was writtern by once such person [Jason Fried]() and he runs one such company [basecamp](). It closely aligns with my ideas of what workplace should be like, hence skyrocketed into top of my favorite list.
+There are two kinds of people in the world. The hustle, the moonshot, the 10x engineers, kind of people and there are others who love what they do, provides equal importance to work and life, understands the difference between both. The book was writtern by once such person [Jason Fried](it-doesn't-have-to-be-crazy-at-work.md) and he runs one such company [basecamp](it-doesn't-have-to-be-crazy-at-work.md). It closely aligns with my ideas of what workplace should be like, hence skyrocketed into top of my favorite list.
 
 I like this idealogy because of 2 reasons,
 
 1. My dad is a hard worker, he works 14 hour days, 7 days a week. 25 years of this routine strengted us financially but we are still losing on so many memories we could have cherished togther.
-
 2. I met my college friend recently. He started up right after college and was the CTO of the company. During the conversation, I brought up the concept of work life balance and he went straight on "I will never hire you.". My typical response as alwyas "Don't care. I will never work for you. Now we are in a deadlock. Let us be that way". I then started seeing patterns where people are overworked just like my dad, just for the sake of jobs. They run behind growth and goals which are not even their own.
 
 If you are so ambitious and would love the idea of spending all your time for your career, be like APJ Abdul Kalam. Don't bring relationships into this and mess them up.
@@ -98,15 +97,9 @@ If you are so ambitious and would love the idea of spending all your time for yo
 
 ### Say Yes to Saying No
 
-> No is easier to do, yes is easier to say.
-> No is no to one thing. Yes is no to a thousand things.
-> Promises are easy and cheap to make, actual work is hard and expensive. If it wasn’t, you’d just have done it now rather than promised it later.
+> No is easier to do, yes is easier to say. No is no to one thing. Yes is no to a thousand things. Promises are easy and cheap to make, actual work is hard and expensive. If it wasn’t, you’d just have done it now rather than promised it later.
 
-<figure>
-![](https://images-na.ssl-images-amazon.com/images/I/81nvF-p7odL.jpg)
-</figure>
 
----
 
 {% embed url="https://bhavaniravi.substack.com/embed" %}
 Newsletter embed

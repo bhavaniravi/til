@@ -1,13 +1,13 @@
 # How to Make Your 1st OpenSource Contribution
 
-You have been hearing good things about OSS.&#x20;
+You have been hearing good things about OSS.
 
 A solid OSS contribution will take somewhere from 3-6 months. It involves getting accustomed to the project, reading and understanding their code base, finding interesting issues, fixing the code, making a PR and fixing the reviews until the maintainers are ready to merge.
 
 Here are the steps I would recommend
 
 1. Pick an open-source project that you already use every day. For example, in Python, the easiest way is to look at your requirements file
-2. If you already know anything you can improve, raise an issue.&#x20;
+2. If you already know anything you can improve, raise an issue.
 3. Go through the Github issues. Filter by label Good first issue
 4. If there aren't any good first issues, Go through other issues and find the ones you are interested in
 5. Read their contributor guidelines `Contributing.md` file
@@ -21,7 +21,7 @@ Here are the steps I would recommend
 
 {% embed url="https://youtu.be/1EvaxRIBU-8" %}
 
----
+
 
 {% embed url="https://bhavaniravi.substack.com/embed" %}
 Newsletter embed

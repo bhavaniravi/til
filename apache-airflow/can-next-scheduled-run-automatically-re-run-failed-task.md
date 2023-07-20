@@ -15,10 +15,10 @@ Here is how I would go about it
 
 **Idempotency**
 
-- Ensure all your tasks are idempodent ie., doesn't matter how many times a task is ran it takes the same set of input and arrives at the same set of output
-- This means if a task fails inserting 100th row, it should be able to revert back and reinsert them when cleared&#x20;
+* Ensure all your tasks are idempodent ie., doesn't matter how many times a task is ran it takes the same set of input and arrives at the same set of output
+* This means if a task fails inserting 100th row, it should be able to revert back and reinsert them when cleared
 
----
+
 
 {% embed url="https://bhavaniravi.substack.com/embed" %}
 Newsletter embed

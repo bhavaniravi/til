@@ -1,18 +1,22 @@
 ---
-slug: "atomic-habits-book-summary"
-published_date: 2020-02-23
-created_date: 2020-02-22
-title: "Atomic Habits Book Summary"
-template: "post"
+slug: atomic-habits-book-summary
+published_date: 2020-02-23T00:00:00.000Z
+created_date: 2020-02-22T00:00:00.000Z
+title: Atomic Habits Book Summary
+template: post
 draft: false
-description: "Atomic habits is the most popular book of 2019, and has been in the wishlist of so many people this 2020"
-subtitle: "Things I learned by reading atomic habits"
-tags: ["book-notes"]
-featuredImgPath: "https://images.unsplash.com/photo-1569230919100-d3fd5e1132f4?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1276&q=80"
+subtitle: Things I learned by reading atomic habits
+tags:
+  - book-notes
+featuredImgPath: >-
+  https://images.unsplash.com/photo-1569230919100-d3fd5e1132f4?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1276&q=80
 isexternal: true
+description: >-
+  Atomic habits is the most popular book of 2019, and has been in the wishlist
+  of so many people this 2020
 ---
 
-# Atomic Habits
+# Atomic Habits Book Summary
 
 > The big idea 1% improvement = 37% better
 
@@ -30,10 +34,10 @@ I was skeptical when I saw all the hype the book was creating when it came to th
 
 ## What I liked about the book?
 
-- The book is short, crisp and to the point.
-- The chapters are just 5-7 minutes long making it easy to read
-- Every chapter starts with a title that induces interest followed by a story, that puts things in perspective before reading the actual content
-- The ideas and perspective in the book are new. For eg., Instead of punishing ourselves for eating junk, watching television, overusing social media, James clear points out an alternative perspective of how we are all the victims of billions of dollars spent by these companies.
+* The book is short, crisp and to the point.
+* The chapters are just 5-7 minutes long making it easy to read
+* Every chapter starts with a title that induces interest followed by a story, that puts things in perspective before reading the actual content
+* The ideas and perspective in the book are new. For eg., Instead of punishing ourselves for eating junk, watching television, overusing social media, James clear points out an alternative perspective of how we are all the victims of billions of dollars spent by these companies.
 
 ## Techniques to build Good habits
 
@@ -65,10 +69,10 @@ Call up a friend and tell them you are going to quit/finish something and if you
 
 Keep the good habit triggers closer and bad habit triggers far far away.
 
-- Put your gym clothes on
-- Never roll up your gym mat
-- Have books lying around you
-- Hide the cigarettes or even better lock it
+* Put your gym clothes on
+* Never roll up your gym mat
+* Have books lying around you
+* Hide the cigarettes or even better lock it
 
 ### Goldilocks Rule - To Stay motivated
 
@@ -80,7 +84,11 @@ When trying to incorporate new habits don't push yourself. Stretch yourself just
 
 To get beyond procrastination break good habits into 2-minute chunks
 
-> “Read before bed each night” becomes “Read one page.” <br> “Do thirty minutes of yoga” becomes “Take out my yoga mat< <br> “Study for class” becomes “Open my notes.” <br> “Fold the laundry” becomes “Fold one pair of socks.” <br> “Run three miles” becomes “Tie my running shoes.”
+> “Read before bed each night” becomes “Read one page.”\
+> “Do thirty minutes of yoga” becomes “Take out my yoga mat<\
+> “Study for class” becomes “Open my notes.”\
+> “Fold the laundry” becomes “Fold one pair of socks.”\
+> “Run three miles” becomes “Tie my running shoes.”
 
 ## Parallel Ideas
 
@@ -108,10 +116,9 @@ Turns out I have the habit of ripping them off when I work on problems. Some hab
 
 ## Ready for some Good Habits?
 
-Choosing the right habit is an explore exploit the problem, The book states that not all habits fit you
-People tend to beat themselves up if they can’t get a habit right but, with the right activity, you do more, the more you do the more it becomes a habit.
+Choosing the right habit is an explore exploit the problem, The book states that not all habits fit you People tend to beat themselves up if they can’t get a habit right but, with the right activity, you do more, the more you do the more it becomes a habit.
 
----
+
 
 {% embed url="https://bhavaniravi.substack.com/embed" %}
 Newsletter embed

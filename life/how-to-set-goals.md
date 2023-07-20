@@ -2,16 +2,17 @@
 title: End Goal - How to set goals and track them?
 sub_title: Logging my thought stream on goal setting and tracking
 slug: how-to-set-goals
-tags: ["life"]
+tags:
+  - life
 featuredImgPath: https://i.imgur.com/xhvlpFc.png
 isexternal: true
-published_date: 2021-10-12
-created_date: 2021-10-12
-description: How to set goals and track them
+published_date: 2021-10-12T00:00:00.000Z
+created_date: 2021-10-12T00:00:00.000Z
 draft: false
+description: How to set goals and track them
 ---
 
-# End Goal
+# End Goal - How to set goals and track them?
 
 Often what's stopping you from reaching your end goal is the end goal itself.
 
@@ -44,7 +45,7 @@ You can change your goal anytime during the course. Just because you made one do
 
 Life is the most uncertain never-ending sea. Goals are the lighthouse that lets you navigate them.
 
----
+
 
 {% embed url="https://bhavaniravi.substack.com/embed" %}
 Newsletter embed

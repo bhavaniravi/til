@@ -99,7 +99,7 @@ Putting out an event is a major component of a community but the by-product of i
 
 Any job that deals with people is really tough. Unlike programs, human beings are impossible to predict and even satisfy. As a community organizer it might get tiring sometimes but after signing off the event, realizing you impacted so many people’s lives is the best feeling in the world. Kudos to everyone who is doing that. I hope this blog comes in handy to help you in various aspects. Remember, your people are superheroes.
 
----
+
 
 {% embed url="https://bhavaniravi.substack.com/embed" %}
 Newsletter embed

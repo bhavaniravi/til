@@ -7,11 +7,11 @@
 5. What are the 3 things that you wish someone told you when starting that topic?
 6. There we go! We have 3 sections for your 1st blog
 7. _3 things I wished someone told me when learning_ \_\_\_ - That's your title
-8. For each of the 3 sections write 5 points.&#x20;
+8. For each of the 3 sections write 5 points.
 9. Re-read it, add images illustrations whatever you need to support the content
 10. Hit publish. Don't over think
 
----
+
 
 {% embed url="https://bhavaniravi.substack.com/embed" %}
 Newsletter embed

@@ -4,11 +4,11 @@ A bot that answers the FAQ questions that you get. It was built as a demo for Py
 
 ## Tech Stack
 
-- Flask
-- NLP
-- RasaHQ
+* Flask
+* NLP
+* RasaHQ
 
----
+
 
 {% embed url="https://bhavaniravi.substack.com/embed" %}
 Newsletter embed

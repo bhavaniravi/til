@@ -120,11 +120,13 @@ Add this to your Airflow DAGs, and you will get an email on failure. You can als
 
 Airflow currently does not support `email_on_sucess`. The only way to achieve this is via `EmailOperator` or a custom `PythonOperator.`
 
---
+\--
 
-{% embed url="https://bhavaniravi.substack.com/embed" %} Newsletter embed {% endembed %}
+{% embed url="https://bhavaniravi.substack.com/embed" %}
+Newsletter embed
+{% endembed %}
 
----
+
 
 {% embed url="https://bhavaniravi.substack.com/embed" %}
 Newsletter embed
