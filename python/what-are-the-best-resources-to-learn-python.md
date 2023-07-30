@@ -1,4 +1,4 @@
-# What are the Best Resources to Learn Python in 2022?
+# What are the Best Resources to Learn Python in 2023(or any year)?
 
 It doesn't matter what resource you pick. Just pick 1 and stick with it every day for a week. If things doesn't make sense use the online forums for help.
 
@@ -20,7 +20,7 @@ It doesn't matter what resource you pick. Just pick 1 and stick with it every da
 
 Create an account in both of these forums and ask your questions.
 
-
+***
 
 {% embed url="https://bhavaniravi.substack.com/embed" %}
 Newsletter embed
