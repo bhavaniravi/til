@@ -18,7 +18,7 @@ This blog post covers the hurdles I faced while implementing it and how I overca
 
 To walk through this experiment with me, you need a FastAPI app. Let's call this project `Playground` and our custom exception will be the Playground Exception
 
-```python=
+```python
 # exception.py
 
 
@@ -173,7 +173,7 @@ app.add_exception_handler(RuntimeError, handle_exception)
 
 Having both `PlaygroundError` and `RuntimeError` still, result in `RuntimeError` since it's the result of the `ExceptionMiddleware` unable to gracefully handle the `PlaygroundError`
 
-```python!
+```python
 app.add_exception_handler(PlaygroundError, handle_exception)
 app.add_exception_handler(RuntimeError, handle_exception)
 ```
@@ -184,7 +184,7 @@ app.add_exception_handler(RuntimeError, handle_exception)
 
 ~~app.add\_exception\_handler(ACEException, handle\_exception)~~
 
-```python!
+```python
 async def handle_exception(request, exc):
     if isinstance(exc, RuntimeError) and isinstance(exc.__cause__, ACEException):
         print("handling runtime exception", exc)
@@ -265,14 +265,14 @@ Going through the error logs deeper will bring out a few things.
 
 The following line from `RuntimeError` Version 1
 
-```
+```bash
  File "/Users/bhavaniravi/.virtualenvs/python-everyday/lib/python3.9/site-packages/starlette/middleware/errors.py", line 184, in __call__
     raise exc
 ```
 
 The following line from `PlaygroundErorr` Version 2
 
-```
+```bash
 File "/Users/bhavaniravi/.virtualenvs/python-everyday/lib/python3.9/site-packages/starlette/middleware/errors.py", line 184, in __call__
     raise exc
 ```
@@ -333,7 +333,7 @@ There we have it. It's a middleware that's raising the exception. How about we w
 
 Let's write a custom middleware in Starlette style and capture the playground error.
 
-```python=
+```python
 # custom_middleware.py
 
 class CustomExceptionHandlingMiddleware:
@@ -396,7 +396,7 @@ Clup them both, use `exception_handlers` and `CustomMiddleware`
 
 If the API has an error in both sync and background, according to the FastAPI the background tasks won't be executed, hence we are good.
 
-```python=
+```python
 @app.get("/")
 def index(bg: BackgroundTasks):
     bg.add_task(background_task)
@@ -448,7 +448,7 @@ If you dig through FastAPI documentation enough you will find it recommending `a
 
 Something like this
 
-```
+```python
 from fastapi import Request
 from starlette.middleware.base import BaseHTTPMiddleware
 
