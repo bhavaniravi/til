@@ -14,13 +14,29 @@ But wait, have you ever wondered how pytest works under the hood? Sure, you can 
 
 ### Pytest 101
 
-If you have never seen pytest before, I don't want to throw you under the bus.
+If you have never seen pytest before, I don't want you to feel left out. So let's start there with an introduction to the Pytest. For this sample the folder structure will look something like this
 
 ```
 app
 |__ tests
     |__ test_calculator.py
 |__ calculator.py
+```
+
+With contents
+
+```python
+# calculator.py
+def add(a, b):
+    return a + b
+```
+
+```python
+# test_calculator.py
+from app.calculator import add
+
+def test_add():
+    assert add(2, 3) == 5
 ```
 
 Now you install pytest
@@ -35,14 +51,9 @@ Run pytest
 pytest
 ```
 
-Now all tests in the `tests` folder runs. A sample test case can look like this
+Now all tests in the `tests` folder runs.&#x20;
 
-```python
-from app.calculator import add
-
-def test_add():
-    assert add(2, 3) == 5
-```
+<figure><img src="../.gitbook/assets/image.png" alt=""><figcaption><p>Screenshot of pytest running successfully</p></figcaption></figure>
 
 ### Other Pytest Features I love
 
@@ -87,17 +98,21 @@ Wonderful, now let's take all these features as our inspiration to try and build
 
 1. Why do this? For fun, because we can :P
 2. _What I cannot build, I do not understand - Richard Feynman_
-3. It's fun. I told you that I already.
+3. It's fun. I told you that already.
 
-Can't Copilot do this for me? No, since there are no code examples like this except for the pytest source code itself. But when I tried specific cases like Fixtures, the results were good to draw inspiration from.
+#### Can't Copilot do this for me?&#x20;
 
-**Disclaimer: This is an experiment never meant to see production or usage. The code doesn't resemble pytest. Infact, all my attempts to read the pytest code went down the drain. This is purely my version**
+Trust me, I've tried it.
+
+It didn't perform well since there were no code examples for the copilot to learn from. But when I tried specific cases like Fixtures, the results were good for me to draw inspiration from.
+
+_**Disclaimer: This is an experiment never meant to see production or usage. The code doesn't resemble pytest. Infact, all my attempts to read the pytest code went down the drain. This is purely my version**_
 
 ### Features of a  Testing Library
 
 ### Test Runner
 
-* Find all test files and test functions
+* Find all test files and test functions. If the folders or files don't start with `test`, we skip it
 
 ```python
 for dr in os.listdir(sys.path[0]):
@@ -111,7 +126,8 @@ for dr in os.listdir(sys.path[0]):
                 if members[0].startswith("test"):
 ```
 
-* calling the test functions, i.e., calling the test function
+* calling the test functions.&#x20;
+  * Once we have the test function object, let's call it and capture errors if any
 
 ```python
 try:
@@ -144,10 +160,12 @@ for member, ex in errors.items():
 
 ### Parametrized test cases
 
-* create `owntest.parametrized` function. We all know it's a parametrized decorator
+If you look at parametrized test case of Pytest, you'll notice that it's driven by decorator. Let's start there
+
+* create `owntest.parametrized` function. Since the parametrize function takes values on setup, the decorator will be 3 layered.
 
 ```python
-def parametrize(keys, values):
+ def parametrize(keys, values):
     def decorator(func):
         def wrapper():
             ...
@@ -155,7 +173,7 @@ def parametrize(keys, values):
     return decorator
 ```
 
-* Let's preserve the parameters
+* Let's preserve the parameters. On decorating, let's format the values and make it easy for consumption in test cases.
 
 ```python
 Input
@@ -177,7 +195,8 @@ def parametrize(keys, values):
             params.append(param)
 ```
 
-* Run parametrized test cases, with each parameter
+* Run parametrized test cases, with each parameter.&#x20;
+  * During test run we loop through each parameter and call the test on each parameter individually
 
 ```python
 def wrapper(*args, **kwargs):
@@ -194,16 +213,21 @@ Let's create `owntest.fixture` function. This decorator will store the fixture f
 #### Register Function as Fixture
 
 ```python
-def fixture(function):
-    def fixture_wrapper():
-        return function()
+class FixtureDecorator:
+    def __init__(self, func):
+        self.func = func
 
-    return fixture_wrapper
+    def __call__(self):
+        return self.func()
+
+
+def fixture(function):
+    return FixtureDecorator(function)
 ```
 
 #### Create a map of Fixtures
 
-* Update the test runner to run fixtures
+* Update the test runner to maintain a mapping of fixture when it encounters one.
 
 ```python
 for members in getmembers(module, isfunction):
@@ -211,7 +235,7 @@ for members in getmembers(module, isfunction):
         fixtures_mapping[members[0]] = members[1]
 ```
 
-#### Handling Test Argument that is a Fixture
+#### Handling Generator  Fixture
 
 If the recognized function is a fixture, as stored in fixture mapping, check if the function is a generator. If yes, generate the value with `__next__` else use the return value directly on the test function
 
@@ -226,12 +250,13 @@ for arg in members[1].__code__.co_varnames:
             func_args.append(fixture_return_value)
 ```
 
-\
+### The Wrap-up
+
 And that wraps up our adventure into the world of building a testing library in Python! We've covered all the essential components - test discovery, functional test cases, fixtures, and parametrized test cases - that come together to create a fantastic testing framework.
 
 Now armed with this newfound knowledge, you have the tools to craft your very own testing library customized to suit your project's needs. It's an exciting journey that lets you showcase your coding prowess while ensuring your code is thoroughly validated.
 
-So, go ahead and take on the challenge and rebuild owntest in your own way. Maybe think about testing your testing library.&#x20;
+So, go ahead and take on the challenge and rebuild ownpytest in your own way. Maybe think about testing your testing library.&#x20;
 
 Until my next freaky experiment, see ya.
 

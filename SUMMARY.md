@@ -49,6 +49,8 @@
 
 ## Python
 
+* [FastAPI](python/fastapi/README.md)
+  * [The Pain Of Building a Centralized Error Handler in FastAPI](python/fastapi/the-pain-of-building-a-centralized-error-handler-in-fastapi.md)
 * [What are the Best Resources to Learn Python in 2023(or any year)?](python/what-are-the-best-resources-to-learn-python.md)
 * [What is \_\_name\_\_ == "\_\_main\_\_" in Python?](python/what-is-\_\_name\_\_-\_\_main\_\_-in-python.md)
 * [How to get past Beginner Stage in Python?](https://thelearning.dev/how-to-get-past-beginner-stage-in-python)
