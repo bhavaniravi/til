@@ -178,7 +178,7 @@ app.add_exception_handler(PlaygroundError, handle_exception)
 app.add_exception_handler(RuntimeError, handle_exception)
 ```
 
-#### Version 2 - Capturing Global Exception
+### Version 2 - Capturing Global Exception
 
 `RuntimeError` is a type of `Exception` so why not add a global exception handler and handle specific cases inside the handler function?
 
@@ -255,7 +255,7 @@ Maybe it is. But...
 2. When debugging an error after 6 months, how can you know if this is a result of a handled or unhandled exception
 3. This will create logs that might trigger alerts from Datadog or Sentry.
 
-### We need answers
+
 
 Before considering alternative approaches, we have to ensure that we aren't doing anything wrong and there is no other way possible. For that, we need answers to the following two questions.
 
@@ -436,7 +436,7 @@ There is a Middleware to handle errors on background tasks and an exception-hand
 
 
 
-**Other Things I Considered But Didn't Do**
+### **Other Things I Considered But Didn't Do**
 
 ### **Custom Background Task**
 
