@@ -146,7 +146,7 @@ To test the connection, click on `Try Connection` at the top of the screen. If e
 
 ![](https://i.imgur.com/EmKOUHj.png)
 
-
+***
 
 {% embed url="https://bhavaniravi.substack.com/embed" %}
 Newsletter embed

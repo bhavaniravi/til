@@ -164,7 +164,7 @@ pytest <path-to-file>::function_name
 pytest <path-to-file>::className::func_name
 ```
 
-
+***
 
 {% embed url="https://bhavaniravi.substack.com/embed" %}
 Newsletter embed

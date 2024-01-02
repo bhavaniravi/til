@@ -8,7 +8,7 @@ I will update this section with more information about the places we visited and
 
 For now, Let's Leh
 
-
+***
 
 {% embed url="https://bhavaniravi.substack.com/embed" %}
 Newsletter embed

@@ -368,7 +368,7 @@ class Flask:
         self.server = WSGIServer((self.host, self.port), HttpReqHandler)
 ```
 
-
+***
 
 What started as an experiment to Demyistify flask and understand it better got me into a rabbit hole of new questions.
 

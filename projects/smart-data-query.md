@@ -17,7 +17,7 @@ I deployed maintained and built the data pipelines to pull data from different s
 
 [Saama Technologies](https://www.saama.com)
 
-
+***
 
 {% embed url="https://bhavaniravi.substack.com/embed" %}
 Newsletter embed

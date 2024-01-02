@@ -136,7 +136,7 @@ Post-release as the users start using the product bug counts are bound to increa
 
 None of this might sound easy or humanly possible. Yes, there are deadlines, uncertainties that put pressure on you. The process of dissecting a complicated problem into solvable pieces is what makes this job so exciting and lovable.
 
-
+***
 
 {% embed url="https://bhavaniravi.substack.com/embed" %}
 Newsletter embed

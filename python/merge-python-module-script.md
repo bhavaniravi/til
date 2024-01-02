@@ -105,11 +105,11 @@ The current script is pretty limited in its capabilities. I'm not going to work 
 2. Unparse makes all docstrings a single line with with single quotes.
 3. The current script does not handle multiple imports.
 
-
+***
 
 The snippet, along with an example directory, is available in my [github repository](https://github.com/bhavaniravi/mergepy/tree/main)
 
-
+***
 
 {% embed url="https://bhavaniravi.substack.com/embed" %}
 Newsletter embed

@@ -47,7 +47,7 @@ for iteration in itertools.count():
 
 no risk of ever stepping past the increment line by doing a continue for instance (been there, done that)
 
-
+***
 
 ### Running lists together
 

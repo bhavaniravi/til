@@ -53,7 +53,7 @@ If you are doing gratefulness journaling and it works for you, Great. Continue
 
 If not, give Goodvibes journaling a try.
 
-
+***
 
 {% embed url="https://bhavaniravi.substack.com/embed" %}
 Newsletter embed

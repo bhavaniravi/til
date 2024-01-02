@@ -26,7 +26,7 @@ In this talk I introduce you to a 5-step framework that helped me make my first 
 
 {% embed url="https://docs.google.com/presentation/d/e/2PACX-1vSu6jHebLABC41xDOxa_hfiJ9a1cnRG2cJ3jezIhAzQillTTyCDhPu7a1Th1yJgKzkWP4O8LhaYR1bW/embed?start=false&loop=false&delayms=3000" %}
 
-
+***
 
 {% embed url="https://bhavaniravi.substack.com/embed" %}
 Newsletter embed

@@ -85,11 +85,11 @@ I asked around and found out this is a normal shopping pattern for most people. 
 
 In a world where ads constantly bombard us, streamlining your shopping process is one of the healthiest things you can do for your financial well-being.
 
-
+***
 
 _P.S. A moment of silence for the Ipad I have meant to buy for the last 2 years, all the books and art supplies on my wishlist._
 
-
+***
 
 {% embed url="https://bhavaniravi.substack.com/embed" %}
 Newsletter embed

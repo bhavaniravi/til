@@ -47,11 +47,11 @@ Imagine a world, where domestic work is paid. Washing dishes, clothes, cleaning 
 
 In a world designed for women, we don't have to work in a station build for men's average height. We no longer have to travel on buses with handles that are far ahead of our reach. We can be sure that the cars we drive are safe for us because it is [tested with dummies of a female skeleton.](https://www.theguardian.com/lifeandstyle/2019/feb/23/truth-world-built-for-men-car-crashes)
 
-
+***
 
 In a world designed for women, we have more challenges to face than social norms and ideologies. When women in tech rule, we don't just change the way tech works but, the way the world operates.
 
-
+***
 
 {% embed url="https://bhavaniravi.substack.com/embed" %}
 Newsletter embed

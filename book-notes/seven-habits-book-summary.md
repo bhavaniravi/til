@@ -160,11 +160,11 @@ Do the above reflections more than once and convert them into a personal mission
 
 > “No one can hurt you without your consent.”
 
-
+***
 
 I would never stop here; I would buy the book, I would read and re-read it again and again until I master the seven habits and it becomes a part of me and who I am.
 
-
+***
 
 {% embed url="https://bhavaniravi.substack.com/embed" %}
 Newsletter embed

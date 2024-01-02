@@ -14,7 +14,7 @@ Repeating this pattern will result in updating legacy systems with limited risk 
 
 * [7 Programming Anti-Patterns](https://thelearning.dev/7-programming-anti-patterns)
 
-
+***
 
 {% embed url="https://bhavaniravi.substack.com/embed" %}
 Newsletter embed

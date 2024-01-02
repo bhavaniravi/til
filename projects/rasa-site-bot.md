@@ -8,7 +8,7 @@ A bot that answers the FAQ questions that you get. It was built as a demo for Py
 * NLP
 * RasaHQ
 
-
+***
 
 {% embed url="https://bhavaniravi.substack.com/embed" %}
 Newsletter embed

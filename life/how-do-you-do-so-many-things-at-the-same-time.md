@@ -44,7 +44,7 @@ When my friends traveled 3 hours to college, my house was 20 mins away. All the 
 
 You might have things to take care of in life, prioritize.
 
-
+***
 
 {% embed url="https://bhavaniravi.substack.com/embed" %}
 Newsletter embed

@@ -63,7 +63,7 @@ Along with the above items, there is a tonne of other parameters that you can tw
 
 The namespace, allocated resources, and the R/W layer are all deleted when the container is removed.
 
-
+***
 
 {% embed url="https://bhavaniravi.substack.com/embed" %}
 Newsletter embed

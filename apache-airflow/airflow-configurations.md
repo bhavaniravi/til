@@ -47,7 +47,7 @@ Manage sqlalchemy **pool** using
 
 **sql\_engine\_encoding**
 
-
+***
 
 {% embed url="https://bhavaniravi.substack.com/embed" %}
 Newsletter embed

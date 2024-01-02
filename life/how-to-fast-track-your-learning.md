@@ -46,7 +46,7 @@ You should be inherently motivated to do this thing and come back to it
 
 Yes, it's that easy. But Staying consistent. That's the hard part.
 
-
+***
 
 {% embed url="https://bhavaniravi.substack.com/embed" %}
 Newsletter embed

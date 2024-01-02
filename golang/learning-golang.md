@@ -64,7 +64,7 @@ Here are two options
 
 Write them to my [twitter](https://twitter.com/BhavaniRavi\_)/[email](bhava0895@gmail.com)/[linkedin](https://linkedin.com/in/bhavanir).
 
-
+***
 
 {% embed url="https://bhavaniravi.substack.com/embed" %}
 Newsletter embed

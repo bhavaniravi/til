@@ -71,11 +71,11 @@ UFS enables you to combine multiple storage devices and behaves like single stor
 
 UFS in Docker is the core of keeping it lightweight. When running a Docker container, instead of creating a copy of the whole image with its files, Let's say (3 GB), Docker creates a copy-on-write layer that has access to all the files.
 
-
+***
 
 Docker is one of the most powerful tools to ship and deliver software. While celebrating that, we shouldn't forget the predecessor inventions that went in at the OS level that made Docker possible
 
-
+***
 
 {% embed url="https://bhavaniravi.substack.com/embed" %}
 Newsletter embed

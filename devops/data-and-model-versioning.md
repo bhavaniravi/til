@@ -80,7 +80,7 @@ Every time you run the DVC pipeline, the model gets versioned along with the dat
 
 The DVC remote S3/GCS should be accessible by the Kubernetes cluster
 
-
+***
 
 {% embed url="https://bhavaniravi.substack.com/embed" %}
 Newsletter embed

@@ -28,7 +28,7 @@
 * Not doing code review itself
 * Don't take PR comments personally. Reviews are for your code not you, when it is directed at you or your skills take it up with your manager. It's not OK.
 
-
+***
 
 {% embed url="https://bhavaniravi.substack.com/embed" %}
 Newsletter embed

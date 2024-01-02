@@ -299,7 +299,7 @@ I referred to a whole bunch of links and read through all the documentation befo
 8. [https://www.youtube.com/watch?v=nrzLdMWTRMM](https://www.youtube.com/watch?v=nrzLdMWTRMM)
 9. [Google Task Queue vs Pub/Sub](https://groups.google.com/d/msg/google-appengine/IcIjLfgnNXs/-m\_ik7h6DgAJ)
 
-
+***
 
 {% embed url="https://bhavaniravi.substack.com/embed" %}
 Newsletter embed

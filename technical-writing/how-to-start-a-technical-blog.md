@@ -11,7 +11,7 @@
 9. Re-read it, add images illustrations whatever you need to support the content
 10. Hit publish. Don't over think
 
-
+***
 
 {% embed url="https://bhavaniravi.substack.com/embed" %}
 Newsletter embed

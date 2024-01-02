@@ -26,7 +26,7 @@ KubernetesPodOperator(
 3. Supports different languages and frameworks
 4. Decouples DAG and the business logic
 
-
+***
 
 {% embed url="https://bhavaniravi.substack.com/embed" %}
 Newsletter embed

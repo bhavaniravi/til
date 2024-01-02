@@ -55,7 +55,7 @@ Also here is another thing to note, do proper warm ups and cool downs to have le
 
 A sound mind reflects a sound body and the vice versa is also true. Feeling down? Hit those 10 pushups and your confidence level actually increases. Fix your body you can actually fix anything in this world.
 
-
+***
 
 {% embed url="https://bhavaniravi.substack.com/embed" %}
 Newsletter embed

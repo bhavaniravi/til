@@ -21,7 +21,7 @@ Here are the steps I would recommend
 
 {% embed url="https://youtu.be/1EvaxRIBU-8" %}
 
-
+***
 
 {% embed url="https://bhavaniravi.substack.com/embed" %}
 Newsletter embed

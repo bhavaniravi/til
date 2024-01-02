@@ -46,7 +46,7 @@ with DAG(
 2. Note that the `dest_key` has `{{ds}}` in it. This ensures a new blob is created every time the DAG runs.
 3. You can also pass a python script as a string to `transform_script`
 
-
+***
 
 {% embed url="https://bhavaniravi.substack.com/embed" %}
 Newsletter embed

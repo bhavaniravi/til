@@ -163,7 +163,7 @@ email_task = PythonOperator(
 )
 ```
 
-
+***
 
 Keeping your stakeholders notified would be an important part of any workflow. Emails are the easiest way to achieve that.
 
@@ -173,7 +173,7 @@ Keeping your stakeholders notified would be an important part of any workflow. E
 [sending-email-alerts-in-apache-airflow-with-sendgrid.md](sending-email-alerts-in-apache-airflow-with-sendgrid.md)
 {% endcontent-ref %}
 
-
+***
 
 {% embed url="https://bhavaniravi.substack.com/embed" %}
 Newsletter embed

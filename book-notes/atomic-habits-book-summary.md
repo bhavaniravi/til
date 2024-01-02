@@ -118,7 +118,7 @@ Turns out I have the habit of ripping them off when I work on problems. Some hab
 
 Choosing the right habit is an explore exploit the problem, The book states that not all habits fit you People tend to beat themselves up if they can’t get a habit right but, with the right activity, you do more, the more you do the more it becomes a habit.
 
-
+***
 
 {% embed url="https://bhavaniravi.substack.com/embed" %}
 Newsletter embed

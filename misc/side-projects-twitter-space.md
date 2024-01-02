@@ -73,7 +73,7 @@ You don't. You rest, let your side project also rest and take it up when you gai
 
 [Ask here!](../my-links.md)
 
-
+***
 
 {% embed url="https://bhavaniravi.substack.com/embed" %}
 Newsletter embed

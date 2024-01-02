@@ -237,7 +237,7 @@ The most commonly practiced method in microservice architecture where the authen
 7. [https://www.youtube.com/watch?v=zIhB8LuBA6g](https://www.youtube.com/watch?v=zIhB8LuBA6g)
 8. [https://www.youtube.com/watch?v=SLc3cTlypwM](https://www.youtube.com/watch?v=SLc3cTlypwM)
 
-
+***
 
 {% embed url="https://bhavaniravi.substack.com/embed" %}
 Newsletter embed

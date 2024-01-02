@@ -125,7 +125,7 @@ Design 1.0 arrived from taking the best of 3 and 4. We need a queue to handle or
 1. Redis Storage instead of a DB, making the system scalable for huge traffic
 2. 1 Queue/User instead of a centralized queue
 
-
+***
 
 {% embed url="https://bhavaniravi.substack.com/embed" %}
 Newsletter embed

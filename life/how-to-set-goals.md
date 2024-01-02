@@ -45,7 +45,7 @@ You can change your goal anytime during the course. Just because you made one do
 
 Life is the most uncertain never-ending sea. Goals are the lighthouse that lets you navigate them.
 
-
+***
 
 {% embed url="https://bhavaniravi.substack.com/embed" %}
 Newsletter embed

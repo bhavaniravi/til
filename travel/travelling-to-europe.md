@@ -46,7 +46,7 @@ To be honest, I didn't calculate things to it's last penny. but it came around 3
 
 Get live updates on my travel @ [Instagram](https://instagram.com/bhavaniravi\_)
 
-
+***
 
 {% embed url="https://bhavaniravi.substack.com/embed" %}
 Newsletter embed

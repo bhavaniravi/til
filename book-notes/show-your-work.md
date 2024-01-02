@@ -91,7 +91,7 @@ Teach what you know. Share your trade secrets. There is an intuition that you de
 
 > Make people better at something they wanna be better at
 
-
+***
 
 {% embed url="https://bhavaniravi.substack.com/embed" %}
 Newsletter embed

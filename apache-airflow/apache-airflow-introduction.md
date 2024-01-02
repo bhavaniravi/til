@@ -190,11 +190,11 @@ KubernetesExecutor runs each task in an individual Kubernetes pod. Unlike Celery
 
 1. Kubernetes is new to Airflow, and the documentation is not straightforward.
 
-
+***
 
 Now that we have understood Airflow's basics let's learn how to write our workflow in the next post.
 
-
+***
 
 {% embed url="https://bhavaniravi.substack.com/embed" %}
 Newsletter embed

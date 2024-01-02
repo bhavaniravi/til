@@ -14,7 +14,7 @@ Automatically maps the raw clinical trial data into pre-conformance and conforma
 
 [Saama Technologies](https://www.saama.com)
 
-
+***
 
 {% embed url="https://bhavaniravi.substack.com/embed" %}
 Newsletter embed

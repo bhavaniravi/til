@@ -99,7 +99,7 @@ If you are so ambitious and would love the idea of spending all your time for yo
 
 > No is easier to do, yes is easier to say. No is no to one thing. Yes is no to a thousand things. Promises are easy and cheap to make, actual work is hard and expensive. If it wasn’t, you’d just have done it now rather than promised it later.
 
-
+***
 
 {% embed url="https://bhavaniravi.substack.com/embed" %}
 Newsletter embed

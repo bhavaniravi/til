@@ -49,7 +49,7 @@ The above reasons are why I started building 100Ideas. If you relate to the prob
 
 {% embed url="https://100ideas.in" %}
 
-
+***
 
 {% embed url="https://bhavaniravi.substack.com/embed" %}
 Newsletter embed

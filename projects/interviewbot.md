@@ -13,7 +13,7 @@ A chatbot that automates technical screening interview process, Enabling recruit
 
 [Focus Infotech](https://focusinfotech.com)
 
-
+***
 
 {% embed url="https://bhavaniravi.substack.com/embed" %}
 Newsletter embed

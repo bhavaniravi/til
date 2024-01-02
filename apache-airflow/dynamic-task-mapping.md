@@ -22,7 +22,7 @@ From the looks of it, it might look like a simple feature but since the DAGs and
 
 ### Dynamic Task Mapping
 
-
+***
 
 ```python
 from airflow import DAG
@@ -59,7 +59,7 @@ with DAG(dag_id='mapping_elt',
 * [Official Dynamic Task Mapping documentation](https://airflow.apache.org/docs/apache-airflow/2.3.0/concepts/dynamic-task-mapping.html)
 * [Tutorial from Astronomer](https://www.astronomer.io/guides/dynamic-tasks)
 
-
+***
 
 {% embed url="https://bhavaniravi.substack.com/embed" %}
 Newsletter embed

@@ -28,7 +28,7 @@ Chatbots have found it's place of emerging technology 3 years back in this talk 
 
 {% embed url="https://www.youtube.com/embed/hHNFwpCMppI?start=4" %}
 
-
+***
 
 {% embed url="https://bhavaniravi.substack.com/embed" %}
 Newsletter embed

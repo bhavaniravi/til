@@ -74,13 +74,13 @@ The third idea is all about _playing by your strengths_ even when it looked stup
 
 He knew what he was good at. He knew what the end goal was. He played by his strengths and won the battle.
 
-
+***
 
 When a situation presents itself, look at your options, Look beyond the conventional wisdom. _By putting out advantage, we hide our disadvantage._
 
 The world is filled with David's and Goliath's, neither weak neither strong, trying to co-exist while fighting their own inner battles.
 
-
+***
 
 {% embed url="https://bhavaniravi.substack.com/embed" %}
 Newsletter embed

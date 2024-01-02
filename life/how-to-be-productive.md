@@ -127,7 +127,7 @@ Get a good sleeping routine. I can't even start to explain how fixing my sleep h
 
 Productivity in human beings, unlike machines, is to keep the energy and motivation up. To build momentum to start and finish the projects that we take up. There is no right or wrong way to try these methods. Try each of them, and develop a technique that suits you. Lastly, none of the frameworks will work if you are unwilling to put your part.
 
-
+***
 
 {% embed url="https://bhavaniravi.substack.com/embed" %}
 Newsletter embed

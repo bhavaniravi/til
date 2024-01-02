@@ -32,7 +32,7 @@ If you notice the above symptoms, one common pattern emerges that they feed on t
 
 The only way out is to get out of these patterns. Remember, only you know what you are going through. Only you can help yourself out of it. Don't wait for circumstances to change. Sometimes, you have to take big leaps to change the circumstance to work for you.
 
-
+***
 
 {% embed url="https://bhavaniravi.substack.com/embed" %}
 Newsletter embed

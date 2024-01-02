@@ -30,7 +30,7 @@ Airflow is an opensource platform to create, schedule and monitor workflows. In 
 
 {% embed url="https://www.youtube.com/embed/4VBHUB5jLnk" %}
 
-
+***
 
 {% embed url="https://bhavaniravi.substack.com/embed" %}
 Newsletter embed

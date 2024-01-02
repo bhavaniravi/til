@@ -4,7 +4,7 @@ description: We should preach something more
 
 # "Just Dump your Thoughts" is bad advice
 
-When you want to start writing online, one common advice is, _“**Just dump your thoughts**”._ I'm guilty of suggesting this too. But as I wrote more chapters of the [technical blogging book](http://127.0.0.1:5000/s/90WGyrYL7zgQF3GRGcz8/) and talked to more and more people, I realized something. It’s the most unhelpful advice.
+When you want to start writing online, one common advice is, _“**Just dump your thoughts**”._ I'm guilty of suggesting this too. But as I wrote more chapters of the [technical blogging book](https://app.gitbook.com/o/0RxjQBmFcI1d8MBeQMuS/s/90WGyrYL7zgQF3GRGcz8/) and talked to more and more people, I realized something. It’s the most unhelpful advice.
 
 ### **Empty Advice**
 
@@ -44,7 +44,7 @@ _Let’s expand on **Just Dump your thoughts.**_
 * Notice your thought as it occurs. Do you hear an inner voice? Great,
 * Now open your eyes and give them words
 
-
+***
 
 {% embed url="https://bhavaniravi.substack.com/embed" %}
 Newsletter embed

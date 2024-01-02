@@ -123,7 +123,7 @@ As the system scales and when you adapt to a microservices architecture next set
 7. [https://conferences.xeraa.net/videos/ovUA3r](https://conferences.xeraa.net/videos/ovUA3r)
 8. [How dropbox solves full text search](https://blogs.dropbox.com/tech/2015/03/firefly-instant-full-text-search-engine/)
 
-
+***
 
 {% embed url="https://bhavaniravi.substack.com/embed" %}
 Newsletter embed

@@ -23,7 +23,7 @@ You can call yourself an Airflow Expert after mastering these topics - [Start he
 * Callbacks
 * Email & Notification
 
-
+***
 
 {% embed url="https://bhavaniravi.substack.com/embed" %}
 Newsletter embed

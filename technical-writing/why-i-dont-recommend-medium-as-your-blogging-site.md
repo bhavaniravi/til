@@ -14,7 +14,7 @@ The answer is cross publishing. Once you add the content to your main blog wait 
 
 You can also tweak the blog little bit to route the traffic to your website
 
-
+***
 
 {% embed url="https://bhavaniravi.substack.com/embed" %}
 Newsletter embed
