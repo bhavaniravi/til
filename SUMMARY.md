@@ -66,6 +66,7 @@
   * [What does \_\_new\_\_ function in Python do?](python/advanced-python/what-does-\_\_new\_\_-function-in-python-do.md)
 * [FastAPI](python/fastapi/README.md)
   * [The Pain Of Building a Centralized Error Handler in FastAPI](python/fastapi/the-pain-of-building-a-centralized-error-handler-in-fastapi.md)
+  * [Add Auth Layer to Your FastAPIs](python/fastapi/add-auth-layer-to-your-fastapis.md)
 * [Flask](python/web/flask/README.md)
   * [Quick Start Automation](python/web/flask/quick-start-automation.md)
   * [Build Your 1st Flask App](https://medium.com/bhavaniravi/build-your-1st-python-web-app-with-flask-b039d11f101c)
