@@ -25,13 +25,13 @@ I hear you. Still, you can fit them all on a page.&#x20;
 
 Here is my resume that finally clicked after so many iterations. The resume that helped me line up interviews back to back
 
-<figure><img src="../.gitbook/assets/image (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 ### Skills » About Section
 
 It’s pretty normal to think “About” is the most important section of the resume. How else is the recuriter supposed to know if you fit the role?&#x20;
 
-<figure><img src="../.gitbook/assets/image.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (1).png" alt=""><figcaption></figcaption></figure>
 
 But, the “About section” is a huge blob of text, pretty hard to read. You can do better. Now, think from the shoes of a recruiter: what are they looking for?
 
@@ -42,7 +42,7 @@ Hence, the skills section is the most crucial part of a resume. Adding this sect
 
 Along with the key skills, you can also mention your years of experience if it’s 2+ years.
 
-<figure><img src="../.gitbook/assets/image (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 Common mistakes in this section include
 
@@ -126,3 +126,5 @@ You don’t need fancy layouts(Unless you’re a designer). Keep it simple
 Resume writing is an art and an experiment. A good resume will help you find a dream job that's meant just for you.
 
 If you still have trouble getting it right, [schedule a 1:1 session with me](https://topmate.io/bhavaniravi/686949).
+
+<figure><img src="../.gitbook/assets/image.png" alt="Book your topmate session today"><figcaption></figcaption></figure>

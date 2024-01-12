@@ -58,4 +58,4 @@ Sounds about right...
 
 \#SelfLove
 
-<figure><img src="../.gitbook/assets/image (1) (1) (1).png" alt=""><figcaption><p>A snap from my solo Switzerland trip, where I felt like a snow queen with Eiger Mountains in the background</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (1) (1) (1) (1).png" alt=""><figcaption><p>A snap from my solo Switzerland trip, where I felt like a snow queen with Eiger Mountains in the background</p></figcaption></figure>
