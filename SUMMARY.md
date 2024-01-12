@@ -8,6 +8,7 @@
 
 ## products
 
+* [Refine your Developer Resume](products/refine-your-developer-resume.md)
 * [Apache Airflow Starter Pack](products/apache-airflow-starter-pack.md)
 * [Write Your 1st Blog Post](https://bhavaniravi.gumroad.com/l/technical-blogging)
 * [How to Build a Chatbot?](https://www.linkedin.com/learning/developing-chatbots-with-azure/)

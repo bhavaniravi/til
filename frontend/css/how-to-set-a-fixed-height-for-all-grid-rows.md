@@ -4,7 +4,7 @@ When I was building 100Ideas there was a small requirement that when the ideas g
 
 ### Before
 
-![](<../../.gitbook/assets/image (4) (1).png>)
+![](<../../.gitbook/assets/image (4) (1) (1).png>)
 
 ### After
 

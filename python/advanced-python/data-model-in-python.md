@@ -151,7 +151,7 @@ In this case the reference count of value "avc" is 2
 
 Now let's update the value of b and see what happens `b = "ram`"
 
-![Memory representation when the object is updated](<../../.gitbook/assets/image (3).png>)
+![Memory representation when the object is updated](<../../.gitbook/assets/image (3) (1).png>)
 
 You can see that the reference to old value is removed and a new reference is maintained
 

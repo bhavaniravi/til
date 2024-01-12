@@ -53,7 +53,7 @@ pytest
 
 Now all tests in the `tests` folder runs.&#x20;
 
-<figure><img src="../.gitbook/assets/image.png" alt=""><figcaption><p>Screenshot of pytest running successfully</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (6).png" alt=""><figcaption><p>Screenshot of pytest running successfully</p></figcaption></figure>
 
 ### Other Pytest Features I love
 

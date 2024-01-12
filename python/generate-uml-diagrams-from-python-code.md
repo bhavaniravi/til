@@ -53,7 +53,7 @@ pyreverse -o png <path_to_src>
 
 The generated image looks something like this. (Click to open)
 
-<figure><img src="../.gitbook/assets/image (6).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (6) (1).png" alt=""><figcaption></figcaption></figure>
 
 ***
 

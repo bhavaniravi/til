@@ -15,7 +15,7 @@ With the starter package, I will work with you as a consultant and help you
 * Design your initial pipelines by following best practices
 * Support to fast-track your development -> Deployment process with Airflow
 
-<figure><img src="../.gitbook/assets/image (2).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (2) (5).png" alt=""><figcaption></figcaption></figure>
 
 The starter pack comes with pre-defined infrastructure spec with terraform and scripts to get your Airflow environment up and running, saving you time and effort; it will also increase the efficiency and reliability of your workflow tasks.
 

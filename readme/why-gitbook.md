@@ -65,7 +65,7 @@ Another alarming thing was that I wasn't writing under my domain name, which mea
 
 Until now, I haven't considered static site generators because I knew I could not stop tweaking them. But by the end of the Medium era, I was sure that was the only option. There was also a need at work to learn ReactJS. I thought, why not put both together? It took me about 3 months to build the site Gatsby and host it on Netlify.
 
-<figure><img src="../.gitbook/assets/image (4).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (4) (1).png" alt=""><figcaption></figcaption></figure>
 
 It had a nice landing page; it had a blog page that looked exactly like Medium, which I took a tonne of time to build. All the content was in markdown. So I wrote them on either VSCode or Hackmd.io.
 
