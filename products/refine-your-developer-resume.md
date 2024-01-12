@@ -1,34 +1,39 @@
+---
+description: Seize Stunning Opportunites with a Stunning Resume
+---
+
 # Refine your Developer Resume
 
 Layoffs are at an all-time high. Hiring is at an all-time low.
 
-Hiring is expected to go up as the new year rolls in and you can see it already for the senior roles.
+Hiring is expected to increase as the new year rolls in, and you can already see it in for the senior roles. It is the perfect time to refine your resume and be ready to apply once the doors open full and wide.
 
-People are buckling up and getting their resumes refined so that they’re ready to apply once the doors open full and wide.
+I have been in your shoes, trying different templates, tweaks, and keywords; despite all that, the interview call never came until… I switched to my current resume. There are a few things that I think made it work. The more I shared it with people, the more it made sense to them.
 
-It’s been a week with Topmate, and I have already reviewed 6+ resumes.
+It’s been a week with Topmate, and I have reviewed 6+ resumes. [Based on the resumes I have reviewed](https://topmate.io/bhavaniravi/686949) and my personal experience, I have compiled some of the tips that worked for other people.
 
-I have been in your shoes, trying different templates, tweaks, and keywords; despite all that, the interview call never came until… I switched to my current resume. There are a few things that I think made it work. The more I shared it with people, the more it made sense for them
-
-<figure><img src="../.gitbook/assets/image (3).png" alt=""><figcaption></figcaption></figure>
-
-[Based on the resumes I have reviewed](https://topmate.io/bhavaniravi/686949) and my personal experience, here are some tips and tricks
+<figure><img src="../.gitbook/assets/image (3).png" alt=""><figcaption><p>Testimonials on topmate</p></figcaption></figure>
 
 ### One-Page Only
 
-This might be a no-brainer, but you won’t believe the number of people whose resume overflows one page. But you’re 7+ years experienced or switched too many jobs? I fall into both categories. I hear you. Still, you can fit them all on a page.
+This might be a no-brainer, but you won’t believe the number of people whose resume overflows one page. But what if you have enough experience and projects to showcase?&#x20;
 
-How? - Limit your description to the absolute best. Think how I can crunch my experience in as few words as possible.
+I hear you. Still, you can fit them all on a page.&#x20;
 
-Two-column layout. Even better, keep one column smaller than the other. Yes, you can stuff so much in such a short page. Miracle.
+* Limit your description to the absolute best. Crunch your experience in as few words as possible.
+* Two-column layout. Even better, keep one column smaller than the other. Yes, you can stuff so much in such a short page. Miracle.
 
-<figure><img src="../.gitbook/assets/image.png" alt=""><figcaption></figcaption></figure>
+Here is my resume that finally clicked after so many iterations. The resume that helped me line up interviews back to back
+
+<figure><img src="../.gitbook/assets/image (1).png" alt=""><figcaption></figcaption></figure>
 
 ### Skills » About Section
 
-It’s pretty normal to think “About” is the most important section of the resume. How else is the recuriter supposed to know if you fit the role? But usually “About section” is a huge blob of text, pretty hard to read.
+It’s pretty normal to think “About” is the most important section of the resume. How else is the recuriter supposed to know if you fit the role?&#x20;
 
-Now, think from the shoes of a recruiter: what are they looking for?
+<figure><img src="../.gitbook/assets/image.png" alt=""><figcaption></figcaption></figure>
+
+But, the “About section” is a huge blob of text, pretty hard to read. You can do better. Now, think from the shoes of a recruiter: what are they looking for?
 
 * Your skillset
 * Your experience
@@ -37,14 +42,14 @@ Hence, the skills section is the most crucial part of a resume. Adding this sect
 
 Along with the key skills, you can also mention your years of experience if it’s 2+ years.
 
-<figure><img src="../.gitbook/assets/image (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 Common mistakes in this section include
 
 * Overstuffing with too many skills
 * Adding irrelevant skills: If you’re applying for backend, drop HTML, CSS
 * Drop the basics. If you have ReactJS experience. Drop JS from the list.
-* You don’t have to group them necessarily
+* You don’t have to group.&#x20;
 
 ### Work Experience
 
@@ -52,20 +57,18 @@ What’s wrong with the following section?
 
 <figure><img src="../.gitbook/assets/image (2).png" alt=""><figcaption></figcaption></figure>
 
-* A resume's job is to highlight you and your skill set. Something as simple as swapping the company's name with the Position you held will make a huge difference.
+* A resume's job is to highlight "you" and your skill set. Something as simple as swapping the company's name with the Position you held will make a huge difference.
 
-```markdown
-Lead Developer Advocate                  (Contract)Dozer - April 2023 - July 2023
+<pre class="language-markdown"><code class="lang-markdown">Lead Developer Advocate(Contract)                      Dozer - April 2023 - July 2023
 
 
 - Led initiatives to improve developer onboarding and engagement using Dozer.
 - Created sample applications using Dozer and other data engineering tools.
 - Developed a detailed content strategy, including podcasts, documentation, and collaborations.
-- Managed GitHub, forums, and Discord community for Dozer developers.
-- Spoke at over 4+ conferences/meetups, and contributed to Dozer's documentation.Provided feedback to engineering teams on Dozer usability and developer experience.Performed product management roles, communicated with engineers for feature releases.Created tutorials, managed online engagement on platforms like Reddit, Twitter, Hacker News.Blogs and sample apps available at: Dev.to profile and Dozer Samples.Tech stack: Python, React, Dozer, Kafka, Data engineering tools, Docusaurus
-```
+<strong>
+</strong></code></pre>
 
-* Highlight the business and the use case. I see so many resumes, which doesn’t have a tint about the project or the product they worked on.
+* Highlight the business and the use case. I see so many resumes that don’t have a tint about the project or the product they worked on and jump directly into the tech stack. Setting the context is important and helps people grasp the value of your work.
 * Mentioning the project has two advantages for you
   * It will communicate that you are a business-driven developer
   * It will give recruiters an understanding of the kind of work you do.
@@ -87,11 +90,11 @@ If you are from a 2nd or 3rd-tier college (an Indian term), mention your univers
 
 ### Experience Outside a Job
 
-I see a common misconception, especially with juniors, that their resume can’t be strong without work experience.
+I see a common misconception, especially with juniors, is that their resume can’t be strong without work experience.
 
 Experience != No of years
 
-Anytime you get out of your comfort zone, it is experienced, and anytime it’s recognized by an external party. This can be via a freelance gig, an open-source project, or an internship.
+Anytime you get out of your comfort zone, it is experience, and **anytime it’s recognized by an external party**. This can be via a freelance gig, an open-source project, or an internship.
 
 <figure><img src="../.gitbook/assets/image (5).png" alt=""><figcaption></figcaption></figure>
 
@@ -105,7 +108,7 @@ You don’t need fancy layouts(Unless you’re a designer). Keep it simple
 
 ### Using ChatGPT
 
-* ChatGPT is a tool that can work for or against you depending on how you use it
+* ChatGPT is a tool that can work for or against you, depending on your use.
 * Don’t expect ChatGPT to write everything for you. Without proper prompting, Chatgpt responses are bland and lifeless.
 * What can we do about it?
   * Write out in as much detail about your work experience as possible
@@ -120,4 +123,6 @@ You don’t need fancy layouts(Unless you’re a designer). Keep it simple
 * During the interview, look where the questions are coming from your resume. What draws the most attention?
 * Do you want that section to be in the limelight? If not, change things.
 
-Resume writing is an art and an experiment. A good resume might be what’s keeping you from that line-up of interviews. If you still have trouble getting it right, [schedule a 1:1 session with me](https://topmate.io/bhavaniravi/686949).
+Resume writing is an art and an experiment. A good resume will help you find a dream job that's meant just for you.
+
+If you still have trouble getting it right, [schedule a 1:1 session with me](https://topmate.io/bhavaniravi/686949).

@@ -47,7 +47,7 @@ All the built-in objects are loaded into the program via `__builtins__` namespac
 dir(__builtins__) # will print a huge list
 ```
 
-<figure><img src="../../.gitbook/assets/image (1) (1) (1).png" alt=""><figcaption><p>Global namespace vs Builtins illustration</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (1) (1) (1) (1).png" alt=""><figcaption><p>Global namespace vs Builtins illustration</p></figcaption></figure>
 
 ### Global Namespace
 
