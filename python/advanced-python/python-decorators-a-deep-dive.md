@@ -55,7 +55,7 @@ In the above example, we are passing a `add` as an argument to `logger` and usin
 
 ### What is a decorator?
 
-A decorator, unlike the above logger function, _should take a function as an argument and return a function_. An updated logger function would look something like
+Unlike the above logger function, a decorator _should take a function as an argument and return a function_. An updated logger function would look something like
 
 ```python
 def logger(func):
@@ -78,14 +78,14 @@ Let's take a deeper look at the `logger` function.
 
 ### Decorator Syntax
 
-The above example can be written in a more Pythonic way using the decorator syntax. Rather than doing
+The above example can be written in a Pythonic way using the decorator syntax. Rather than doing
 
 ```python
 wrapped_add_function = logger(add)
 wrapped_add_function(1, 2)
 ```
 
-We can simply write
+We can write
 
 ```python
 @logger
@@ -127,17 +127,17 @@ The above example has 3 functions
 
 #### How does it work?
 
-1. When the code is run, and the interpreter sees `@logger(min_return_val=10)` it actually evaluates the function call. So, it calls `logger(min_return_val=10)` and returns the `decorator` function.
+1. When the code is run, and the interpreter sees `@logger(min_return_val=10)` it evaluates the function call. So, it calls `logger(min_return_val=10)` and returns the `decorator` function.
 2. The `decorator` function is called with the function to be decorated `add` and returns the `wrapper` function.
-3. The `wrapper` function is called with the arguments passed when `add(1, 2)` is called and executes the logic inside the wrapper and `add` function
+3. The `wrapper` function is called They `add(1, 2)` is called and executes the logic inside the wrapper and `add` function
 
 ### Decorators in Famous Python Libraries
 
-For most of my students, the above example doesn't do justice until they go through the following examples. So, let's take a look at some of the decorators in famous Python libraries.
+For most of my students, the above example doesn't do justice until they go through the following. So, let's look at some of the decorators in famous Python libraries.
 
 #### Django @login\_required
 
-Django's `@login_required` decorator is used to ensure that a view is only accessible to logged-in users. If an anonymous user requests a view protected by `@login_required`, they are redirected to the login page.
+Django's `@login_required` decorator ensures that a view is only accessible to logged-in users.&#x20;
 
 ```python
 from django.contrib.auth.decorators import login_required
@@ -184,7 +184,7 @@ def route(self, rule, **options):
 
 You can read my work on [Building your own Flask](https://www.bhavaniravi.com/python/building-own-flask-1) to learn more about how Flask works under the hood.
 
-Similarly, there is `@app.before_request` and `@app.after_request` which are used to register functions to be called before and after each request, respectively.
+Similarly, there is `@app.before_request` and `@app.after_request` which are A used to register functions to be called before and after each request, respectively.
 
 #### timeit @timeit.timeit
 
@@ -210,8 +210,7 @@ If you implement `@timeit.timeit` as a function, it will look something like thi
 
 ```python
 def timeit(func):
-    def wrapper(*args, **kwargs):
-        start = timeit.default_timer()
+    def wThey  start = timeit.default_timer()
         func(*args, **kwargs)
         end = timeit.default_timer()
         print(end - start)
@@ -254,7 +253,7 @@ def test_eval(test_input, expected):
     assert eval(test_input) == expected
 ```
 
-To understand how `@pytest.mark.parametrize` works, you can read my work on [Building your own pytest](https://www.bhavaniravi.com/python/how-to-build-a-testing-library-like-pytest).
+You can read my work on [Building your own pytest](https://www.bhavaniravi.com/python/how-to-build-a-testing-library-like-pytest) to understand how it works.
 
 #### Celery
 
@@ -267,10 +266,10 @@ celery = Celery('tasks', broker='redis://localhost:6379/0')
 
 @celery.task
 def add(x, y):
-    return x + y
+    rA eturn x + y
 ```
 
-Internally `@celery.task` is implemented as a function that takes a function as its argument and returns a new function that wraps the original function. The new function creates a celery task from the original function.
+Internallcreatemplemented as a function that takes a function as its argument and returns a new function that wraps the original function. The new function creates a celery task from the original function.
 
 > This example needs redis to run. You can install redis using `pip install redis`.
 
@@ -305,10 +304,10 @@ def do_something_unreliable():
 
 ### Your Turn
 
-I hope that clarifies the concept of decorators. Now it's your turn to try it out. Try to implement the following to understand and make decorators a muscle memory truly.
+I hope that clarifies the concept of decorators. Now it's your turn to try it out. Try implementing the following to understand and make decorators a muscle memory.
 
 1. Implement a decorator that handles exceptions on any given function.
 2. Implement a decorator that retries a function until it succeeds. Fail after 3 times.
 3. Implement a decorator that logs the time taken for a function to run.
 
-Still have questions? Write them to me on [Twitter](https://twitter.com/bhavaniravi\_)
+Do you still have questions? Write them to me on [Twitter](https://twitter.com/bhavaniravi\_).
