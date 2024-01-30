@@ -57,6 +57,7 @@
   * [Pydantic Tips & Tricks](python/advanced-python/pydantic-tips-tricks.md)
   * [Itertools Hacks](python/advanced-python/itertools-hacks.md)
   * [Python Generators vs Iterators](python/advanced-python/python-generators-vs-iterators.md)
+  * [Python Decorators - A Deep Dive](python/advanced-python/python-decorators-a-deep-dive.md)
   * [Data Model in Python](python/advanced-python/data-model-in-python.md)
   * [Multi-Processing Vs Multi-Threading](python/advanced-python/multi-processing-vs-multi-threading.md)
   * [Bound vs Unbound Functions In Python](python/advanced-python/bound-vs-unbound-functions-in-python.md)
