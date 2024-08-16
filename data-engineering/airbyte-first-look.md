@@ -1,5 +1,4 @@
 ---
-description: Should you use Airbyte for your ELT usecase?
 title: Airbyte - First Look
 sub_title: Should you use Airbyte for your ELT usecase?
 slug: airbyte-first-look
@@ -7,8 +6,8 @@ tags:
   - data-engineering
 featuredImgPath: 
 isexternal: true
-published_date: "2023-07-07"
-created_date: "2023-06-30"
+published_date: '2023-07-07'
+created_date: '2023-06-30'
 draft: false
 description: >-
     Businesses produce and accumulate data. Before making sense of this data, we must bring them to a centralized place—a data lake. Whenever you can think of data, movement tools like Fivetran comes into the picture.
