@@ -4,7 +4,7 @@
 
 I am a Software Engineer and Trainer focusing on building Backend, Data Engineering, and DevOps systems.
 
-* For the past 6 years, I have built **backend/Data/Devops** Systems in **Python**
+* For the past 8 years, I have built **backend/Data/Devops** Systems in **Python**
 * I use _**React & Javascript**_ for my frontend projects
 * I've also dabbled with the _**DevOps**_ side of things
   * Deploying web apps in **AWS/GCP** in **Docker/Kubernetes/Terraform** infrastructure
@@ -15,10 +15,10 @@ I am a Software Engineer and Trainer focusing on building Backend, Data Engineer
 
 * Strategic solutions/Architecting **Backend/Data/DevOps** systems
 * Feasibility analysis to find what data tool for your use case
-* Data pipelines design and deployment using **Apache Airflow**
+* Data pipeline design and deployment using **Apache Airflow**
 * _In_frastructure or code review                                             &#x20;
 
-### &#x20;    [  Book a Discovery Call](https://forms.gle/ACvWfm1nDBpdHXed9)&#x20;
+### [       Book a Discovery Call ](https://topmate.io/bhavaniravi/736455)
 
 ### Working With Me
 
@@ -28,9 +28,8 @@ I am a Software Engineer and Trainer focusing on building Backend, Data Engineer
 
 ### Community & Training
 
-* I love sharing what I learn via blogs, youtube, and tech talks. I also run online Bootcamps & Workshops.
-* [**Invite me to speak**](https://forms.gle/ACvWfm1nDBpdHXed9)
-* I've been a part of [build2learn.in](https://build2learn.in) and Google Developers Group
+* [**Invite me to speak**](https://topmate.io/bhavaniravi/686953/pay)
+* I've been a part of Build2Learn and Google Developers Group Chennai
 
 ### Non-Technically Me
 
