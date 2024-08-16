@@ -8,11 +8,11 @@
 
 ## products
 
-* [Refine your Developer Resume](products/refine-your-developer-resume.md)
-* [PythonToProject - Course](https://bhavaniravi.gumroad.com/l/LaFSj)
-* [Apache Airflow Starter Pack](products/apache-airflow-starter-pack.md)
-* [How to Build a Chatbot?](https://www.linkedin.com/learning/developing-chatbots-with-azure/)
-* [Python Pandas Essentials](https://www.guvi.in/courses/pandasEng?itm\_source=bhavaniravi.com)
+- [Refine your Developer Resume](products/refine-your-developer-resume.md)
+- [PythonToProject - Course](https://bhavaniravi.gumroad.com/l/LaFSj)
+- [Apache Airflow Starter Pack](products/apache-airflow-starter-pack.md)
+- [How to Build a Chatbot?](https://www.linkedin.com/learning/developing-chatbots-with-azure/)
+- [Python Pandas Essentials](https://www.guvi.in/courses/pandasEng?itm_source=bhavaniravi.com)
 
 ## About Me
 
@@ -49,42 +49,6 @@
 
 ## Python
 
-<<<<<<< HEAD
-* [What are the Best Resources to Learn Python in 2023(or any year)?](python/what-are-the-best-resources-to-learn-python.md)
-* [Building OwnFlask - A Flask(like) Python Framework](python/building-own-flask-1.md)
-* [How to Build a Testing Library Like Pytest?](python/how-to-build-a-testing-library-like-pytest.md)
-* [Advanced Python](python/advanced-python/README.md)
-  * [Pydantic Tips & Tricks](python/advanced-python/pydantic-tips-tricks.md)
-  * [Itertools Hacks](python/advanced-python/itertools-hacks.md)
-  * [Python Generators vs Iterators](python/advanced-python/python-generators-vs-iterators.md)
-  * [Data Model in Python](python/advanced-python/data-model-in-python.md)
-  * [Multi-Processing Vs Multi-Threading](python/advanced-python/multi-processing-vs-multi-threading.md)
-  * [Bound vs Unbound Functions In Python](python/advanced-python/bound-vs-unbound-functions-in-python.md)
-  * [Unbound Variables in Python](python/advanced-python/unbound-variables-in-python.md)
-  * [Python Namespaces & Variable Scope](python/advanced-python/python-namespaces.md)
-  * [GIL](python/advanced-python/gil.md)
-  * [Python Position and Keyword Only Arguments](python/advanced-python/python-position-and-keyword-only-arguments.md)
-  * [What does \_\_new\_\_ function in Python do?](python/advanced-python/what-does-\_\_new\_\_-function-in-python-do.md)
-* [FastAPI](python/fastapi/README.md)
-  * [The Pain Of Building a Centralized Error Handler in FastAPI](python/fastapi/the-pain-of-building-a-centralized-error-handler-in-fastapi.md)
-  * [Add Auth Layer to Your FastAPIs](python/fastapi/add-auth-layer-to-your-fastapis.md)
-* [Flask](python/web/flask/README.md)
-  * [Quick Start Automation](python/web/flask/quick-start-automation.md)
-  * [Build Your 1st Flask App](https://medium.com/bhavaniravi/build-your-1st-python-web-app-with-flask-b039d11f101c)
-  * [Deploy Flask App in Heroku](https://thelearning.dev/deploying-flask-app-with-heroku)
-  * [JWT Bases Authentication In Python + Flask](python/web/flask/jwt-bases-authentication-in-python-+-flask.md)
-  * [ORM in Python Flask](python/flask/orm-in-python-flask.md)
-  * [Migrating to Flask-SQLAlchemy 3.0](python/flask/migrating-to-flask-sqlalchemy-3.0.md)
-* [What is \_\_name\_\_ == "\_\_main\_\_" in Python?](python/what-is-\_\_name\_\_-\_\_main\_\_-in-python.md)
-* [How to get past Beginner Stage in Python?](https://thelearning.dev/how-to-get-past-beginner-stage-in-python)
-* [How to Generate UML Diagrams from Python Source Code?](python/generate-uml-diagrams-from-python-code.md)
-* [UML isn't Dead](python/uml-isnt-dead.md)
-* [Merging Python Modules](python/merge-python-module-script.md)
-* [Are your Secrets Safe In Python?](python/secrets-as-python-file.md)
-* [Asynchronous Task Execution In Python](python/asynchronous-task-execution-in-python.md)
-* [Caching in Python](python/caching-in-python.md)
-* [Debugging MakerLog](python/debugging-makerlog.md)
-=======
 - [What are the Best Resources to Learn Python in 2023(or any year)?](python/what-are-the-best-resources-to-learn-python.md)
 - [Building OwnFlask - A Flask(like) Python Framework](python/building-own-flask-1.md)
 - [How to Build a Testing Library Like Pytest?](python/how-to-build-a-testing-library-like-pytest.md)
@@ -118,7 +82,6 @@
 - [Asynchronous Task Execution In Python](python/asynchronous-task-execution-in-python.md)
 - [Caching in Python](python/caching-in-python.md)
 - [Debugging MakerLog](python/debugging-makerlog.md)
->>>>>>> b119f6b (add dlt hub first look blog)
 
 ## Software Engineering
 
@@ -126,6 +89,7 @@
 - [Strangler Fig Pattern](software-engineering/strangler-fig-pattern.md)
 - [How to Do Code Reviews?](software-engineering/how-to-do-code-reviews.md)
 - [Challenges in Full-Text Search](software-engineering/challenges-in-full-text-search.md)
+- [JSONata 101](software-engineering/JSONata-Guide.md)
 - [Git & GitHub](software-engineering/git-and-github/README.md)
   - [Git Rebase](software-engineering/git-and-github/git-rebase.md)
   - [Best Resource to Learn Git & Github](https://skills.github.com/)
