@@ -16,11 +16,11 @@ If you don't have either of those it's completely fine show your capable of fina
 
 All credits goes to my friend in Berlin who helped me in every step of the way. Given this is my first ever trip anywhere not just international having someone like that came handy. I did learn a few tricks from my friend
 
-* Open a calender and broadly put places to the dates
-* Check if the transport and stay matches i.e., you need to find resoanable stay vs flight price
-* Book transport to match the dates
-* Book stay closer to the city but since it was europe commute wasn't a huge deal
-* Open Google travel and mark the places you want to visit, they get added to google maps
+- Open a calender and broadly put places to the dates
+- Check if the transport and stay matches i.e., you need to find resoanable stay vs flight price
+- Book transport to match the dates
+- Book stay closer to the city but since it was europe commute wasn't a huge deal
+- Open Google travel and mark the places you want to visit, they get added to google maps
 
 That's it you're all set
 
@@ -44,9 +44,9 @@ Last year ie., in 2021 I decided to take a career break because I was burned out
 
 To be honest, I didn't calculate things to it's last penny. but it came around 3.5 Lakhs including flights
 
-Get live updates on my travel @ [Instagram](https://instagram.com/bhavaniravi\_)
+Get live updates on my travel @ [Instagram](https://instagram.com/bhavanicodes)
 
-***
+---
 
 {% embed url="https://bhavaniravi.substack.com/embed" %}
 Newsletter embed
