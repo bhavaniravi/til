@@ -1,3 +1,13 @@
+---
+added: Nov 28 2022
+description: null
+layout: ../layouts/BlogPost.astro
+slug: migrating-to-flask-sqlalchemy-3
+tags:
+- flask
+title: Migrating to Flask-SQLAlchemy 3.0
+---
+
 # Migrating to Flask-SQLAlchemy 3.0
 
 > Change is the only thing that doesn't change. It's true even for software systems.&#x20;
@@ -11,4 +21,3 @@ Recently they released 3.0, but there is not much information about the migratio
 This post is a WIP. Please bear with me until I publish this.
 
 {% @mailchimp/mailchimpSubscribe cta="Don't miss any blogs. No spam, ever." %}
-

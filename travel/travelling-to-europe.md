@@ -1,3 +1,13 @@
+---
+added: Aug 04 2022
+description: null
+layout: ../layouts/BlogPost.astro
+slug: travelling-to-europe
+tags:
+- travel
+title: Travelling To Europe
+---
+
 # Travelling To Europe
 
 In April 2022, I traveled to 4 countries and 7 cities across Europe. I will be updating this section with more of the experience. I have already collected some questions. Answers will be posted soon.

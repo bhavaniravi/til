@@ -1,3 +1,13 @@
+---
+added: Aug 13 2022
+description: null
+layout: ../layouts/BlogPost.astro
+slug: how-i-built-my-digital-garden
+tags:
+- start-here
+title: How I built my Digital Garden
+---
+
 # How I built my Digital Garden
 
 Consider this more of a public digital garden. For an entry to enter this private place, it has to stay in my second brain(note-taking system) long enough for me to write 200-300 words about it.

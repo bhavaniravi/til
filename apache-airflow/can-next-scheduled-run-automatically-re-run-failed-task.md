@@ -1,3 +1,13 @@
+---
+added: Aug 13 2022
+description: null
+layout: ../layouts/BlogPost.astro
+slug: can-next-scheduled-run-automatically-re-run-failed-task
+tags:
+- apache-airflow
+title: Can Next Scheduled Run Automatically Re-Run failed Task?
+---
+
 # Can Next Scheduled Run Automatically Re-Run failed Task?
 
 No and Yes.

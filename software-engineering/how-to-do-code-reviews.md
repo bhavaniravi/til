@@ -1,3 +1,13 @@
+---
+added: Aug 04 2022
+description: null
+layout: ../layouts/BlogPost.astro
+slug: how-to-do-code-reviews
+tags:
+- software-engineering
+title: How to Do Code Reviews?
+---
+
 # How to Do Code Reviews?
 
 ### Code Quality

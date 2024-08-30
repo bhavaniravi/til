@@ -1,3 +1,13 @@
+---
+added: Feb 14 2023
+description: null
+layout: ../layouts/BlogPost.astro
+slug: life-lessons-after-a-depressive-episode
+tags:
+- life
+title: Life Lessons After a Depressive Episode
+---
+
 # Life Lessons After a Depressive Episode
 
 2020 and 2021 wasn't great year for me. It took the whole of 2022 and a lot of therapy to get back on track with life, mental, Physical, emotional, and financial health.&#x20;
@@ -26,4 +36,3 @@ Looking back, I have seen myself grow 100x as a person. Values remain the same, 
 * Learn to be in your comfort zone. Always hustling is not healthy behavior. You will never stop.
 * Learn to be in silence with yourself; you will learn a lot about you
 * Take yourself on dates
-

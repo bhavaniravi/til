@@ -1,3 +1,13 @@
+---
+added: Aug 04 2022
+description: null
+layout: ../layouts/BlogPost.astro
+slug: why-i-dont-recommend-medium-as-your-blogging-site
+tags:
+- technical-writing
+title: Why I Don't Recommend Medium as Your Blogging Site
+---
+
 # Why I Don't Recommend Medium as Your Blogging Site
 
 Medium has a great reader base, amazing interface to write and publish. But I would suggest not to use medium as your primary blog.

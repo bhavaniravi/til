@@ -1,3 +1,13 @@
+---
+added: Jan 11 2023
+description: null
+layout: ../layouts/BlogPost.astro
+slug: docker-cli-cheatsheet
+tags:
+- devops
+title: Docker CLI Cheatsheet
+---
+
 # Docker CLI Cheatsheet
 
 ### How to get exit code of a docker container?

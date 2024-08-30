@@ -1,3 +1,13 @@
+---
+added: Aug 13 2022
+description: null
+layout: ../layouts/BlogPost.astro
+slug: database-101
+tags:
+- software-engineering
+title: Types of Databases & When to Use them
+---
+
 # Types of Databases & When to Use them
 
 Databases are _**knowledge**_ _**gods**_ of our application (Fun term right? Yeah I think so too). And just like gods Databases are many, we have so many options to choose from.

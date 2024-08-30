@@ -1,3 +1,13 @@
+---
+added: Sep 06 2023
+description: null
+layout: ../layouts/BlogPost.astro
+slug: the-pain-of-building-a-centralized-error-handler-in-fastapi
+tags:
+- fastapi
+title: The Pain Of Building a Centralized Error Handler in FastAPI
+---
+
 # The Pain Of Building a Centralized Error Handler in FastAPI
 
 **Disclaimer 1**

@@ -1,3 +1,13 @@
+---
+added: Aug 15 2022
+description: null
+layout: ../layouts/BlogPost.astro
+slug: bound-vs-unbound-functions-in-python
+tags:
+- advanced-python
+title: Bound vs Unbound Functions In Python
+---
+
 # Bound vs Unbound Functions In Python
 
 Let's start with a simple Python class Calculator with add method

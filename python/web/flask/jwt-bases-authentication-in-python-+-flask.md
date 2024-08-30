@@ -1,3 +1,13 @@
+---
+added: Aug 15 2022
+description: null
+layout: ../layouts/BlogPost.astro
+slug: jwt-bases-authentication-in-python-+-flask
+tags:
+- flask
+title: JWT Bases Authentication In Python + Flask
+---
+
 # JWT Bases Authentication In Python + Flask
 
 I have compiled the theory of all [Authentication methods in the blog](https://bhavaniravi.com/blog/authentication-in-python/)

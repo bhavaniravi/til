@@ -1,3 +1,13 @@
+---
+added: Aug 04 2022
+description: null
+layout: ../layouts/BlogPost.astro
+slug: when-to-use-flask-vs-django
+tags:
+- django
+title: When to Use Flask vs Django?
+---
+
 # When to Use Flask vs Django?
 
 ### Use Flask When
@@ -17,4 +27,3 @@
 * Django has strong bounds around how to struture your project
 * Django has a steep learning curve
 * Django provides tooling for authentication, email, messaging etc., out of the box
-

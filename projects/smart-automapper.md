@@ -1,3 +1,13 @@
+---
+added: Sep 26 2022
+description: null
+layout: ../layouts/BlogPost.astro
+slug: smart-automapper
+tags:
+- projects
+title: Smart Automapper
+---
+
 # Smart Automapper
 
 Automatically maps the raw clinical trial data into pre-conformance and conformance format

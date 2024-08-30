@@ -1,3 +1,13 @@
+---
+added: Sep 21 2022
+description: null
+layout: ../layouts/BlogPost.astro
+slug: traveling-to-leh-ladhak
+tags:
+- travel
+title: Traveling to Leh Ladhak
+---
+
 # Traveling to Leh Ladhak
 
 I traveled to Leh in August 2022. When I visited Switzerland, my friend mentioned that Leh is like the Switzerland of India. I didn't put much thought into it because I wasn't big of a mountain person. Leh wasn't even on the top 10 of my visiting list. But In August, some of my friends from GDG Chennai attended a yearly summit and extended the trip for 7 days. That was my cue. I decided I will make the trip 10 days. Will spend the 1st 3 days exploring the city solo and join my gang for the next 7.

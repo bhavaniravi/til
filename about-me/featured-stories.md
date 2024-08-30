@@ -1,3 +1,13 @@
+---
+added: Sep 26 2022
+description: null
+layout: ../layouts/BlogPost.astro
+slug: featured-stories
+tags:
+- about-me
+title: Featured Stories
+---
+
 # Featured Stories
 
 {% embed url="https://yourstory.com/herstory/2019/05/women-tech-stem-bhavani-ravi-hackerrank" %}

@@ -1,3 +1,13 @@
+---
+added: Sep 26 2022
+description: null
+layout: ../layouts/BlogPost.astro
+slug: smart-data-query
+tags:
+- projects
+title: Smart Data Query
+---
+
 # Smart Data Query
 
 Finding Discrepencey in Clinical trials data, the project was used for Pfizer COVID vaccine trials.

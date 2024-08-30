@@ -1,3 +1,13 @@
+---
+added: Aug 04 2022
+description: null
+layout: ../layouts/BlogPost.astro
+slug: apache-airflow-+-mongodb
+tags:
+- apache-airflow
+title: Apache Airflow + MongoDB
+---
+
 # Apache Airflow + MongoDB
 
 ### Run Mongo Docker Container

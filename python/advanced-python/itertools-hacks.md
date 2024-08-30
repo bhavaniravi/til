@@ -1,3 +1,13 @@
+---
+added: Aug 15 2022
+description: null
+layout: ../layouts/BlogPost.astro
+slug: itertools-hacks
+tags:
+- advanced-python
+title: Itertools Hacks
+---
+
 # Itertools Hacks
 
 ### Avoiding nested loops

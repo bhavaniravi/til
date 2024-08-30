@@ -1,3 +1,13 @@
+---
+added: Aug 04 2022
+description: null
+layout: ../layouts/BlogPost.astro
+slug: how-to-make-your-1st-opensource-contribution
+tags:
+- open-source
+title: How to Make Your 1st OpenSource Contribution
+---
+
 # How to Make Your 1st OpenSource Contribution
 
 You have been hearing good things about OSS.

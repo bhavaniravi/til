@@ -1,3 +1,13 @@
+---
+added: Aug 04 2022
+description: null
+layout: ../layouts/BlogPost.astro
+slug: data-model-in-python
+tags:
+- advanced-python
+title: Data Model in Python
+---
+
 # Data Model in Python
 
 > First you learn to program, then you learn the programming language. \
@@ -162,4 +172,3 @@ Things get interesting when objects are deleted. Let's say we are deleting b wit
 ![](<../../.gitbook/assets/image (5) (1).png>)
 
 **Garbage collector** goes through them and removes all the values in the memory for which the reference count is 0
-

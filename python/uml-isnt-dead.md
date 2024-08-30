@@ -1,3 +1,13 @@
+---
+added: Feb 15 2023
+description: null
+layout: ../layouts/BlogPost.astro
+slug: uml-isnt-dead
+tags:
+- python
+title: UML isn't Dead
+---
+
 # UML isn't Dead
 
 If you’ve studied software design at the university, there is no chance you missed UML diagrams. But, _“when did you last use UML diagrams?”_ and the answer unanimously came across as _“UML is pretty much dead_, _I used sequence diagrams occasionally, and that’s pretty much it”._ I did some research, and I found some interesting stuff. Buckle up and hold on as we go through this ride.

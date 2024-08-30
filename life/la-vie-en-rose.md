@@ -1,3 +1,13 @@
+---
+added: Mar 04 2023
+description: null
+layout: ../layouts/BlogPost.astro
+slug: la-vie-en-rose
+tags:
+- life
+title: La Vie En Rose
+---
+
 # La Vie En Rose
 
 A song as old as Indian Independence.&#x20;

@@ -1,3 +1,13 @@
+---
+added: Oct 28 2022
+description: null
+layout: ../layouts/BlogPost.astro
+slug: how-to-design-a-chatbot-system-architecture
+tags:
+- software-engineering
+title: How to Design a Chatbot System Architecture
+---
+
 # How to Design a Chatbot System Architecture
 
 ### Requirements

@@ -1,3 +1,13 @@
+---
+added: Aug 13 2022
+description: null
+layout: ../layouts/BlogPost.astro
+slug: sending-email-alerts-in-apache-airflow-with-sendgrid
+tags:
+- apache-airflow
+title: Sending Email Alerts in Apache Airflow with Sendgrid
+---
+
 # Sending Email Alerts in Apache Airflow with Sendgrid
 
 Airflow is the automation tool used to create and manage reproducible data pipelines. There are specific mechanisms to send alerts to users when there is an error when executing these pipelines.

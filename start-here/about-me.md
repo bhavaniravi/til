@@ -1,3 +1,13 @@
+---
+added: Aug 04 2022
+description: null
+layout: ../layouts/BlogPost.astro
+slug: about-me
+tags:
+- start-here
+title: Work With Me
+---
+
 # Work With Me
 
 #### Hi 👋🏻, I am Bhavani Ravi

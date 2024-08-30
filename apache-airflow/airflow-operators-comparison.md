@@ -1,18 +1,17 @@
 ---
-title: Airflow Operators - A Comparison
-sub_title: Comparison between Python, Docker and Kubernetes Airflow Operator
-slug: airflow-operators-comparison
-tags:
-  - apache-airflow
+created_date: '2021-01-10'
+description: Airflow provides a variety of operators to couple your business logic
+  into executable tasks in a workflow. Often times it is confusing to decide when
+  to use what. In this article we will discuss the p
+draft: false
 featuredImgPath: https://i.imgur.com/UvlPSAW.png
 isexternal: true
 published_date: '2021-01-12'
-created_date: '2021-01-10'
-draft: false
-description: >-
-  Airflow provides a variety of operators to couple your business logic into
-  executable tasks in a workflow. Often times it is confusing to decide when to
-  use what. In this article we will discuss the p
+slug: airflow-operators-comparison
+sub_title: Comparison between Python, Docker and Kubernetes Airflow Operator
+tags:
+- apache-airflow
+title: Airflow Operators - A Comparison
 ---
 
 # Airflow Operators - A Comparison

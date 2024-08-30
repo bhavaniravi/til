@@ -1,3 +1,13 @@
+---
+added: Aug 04 2022
+description: null
+layout: ../layouts/BlogPost.astro
+slug: what-are-the-best-resources-to-learn-python
+tags:
+- python
+title: What are the Best Resources to Learn Python in 2023(or any year)?
+---
+
 # What are the Best Resources to Learn Python in 2023(or any year)?
 
 It doesn't matter what resource you pick. Just pick 1 and stick with it every day for a week. If things doesn't make sense use the online forums for help.

@@ -1,3 +1,13 @@
+---
+added: Oct 28 2022
+description: null
+layout: ../layouts/BlogPost.astro
+slug: how-to-fast-track-your-learning
+tags:
+- life
+title: How to Fast-track Your Learning?
+---
+
 # How to Fast-track Your Learning?
 
 ### Know your Why!

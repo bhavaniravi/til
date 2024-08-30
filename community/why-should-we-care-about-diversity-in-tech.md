@@ -1,3 +1,13 @@
+---
+added: Jun 12 2023
+description: null
+layout: ../layouts/BlogPost.astro
+slug: why-should-we-care-about-diversity-in-tech
+tags:
+- community
+title: Why Should We Care about Diversity in Tech?
+---
+
 # Why Should We Care about Diversity in Tech?
 
 > There are so many womenintech and diversity programs to motivate underrepresented people but why are they not showing interest despite so much effort being put in by the communities?

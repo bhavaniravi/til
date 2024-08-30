@@ -1,3 +1,13 @@
+---
+added: Aug 04 2022
+description: null
+layout: ../layouts/BlogPost.astro
+slug: kubernetespodoperator-vs
+tags:
+- apache-airflow
+title: KubernetesPodOperator vs. KubernetesExecutor
+---
+
 # KubernetesPodOperator vs. KubernetesExecutor
 
 ### KubernetesExecutor
