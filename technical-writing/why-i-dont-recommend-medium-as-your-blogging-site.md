@@ -23,9 +23,3 @@ Whereas when you use sites like medium where you are just a username and not a d
 The answer is cross publishing. Once you add the content to your main blog wait for 3-7 days import the blog to medium. Now it will be added as a canonical post linking to your original site.
 
 You can also tweak the blog little bit to route the traffic to your website
-
-***
-
-{% embed url="https://bhavaniravi.substack.com/embed" %}
-Newsletter embed
-{% endembed %}

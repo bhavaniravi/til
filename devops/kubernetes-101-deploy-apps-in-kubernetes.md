@@ -28,7 +28,7 @@ The advantage of using a container is that it's OS independent, lightweight, shi
 
 Yes, Kubernetes is too much to wrap your head around. So let's take it to step by step.
 
-***
+---
 
 ## Kubernetes Resources
 
@@ -44,12 +44,12 @@ Once the application is running inside the Pod, you will expose it to the outsid
 
 With that, we have got a high-level understanding of the most used Kubernetes keywords
 
-* Pod
-* Deployment
-* Service
-* Node
-* Cluster
-* Namespace
+- Pod
+- Deployment
+- Service
+- Node
+- Cluster
+- Namespace
 
 We will see more resources as we go along this journey. For now, let's see how to set up a cluster and expose it using the resources mentioned earlier on Digitalocean.
 
@@ -91,9 +91,9 @@ doctl auth init -t $DO_TOKEN
 
 Now for the fun part. What do you need to deploy?
 
-* Dockerized sample application
-* Kubectl access
-* Kubernetes spec
+- Dockerized sample application
+- Kubectl access
+- Kubernetes spec
 
 Let's do this one by done.
 
@@ -229,9 +229,3 @@ kubectl get logs -f <pod-name>
 ```
 
 We have just nicked the surface of Kubernetes. You can create a custom resource with other resources, and there is this whole unexplored territory of how Kubernetes works internally. We will explore all of these in the upcoming articles.
-
-***
-
-{% embed url="https://bhavaniravi.substack.com/embed" %}
-Newsletter embed
-{% endembed %}

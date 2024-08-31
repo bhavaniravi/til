@@ -35,8 +35,8 @@ Conventional tasks queues have two programs (a producer and a consumer) with a d
 
 **Disadvantages**
 
-* Maintaining tasks on a DB table means that the table grows based on the number of tasks. It becomes complicated when the DB grows so much that we have to deal the problem of scaling.
-* For every consumer that's free it queries the DB with task flag `Scheduled`, to fetch a scheduled task that it can run. The querying becomes costly as the size of the DB grows.
+- Maintaining tasks on a DB table means that the table grows based on the number of tasks. It becomes complicated when the DB grows so much that we have to deal the problem of scaling.
+- For every consumer that's free it queries the DB with task flag `Scheduled`, to fetch a scheduled task that it can run. The querying becomes costly as the size of the DB grows.
 
 ## Cron
 
@@ -299,10 +299,4 @@ I referred to a whole bunch of links and read through all the documentation befo
 6. [Celery Vs RQ](https://stackoverflow.com/questions/13440875/pros-and-cons-to-use-celery-vs-rq)
 7. [https://www.fullstackpython.com/task-queues.html](https://www.fullstackpython.com/task-queues.html)
 8. [https://www.youtube.com/watch?v=nrzLdMWTRMM](https://www.youtube.com/watch?v=nrzLdMWTRMM)
-9. [Google Task Queue vs Pub/Sub](https://groups.google.com/d/msg/google-appengine/IcIjLfgnNXs/-m\_ik7h6DgAJ)
-
-***
-
-{% embed url="https://bhavaniravi.substack.com/embed" %}
-Newsletter embed
-{% endembed %}
+9. [Google Task Queue vs Pub/Sub](https://groups.google.com/d/msg/google-appengine/IcIjLfgnNXs/-m_ik7h6DgAJ)

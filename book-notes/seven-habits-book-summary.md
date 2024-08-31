@@ -50,10 +50,10 @@ People look at the world from the paradigms or mental models they built from the
 
 #### List of Character Ethics
 
-* Equity
-* Justice
-* Integrity
-* Honesty
+- Equity
+- Justice
+- Integrity
+- Honesty
 
 Stephen calls this an inside-out approach
 
@@ -61,15 +61,15 @@ Stephen calls this an inside-out approach
 
 ### Private Victory
 
-* Being Proactive
-* Taking Initiative
-* Being Resourceful
+- Being Proactive
+- Taking Initiative
+- Being Resourceful
 
 #### Circle of Concern vs Infulence
 
-> * direct control (problems involving our behavior);
-> * indirect control (problems involving other people's behavior);
-> * no control (problems we can do nothing about, such as our past or situational realities)
+> - direct control (problems involving our behavior);
+> - indirect control (problems involving other people's behavior);
+> - no control (problems we can do nothing about, such as our past or situational realities)
 
 1. What is the current problem
 2. What is the expected long-term outcome
@@ -164,12 +164,6 @@ Do the above reflections more than once and convert them into a personal mission
 
 > “No one can hurt you without your consent.”
 
-***
+---
 
 I would never stop here; I would buy the book, I would read and re-read it again and again until I master the seven habits and it becomes a part of me and who I am.
-
-***
-
-{% embed url="https://bhavaniravi.substack.com/embed" %}
-Newsletter embed
-{% endembed %}

@@ -74,9 +74,9 @@ Now that we have understood the attributes of a team player, let's come back to 
 
 ### Are you an Ideal Team Player?
 
-If your ego jumps up right away and says you are there is a good chance you lack humility and a lot of hunger proving that you are not one. If you got offended at this point and planning to quit the blog proves the same :D :D. So it is always good to know where we stand, the book comes with a [bunch of questions for you to asses yourself](https://www.tablegroup.com/imo/media/doc/IdealTeamPlayerSelfAsssesment\(11\)NEW.pdf).
+If your ego jumps up right away and says you are there is a good chance you lack humility and a lot of hunger proving that you are not one. If you got offended at this point and planning to quit the blog proves the same :D :D. So it is always good to know where we stand, the book comes with a [bunch of questions for you to asses yourself](<https://www.tablegroup.com/imo/media/doc/IdealTeamPlayerSelfAsssesment(11)NEW.pdf>).
 
-Now there is a good chance you might go overboard with yourselves. That's when your team comes in. [Ask you, team, to do an assessment for you](https://www.tablegroup.com/imo/media/doc/IdealTeamPlayerManagerAsssessment\(7\)NEW.pdf).
+Now there is a good chance you might go overboard with yourselves. That's when your team comes in. [Ask you, team, to do an assessment for you](<https://www.tablegroup.com/imo/media/doc/IdealTeamPlayerManagerAsssessment(7)NEW.pdf>).
 
 #### Don't Get Demotivated
 
@@ -84,14 +84,8 @@ Though facing the reality is hard, don't put yourself down when the results are 
 
 ### Building an Ideal Team
 
-When you decide that you need only ideal team players in your team then a good filtering process would be at the interviews. Along with technical interviews find where they stand in the Venn diagram. [Here is a questionnaire you can use to spot the good ones](https://www.tablegroup.com/imo/media/doc/IdealTeamPlayerINTERVIEWQUESTIONS\(11\)singlepages.pdf).
+When you decide that you need only ideal team players in your team then a good filtering process would be at the interviews. Along with technical interviews find where they stand in the Venn diagram. [Here is a questionnaire you can use to spot the good ones](<https://www.tablegroup.com/imo/media/doc/IdealTeamPlayerINTERVIEWQUESTIONS(11)singlepages.pdf>).
 
-***
+---
 
 No one is born as a team player. Just like walking, cycling and painting being a team player is also an acquired skill. Also, most of us have almost 2 of the above qualities working on that lacking segment gives us the unfair advantage of becoming and being that _ideal team player_.
-
-***
-
-{% embed url="https://bhavaniravi.substack.com/embed" %}
-Newsletter embed
-{% endembed %}

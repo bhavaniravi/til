@@ -40,9 +40,9 @@ David refuses to use any of the weapons offered by his army. He resided to use h
 
 Conventional wisdom dictates that courage alone is enough to fight and defeat the giants of this world. The book begins by questioning that takeaway of that story.
 
-* Was Goliath as mighty as he looked?
-* Was it just the courage that made David come forward?
-* How could a stone in a slingshot make a person drop dead?
+- Was Goliath as mighty as he looked?
+- Was it just the courage that made David come forward?
+- How could a stone in a slingshot make a person drop dead?
 
 On asking these questions, the missing pieces of the story come to light.
 
@@ -78,14 +78,8 @@ The third idea is all about _playing by your strengths_ even when it looked stup
 
 He knew what he was good at. He knew what the end goal was. He played by his strengths and won the battle.
 
-***
+---
 
 When a situation presents itself, look at your options, Look beyond the conventional wisdom. _By putting out advantage, we hide our disadvantage._
 
 The world is filled with David's and Goliath's, neither weak neither strong, trying to co-exist while fighting their own inner battles.
-
-***
-
-{% embed url="https://bhavaniravi.substack.com/embed" %}
-Newsletter embed
-{% endembed %}

@@ -21,7 +21,7 @@ title: Docker - Virtualization vs Containerization
 
 When the internet became a thing, we started hosting things on bare metal servers. In the last five years, we have moved from there to this fancy thing called Docker that changed our lives.
 
-So far, we have discussed various [aspects of the DevOps system](https://youtu.be/m31asTwC\_s8) and [Docker's what, why, and how](../blog/docker-introduction/). To delve deeper into Docker's internals, we need to understand a few operating system terms.
+So far, we have discussed various [aspects of the DevOps system](https://youtu.be/m31asTwC_s8) and [Docker's what, why, and how](../blog/docker-introduction/). To delve deeper into Docker's internals, we need to understand a few operating system terms.
 
 Oh no! It sounds boring! I thought so too, but actually, it's not. But to make our lives easier, we are only going to learn two things.
 
@@ -73,12 +73,6 @@ UFS enables you to combine multiple storage devices and behaves like single stor
 
 UFS in Docker is the core of keeping it lightweight. When running a Docker container, instead of creating a copy of the whole image with its files, Let's say (3 GB), Docker creates a copy-on-write layer that has access to all the files.
 
-***
+---
 
 Docker is one of the most powerful tools to ship and deliver software. While celebrating that, we shouldn't forget the predecessor inventions that went in at the OS level that made Docker possible
-
-***
-
-{% embed url="https://bhavaniravi.substack.com/embed" %}
-Newsletter embed
-{% endembed %}

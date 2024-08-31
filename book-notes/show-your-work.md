@@ -60,12 +60,12 @@ We all know that sinking feeling before hitting that submit/publish button, righ
 
 Make it a habit to send out a daily dispatch of your work. Became a documentarian of what you do. Whatever the nature of your work, there are people interested in what you do **everyday**
 
-* Start a project, Do.
-* Start a work journal.
-* Journal your thoughts
-* Journal your process
-* Journal your problems
-* Take pictures of your work at different times
+- Start a project, Do.
+- Start a work journal.
+- Journal your thoughts
+- Journal your process
+- Journal your problems
+- Take pictures of your work at different times
 
 Use this as your source of daily dispatch. Remember you are doing this for yourself, not for others.
 
@@ -89,18 +89,12 @@ Initial days of your creative work, go ahead and share as much as possible. Shar
 
 The act of sharing should come from generosity.
 
-* Is this helpful?
-* Is this entertaining?
-* Am I comfortable with others seeing my work?
+- Is this helpful?
+- Is this entertaining?
+- Am I comfortable with others seeing my work?
 
 Share stuff because you like the content, not for the eyeballs.
 
 Teach what you know. Share your trade secrets. There is an intuition that you develop through years and years of practice. Teaching doesn't mean instant competition just because someone knows how you do things. They can't become you. The minute you learn something, turn around and teach it.
 
 > Make people better at something they wanna be better at
-
-***
-
-{% embed url="https://bhavaniravi.substack.com/embed" %}
-Newsletter embed
-{% endembed %}

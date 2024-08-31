@@ -16,19 +16,13 @@ I deployed maintained and built the data pipelines to pull data from different s
 
 ## Tech Stack
 
-* Airflow
-* Flask
-* Postgres
-* Docker
-* Kubernetes
-* AWS EKS & GCP's GKE
+- Airflow
+- Flask
+- Postgres
+- Docker
+- Kubernetes
+- AWS EKS & GCP's GKE
 
 ## Client
 
 [Saama Technologies](https://www.saama.com)
-
-***
-
-{% embed url="https://bhavaniravi.substack.com/embed" %}
-Newsletter embed
-{% endembed %}

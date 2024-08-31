@@ -17,9 +17,3 @@ It was one of my most memorable trips. The thrills of driving in the middle of t
 I will update this section with more information about the places we visited and how we planned.
 
 For now, Let's Leh
-
-***
-
-{% embed url="https://bhavaniravi.substack.com/embed" %}
-Newsletter embed
-{% endembed %}

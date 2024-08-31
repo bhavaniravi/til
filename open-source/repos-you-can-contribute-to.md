@@ -19,9 +19,3 @@ These are some projects I come across and want to see more contributions to. Som
 {% embed url="https://github.com/Stigmatoz/web-activity-time-tracker/" %}
 
 {% embed url="https://github.com/learn-anything/learn-anything" %}
-
-***
-
-{% embed url="https://bhavaniravi.substack.com/embed" %}
-Newsletter embed
-{% endembed %}

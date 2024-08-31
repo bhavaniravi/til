@@ -135,9 +135,3 @@ Airflow currently does not support `email_on_sucess`. The only way to achieve th
 {% embed url="https://bhavaniravi.substack.com/embed" %}
 Newsletter embed
 {% endembed %}
-
-***
-
-{% embed url="https://bhavaniravi.substack.com/embed" %}
-Newsletter embed
-{% endembed %}

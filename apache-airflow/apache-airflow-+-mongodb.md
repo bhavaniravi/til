@@ -77,9 +77,3 @@ Create a s3 bucket
 ```jsx
 aws --endpoint-url=http://localhost:4566 s3 mb s3://notes
 ```
-
-***
-
-{% embed url="https://bhavaniravi.substack.com/embed" %}
-Newsletter embed
-{% endembed %}

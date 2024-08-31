@@ -32,8 +32,8 @@ In both cases, the application acts as a user and performs the action(Tweeting/A
 
 1. The client application registers itself to the OAuth provider. In the case of Tweet scheduler, the application is registered with Twitter
 2. When a user starts using the client application, they are requested to authorize the application to act on behalf of the user
-3. Once the user approves and provides necessary permission, an access\_token is generated with expiry
-4. This access\_token will be used by the client application in the future to perform actions on behalf of the user
+3. Once the user approves and provides necessary permission, an access_token is generated with expiry
+4. This access_token will be used by the client application in the future to perform actions on behalf of the user
 
 ## Auth0 and Oauth2
 
@@ -80,7 +80,7 @@ All the information required to create the connection can be found in the provid
 
 The major difference between a pre-existing provider vs. a custom provider is the ability of Auth0 to fetch user information. Since the API response of the custom provider can be in different formats, you need to write a small node snippet to read the response and return the access token.
 
-Auth0 provides you a snippet of the `fetchUserProfile` function, which will be called with the acess\_token once the user approves the client to have certain permissions. Using this token, you need to call the user profile API to return `user_id` and `email`(optional)
+Auth0 provides you a snippet of the `fetchUserProfile` function, which will be called with the acess_token once the user approves the client to have certain permissions. Using this token, you need to call the user profile API to return `user_id` and `email`(optional)
 
 While the snippet provides a basic skeleton, you need to customize it according to the API and responses of the provider API.
 
@@ -147,9 +147,3 @@ To provide all this, Auth0 has a [Weblog Extension](https://auth0.com/docs/exten
 To test the connection, click on `Try Connection` at the top of the screen. If everything worked well so far, you would receive an `It works!` message.
 
 ![](https://i.imgur.com/EmKOUHj.png)
-
-***
-
-{% embed url="https://bhavaniravi.substack.com/embed" %}
-Newsletter embed
-{% endembed %}

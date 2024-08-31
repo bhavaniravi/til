@@ -28,16 +28,16 @@ Though being the major component of an application, the chances of you building 
 When thinking about authentication, the common imagery people have is a login HTML page submitting data to a backend API cross checking it with a data in a DB? Well, though it covers the bare bones of an authentication system. There is more to it which we would discuss in the rest of the blog.
 
 1. Types of Authentication
-   * [Basic](authentication-in-python.md#basic-authentication)
-   * [Digest Based Authentication](authentication-in-python.md#digest-based-authentication)
-   * [Cookie/Session Based](authentication-in-python.md#cookiesession-based-authentication)
-   * [Token Based](authentication-in-python.md#token-based-authentication)
-   * [SSO](authentication-in-python.md#sso)
-   * [Oauth2](authentication-in-python.md#oauth2)
-   * [Two Factor Authentication](authentication-in-python.md#two-factor-authentication)
+   - [Basic](authentication-in-python.md#basic-authentication)
+   - [Digest Based Authentication](authentication-in-python.md#digest-based-authentication)
+   - [Cookie/Session Based](authentication-in-python.md#cookiesession-based-authentication)
+   - [Token Based](authentication-in-python.md#token-based-authentication)
+   - [SSO](authentication-in-python.md#sso)
+   - [Oauth2](authentication-in-python.md#oauth2)
+   - [Two Factor Authentication](authentication-in-python.md#two-factor-authentication)
 2. [Authorization](authentication-in-python.md#authorization)
-   * Access Control
-   * Types Of Access Control
+   - Access Control
+   - Types Of Access Control
 3. [Which authentication method to use?](authentication-in-python.md#which-authentication-method-should-you-choose)
 4. [Designing a distributed auth system](authentication-in-python.md#authentication-in-a-distributed-system)
 
@@ -107,15 +107,15 @@ Cookie/Session based authentication is the most commonly used in web apps. Yes, 
 
 ### Advantages
 
-* We no longer set the password in every request making the window for attacks smaller.
-* Enables state maintenance in a stateless system. Cookies maintain the state that the user is already logged in.
-* Can revoke the validity of a cookie anytime.
+- We no longer set the password in every request making the window for attacks smaller.
+- Enables state maintenance in a stateless system. Cookies maintain the state that the user is already logged in.
+- Can revoke the validity of a cookie anytime.
 
 ### Disadvantages
 
-* Cookie based authentication is suitable only for Single domain system. If you want both a web and a mobile app or may be a separate client server, then you got to deal with CSRF.
-* Prone to XSS and CSRF attacks since the cookie is available for other apps to read
-* You need to store the session information in a DB which also brings in the question of scale
+- Cookie based authentication is suitable only for Single domain system. If you want both a web and a mobile app or may be a separate client server, then you got to deal with CSRF.
+- Prone to XSS and CSRF attacks since the cookie is available for other apps to read
+- You need to store the session information in a DB which also brings in the question of scale
 
 ## Token Based Authentication
 
@@ -238,9 +238,3 @@ The most commonly practiced method in microservice architecture where the authen
 6. [https://habiletechnologies.com/blog/pros-cons-using-authentication/](https://habiletechnologies.com/blog/pros-cons-using-authentication/)
 7. [https://www.youtube.com/watch?v=zIhB8LuBA6g](https://www.youtube.com/watch?v=zIhB8LuBA6g)
 8. [https://www.youtube.com/watch?v=SLc3cTlypwM](https://www.youtube.com/watch?v=SLc3cTlypwM)
-
-***
-
-{% embed url="https://bhavaniravi.substack.com/embed" %}
-Newsletter embed
-{% endembed %}

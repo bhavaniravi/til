@@ -14,17 +14,11 @@ A reporting platform that enables users to create reports for their workflows cr
 
 ## Tech Stack
 
-* Flask
-* MongoDB
-* Pandas
-* Docker
+- Flask
+- MongoDB
+- Pandas
+- Docker
 
 ## Client
 
 [Kissflow](https://kissflow.com)
-
-***
-
-{% embed url="https://bhavaniravi.substack.com/embed" %}
-Newsletter embed
-{% endembed %}

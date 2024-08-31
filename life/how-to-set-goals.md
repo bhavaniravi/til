@@ -47,9 +47,3 @@ Here is a framework I follow,
 You can change your goal anytime during the course. Just because you made one doesn't mean you have to stick with it for eternity. If you don't enjoy the process no point sticking to it
 
 Life is the most uncertain never-ending sea. Goals are the lighthouse that lets you navigate them.
-
-***
-
-{% embed url="https://bhavaniravi.substack.com/embed" %}
-Newsletter embed
-{% endembed %}

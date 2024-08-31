@@ -66,7 +66,7 @@ Kubeflow focuses on the pipeline orchestration of the ML process. Whereas in dat
 
 1\. Create a GitHub repo
 
-2\. Create assets directory for \`data\`, \`models\`, \`raw\_data\`, \`features.\`
+2\. Create assets directory for \`data\`, \`models\`, \`raw_data\`, \`features.\`
 
 3\. \`dvc init\`
 
@@ -87,9 +87,3 @@ Every time you run the DVC pipeline, the model gets versioned along with the dat
 3\. On the init script, do a \`dvc pull\`
 
 The DVC remote S3/GCS should be accessible by the Kubernetes cluster
-
-***
-
-{% embed url="https://bhavaniravi.substack.com/embed" %}
-Newsletter embed
-{% endembed %}

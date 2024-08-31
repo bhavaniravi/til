@@ -56,9 +56,3 @@ People usually brainstorm when they can't visually comprehend an idea. Tools lik
 The above reasons are why I started building 100Ideas. If you relate to the problem Try 100Ideas now
 
 {% embed url="https://100ideas.in" %}
-
-***
-
-{% embed url="https://bhavaniravi.substack.com/embed" %}
-Newsletter embed
-{% endembed %}

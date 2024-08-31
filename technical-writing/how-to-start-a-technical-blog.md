@@ -20,9 +20,3 @@ title: How to Start a Technical Blog?
 8. For each of the 3 sections write 5 points.
 9. Re-read it, add images illustrations whatever you need to support the content
 10. Hit publish. Don't over think
-
-***
-
-{% embed url="https://bhavaniravi.substack.com/embed" %}
-Newsletter embed
-{% endembed %}

@@ -30,9 +30,3 @@ Here are the steps I would recommend
 ### How I made my 1st OSS Contribution?
 
 {% embed url="https://youtu.be/1EvaxRIBU-8" %}
-
-***
-
-{% embed url="https://bhavaniravi.substack.com/embed" %}
-Newsletter embed
-{% endembed %}

@@ -105,9 +105,3 @@ KubernetesPodOperator(
 ### Cons:
 
 Complex on the infrastructure, since it uses docker and Kubernetes.
-
-***
-
-{% embed url="https://bhavaniravi.substack.com/embed" %}
-Newsletter embed
-{% endembed %}

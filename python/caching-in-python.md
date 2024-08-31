@@ -73,11 +73,11 @@ This method swaps the advantage and disadvantage of _Write through_. Though writ
 
 Write the data directly to the storage and load the cache only when the data is read.
 
-* **Advantages**
-  * A cache is not overloaded with data that is not read immediately after a write
-  * Reduces the latency of the write-through method
-* **Disadvantages**
-  * Reading recently written data will cause a cache miss and is not suitable for such use-cases.
+- **Advantages**
+  - A cache is not overloaded with data that is not read immediately after a write
+  - Reduces the latency of the write-through method
+- **Disadvantages**
+  - Reading recently written data will cause a cache miss and is not suitable for such use-cases.
 
 ## Cache Eviction Policies
 
@@ -199,12 +199,6 @@ With that, We have covered what caches are, when to use one and how to implement
 
 1. [You’re Probably Wrong About Caching](https://msol.io/blog/tech/youre-probably-wrong-about-caching/)
 2. [Caching - Full Stack Python](https://www.fullstackpython.com/caching.html)
-3. [Redis Vs Memcache](https://medium.com/@Alibaba\_Cloud/redis-vs-memcached-in-memory-data-storage-systems-3395279b0941)
+3. [Redis Vs Memcache](https://medium.com/@Alibaba_Cloud/redis-vs-memcached-in-memory-data-storage-systems-3395279b0941)
 4. [Caching - A Trip Down the Rabbit Hole](https://www.youtube.com/watch?v=bIWnQ3F1eLA)
 5. [All About Caching](https://www.mnot.net/blog/caching/)
-
-***
-
-{% embed url="https://bhavaniravi.substack.com/embed" %}
-Newsletter embed
-{% endembed %}

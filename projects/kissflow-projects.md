@@ -14,16 +14,10 @@ Trello like Project management suite for Kissflow Digital workspace product. Thi
 
 ## Tech Stack
 
-* Flask
-* MongoDB
-* Docker
+- Flask
+- MongoDB
+- Docker
 
 ## Client
 
 [Kissflow](https://kissflow.com)
-
-***
-
-{% embed url="https://bhavaniravi.substack.com/embed" %}
-Newsletter embed
-{% endembed %}

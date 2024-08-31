@@ -18,11 +18,11 @@ When you want to start writing online, one common advice is, _“**Just dump you
 
 The sad part is the internet is full of it.
 
-* Wake up early
-* Workout daily
-* Journal everyday
-* Mediate
-* …
+- Wake up early
+- Workout daily
+- Journal everyday
+- Mediate
+- …
 
 Now all of these are great advice and life-changing habits. Empty advice without actionable takeaways leads us nowhere, instead creating a sense of scarcity among us
 
@@ -46,14 +46,8 @@ This mental model helped me plan my other trips with ease. There were cases wher
 
 _Let’s expand on **Just Dump your thoughts.**_
 
-* Open an empty piece of paper or a document.
-* Set a timer for 5 minutes
-* Close your eyes
-* Notice your thought as it occurs. Do you hear an inner voice? Great,
-* Now open your eyes and give them words
-
-***
-
-{% embed url="https://bhavaniravi.substack.com/embed" %}
-Newsletter embed
-{% endembed %}
+- Open an empty piece of paper or a document.
+- Set a timer for 5 minutes
+- Close your eyes
+- Notice your thought as it occurs. Do you hear an inner voice? Great,
+- Now open your eyes and give them words

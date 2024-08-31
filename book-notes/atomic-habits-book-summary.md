@@ -35,10 +35,10 @@ I was skeptical when I saw all the hype the book was creating when it came to th
 
 ## What I liked about the book?
 
-* The book is short, crisp and to the point.
-* The chapters are just 5-7 minutes long making it easy to read
-* Every chapter starts with a title that induces interest followed by a story, that puts things in perspective before reading the actual content
-* The ideas and perspective in the book are new. For eg., Instead of punishing ourselves for eating junk, watching television, overusing social media, James clear points out an alternative perspective of how we are all the victims of billions of dollars spent by these companies.
+- The book is short, crisp and to the point.
+- The chapters are just 5-7 minutes long making it easy to read
+- Every chapter starts with a title that induces interest followed by a story, that puts things in perspective before reading the actual content
+- The ideas and perspective in the book are new. For eg., Instead of punishing ourselves for eating junk, watching television, overusing social media, James clear points out an alternative perspective of how we are all the victims of billions of dollars spent by these companies.
 
 ## Techniques to build Good habits
 
@@ -70,10 +70,10 @@ Call up a friend and tell them you are going to quit/finish something and if you
 
 Keep the good habit triggers closer and bad habit triggers far far away.
 
-* Put your gym clothes on
-* Never roll up your gym mat
-* Have books lying around you
-* Hide the cigarettes or even better lock it
+- Put your gym clothes on
+- Never roll up your gym mat
+- Have books lying around you
+- Hide the cigarettes or even better lock it
 
 ### Goldilocks Rule - To Stay motivated
 
@@ -118,9 +118,3 @@ Turns out I have the habit of ripping them off when I work on problems. Some hab
 ## Ready for some Good Habits?
 
 Choosing the right habit is an explore exploit the problem, The book states that not all habits fit you People tend to beat themselves up if they can’t get a habit right but, with the right activity, you do more, the more you do the more it becomes a habit.
-
-***
-
-{% embed url="https://bhavaniravi.substack.com/embed" %}
-Newsletter embed
-{% endembed %}
