@@ -1,5 +1,13 @@
 ---
-description: We should preach something more
+added: Dec 12 2022
+draft: false
+image: null
+layout: ../layouts/BlogPost.astro
+slug: just-dump-your-thoughts-is-bad-advice
+sub_title: We should preach something more
+tags:
+- technical-writing
+title: '"Just Dump your Thoughts" is bad advice'
 ---
 
 # "Just Dump your Thoughts" is bad advice

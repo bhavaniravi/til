@@ -1,15 +1,19 @@
 ---
-slug: david-and-Goliath-book-summary
-published_date: 2020-03-14T00:00:00.000Z
-created_date: 2020-03-14T00:00:00.000Z
-title: David and Goliath Book Summary
-template: post
+added: Sep 19 2022
+created_date: 2020-03-14 00:00:00+00:00
 draft: false
+featuredImgPath: /media/david-and-golaith.png
+image: null
+isexternal: false
+layout: ../layouts/BlogPost.astro
+published_date: 2020-03-14 00:00:00+00:00
+slug: david-and-Goliath-book-summary
+sub_title: null
 subtitle: The underdogs, misfits and the art of battling giants
 tags:
-  - book-notes
-featuredImgPath: /media/david-and-golaith.png
-isexternal: false
+- book-notes
+template: post
+title: David and Goliath Book Summary
 ---
 
 # David and Goliath Book Summary

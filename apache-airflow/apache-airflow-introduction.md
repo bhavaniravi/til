@@ -1,18 +1,20 @@
 ---
-slug: apache-airflow-introduction
-published_date: 2020-05-28T00:00:00.000Z
-created_date: 2020-05-28T00:00:00.000Z
-title: An Introduction to Apache Airflow
-template: post
+added: Sep 19 2022
+created_date: 2020-05-28 00:00:00+00:00
 draft: false
+featuredImgPath: https://i.imgur.com/lYt622N.png
+image: null
+isexternal: true
+layout: ../layouts/BlogPost.astro
+published_date: 2020-05-28 00:00:00+00:00
+slug: apache-airflow-introduction
+sub_title: Airflow is a platform to programmatically author, schedule, and monitor
+  workflows. In this blog we will underestand the basics of airflow
 subtitle: Introduction to basic airflow concepts
 tags:
-  - apache-airflow
-featuredImgPath: https://i.imgur.com/lYt622N.png
-isexternal: true
-description: >-
-  Airflow is a platform to programmatically author, schedule, and monitor
-  workflows. In this blog we will underestand the basics of airflow
+- apache-airflow
+template: post
+title: An Introduction to Apache Airflow
 ---
 
 # An Introduction to Apache Airflow

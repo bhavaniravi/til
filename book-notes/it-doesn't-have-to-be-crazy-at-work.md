@@ -1,17 +1,20 @@
 ---
-slug: it-doesn't-have-to-be-crazy-at-work
-published_date: 2019-07-24T00:00:00.000Z
-created_date: 2019-07-24T00:00:00.000Z
-title: It Doesn't Have to be Crazy at Work
-template: post
+added: Sep 19 2022
+created_date: 2019-07-24 00:00:00+00:00
 draft: true
-subtitle: >-
-  Guideliness from the book for founders and CEO's on how to run a company
+featuredImgPath: https://images-na.ssl-images-amazon.com/images/I/81nvF-p7odL.jpg
+image: null
+isexternal: true
+layout: ../layouts/BlogPost.astro
+published_date: 2019-07-24 00:00:00+00:00
+slug: it-doesn't-have-to-be-crazy-at-work
+sub_title: null
+subtitle: Guideliness from the book for founders and CEO's on how to run a company
   without chaos
 tags:
-  - book-notes
-featuredImgPath: https://images-na.ssl-images-amazon.com/images/I/81nvF-p7odL.jpg
-isexternal: true
+- book-notes
+template: post
+title: It Doesn't Have to be Crazy at Work
 ---
 
 # It Doesn't Have to be Crazy at Work

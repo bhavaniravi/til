@@ -1,8 +1,15 @@
 ---
-title: Django All-Auth
-slug: django-allauth
+added: Aug 30 2024
 draft: false
-skills: ["code"]
+image: null
+layout: ../layouts/BlogPost.astro
+skills:
+- code
+slug: django-allauth
+sub_title: null
+tags:
+- open-source-contributions
+title: Django All-Auth
 ---
 
 After 2018, I have recently started working on Django for a few projects. One of them came up as a result of hosting my [PythonToProject Bootcamp](https://bhavaniravi.gumroad.com/l/LaFSj) in Gumroad. 

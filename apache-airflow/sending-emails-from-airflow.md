@@ -1,18 +1,20 @@
 ---
-title: How to Send Email Alerts from Airflow?
-sub_title: Email task status or Send reports from Airflow
-slug: sending-emails-from-airflow
-tags:
-  - apache-airflow
-featuredImgPath: https://i.imgur.com/BBjdWBE.png
-isexternal: true
-published_date: '2021-01-10'
+added: Sep 19 2022
 created_date: '2021-01-10'
-draft: false
-description: >-
-  Airflow allows multiple ways to keep the users informed about the status of a
-  task. There is no one size fit all solution when it comes to sending emails
+description: Airflow allows multiple ways to keep the users informed about the status
+  of a task. There is no one size fit all solution when it comes to sending emails
   from airflow. We will deep dive into all the m
+draft: false
+featuredImgPath: https://i.imgur.com/BBjdWBE.png
+image: null
+isexternal: true
+layout: ../layouts/BlogPost.astro
+published_date: '2021-01-10'
+slug: sending-emails-from-airflow
+sub_title: Email task status or Send reports from Airflow
+tags:
+- apache-airflow
+title: How to Send Email Alerts from Airflow?
 ---
 
 # How to Send Email Alerts from Airflow?

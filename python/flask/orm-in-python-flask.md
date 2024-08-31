@@ -1,5 +1,13 @@
 ---
-description: ORM in flask a quick start tutorial
+added: Oct 28 2022
+draft: false
+image: null
+layout: ../layouts/BlogPost.astro
+slug: orm-in-python-flask
+sub_title: ORM in flask a quick start tutorial
+tags:
+- flask
+title: ORM in Python Flask
 ---
 
 # ORM in Python Flask

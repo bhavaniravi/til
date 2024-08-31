@@ -1,18 +1,19 @@
 ---
-slug: kubernetes-101-deploy-apps-in-kubernetes
-title: Deploying Flask Applications in Kubernetes (Digitalocean)
-sub_title: Basics of kubernetes and deploying apps in K8 environment
-tags:
-  - devops
+added: Sep 19 2022
+created_date: 2022-03-06 00:00:00+00:00
+description: The word Kubernetes and the keywords around it are scary for people.
+  In this blog, we will demistify what those words mean and how to deploy a web application
+  in kuberenetes environment
+draft: false
 featuredImgPath: https://i.imgur.com/uTbgOJD.png
 isexternal: true
-published_date: 2022-03-06T00:00:00.000Z
-created_date: 2022-03-06T00:00:00.000Z
-draft: false
-description: >-
-  The word Kubernetes and the keywords around it are scary for people. In this
-  blog, we will demistify what those words mean and how to deploy a web
-  application in kuberenetes environment
+layout: ../layouts/BlogPost.astro
+published_date: 2022-03-06 00:00:00+00:00
+slug: kubernetes-101-deploy-apps-in-kubernetes
+sub_title: Basics of kubernetes and deploying apps in K8 environment
+tags:
+- devops
+title: Deploying Flask Applications in Kubernetes (Digitalocean)
 ---
 
 # Deploying Flask Applications in Kubernetes (Digitalocean)

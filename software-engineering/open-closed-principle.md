@@ -1,5 +1,13 @@
 ---
-description: Open for extension closed for modification
+added: Aug 13 2022
+draft: false
+image: null
+layout: ../layouts/BlogPost.astro
+slug: open-closed-principle
+sub_title: Open for extension closed for modification
+tags:
+- software-engineering
+title: Open-Closed Principle
 ---
 
 # Open-Closed Principle

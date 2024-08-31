@@ -1,18 +1,20 @@
 ---
-title: How to Connect to Custom Oauth2 Provider Using Auth0?
-sub_title: Using Auth0 to connect to different kinds of Oauth2 providers
-slug: custom-oauth2-with-auth0
-tags:
-  - software-engineering
-featuredImgPath: https://i.imgur.com/SBTXhe3.jpg
-isexternal: true
-published_date: 2021-08-24T00:00:00.000Z
-created_date: 2021-08-24T00:00:00.000Z
+added: Sep 19 2022
+created_date: 2021-08-24 00:00:00+00:00
+description: Oauth2 is an authentication protocol that allows external applications
+  to access user data or act as a user. Auth0 is easy to implement, adaptable authentication
+  and authorization platform. It, by def
 draft: false
-description: >-
-  Oauth2 is an authentication protocol that allows external applications to
-  access user data or act as a user. Auth0 is easy to implement, adaptable
-  authentication and authorization platform. It, by def
+featuredImgPath: https://i.imgur.com/SBTXhe3.jpg
+image: null
+isexternal: true
+layout: ../layouts/BlogPost.astro
+published_date: 2021-08-24 00:00:00+00:00
+slug: custom-oauth2-with-auth0
+sub_title: Using Auth0 to connect to different kinds of Oauth2 providers
+tags:
+- software-engineering
+title: How to Connect to Custom Oauth2 Provider Using Auth0?
 ---
 
 # How to Connect to Custom Oauth2 Provider Using Auth0?

@@ -1,18 +1,20 @@
 ---
-title: Pydantic Tips, Tricks and Comparison with Dataclasses and Attrs
-sub_title: Pydantic cool features and what makes it better than Dataclasses and Attrs
-slug: pydantic-tips-tricks
-tags:
-  - python
-featuredImgPath: null
-isexternal: true
-published_date: '2023-07-02'
+added: Jul 02 2023
 created_date: '2023-06-30'
-draft: false
-description: >-
-  Pydantic is a Python library for data validation and settings management using
-  Python-type hinting. In this post, we will look at some of the tips and tricks
+description: Pydantic is a Python library for data validation and settings management
+  using Python-type hinting. In this post, we will look at some of the tips and tricks
   of Pydantic
+draft: false
+featuredImgPath: null
+image: null
+isexternal: true
+layout: ../layouts/BlogPost.astro
+published_date: '2023-07-02'
+slug: pydantic-tips-tricks
+sub_title: Pydantic cool features and what makes it better than Dataclasses and Attrs
+tags:
+- python
+title: Pydantic Tips, Tricks and Comparison with Dataclasses and Attrs
 ---
 
 # Pydantic Tips & Tricks

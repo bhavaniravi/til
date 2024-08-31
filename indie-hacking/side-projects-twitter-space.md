@@ -1,5 +1,13 @@
 ---
-description: I want to build a side project but
+added: Aug 30 2024
+draft: false
+image: null
+layout: ../layouts/BlogPost.astro
+slug: side-projects-twitter-space
+sub_title: I want to build a side project but
+tags:
+- indie-hacking
+title: 'Side Projects: FAQ'
 ---
 
 # Side Projects: FAQ

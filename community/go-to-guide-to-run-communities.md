@@ -1,20 +1,21 @@
 ---
-slug: go-to-guide-to-run-communities
-published_date: 2019-08-16T00:00:00.000Z
-created_date: 2019-08-10T00:00:00.000Z
-title: A Go to Guide to Run a Community
-template: post
+added: Sep 19 2022
+created_date: 2019-08-10 00:00:00+00:00
 draft: false
+featuredImgPath: https://lh3.googleusercontent.com/RSMMSBrEgBAV100oW20d1TIktHN1YBB6fP_4IjRH7uAYz8QDrJ_p_BBJJKvKs6AHeOKhc3kvOWbOTpmy5ehqGOykrXkFqMlcGlmAjyy7NWhVgRclhh5o8HWR2CJ7A8pzsyqz_EelgwDS6wYIxevGOhrZOSIFq0oRET1so51vqa9kGt3JOw653PkduL-0HVuSZB0PcyWFHZ4stOlNY-JMa551yLOVerwnkahEzD5y5ZHg4Txc4LSUtmli0lMtB_Hxhdh3f_pmvYSLBnXez5YyrsQa_dZSDagqNPgt0101RzrVBu8TdRnnNczGCGPQrbQYTTtw_lQ4EIVy55oHCVZrBf-vyFSatYWV9NYVjErUWPt7ziOER7gdlEtwHNth57K214lSGkkUv8GxMlPI9qiyWqiuSrXcPMDR86Rw3QBDrjsb2l5J7CFIF8T30x8G2tMBJDNYDndFcH9d-wMVpVhQNGcnUkj-0fhCvc487rNucErg096gcB0Ky0phGJ7PmRn4QtuXy1PagO0Z200LAKeLv5GgkD7XmQGGiBzHnqKW_RynNzJwR8qZGAIxdD-SCa01eadVDSJniKfFzhysV-WSXTEewICajHiufjxLki8u7WYDrIJOUhVlZhYybHBBqxunrU4CldbbCR5LdFVklRrrN7xifkMR9-qAuAONJJWY5FYt3yGchfJf-iwArRHBT5bg-ud0X0n1gGsJYpzBBsyIj3iRIw=w1052-h789-no
+image: null
+isexternal: true
+layout: ../layouts/BlogPost.astro
+published_date: 2019-08-16 00:00:00+00:00
+slug: go-to-guide-to-run-communities
+sub_title: Community helps a lot of people, and as a lead it is your job to keep the
+  community alive and motivated. But, recently I went throught a burn out, nothing
+  so bad but I was not in a position to keep th
 subtitle: Take a step back and Strategize
 tags:
-  - community
-featuredImgPath: >-
-  https://lh3.googleusercontent.com/RSMMSBrEgBAV100oW20d1TIktHN1YBB6fP_4IjRH7uAYz8QDrJ_p_BBJJKvKs6AHeOKhc3kvOWbOTpmy5ehqGOykrXkFqMlcGlmAjyy7NWhVgRclhh5o8HWR2CJ7A8pzsyqz_EelgwDS6wYIxevGOhrZOSIFq0oRET1so51vqa9kGt3JOw653PkduL-0HVuSZB0PcyWFHZ4stOlNY-JMa551yLOVerwnkahEzD5y5ZHg4Txc4LSUtmli0lMtB_Hxhdh3f_pmvYSLBnXez5YyrsQa_dZSDagqNPgt0101RzrVBu8TdRnnNczGCGPQrbQYTTtw_lQ4EIVy55oHCVZrBf-vyFSatYWV9NYVjErUWPt7ziOER7gdlEtwHNth57K214lSGkkUv8GxMlPI9qiyWqiuSrXcPMDR86Rw3QBDrjsb2l5J7CFIF8T30x8G2tMBJDNYDndFcH9d-wMVpVhQNGcnUkj-0fhCvc487rNucErg096gcB0Ky0phGJ7PmRn4QtuXy1PagO0Z200LAKeLv5GgkD7XmQGGiBzHnqKW_RynNzJwR8qZGAIxdD-SCa01eadVDSJniKfFzhysV-WSXTEewICajHiufjxLki8u7WYDrIJOUhVlZhYybHBBqxunrU4CldbbCR5LdFVklRrrN7xifkMR9-qAuAONJJWY5FYt3yGchfJf-iwArRHBT5bg-ud0X0n1gGsJYpzBBsyIj3iRIw=w1052-h789-no
-isexternal: true
-description: >-
-  Community helps a lot of people, and as a lead it is your job to keep the
-  community alive and motivated. But, recently I went throught a burn out,
-  nothing so bad but I was not in a position to keep th
+- community
+template: post
+title: A Go to Guide to Run a Community
 ---
 
 # A Go to Guide to Run a Community

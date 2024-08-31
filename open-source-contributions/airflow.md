@@ -1,8 +1,16 @@
 ---
-title: Apache Airflow - Data Orchestrator
-slug: airflow
+added: Aug 30 2024
 draft: false
-skills: ["code", "documentation"]
+image: null
+layout: ../layouts/BlogPost.astro
+skills:
+- code
+- documentation
+slug: airflow
+sub_title: null
+tags:
+- open-source-contributions
+title: Apache Airflow - Data Orchestrator
 ---
 
 I have started using Apache Airflow in 2020 as a part of [Smart Data Query](/projects/smart-data-query/) project. It is amazing tool for building distributed data pipelines. It's seamless integration and working with Kubernetes and Docker is what made it the tool of choice. I started created [tutorials and guides for it](/talks/distributed-data-pipelines-in-python/).

@@ -1,5 +1,13 @@
 ---
-description: How Python figures out the scope of it's variables?
+added: Aug 04 2022
+draft: false
+image: null
+layout: ../layouts/BlogPost.astro
+slug: python-namespaces
+sub_title: How Python figures out the scope of it's variables?
+tags:
+- advanced-python
+title: Python Namespaces & Variable Scope
 ---
 
 # Python Namespaces & Variable Scope

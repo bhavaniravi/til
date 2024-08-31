@@ -1,18 +1,20 @@
 ---
-slug: a-world-where-women-in-tech-rules
-published_date: 2019-07-25T00:00:00.000Z
-created_date: 2019-07-15T00:00:00.000Z
-title: A World Where WomenInTech Rules
-template: post
+added: Sep 19 2022
+created_date: 2019-07-15 00:00:00+00:00
 draft: false
+featuredImgPath: https://cdn.pixabay.com/photo/2013/09/23/03/05/high-tech-185146_960_720.jpg
+image: null
+isexternal: true
+layout: ../layouts/BlogPost.astro
+published_date: 2019-07-25 00:00:00+00:00
+slug: a-world-where-women-in-tech-rules
+sub_title: In an imaginary world where women in tech rules, what are the societal
+  changes we will see.
 subtitle: What are the societal changes an empowered woman in tech will bring
 tags:
-  - community
-featuredImgPath: https://cdn.pixabay.com/photo/2013/09/23/03/05/high-tech-185146_960_720.jpg
-isexternal: true
-description: >-
-  In an imaginary world where women in tech rules, what are the societal changes
-  we will see.
+- community
+template: post
+title: A World Where WomenInTech Rules
 ---
 
 # A World Where WomenInTech Rules

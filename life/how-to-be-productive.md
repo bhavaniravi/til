@@ -1,18 +1,20 @@
 ---
-title: How to be (more) Productive?
-sub_title: Framworks, tips and tricks to increase your productivity
-slug: how-to-be-productive
-tags:
-  - life
-featuredImgPath: https://i.imgur.com/I2TtWvg.png
-isexternal: true
-published_date: '2020-09-14'
+added: Sep 19 2022
 created_date: '2020-09-14'
+description: In a technology-filled life, scrolling twitter for 2 hours can feel productive
+  because you learned so much. But we can't ignore that our attention span is getting
+  closer to that of a goldfish shoving
 draft: false
-description: >-
-  In a technology-filled life, scrolling twitter for 2 hours can feel productive
-  because you learned so much. But we can't ignore that our attention span is
-  getting closer to that of a goldfish shoving
+featuredImgPath: https://i.imgur.com/I2TtWvg.png
+image: null
+isexternal: true
+layout: ../layouts/BlogPost.astro
+published_date: '2020-09-14'
+slug: how-to-be-productive
+sub_title: Framworks, tips and tricks to increase your productivity
+tags:
+- life
+title: How to be (more) Productive?
 ---
 
 # How to be (more) Productive?

@@ -1,6 +1,14 @@
 ---
-title: JSONata 101
+added: Aug 16 2024
+draft: false
+image: null
+layout: ../layouts/BlogPost.astro
+slug: JSONata-Guide
+sub_title: null
 subtitle: JSON to JSON transformation in a easy and efficient way
+tags:
+- software-engineering
+title: JSONata 101
 ---
 
 Ever wanted to do JSON to JSON transformation but ended up writing code in Python with a bunch of for if filters and maps. Using the right tool for the job saves you a lot of time and helps you keep a consistent interface.

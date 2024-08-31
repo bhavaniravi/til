@@ -1,18 +1,19 @@
 ---
-title: Backend Engineer - Behind the Scenes
-sub_title: What goes into building a backend system?
-slug: backend-engineer-behind-the-scenes
-tags:
-  - software-engineering
-featuredImgPath: >-
-  https://lh3.googleusercontent.com/BrtspPWUUvqGlTyO6BJBzbZQeS7-KHRh48y5-8aD62Hk5t0Ab2CR8AeIYlfhEo-XUq3QmyeHbXnyVih_K0OrIuG2wyNfc8CcuFzG5odWUIyGLtJrbnb0UTTYUV1U1hqLcn4cJNwUPhU=w857-h643-no
-isexternal: true
-published_date: '2020-04-10'
+added: Sep 19 2022
 created_date: '2020-04-10'
+description: The process of dissecting a complicated problem into solvable pieces
+  is what makes this job so interesting and lovable.
 draft: false
-description: >-
-  The process of dissecting a complicated problem into solvable pieces is what
-  makes this job so interesting and lovable.
+featuredImgPath: https://lh3.googleusercontent.com/BrtspPWUUvqGlTyO6BJBzbZQeS7-KHRh48y5-8aD62Hk5t0Ab2CR8AeIYlfhEo-XUq3QmyeHbXnyVih_K0OrIuG2wyNfc8CcuFzG5odWUIyGLtJrbnb0UTTYUV1U1hqLcn4cJNwUPhU=w857-h643-no
+image: null
+isexternal: true
+layout: ../layouts/BlogPost.astro
+published_date: '2020-04-10'
+slug: backend-engineer-behind-the-scenes
+sub_title: What goes into building a backend system?
+tags:
+- software-engineering
+title: Backend Engineer - Behind the Scenes
 ---
 
 # Backend Engineer - Behind the Scenes

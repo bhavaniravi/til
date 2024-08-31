@@ -1,5 +1,13 @@
 ---
-description: Seize Stunning Opportunites with a Stunning Resume
+added: Jan 12 2024
+draft: false
+image: null
+layout: ../layouts/BlogPost.astro
+slug: refine-your-developer-resume
+sub_title: Seize Stunning Opportunites with a Stunning Resume
+tags:
+- products
+title: Refine your Developer Resume
 ---
 
 # Refine your Developer Resume

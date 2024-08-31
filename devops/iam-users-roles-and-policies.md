@@ -1,7 +1,14 @@
 ---
-description: >-
-  There are variety of ways to authenticate yourself with IAM Roles are one of
-  the most commonly used. Here is a Cheatsheet to get you started
+added: Nov 27 2022
+draft: false
+image: null
+layout: ../layouts/BlogPost.astro
+slug: iam-users-roles-and-policies
+sub_title: There are variety of ways to authenticate yourself with IAM Roles are one
+  of the most commonly used. Here is a Cheatsheet to get you started
+tags:
+- aws
+title: AWS IAM Users, Roles, and Policies
 ---
 
 # IAM Users, Roles, and Policies
@@ -10,9 +17,9 @@ So you want to authenticate your apps to use AWS resources like S3 buckets, EC2 
 
 ### Creating Role and User
 
-* Go into your AWS console, create a role, and a user
-* When creating a role, select a required policy, e.g., S3FullAccess, and copy the Role ARN
-* When you create a user, make a note of the User ARN, `AWS_SECRET_KEY` and `AWS_ACCESS_KEY`
+- Go into your AWS console, create a role, and a user
+- When creating a role, select a required policy, e.g., S3FullAccess, and copy the Role ARN
+- When you create a user, make a note of the User ARN, `AWS_SECRET_KEY` and `AWS_ACCESS_KEY`
 
 ### Assigning Role to the User
 

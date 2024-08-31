@@ -1,8 +1,16 @@
 ---
-title: Rasa Open Source
-slug: rasa
+added: Aug 30 2024
 draft: false
-skills: ["code", "blog"]
+image: null
+layout: ../layouts/BlogPost.astro
+skills:
+- code
+- blog
+slug: rasa
+sub_title: null
+tags:
+- open-source-contributions
+title: Rasa Open Source
 ---
 
 What started as an experiment to build a chatbot platform in 2018 made me do a deep dive analysis of what's inside a Chatbot framework. 

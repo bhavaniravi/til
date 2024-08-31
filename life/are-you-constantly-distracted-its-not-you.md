@@ -1,7 +1,14 @@
 ---
-description: >-
-  Wondering why you're always distracted when using a specific app? Maybe you
-  can learn something from my story.
+added: Dec 12 2022
+draft: false
+image: null
+layout: ../layouts/BlogPost.astro
+slug: are-you-constantly-distracted-its-not-you
+sub_title: Wondering why you're always distracted when using a specific app? Maybe
+  you can learn something from my story.
+tags:
+- life
+title: Are you constantly Distracted? It's not You.
 ---
 
 # Are you constantly Distracted? It's not You.

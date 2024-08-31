@@ -1,5 +1,13 @@
 ---
-description: How are you so productive? How do you manage your time?
+added: Sep 28 2022
+draft: false
+image: null
+layout: ../layouts/BlogPost.astro
+slug: how-do-you-do-so-many-things-at-the-same-time
+sub_title: How are you so productive? How do you manage your time?
+tags:
+- life
+title: How do you do so many things at the same time?
 ---
 
 # How do you do so many things at the same time?

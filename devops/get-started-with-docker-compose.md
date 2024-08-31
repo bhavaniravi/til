@@ -1,5 +1,13 @@
 ---
-description: By Building and hosting a full stack application
+added: Apr 01 2023
+draft: false
+image: null
+layout: ../layouts/BlogPost.astro
+slug: get-started-with-docker-compose
+sub_title: By Building and hosting a full stack application
+tags:
+- devops
+title: Get started with Docker-Compose
 ---
 
 # Get started with Docker-Compose

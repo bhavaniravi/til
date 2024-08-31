@@ -1,19 +1,20 @@
 ---
-slug: atomic-habits-book-summary
-published_date: 2020-02-23T00:00:00.000Z
-created_date: 2020-02-22T00:00:00.000Z
-title: Atomic Habits Book Summary
-template: post
+added: Sep 19 2022
+created_date: 2020-02-22 00:00:00+00:00
 draft: false
+featuredImgPath: https://images.unsplash.com/photo-1569230919100-d3fd5e1132f4?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1276&q=80
+image: null
+isexternal: true
+layout: ../layouts/BlogPost.astro
+published_date: 2020-02-23 00:00:00+00:00
+slug: atomic-habits-book-summary
+sub_title: Atomic habits is the most popular book of 2019, and has been in the wishlist
+  of so many people this 2020
 subtitle: Things I learned by reading atomic habits
 tags:
-  - book-notes
-featuredImgPath: >-
-  https://images.unsplash.com/photo-1569230919100-d3fd5e1132f4?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1276&q=80
-isexternal: true
-description: >-
-  Atomic habits is the most popular book of 2019, and has been in the wishlist
-  of so many people this 2020
+- book-notes
+template: post
+title: Atomic Habits Book Summary
 ---
 
 # Atomic Habits Book Summary

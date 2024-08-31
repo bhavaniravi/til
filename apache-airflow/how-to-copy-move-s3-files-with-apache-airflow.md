@@ -1,5 +1,13 @@
 ---
-description: With Apache-Airflow's AWS providers S3 operations are a cake-walk.
+added: Nov 28 2022
+draft: false
+image: null
+layout: ../layouts/BlogPost.astro
+slug: how-to-copy-move-s3-files-with-apache-airflow
+sub_title: With Apache-Airflow's AWS providers S3 operations are a cake-walk.
+tags:
+- apache-airflow
+title: How to Copy/Move S3 Files With Apache Airflow
 ---
 
 # How to Copy/Move S3 Files With Apache Airflow

@@ -1,18 +1,20 @@
 ---
-slug: asynchronous-task-execution-in-python
-published_date: 2019-08-10T00:00:00.000Z
-created_date: 2019-08-01T00:00:00.000Z
-title: Asynchronous Task Execution In Python
-template: post
+added: Sep 19 2022
+created_date: 2019-08-01 00:00:00+00:00
 draft: false
+featuredImgPath: /media/async-task-python.png
+image: null
+layout: ../layouts/BlogPost.astro
+published_date: 2019-08-10 00:00:00+00:00
+slug: asynchronous-task-execution-in-python
+sub_title: Schedulers became major architechtural component of any software that we
+  use, these asynchrous task executors are behind the emails and notifications, the
+  pop up that greets us on logging in, the repo
 subtitle: Understand the software behind your social media notifications
 tags:
-  - python
-featuredImgPath: /media/async-task-python.png
-description: >-
-  Schedulers became major architechtural component of any software that we use,
-  these asynchrous task executors are behind the emails and notifications, the
-  pop up that greets us on logging in, the repo
+- python
+template: post
+title: Asynchronous Task Execution In Python
 ---
 
 # Asynchronous Task Execution In Python

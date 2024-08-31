@@ -1,20 +1,20 @@
 ---
-title: Shopping Like a Stingy-Minimalist
-sub_title: >-
-  In a world where ads constantly bombard us, streamlining your shopping process
-  is one of the healthiest things you can do for your financial well-being.
-slug: shopping-like-a-minimalist
-tags:
-  - life
-featuredImgPath: >-
-  https://images.unsplash.com/photo-1540959733332-eab4deabeeaf?iauto=format&fit=crop&w=1371&q=390
-isexternal: true
-published_date: '2020-12-16'
+added: Sep 19 2022
 created_date: '2020-12-16'
+description: In a world where ads constantly bombard us, streamlining your shopping
+  process is one of the healthiest things you can do for your financial well-being.
 draft: false
-description: >-
-  In a world where ads constantly bombard us, streamlining your shopping process
-  is one of the healthiest things you can do for your financial well-being.
+featuredImgPath: https://images.unsplash.com/photo-1540959733332-eab4deabeeaf?iauto=format&fit=crop&w=1371&q=390
+image: null
+isexternal: true
+layout: ../layouts/BlogPost.astro
+published_date: '2020-12-16'
+slug: shopping-like-a-minimalist
+sub_title: In a world where ads constantly bombard us, streamlining your shopping
+  process is one of the healthiest things you can do for your financial well-being.
+tags:
+- life
+title: Shopping Like a Stingy-Minimalist
 ---
 
 # Shopping Like a Stingy-Minimalist

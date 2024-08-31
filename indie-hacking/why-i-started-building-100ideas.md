@@ -1,5 +1,13 @@
 ---
-description: 'Brainstorming: The Good, Bad and Ugly'
+added: Oct 26 2022
+draft: false
+image: null
+layout: ../layouts/BlogPost.astro
+slug: why-i-started-building-100ideas
+sub_title: 'Brainstorming: The Good, Bad and Ugly'
+tags:
+- indie-hacking
+title: Why I Started Building 100Ideas?
 ---
 
 # Why I Started Building 100Ideas?

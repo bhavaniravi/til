@@ -1,18 +1,19 @@
 ---
-title: What Happens During Docker Build and Run?
-sub_title: Disecting How Docker works, One layer at a time
-slug: what-happens-during-docker-build-and-run
-tags:
-  - devops
-featuredImgPath: https://i.imgur.com/P6LyCHX.png
-isexternal: true
-published_date: 2021-12-14T00:00:00.000Z
-created_date: 2021-12-14T00:00:00.000Z
-draft: false
-description: >-
-  When using Docker, you will encounter two major operations `build` and `run`.
-  The build command creates a docker image based on the `Dockerfile`. The run
+added: Sep 19 2022
+created_date: 2021-12-14 00:00:00+00:00
+description: When using Docker, you will encounter two major operations `build` and
+  `run`. The build command creates a docker image based on the `Dockerfile`. The run
   command uses the created docker image to run a
+draft: false
+image: https://i.imgur.com/P6LyCHX.png
+isexternal: true
+layout: ../layouts/BlogPost.astro
+published_date: 2021-12-14 00:00:00+00:00
+slug: what-happens-during-docker-build-and-run
+sub_title: Disecting How Docker works, One layer at a time
+tags:
+- devops
+title: What Happens During Docker Build and Run?
 ---
 
 # What Happens During Docker Build and Run?
@@ -63,7 +64,7 @@ Along with the above items, there is a tonne of other parameters that you can tw
 
 The namespace, allocated resources, and the R/W layer are all deleted when the container is removed.
 
-***
+---
 
 {% embed url="https://bhavaniravi.substack.com/embed" %}
 Newsletter embed

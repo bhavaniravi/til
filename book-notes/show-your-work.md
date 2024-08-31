@@ -1,5 +1,13 @@
 ---
-description: Notes and takeaways from Austin Kleon's book Show Your Work
+added: Sep 03 2022
+draft: false
+image: null
+layout: ../layouts/BlogPost.astro
+slug: show-your-work
+sub_title: Notes and takeaways from Austin Kleon's book Show Your Work
+tags:
+- book-notes
+title: Show Your Work
 ---
 
 # Show Your Work

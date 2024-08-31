@@ -1,17 +1,19 @@
 ---
-title: Introduction to Docker - The What, Why and How
-sub_title: images, containers, commands what does all these mean in Docker
-slug: docker-introduction
-tags:
-  - devops
-featuredImgPath: https://i.imgur.com/nokXidS.jpg
-isexternal: true
-published_date: 2021-11-29T00:00:00.000Z
-created_date: 2021-11-29T00:00:00.000Z
-draft: false
-description: >-
-  Docker let's you packages application and it's associated packages and
+added: Sep 19 2022
+created_date: 2021-11-29 00:00:00+00:00
+description: Docker let's you packages application and it's associated packages and
   libraries to be ran anywhere without much hassle.
+draft: false
+featuredImgPath: https://i.imgur.com/nokXidS.jpg
+image: null
+isexternal: true
+layout: ../layouts/BlogPost.astro
+published_date: 2021-11-29 00:00:00+00:00
+slug: docker-introduction
+sub_title: images, containers, commands what does all these mean in Docker
+tags:
+- devops
+title: Introduction to Docker - The What, Why and How
 ---
 
 # Introduction to Docker - The What, Why and How

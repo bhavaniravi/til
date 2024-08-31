@@ -1,17 +1,22 @@
 ---
-title: Airbyte - First Look
-sub_title: Should you use Airbyte for your ELT usecase?
-slug: airbyte-first-look
-tags:
-  - data-engineering
-featuredImgPath: 
-isexternal: true
-published_date: '2023-07-07'
+added: May 24 2023
 created_date: '2023-06-30'
+description: Businesses produce and accumulate data. Before making sense of this data,
+  we must bring them to a centralized place—a data lake. Whenever you can think of
+  data, movement tools like Fivetran comes into the picture. Airbyte is an ELT(Extract,
+  Load, Transform) accumulating its market of Fivetran by using open source to its
+  advantage.
 draft: false
-description: >-
-    Businesses produce and accumulate data. Before making sense of this data, we must bring them to a centralized place—a data lake. Whenever you can think of data, movement tools like Fivetran comes into the picture.
-    Airbyte is an ELT(Extract, Load, Transform) accumulating its market of Fivetran by using open source to its advantage.
+featuredImgPath: null
+image: null
+isexternal: true
+layout: ../layouts/BlogPost.astro
+published_date: '2023-07-07'
+slug: airbyte-first-look
+sub_title: Should you use Airbyte for your ELT usecase?
+tags:
+- data-engineering
+title: Airbyte - First Look
 ---
 
 # 🔗 Airbyte - First Look

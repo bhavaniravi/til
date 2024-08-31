@@ -1,18 +1,20 @@
 ---
-title: Building OwnFlask - A Flask(like) Python Framework
-sub_title: Reverse Engineering Flask app to build a similar flask like interface
-slug: building-own-flask-1
-tags:
-  - python/web/flask
-featuredImgPath: https://i.imgur.com/Zq4lJgB.jpg
-isexternal: true
-published_date: 2021-09-16T00:00:00.000Z
-created_date: 2021-09-16T00:00:00.000Z
+added: Sep 19 2022
+created_date: 2021-09-16 00:00:00+00:00
+description: In order to demistify `flask` these I had two options either to read
+  Flask code end to end and understand or reverse engineer flask by building one on
+  my own. I chose the latter and this blog is a ste
 draft: false
-description: >-
-  In order to demistify `flask` these I had two options either to read Flask
-  code end to end and understand or reverse engineer flask by building one on my
-  own. I chose the latter and this blog is a ste
+featuredImgPath: https://i.imgur.com/Zq4lJgB.jpg
+image: null
+isexternal: true
+layout: ../layouts/BlogPost.astro
+published_date: 2021-09-16 00:00:00+00:00
+slug: building-own-flask-1
+sub_title: Reverse Engineering Flask app to build a similar flask like interface
+tags:
+- python/web/flask
+title: Building OwnFlask - A Flask(like) Python Framework
 ---
 
 # Building OwnFlask - A Flask(like) Python Framework

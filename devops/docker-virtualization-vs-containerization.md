@@ -1,18 +1,20 @@
 ---
-title: Docker - Virtualization vs Containerization
-sub_title: 'Evolution of docker '
-slug: docker-virtualization-vs-containerization
-tags:
-  - devops
-featuredImgPath: https://i.imgur.com/AzQqzQB.png
-isexternal: true
-published_date: 2021-12-12T00:00:00.000Z
-created_date: 2021-12-12T00:00:00.000Z
+added: Sep 19 2022
+created_date: 2021-12-12 00:00:00+00:00
+description: Docker is one of the most powerful tools to ship and deliver software.
+  While celebrating that, we shouldn't forget the predecessor inventions that went
+  in at the OS level that made Docker possible
 draft: false
-description: >-
-  Docker is one of the most powerful tools to ship and deliver software. While
-  celebrating that, we shouldn't forget the predecessor inventions that went in
-  at the OS level that made Docker possible
+featuredImgPath: https://i.imgur.com/AzQqzQB.png
+image: null
+isexternal: true
+layout: ../layouts/BlogPost.astro
+published_date: 2021-12-12 00:00:00+00:00
+slug: docker-virtualization-vs-containerization
+sub_title: 'Evolution of docker '
+tags:
+- devops
+title: Docker - Virtualization vs Containerization
 ---
 
 # Docker - Virtualization vs Containerization

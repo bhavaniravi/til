@@ -1,18 +1,21 @@
 ---
-title: Merging Python Modules
-sub_title: how to write a python script to merge multiple python modules into single one
-slug: merge-python-module-script
-tags:
-  - python
-featuredImgPath: https://i.imgur.com/gine5et.png
-isexternal: true
-published_date: 2022-01-29T00:00:00.000Z
-created_date: 2022-01-29T00:00:00.000Z
+added: Sep 19 2022
+created_date: 2022-01-29 00:00:00+00:00
+description: Airflow had many AWS providers that weren't following the latest conventions.
+  The resolution involes merging multiple modules into single Python file. I wrote
+  this script to automate the task.
 draft: false
-description: >-
-  Airflow had many AWS providers that weren't following the latest conventions.
-  The resolution involes merging multiple modules into single Python file. I
-  wrote this script to automate the task.
+featuredImgPath: https://i.imgur.com/gine5et.png
+image: null
+isexternal: true
+layout: ../layouts/BlogPost.astro
+published_date: 2022-01-29 00:00:00+00:00
+slug: merge-python-module-script
+sub_title: how to write a python script to merge multiple python modules into single
+  one
+tags:
+- python
+title: Merging Python Modules
 ---
 
 # Merging Python Modules

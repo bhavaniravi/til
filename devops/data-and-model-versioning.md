@@ -1,5 +1,13 @@
 ---
-description: What is MLOps? Why we need it? and what tools are available?
+added: Oct 28 2022
+draft: false
+image: null
+layout: ../layouts/BlogPost.astro
+slug: data-and-model-versioning
+sub_title: What is MLOps? Why we need it? and what tools are available?
+tags:
+- devops
+title: Data & Model Versioning
 ---
 
 # Data & Model Versioning

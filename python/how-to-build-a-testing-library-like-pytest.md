@@ -1,7 +1,14 @@
 ---
-description: >-
-  As Pythonistas, we all love Pytest. No questions there. But what if we embark
-  on a journey of building something similar on our own?
+added: Jul 31 2023
+draft: false
+image: null
+layout: ../layouts/BlogPost.astro
+slug: how-to-build-a-testing-library-like-pytest
+sub_title: As Pythonistas, we all love Pytest. No questions there. But what if we
+  embark on a journey of building something similar on our own?
+tags:
+- python
+title: How to Build a Testing Library Like Pytest?
 ---
 
 # How to Build a Testing Library Like Pytest?

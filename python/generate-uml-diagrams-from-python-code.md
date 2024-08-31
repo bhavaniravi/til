@@ -1,18 +1,20 @@
 ---
-title: How to Generate UML Diagrams from Python Source Code?
-sub_title: Add UML diagrams along with every version of your code
-slug: generate-uml-diagrams-from-python-code
-tags:
-  - python
-featuredImgPath: https://i.imgur.com/iWtiiYx.png
-isexternal: true
-published_date: 2021-10-13T00:00:00.000Z
-created_date: 2021-10-12T00:00:00.000Z
-draft: false
-description: >-
-  Your code moves faster than the digrams you created for the documentation. How
-  about a Python tool that you can add to your CI/CD pipeline that generates UML
+added: Sep 19 2022
+created_date: 2021-10-12 00:00:00+00:00
+description: Your code moves faster than the digrams you created for the documentation.
+  How about a Python tool that you can add to your CI/CD pipeline that generates UML
   diagram for each version of your code
+draft: false
+featuredImgPath: https://i.imgur.com/iWtiiYx.png
+image: null
+isexternal: true
+layout: ../layouts/BlogPost.astro
+published_date: 2021-10-13 00:00:00+00:00
+slug: generate-uml-diagrams-from-python-code
+sub_title: Add UML diagrams along with every version of your code
+tags:
+- python
+title: How to Generate UML Diagrams from Python Source Code?
 ---
 
 # How to Generate UML Diagrams from Python Source Code?

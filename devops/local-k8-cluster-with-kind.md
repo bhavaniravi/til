@@ -1,5 +1,13 @@
 ---
-description: Not a big fan of minikube? Kind should be your thing.
+added: Mar 16 2023
+draft: false
+image: null
+layout: ../layouts/BlogPost.astro
+slug: local-k8-cluster-with-kind
+sub_title: Not a big fan of minikube? Kind should be your thing.
+tags:
+- devops
+title: Local K8 Cluster With Kind
 ---
 
 # Local K8 Cluster With Kind

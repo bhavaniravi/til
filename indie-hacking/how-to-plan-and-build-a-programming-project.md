@@ -1,7 +1,14 @@
 ---
-description: >-
-  Internet keeps throwing this advice of "Build projects" to beginners, but
+added: Oct 07 2022
+draft: false
+image: null
+layout: ../layouts/BlogPost.astro
+slug: how-to-plan-and-build-a-programming-project
+sub_title: Internet keeps throwing this advice of "Build projects" to beginners, but
   "what?" & "How?" This article attempts to answer that question
+tags:
+- indie-hacking
+title: How to Plan and Build a Programming Project
 ---
 
 # How to Plan and Build a Programming Project

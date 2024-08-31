@@ -1,17 +1,20 @@
 ---
-title: Are your Secrets Safe In Python?
-sub_title: Storing your secrets as Python file, here is what you need to be aware of
-slug: secrets-as-python-file
-tags:
-  - python
-featuredImgPath: https://i.imgur.com/9lCN0V6.png
-isexternal: true
-published_date: '2020-05-14'
+added: Sep 19 2022
 created_date: '2020-05-14'
+description: Secrets and token stored as Python config or secrets file has a chance
+  of being exposed via pyc files when commited to GitHub repository
 draft: false
-description: >-
-  Secrets and token stored as Python config or secrets file has a chance of
-  being exposed via pyc files when commited to GitHub repository
+featuredImgPath: https://i.imgur.com/9lCN0V6.png
+image: null
+isexternal: true
+layout: ../layouts/BlogPost.astro
+published_date: '2020-05-14'
+slug: secrets-as-python-file
+sub_title: Storing your secrets as Python file, here is what you need to be aware
+  of
+tags:
+- python
+title: Are your Secrets Safe In Python?
 ---
 
 # Are your Secrets Safe In Python?

@@ -1,15 +1,18 @@
 ---
-title: End Goal - How to set goals and track them?
-sub_title: Logging my thought stream on goal setting and tracking
-slug: how-to-set-goals
-tags:
-  - life
-featuredImgPath: https://i.imgur.com/xhvlpFc.png
-isexternal: true
-published_date: 2021-10-12T00:00:00.000Z
-created_date: 2021-10-12T00:00:00.000Z
-draft: false
+added: Sep 19 2022
+created_date: 2021-10-12 00:00:00+00:00
 description: How to set goals and track them
+draft: false
+featuredImgPath: https://i.imgur.com/xhvlpFc.png
+image: null
+isexternal: true
+layout: ../layouts/BlogPost.astro
+published_date: 2021-10-12 00:00:00+00:00
+slug: how-to-set-goals
+sub_title: Logging my thought stream on goal setting and tracking
+tags:
+- life
+title: End Goal - How to set goals and track them?
 ---
 
 # End Goal - How to set goals and track them?

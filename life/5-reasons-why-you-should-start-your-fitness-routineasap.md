@@ -1,18 +1,20 @@
 ---
-slug: 5-reasons-why-you-should-start-your-fitness-routineasap
-published_date: null
+added: Sep 19 2022
 created_date: null
-title: 5 Reasons Why You Should Start your Fitness Routine ASAP?
-template: post
 draft: true
+featuredImgPath: /media/machine-learning-nlp-vectorization-techniques-featured.png
+image: null
+layout: ../layouts/BlogPost.astro
+published_date: null
+slug: 5-reasons-why-you-should-start-your-fitness-routineasap
+sub_title: Who doesn’t want an healthy life? Always imagine yourself running around
+  even at your 60s then you are bound to spend time on your fitness routine. I will
+  do it from tomorrow. No you will not. The…
 subtitle: Fitness is not about staying slim it's about staying healthy.
 tags:
-  - life
-featuredImgPath: /media/machine-learning-nlp-vectorization-techniques-featured.png
-description: >-
-  Who doesn’t want an healthy life? Always imagine yourself running around even
-  at your 60s then you are bound to spend time on your fitness routine. I will
-  do it from tomorrow. No you will not. The…
+- life
+template: post
+title: 5 Reasons Why You Should Start your Fitness Routine ASAP?
 ---
 
 # 5 Reasons Why You Should Start your Fitness Routine ASAP?

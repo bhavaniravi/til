@@ -1,17 +1,19 @@
 ---
-slug: the-ideal-team-player-book-review
-published_date: '2019-06-19'
+added: Sep 19 2022
 created_date: '2019-06-19'
-title: Are you an Ideal Team Player?
-template: post
 draft: false
+featuredImgPath: http://static.wixstatic.com/media/54d0d9_ef4d57eb51264464b5ca58b2aa15adda~mv2.png/v1/fill/w_630,h_498,al_c,q_80,usm_0.66_1.00_0.01/54d0d9_ef4d57eb51264464b5ca58b2aa15adda~mv2.webp
+image: null
+isexternal: true
+layout: ../layouts/BlogPost.astro
+published_date: '2019-06-19'
+slug: the-ideal-team-player-book-review
+sub_title: What makes a person an ideal team player and how to find one?
 subtitle: What makes a person an ideal team player and how to find one?
 tags:
-  - book-notes
-featuredImgPath: >-
-  http://static.wixstatic.com/media/54d0d9_ef4d57eb51264464b5ca58b2aa15adda~mv2.png/v1/fill/w_630,h_498,al_c,q_80,usm_0.66_1.00_0.01/54d0d9_ef4d57eb51264464b5ca58b2aa15adda~mv2.webp
-isexternal: true
-description: What makes a person an ideal team player and how to find one?
+- book-notes
+template: post
+title: Are you an Ideal Team Player?
 ---
 
 # Are you an Ideal Team Player?

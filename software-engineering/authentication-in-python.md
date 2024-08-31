@@ -1,18 +1,20 @@
 ---
-slug: authentication-in-python
-published_date: 2019-09-01T00:00:00.000Z
-created_date: 2019-08-26T00:00:00.000Z
-title: All About Authentication Systems
-template: post
+added: Sep 19 2022
+created_date: 2019-08-26 00:00:00+00:00
 draft: false
+featuredImgPath: /media/auth_systems/featured.png
+image: null
+layout: ../layouts/BlogPost.astro
+published_date: 2019-09-01 00:00:00+00:00
+slug: authentication-in-python
+sub_title: Authentication is a concept of ensuring that the right people gets access
+  to the information. The age old concept of lock and key has evolved into todays
+  multi-variant authentication systems
 subtitle: A blog to help you understand authentication systems in detail
 tags:
-  - python
-featuredImgPath: /media/auth_systems/featured.png
-description: >-
-  Authentication is a concept of ensuring that the right people gets access to
-  the information. The age old concept of lock and key has evolved into todays
-  multi-variant authentication systems
+- python
+template: post
+title: All About Authentication Systems
 ---
 
 # All About Authentication Systems

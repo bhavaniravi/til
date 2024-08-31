@@ -1,5 +1,13 @@
 ---
-description: What does / and * mean in a Python function definition mean
+added: Mar 16 2023
+draft: false
+image: null
+layout: ../layouts/BlogPost.astro
+slug: python-position-and-keyword-only-arguments
+sub_title: What does / and * mean in a Python function definition mean
+tags:
+- advanced-python
+title: Python Position and Keyword Only Arguments
 ---
 
 # Python Position and Keyword Only Arguments

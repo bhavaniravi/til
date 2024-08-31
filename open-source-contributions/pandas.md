@@ -1,8 +1,16 @@
 ---
-title: Python Pandas
-slug: pandas
+added: Aug 30 2024
 draft: false
-skills: ["code", "documentation"]
+image: null
+layout: ../layouts/BlogPost.astro
+skills:
+- code
+- documentation
+slug: pandas
+sub_title: null
+tags:
+- open-source-contributions
+title: Python Pandas
 ---
 
 Python Pandas is my first ever open-source code contribution. It all started when I was working on Reporting Module for Kissflow. I was asked to run a feasibility check on required features and it's support in Pandas vs MongoDB. Though we didn't end up using Pandas, I had a lot of scope to contribute to the library

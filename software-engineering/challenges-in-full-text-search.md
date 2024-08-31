@@ -1,18 +1,20 @@
 ---
-slug: challenges-in-full-text-search
-published_date: 2019-09-08T00:00:00.000Z
-created_date: 2019-09-01T00:00:00.000Z
-title: Challenges In Full-Text-Search Systems
-template: post
+added: Sep 14 2022
+created_date: 2019-09-01 00:00:00+00:00
 draft: false
+featuredImgPath: /media/fts/fts-featured.png
+image: null
+layout: ../layouts/BlogPost.astro
+published_date: 2019-09-08 00:00:00+00:00
+slug: challenges-in-full-text-search
+sub_title: While Full-text-search is famous for search through documents at a faster
+  rate, there are other intresting ways in which these systems handle scale, synonyms,
+  abbrevations, misspellings etc., we will
 subtitle: An Indepth view of search problems and how Full-Text-Search Solves them
 tags:
-  - software-engineering
-featuredImgPath: /media/fts/fts-featured.png
-description: >-
-  While Full-text-search is famous for search through documents at a faster
-  rate, there are other intresting ways in which these systems handle scale,
-  synonyms, abbrevations, misspellings etc., we will
+- software-engineering
+template: post
+title: Challenges In Full-Text-Search Systems
 ---
 
 # Challenges in Full-Text Search

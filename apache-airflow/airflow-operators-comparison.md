@@ -1,11 +1,14 @@
 ---
+added: Sep 19 2022
 created_date: '2021-01-10'
 description: Airflow provides a variety of operators to couple your business logic
   into executable tasks in a workflow. Often times it is confusing to decide when
   to use what. In this article we will discuss the p
 draft: false
 featuredImgPath: https://i.imgur.com/UvlPSAW.png
+image: null
 isexternal: true
+layout: ../layouts/BlogPost.astro
 published_date: '2021-01-12'
 slug: airflow-operators-comparison
 sub_title: Comparison between Python, Docker and Kubernetes Airflow Operator

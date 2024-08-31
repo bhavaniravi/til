@@ -1,18 +1,20 @@
 ---
-title: How I Wrote my 1st 100 Lines of Golang Code
-sub_title: Learn Golang the practical way
-slug: learning-golang
-tags:
-  - golang
-featuredImgPath: https://i.imgur.com/L69ncMb.png
-isexternal: true
-published_date: '2020-08-09'
+added: Sep 19 2022
 created_date: '2020-08-09'
+description: No documentation, No tutorial, No resources. Just Google search.  I'm
+  not kidding, The syntax is boring.   I had a problem and I wanted a solution and
+  I wanted to build the solution using Golang.
 draft: false
-description: >-
-  No documentation, No tutorial, No resources. Just Google search.  I'm not
-  kidding, The syntax is boring.   I had a problem and I wanted a solution and I
-  wanted to build the solution using Golang.
+featuredImgPath: https://i.imgur.com/L69ncMb.png
+image: null
+isexternal: true
+layout: ../layouts/BlogPost.astro
+published_date: '2020-08-09'
+slug: learning-golang
+sub_title: Learn Golang the practical way
+tags:
+- golang
+title: How I Wrote my 1st 100 Lines of Golang Code
 ---
 
 # How I Wrote my 1st 100 Lines of Golang Code

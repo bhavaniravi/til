@@ -1,15 +1,19 @@
 ---
-slug: seven-habits-book-summary
-published_date: 2020-03-10T00:00:00.000Z
-created_date: 2020-03-10T00:00:00.000Z
-title: 7 Habits of Highly Effective People - Book Summary
-template: post
+added: Sep 19 2022
+created_date: 2020-03-10 00:00:00+00:00
 draft: false
+featuredImgPath: https://i.imgur.com/RlofT9N.png
+image: null
+isexternal: true
+layout: ../layouts/BlogPost.astro
+published_date: 2020-03-10 00:00:00+00:00
+slug: seven-habits-book-summary
+sub_title: null
 subtitle: Things I learned by reading 7 Habits of Highly Effective People
 tags:
-  - book-notes
-featuredImgPath: https://i.imgur.com/RlofT9N.png
-isexternal: true
+- book-notes
+template: post
+title: 7 Habits of Highly Effective People - Book Summary
 ---
 
 # 7 Habits of Highly Effective People - Book Summary

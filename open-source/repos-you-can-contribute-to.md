@@ -1,5 +1,13 @@
 ---
-description: When you have free time to contribute to an opensource repo, use this list
+added: Sep 08 2022
+draft: false
+image: null
+layout: ../layouts/BlogPost.astro
+slug: repos-you-can-contribute-to
+sub_title: When you have free time to contribute to an opensource repo, use this list
+tags:
+- open-source
+title: Repos You Can Contribute To
 ---
 
 # Repos You Can Contribute To
