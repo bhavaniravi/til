@@ -1,20 +1,16 @@
 ---
-description: Not all those who wander are lost
+description: Welcome to my digital garden
 ---
 
-# Start Here
+# Hi 👋🏻 I'm Bhavani
 
-> Hi I'm Bhavani & Welcome to my digital garden 🪴
+I am a **Software Engineer** **specializing in Backend, Data Engineering, and DevOps systems.**&#x20;
 
-_A digital garden is **an online space at the intersection of a notebook and a blog, where digital gardeners share seeds of thoughts to be cultivated in public**._
+<figure><img src=".gitbook/assets/about-me.png" alt="" width="563"><figcaption></figcaption></figure>
 
-## Who am I?
+&#x20;&#x20;
 
-#### Hi 👋🏻, I am Bhavani Ravi
-
-I am a Software Engineer and Trainer focusing on building Backend, Data Engineering, and DevOps systems. [Find out more about me](start-here/about-me.md)&#x20;
-
-## What do you wanna learn?
+## What do you want to learn?
 
 * [Advanced Python Concepts](python/advanced-python/)
 * [Apache Airflow Guides](broken-reference/)
@@ -26,6 +22,6 @@ I am a Software Engineer and Trainer focusing on building Backend, Data Engineer
 
 I know that's a lot. I explore a variety of technical topics and write about them.
 
-Never miss an article. Subscribe to the newsletter below, and I will send them right to your inbox.
+Never miss an article. Subscribe to the newsletter below, and I will send it right to your inbox.
 
 {% embed url="https://bhavaniravi.substack.com/embed" %}

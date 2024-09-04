@@ -4,17 +4,18 @@ sub_title: Should you use DLTHub for your ELT usecase?
 slug: DLTHub-new-tool
 tags:
   - data-engineering
-featuredImgPath:
+featuredImgPath: null
 isexternal: true
-published_date: "2023-07-07"
-created_date: "2023-07-07"
+published_date: '2023-07-07'
+created_date: '2023-07-07'
 draft: false
 description: >-
-    Businesses produce and accumulate data. Before making sense of this data, we must bring them to a centralized place—a data lake. Whenever you can think of data, movement tools like Fivetran comes into the picture.
-    DLTHub is an ELT(Extract, Load, Transform) accumulating its market of Fivetran by using open source to its advantage.
+  Businesses produce and accumulate data. Before making sense of this data, we
+  must bring them to a centralized place—a data lake. Whenever you can think of
+  data, movement tools like Fivetran comes into
 ---
 
-# 🔗 DLTHub - First Look
+# DLTHub First Look
 
 Should you use DLTHub for your ELT usecase?
 
@@ -30,11 +31,11 @@ I've personally faced with problem in more than one occasion
 
 **Customization**
 
-- Some of the connectors in Airbyte are written in Java. If I have to extend a connector I'll be limited to the language it's written in.
+* Some of the connectors in Airbyte are written in Java. If I have to extend a connector I'll be limited to the language it's written in.
 
 **Open Source??**
 
-- Airbyte is acumilating the market share by using open-source as it's advantage. But they have two different APIs for the open-source and the cloud version. If you try to automate anything with the open-source version, you'll be limited to the API, which is not well documented. Here is my [failed attempt to write a custom Python SDK for Airbyte.](https://github.com/bhavaniravi/airbyte-oss-api-sdk)
+* Airbyte is acumilating the market share by using open-source as it's advantage. But they have two different APIs for the open-source and the cloud version. If you try to automate anything with the open-source version, you'll be limited to the API, which is not well documented. Here is my [failed attempt to write a custom Python SDK for Airbyte.](https://github.com/bhavaniravi/airbyte-oss-api-sdk)
 
 ### Airflow Providers
 

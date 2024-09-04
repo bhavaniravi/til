@@ -4,17 +4,18 @@ sub_title: Should you use Airbyte for your ELT usecase?
 slug: airbyte-first-look
 tags:
   - data-engineering
-featuredImgPath: 
+featuredImgPath: null
 isexternal: true
 published_date: '2023-07-07'
 created_date: '2023-06-30'
 draft: false
 description: >-
-    Businesses produce and accumulate data. Before making sense of this data, we must bring them to a centralized place—a data lake. Whenever you can think of data, movement tools like Fivetran comes into the picture.
-    Airbyte is an ELT(Extract, Load, Transform) accumulating its market of Fivetran by using open source to its advantage.
+  Businesses produce and accumulate data. Before making sense of this data, we
+  must bring them to a centralized place—a data lake. Whenever you can think of
+  data, movement tools like Fivetran comes into
 ---
 
-# 🔗 Airbyte - First Look
+# 🔗 Airbyte First Look
 
 Should you use Airbyte for your ELT usecase?
 
@@ -28,7 +29,9 @@ It's not just the open source that makes Airbyte so special. It's also the featu
 
 <figure><img src="https://hackmd.io/_uploads/B1vvxkoB2.png" alt=""><figcaption></figcaption></figure>
 
-<figure><img src="../../.gitbook/assets/Screenshot 2023-05-24 at 6.24.47 AM.png" alt=""><figcaption><p>Airbyte illustration</p></figcaption></figure>
+ 
+
+<figure><img src="../.gitbook/assets/Screenshot 2023-05-24 at 6.24.47 AM.png" alt=""><figcaption><p>Airbyte illustration</p></figcaption></figure>
 
 </div>
 
@@ -70,18 +73,18 @@ Let's not get into this really open-source debate here. You can use Airbyte for 
 
 When looking for ELT systems, we look for a few things
 
-- Has enough connectors to pull/push data ✅
-- Can run full-load or incremental data ✅
-- Can run on schedule ✅
-- Scale ✅
-- Error management/Notifications ✅
-- Configurable Resource management ✅
+* Has enough connectors to pull/push data ✅
+* Can run full-load or incremental data ✅
+* Can run on schedule ✅
+* Scale ✅
+* Error management/Notifications ✅
+* Configurable Resource management ✅
 
 ### [Setup and Usage](https://docs.airbyte.com/cloud/getting-started-with-airbyte-cloud)
 
 If you want to try Airbyte locally, It is pretty easy to set up. You clone the Airbyte repo and run a script. Airbyte spins up several Docker containers and prepares your app for use.
 
-<figure><img src="../../.gitbook/assets/upload_ecc12e163aa72e584f24f8a9148cb5bd.png" alt=""><figcaption><p>Airbyte UI with connection configured</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/upload_ecc12e163aa72e584f24f8a9148cb5bd.png" alt=""><figcaption><p>Airbyte UI with connection configured</p></figcaption></figure>
 
 ### [Documentation](https://docs.airbyte.com/cloud/core-concepts)
 
@@ -109,15 +112,15 @@ This is a WIP. From whatever I have run in the system. I would call it slow. A f
 
 ### Community and Support
 
-- I have mixed views on this. Stackoverflow has just 75 questions
-- Airbyte Slack has about 13K members. There is a bot called kapa.ai that answerers questions. But I might be biased here. The questions are not cross-answered. In Airflow Slack, the community helps each other out when there is a question. This is something that the Airbyte community has to develop
+* I have mixed views on this. Stackoverflow has just 75 questions
+* Airbyte Slack has about 13K members. There is a bot called kapa.ai that answerers questions. But I might be biased here. The questions are not cross-answered. In Airflow Slack, the community helps each other out when there is a question. This is something that the Airbyte community has to develop
 
 ### Customization
 
-- This is where I find the major drawback, maybe because I come from Airflow(Python) world.
-- The connectors are developed in Python/Java. Most of the configuration is YAML based.
-- To version control existing connectors, you must use Octiva cli to export YAML files.
-- One drawback is that you cannot extend these connectors for customization.
+* This is where I find the major drawback, maybe because I come from Airflow(Python) world.
+* The connectors are developed in Python/Java. Most of the configuration is YAML based.
+* To version control existing connectors, you must use Octiva cli to export YAML files.
+* One drawback is that you cannot extend these connectors for customization.
 
 ### API
 
