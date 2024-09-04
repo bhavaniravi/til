@@ -6,6 +6,8 @@ description: Welcome to my digital garden
 
 I am a **Software Engineer** **specializing in Backend, Data Engineering, and DevOps systems.**&#x20;
 
+[Find out more about me](start-here/about-me.md)
+
 <figure><img src=".gitbook/assets/about-me.png" alt="" width="563"><figcaption></figcaption></figure>
 
 &#x20;&#x20;
