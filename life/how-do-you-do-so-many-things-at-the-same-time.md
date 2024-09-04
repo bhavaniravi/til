@@ -2,7 +2,7 @@
 added: Sep 28 2022
 draft: false
 image: null
-layout: ../layouts/BlogPost.astro
+unusedLayout: ../layouts/BlogPost.astro
 slug: how-do-you-do-so-many-things-at-the-same-time
 sub_title: How are you so productive? How do you manage your time?
 tags:

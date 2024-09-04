@@ -2,7 +2,7 @@
 added: Oct 26 2022
 draft: false
 image: null
-layout: ../layouts/BlogPost.astro
+unusedLayout: ../layouts/BlogPost.astro
 slug: why-i-started-building-100ideas
 sub_title: 'Brainstorming: The Good, Bad and Ugly'
 tags:

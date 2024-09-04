@@ -2,7 +2,7 @@
 added: Aug 30 2024
 draft: false
 image: null
-layout: ../layouts/BlogPost.astro
+unusedLayout: ../layouts/BlogPost.astro
 slug: side-projects-twitter-space
 sub_title: I want to build a side project but
 tags:

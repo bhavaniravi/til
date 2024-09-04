@@ -2,7 +2,7 @@
 added: Mar 16 2023
 draft: false
 image: null
-layout: ../layouts/BlogPost.astro
+unusedLayout: ../layouts/BlogPost.astro
 slug: local-k8-cluster-with-kind
 sub_title: Not a big fan of minikube? Kind should be your thing.
 tags:

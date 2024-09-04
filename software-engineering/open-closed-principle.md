@@ -2,7 +2,7 @@
 added: Aug 13 2022
 draft: false
 image: null
-layout: ../layouts/BlogPost.astro
+unusedLayout: ../layouts/BlogPost.astro
 slug: open-closed-principle
 sub_title: Open for extension closed for modification
 tags:

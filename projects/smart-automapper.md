@@ -1,7 +1,7 @@
 ---
 added: Sep 26 2022
 description: null
-layout: ../layouts/BlogPost.astro
+unusedLayout: ../layouts/BlogPost.astro
 slug: smart-automapper
 tags:
 - projects

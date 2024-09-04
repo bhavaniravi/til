@@ -2,7 +2,7 @@
 added: Jan 05 2024
 draft: false
 image: null
-layout: ../layouts/BlogPost.astro
+unusedLayout: ../layouts/BlogPost.astro
 slug: add-auth-layer-to-your-fastapis
 sub_title: Protect your FastAPI API with authentication, compliation of methods that
   will and won't work

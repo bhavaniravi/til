@@ -8,7 +8,7 @@ draft: false
 featuredImgPath: https://i.imgur.com/BBjdWBE.png
 image: null
 isexternal: true
-layout: ../layouts/BlogPost.astro
+unusedLayout: ../layouts/BlogPost.astro
 published_date: '2021-01-10'
 slug: sending-emails-from-airflow
 sub_title: Email task status or Send reports from Airflow

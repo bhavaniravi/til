@@ -8,7 +8,7 @@ draft: false
 featuredImgPath: null
 image: null
 isexternal: true
-layout: ../layouts/BlogPost.astro
+unusedLayout: ../layouts/BlogPost.astro
 published_date: '2023-07-02'
 slug: pydantic-tips-tricks
 sub_title: Pydantic cool features and what makes it better than Dataclasses and Attrs

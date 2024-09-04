@@ -2,7 +2,7 @@
 added: Sep 03 2022
 draft: false
 image: null
-layout: ../layouts/BlogPost.astro
+unusedLayout: ../layouts/BlogPost.astro
 slug: show-your-work
 sub_title: Notes and takeaways from Austin Kleon's book Show Your Work
 tags:

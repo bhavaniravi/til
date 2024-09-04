@@ -1,7 +1,7 @@
 ---
 added: Aug 31 2024
 description: "Retrieval Augmented Generation - Yet another acronym the ML researchers have slapped onto something so simple."
-layout: ../layouts/BlogPost.astro
+unusedLayout: ../layouts/BlogPost.astro
 slug: rag
 tags:
 - llm

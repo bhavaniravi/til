@@ -1,7 +1,7 @@
 ---
 added: Jan 11 2023
 description: null
-layout: ../layouts/BlogPost.astro
+unusedLayout: ../layouts/BlogPost.astro
 slug: docker-cli-cheatsheet
 tags:
 - devops

@@ -5,7 +5,7 @@ draft: false
 featuredImgPath: https://images.unsplash.com/photo-1569230919100-d3fd5e1132f4?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1276&q=80
 image: null
 isexternal: true
-layout: ../layouts/BlogPost.astro
+unusedLayout: ../layouts/BlogPost.astro
 published_date: 2020-02-23 00:00:00+00:00
 slug: atomic-habits-book-summary
 sub_title: Atomic habits is the most popular book of 2019, and has been in the wishlist

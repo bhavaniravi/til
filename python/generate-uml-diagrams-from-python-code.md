@@ -8,7 +8,7 @@ draft: false
 featuredImgPath: https://i.imgur.com/iWtiiYx.png
 image: null
 isexternal: true
-layout: ../layouts/BlogPost.astro
+unusedLayout: ../layouts/BlogPost.astro
 published_date: 2021-10-13 00:00:00+00:00
 slug: generate-uml-diagrams-from-python-code
 sub_title: Add UML diagrams along with every version of your code

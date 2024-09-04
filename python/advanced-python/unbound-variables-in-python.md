@@ -2,7 +2,7 @@
 added: Aug 15 2022
 draft: false
 image: null
-layout: ../layouts/BlogPost.astro
+unusedLayout: ../layouts/BlogPost.astro
 slug: unbound-variables-in-python
 sub_title: How Python figures out the scope of it's variables?
 tags:

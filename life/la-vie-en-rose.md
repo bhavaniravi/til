@@ -1,7 +1,7 @@
 ---
 added: Mar 04 2023
 description: null
-layout: ../layouts/BlogPost.astro
+unusedLayout: ../layouts/BlogPost.astro
 slug: la-vie-en-rose
 tags:
 - life

@@ -4,7 +4,7 @@ created_date: 2019-08-01 00:00:00+00:00
 draft: false
 featuredImgPath: /media/async-task-python.png
 image: null
-layout: ../layouts/BlogPost.astro
+unusedLayout: ../layouts/BlogPost.astro
 published_date: 2019-08-10 00:00:00+00:00
 slug: asynchronous-task-execution-in-python
 sub_title: Schedulers became major architechtural component of any software that we

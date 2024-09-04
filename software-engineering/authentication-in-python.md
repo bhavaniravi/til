@@ -4,7 +4,7 @@ created_date: 2019-08-26 00:00:00+00:00
 draft: false
 featuredImgPath: /media/auth_systems/featured.png
 image: null
-layout: ../layouts/BlogPost.astro
+unusedLayout: ../layouts/BlogPost.astro
 published_date: 2019-09-01 00:00:00+00:00
 slug: authentication-in-python
 sub_title: Authentication is a concept of ensuring that the right people gets access

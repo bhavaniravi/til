@@ -1,7 +1,7 @@
 ---
 added: Sep 06 2023
 description: null
-layout: ../layouts/BlogPost.astro
+unusedLayout: ../layouts/BlogPost.astro
 slug: the-pain-of-building-a-centralized-error-handler-in-fastapi
 tags:
 - fastapi

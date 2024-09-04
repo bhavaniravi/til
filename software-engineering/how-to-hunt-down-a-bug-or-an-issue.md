@@ -2,7 +2,7 @@
 added: Apr 30 2023
 draft: false
 image: null
-layout: ../layouts/BlogPost.astro
+unusedLayout: ../layouts/BlogPost.astro
 slug: how-to-hunt-down-a-bug-or-an-issue
 sub_title: It's not working. It gives an error. How to resolve a bug or an infra issue
   without losing it

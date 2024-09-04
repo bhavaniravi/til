@@ -7,7 +7,7 @@ draft: false
 featuredImgPath: https://i.imgur.com/9lCN0V6.png
 image: null
 isexternal: true
-layout: ../layouts/BlogPost.astro
+unusedLayout: ../layouts/BlogPost.astro
 published_date: '2020-05-14'
 slug: secrets-as-python-file
 sub_title: Storing your secrets as Python file, here is what you need to be aware

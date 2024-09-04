@@ -2,7 +2,7 @@
 added: Mar 16 2023
 draft: false
 image: null
-layout: ../layouts/BlogPost.astro
+unusedLayout: ../layouts/BlogPost.astro
 slug: python-position-and-keyword-only-arguments
 sub_title: What does / and * mean in a Python function definition mean
 tags:

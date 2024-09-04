@@ -2,7 +2,7 @@
 added: Sep 12 2022
 draft: false
 image: null
-layout: ../layouts/BlogPost.astro
+unusedLayout: ../layouts/BlogPost.astro
 slug: why-we-need-a-low-key-version-of-gratitude-journaling
 sub_title: Why We need a Low Key Version of Gratitude Journaling
 tags:

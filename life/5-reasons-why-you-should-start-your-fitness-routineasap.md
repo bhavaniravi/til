@@ -4,7 +4,7 @@ created_date: null
 draft: true
 featuredImgPath: /media/machine-learning-nlp-vectorization-techniques-featured.png
 image: null
-layout: ../layouts/BlogPost.astro
+unusedLayout: ../layouts/BlogPost.astro
 published_date: null
 slug: 5-reasons-why-you-should-start-your-fitness-routineasap
 sub_title: Who doesn’t want an healthy life? Always imagine yourself running around

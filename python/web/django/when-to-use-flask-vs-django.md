@@ -1,7 +1,7 @@
 ---
 added: Aug 04 2022
 description: null
-layout: ../layouts/BlogPost.astro
+unusedLayout: ../layouts/BlogPost.astro
 slug: when-to-use-flask-vs-django
 tags:
 - django

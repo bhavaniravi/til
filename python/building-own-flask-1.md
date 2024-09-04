@@ -8,7 +8,7 @@ draft: false
 featuredImgPath: https://i.imgur.com/Zq4lJgB.jpg
 image: null
 isexternal: true
-layout: ../layouts/BlogPost.astro
+unusedLayout: ../layouts/BlogPost.astro
 published_date: 2021-09-16 00:00:00+00:00
 slug: building-own-flask-1
 sub_title: Reverse Engineering Flask app to build a similar flask like interface

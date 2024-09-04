@@ -1,7 +1,7 @@
 ---
 added: Sep 21 2022
 description: null
-layout: ../layouts/BlogPost.astro
+unusedLayout: ../layouts/BlogPost.astro
 slug: traveling-to-leh-ladhak
 tags:
 - travel

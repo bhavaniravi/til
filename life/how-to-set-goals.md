@@ -6,7 +6,7 @@ draft: false
 featuredImgPath: https://i.imgur.com/xhvlpFc.png
 image: null
 isexternal: true
-layout: ../layouts/BlogPost.astro
+unusedLayout: ../layouts/BlogPost.astro
 published_date: 2021-10-12 00:00:00+00:00
 slug: how-to-set-goals
 sub_title: Logging my thought stream on goal setting and tracking

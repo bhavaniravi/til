@@ -8,7 +8,7 @@ draft: false
 featuredImgPath: https://i.imgur.com/SBTXhe3.jpg
 image: null
 isexternal: true
-layout: ../layouts/BlogPost.astro
+unusedLayout: ../layouts/BlogPost.astro
 published_date: 2021-08-24 00:00:00+00:00
 slug: custom-oauth2-with-auth0
 sub_title: Using Auth0 to connect to different kinds of Oauth2 providers

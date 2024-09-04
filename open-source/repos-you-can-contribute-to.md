@@ -2,7 +2,7 @@
 added: Sep 08 2022
 draft: false
 image: null
-layout: ../layouts/BlogPost.astro
+unusedLayout: ../layouts/BlogPost.astro
 slug: repos-you-can-contribute-to
 sub_title: When you have free time to contribute to an opensource repo, use this list
 tags:

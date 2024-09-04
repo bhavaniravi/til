@@ -1,7 +1,7 @@
 ---
 added: Jun 12 2023
 description: null
-layout: ../layouts/BlogPost.astro
+unusedLayout: ../layouts/BlogPost.astro
 slug: why-should-we-care-about-diversity-in-tech
 tags:
 - community

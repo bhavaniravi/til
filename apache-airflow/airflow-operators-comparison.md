@@ -8,7 +8,7 @@ draft: false
 featuredImgPath: https://i.imgur.com/UvlPSAW.png
 image: null
 isexternal: true
-layout: ../layouts/BlogPost.astro
+unusedLayout: ../layouts/BlogPost.astro
 published_date: '2021-01-12'
 slug: airflow-operators-comparison
 sub_title: Comparison between Python, Docker and Kubernetes Airflow Operator

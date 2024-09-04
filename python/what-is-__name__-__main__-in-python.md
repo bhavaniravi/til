@@ -2,7 +2,7 @@
 added: Nov 16 2022
 draft: false
 image: null
-layout: ../layouts/BlogPost.astro
+unusedLayout: ../layouts/BlogPost.astro
 slug: what-is-__name__-__main__-in-python
 sub_title: Python snippets use __name__ == "__main__" checks to ensure that the module-specific
   code is ran only when they are run directly via Python. Let's see that with an example

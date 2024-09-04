@@ -7,7 +7,7 @@ description: The word Kubernetes and the keywords around it are scary for people
 draft: false
 featuredImgPath: https://i.imgur.com/uTbgOJD.png
 isexternal: true
-layout: ../layouts/BlogPost.astro
+unusedLayout: ../layouts/BlogPost.astro
 published_date: 2022-03-06 00:00:00+00:00
 slug: kubernetes-101-deploy-apps-in-kubernetes
 sub_title: Basics of kubernetes and deploying apps in K8 environment

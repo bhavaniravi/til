@@ -8,7 +8,7 @@ draft: false
 featuredImgPath: https://i.imgur.com/AzQqzQB.png
 image: null
 isexternal: true
-layout: ../layouts/BlogPost.astro
+unusedLayout: ../layouts/BlogPost.astro
 published_date: 2021-12-12 00:00:00+00:00
 slug: docker-virtualization-vs-containerization
 sub_title: 'Evolution of docker '

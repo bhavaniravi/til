@@ -7,7 +7,7 @@ draft: false
 featuredImgPath: https://images.unsplash.com/photo-1540959733332-eab4deabeeaf?iauto=format&fit=crop&w=1371&q=390
 image: null
 isexternal: true
-layout: ../layouts/BlogPost.astro
+unusedLayout: ../layouts/BlogPost.astro
 published_date: '2020-12-16'
 slug: shopping-like-a-minimalist
 sub_title: In a world where ads constantly bombard us, streamlining your shopping

@@ -2,7 +2,7 @@
 added: Oct 20 2022
 draft: false
 image: null
-layout: ../layouts/BlogPost.astro
+unusedLayout: ../layouts/BlogPost.astro
 slug: is-this-burnout
 sub_title: 5 symptoms that I had when I was buring out
 tags:

@@ -1,7 +1,7 @@
 ---
 added: Aug 13 2022
 description: null
-layout: ../layouts/BlogPost.astro
+unusedLayout: ../layouts/BlogPost.astro
 slug: sending-email-alerts-in-apache-airflow-with-sendgrid
 tags:
 - apache-airflow

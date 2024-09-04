@@ -2,7 +2,7 @@
 added: Jan 30 2024
 draft: false
 image: null
-layout: ../layouts/BlogPost.astro
+unusedLayout: ../layouts/BlogPost.astro
 slug: python-decorators-a-deep-dive
 sub_title: Decorators are the way to give super powers to your Python functions. It
   takes DRY principle up a notch

@@ -5,7 +5,7 @@ draft: false
 featuredImgPath: https://cdn.pixabay.com/photo/2013/09/23/03/05/high-tech-185146_960_720.jpg
 image: null
 isexternal: true
-layout: ../layouts/BlogPost.astro
+unusedLayout: ../layouts/BlogPost.astro
 published_date: 2019-07-25 00:00:00+00:00
 slug: a-world-where-women-in-tech-rules
 sub_title: In an imaginary world where women in tech rules, what are the societal

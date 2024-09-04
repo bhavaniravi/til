@@ -7,7 +7,7 @@ draft: false
 featuredImgPath: https://i.imgur.com/nokXidS.jpg
 image: null
 isexternal: true
-layout: ../layouts/BlogPost.astro
+unusedLayout: ../layouts/BlogPost.astro
 published_date: 2021-11-29 00:00:00+00:00
 slug: docker-introduction
 sub_title: images, containers, commands what does all these mean in Docker

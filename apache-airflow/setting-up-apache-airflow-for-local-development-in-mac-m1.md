@@ -2,7 +2,7 @@
 added: Oct 28 2022
 draft: false
 image: null
-layout: ../layouts/BlogPost.astro
+unusedLayout: ../layouts/BlogPost.astro
 slug: setting-up-apache-airflow-for-local-development-in-mac-m1
 sub_title: How to setup airflow for local development, errors you might face and how
   to work around them?

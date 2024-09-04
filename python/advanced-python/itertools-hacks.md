@@ -1,7 +1,7 @@
 ---
 added: Aug 15 2022
 description: null
-layout: ../layouts/BlogPost.astro
+unusedLayout: ../layouts/BlogPost.astro
 slug: itertools-hacks
 tags:
 - advanced-python

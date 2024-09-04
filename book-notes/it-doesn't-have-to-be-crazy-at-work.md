@@ -5,7 +5,7 @@ draft: true
 featuredImgPath: https://images-na.ssl-images-amazon.com/images/I/81nvF-p7odL.jpg
 image: null
 isexternal: true
-layout: ../layouts/BlogPost.astro
+unusedLayout: ../layouts/BlogPost.astro
 published_date: 2019-07-24 00:00:00+00:00
 slug: it-doesn't-have-to-be-crazy-at-work
 sub_title: null

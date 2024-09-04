@@ -10,7 +10,7 @@ draft: false
 featuredImgPath: null
 image: null
 isexternal: true
-layout: ../layouts/BlogPost.astro
+unusedLayout: ../layouts/BlogPost.astro
 published_date: '2023-07-07'
 slug: DLTHub-new-tool
 sub_title: Should you use DLTHub for your ELT usecase?

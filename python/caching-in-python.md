@@ -4,7 +4,7 @@ created_date: 2019-08-26 00:00:00+00:00
 draft: false
 featuredImgPath: /media/caching-in-python.png
 image: null
-layout: ../layouts/BlogPost.astro
+unusedLayout: ../layouts/BlogPost.astro
 published_date: 2019-08-26 00:00:00+00:00
 slug: caching-in-python
 sub_title: Caching, is a concept that was gifted to software world from the hardware

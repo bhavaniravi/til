@@ -1,7 +1,7 @@
 ---
 added: Oct 28 2022
 description: null
-layout: ../layouts/BlogPost.astro
+unusedLayout: ../layouts/BlogPost.astro
 slug: how-to-design-a-chatbot-system-architecture
 tags:
 - software-engineering

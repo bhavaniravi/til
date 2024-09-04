@@ -4,7 +4,7 @@ created_date: 2019-09-01 00:00:00+00:00
 draft: false
 featuredImgPath: /media/fts/fts-featured.png
 image: null
-layout: ../layouts/BlogPost.astro
+unusedLayout: ../layouts/BlogPost.astro
 published_date: 2019-09-08 00:00:00+00:00
 slug: challenges-in-full-text-search
 sub_title: While Full-text-search is famous for search through documents at a faster

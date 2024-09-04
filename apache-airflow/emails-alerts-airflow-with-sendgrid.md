@@ -7,7 +7,7 @@ draft: false
 featuredImgPath: https://i.imgur.com/UcIVisf.png
 image: null
 isexternal: true
-layout: ../layouts/BlogPost.astro
+unusedLayout: ../layouts/BlogPost.astro
 published_date: 2022-01-07
 slug: emails-alerts-airflow-with-sendgrid
 sub_title: Step-by-Step instructions on setting up sendgrid and airflow to send emails

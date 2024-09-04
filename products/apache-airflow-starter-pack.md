@@ -2,7 +2,7 @@
 added: Jan 03 2023
 draft: false
 image: null
-layout: ../layouts/BlogPost.astro
+unusedLayout: ../layouts/BlogPost.astro
 slug: apache-airflow-starter-pack
 sub_title: Setup Airflow Infrastructure and training for your team
 tags:

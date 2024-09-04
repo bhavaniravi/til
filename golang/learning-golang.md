@@ -8,7 +8,7 @@ draft: false
 featuredImgPath: https://i.imgur.com/L69ncMb.png
 image: null
 isexternal: true
-layout: ../layouts/BlogPost.astro
+unusedLayout: ../layouts/BlogPost.astro
 published_date: '2020-08-09'
 slug: learning-golang
 sub_title: Learn Golang the practical way

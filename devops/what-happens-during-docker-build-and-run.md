@@ -7,7 +7,7 @@ description: When using Docker, you will encounter two major operations `build` 
 draft: false
 image: https://i.imgur.com/P6LyCHX.png
 isexternal: true
-layout: ../layouts/BlogPost.astro
+unusedLayout: ../layouts/BlogPost.astro
 published_date: 2021-12-14 00:00:00+00:00
 slug: what-happens-during-docker-build-and-run
 sub_title: Disecting How Docker works, One layer at a time

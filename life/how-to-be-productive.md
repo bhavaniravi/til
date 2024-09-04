@@ -8,7 +8,7 @@ draft: false
 featuredImgPath: https://i.imgur.com/I2TtWvg.png
 image: null
 isexternal: true
-layout: ../layouts/BlogPost.astro
+unusedLayout: ../layouts/BlogPost.astro
 published_date: '2020-09-14'
 slug: how-to-be-productive
 sub_title: Framworks, tips and tricks to increase your productivity

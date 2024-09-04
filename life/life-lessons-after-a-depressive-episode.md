@@ -1,7 +1,7 @@
 ---
 added: Feb 14 2023
 description: null
-layout: ../layouts/BlogPost.astro
+unusedLayout: ../layouts/BlogPost.astro
 slug: life-lessons-after-a-depressive-episode
 tags:
 - life

@@ -5,7 +5,7 @@ draft: false
 featuredImgPath: https://i.imgur.com/lYt622N.png
 image: null
 isexternal: true
-layout: ../layouts/BlogPost.astro
+unusedLayout: ../layouts/BlogPost.astro
 published_date: 2020-05-28 00:00:00+00:00
 slug: apache-airflow-introduction
 sub_title: Airflow is a platform to programmatically author, schedule, and monitor

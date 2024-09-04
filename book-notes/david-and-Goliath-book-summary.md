@@ -5,7 +5,7 @@ draft: false
 featuredImgPath: /media/david-and-golaith.png
 image: null
 isexternal: false
-layout: ../layouts/BlogPost.astro
+unusedLayout: ../layouts/BlogPost.astro
 published_date: 2020-03-14 00:00:00+00:00
 slug: david-and-Goliath-book-summary
 sub_title: null

@@ -5,7 +5,7 @@ draft: false
 featuredImgPath: /media/magic_of_responsiblity.jpeg
 image: null
 isexternal: false
-layout: ../layouts/BlogPost.astro
+unusedLayout: ../layouts/BlogPost.astro
 published_date: 2019-06-07 00:00:00+00:00
 slug: the-magic-of-responsiblity
 sub_title: Do you want people to act mature? Trust them and give them the responsibility!

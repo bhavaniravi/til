@@ -1,7 +1,7 @@
 ---
 added: Aug 04 2022
 description: null
-layout: ../layouts/BlogPost.astro
+unusedLayout: ../layouts/BlogPost.astro
 slug: gil
 tags:
 - advanced-python

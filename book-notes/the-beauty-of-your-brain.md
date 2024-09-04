@@ -4,7 +4,7 @@ created_date: 2019-06-06 12:30:00.748000+00:00
 draft: false
 featuredImgPath: /media/the-beauty-of-yourbrainit-just-got-interestingarticles-for-you-toread-0.jpg
 image: null
-layout: ../layouts/BlogPost.astro
+unusedLayout: ../layouts/BlogPost.astro
 published_date: 2019-06-06 12:30:00.748000+00:00
 slug: the-beauty-of-your-brain
 sub_title: I love reading about the brain. The complexity and uniqueness of it always

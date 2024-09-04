@@ -1,7 +1,7 @@
 ---
 added: Aug 04 2022
 description: null
-layout: ../layouts/BlogPost.astro
+unusedLayout: ../layouts/BlogPost.astro
 slug: multi-processing-vs-multi-threading
 tags:
 - advanced-python

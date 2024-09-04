@@ -2,7 +2,7 @@
 added: Aug 30 2024
 draft: false
 image: null
-layout: ../layouts/BlogPost.astro
+unusedLayout: ../layouts/BlogPost.astro
 skills:
 - code
 slug: ownflask

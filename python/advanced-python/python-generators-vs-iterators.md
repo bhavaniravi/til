@@ -2,7 +2,7 @@
 added: Nov 16 2022
 draft: false
 image: null
-layout: ../layouts/BlogPost.astro
+unusedLayout: ../layouts/BlogPost.astro
 slug: python-generators-vs-iterators
 sub_title: Generators and Iterators are Python constructs that lets you loop through
   data in chunks instead of loading them into memory. This post discusses the subtle

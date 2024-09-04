@@ -8,7 +8,7 @@ draft: false
 featuredImgPath: https://i.imgur.com/gine5et.png
 image: null
 isexternal: true
-layout: ../layouts/BlogPost.astro
+unusedLayout: ../layouts/BlogPost.astro
 published_date: 2022-01-29 00:00:00+00:00
 slug: merge-python-module-script
 sub_title: how to write a python script to merge multiple python modules into single

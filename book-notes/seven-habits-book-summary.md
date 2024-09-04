@@ -5,7 +5,7 @@ draft: false
 featuredImgPath: https://i.imgur.com/RlofT9N.png
 image: null
 isexternal: true
-layout: ../layouts/BlogPost.astro
+unusedLayout: ../layouts/BlogPost.astro
 published_date: 2020-03-10 00:00:00+00:00
 slug: seven-habits-book-summary
 sub_title: null

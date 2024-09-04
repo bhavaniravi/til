@@ -5,7 +5,7 @@ draft: false
 featuredImgPath: https://images.idgesg.net/images/article/2019/05/audience_listens_to_speaker_lecture_at_a_conference_presentation_by_toxawww_gettyimages-974238866_2400x1600-100796682-large.jpg
 image: null
 isexternal: true
-layout: ../layouts/BlogPost.astro
+unusedLayout: ../layouts/BlogPost.astro
 published_date: 2019-06-13 00:00:00+00:00
 slug: why-should-you-attend-tech-conferences
 sub_title: Learning multiples when a few like-minded people come together in the name

@@ -2,7 +2,7 @@
 added: Jan 12 2024
 draft: false
 image: null
-layout: ../layouts/BlogPost.astro
+unusedLayout: ../layouts/BlogPost.astro
 slug: refine-your-developer-resume
 sub_title: Seize Stunning Opportunites with a Stunning Resume
 tags:
@@ -67,11 +67,13 @@ What’s wrong with the following section?
 
 * A resume's job is to highlight "you" and your skill set. Something as simple as swapping the company's name with the Position you held will make a huge difference.
 
-<pre class="language-markdown"><code class="lang-markdown">Lead Developer Advocate(Contract)                      Dozer - April 2023 - July 2023
+<pre class="language-markdown"><code class="lang-markdown">Lead Developer Advocate(Contract)                      
+Dozer - April 2023 - July 2023
 
 
 - Led initiatives to improve developer onboarding and engagement using Dozer.
-- Created sample applications using Dozer and other data engineering tools.
+
+- Created sample applications using Dozer and other data engineering tools.
 - Developed a detailed content strategy, including podcasts, documentation, and collaborations.
 <strong>
 </strong></code></pre>

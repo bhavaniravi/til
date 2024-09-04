@@ -2,7 +2,7 @@
 added: Aug 13 2022
 draft: false
 image: null
-layout: ../layouts/BlogPost.astro
+unusedLayout: ../layouts/BlogPost.astro
 slug: dynamic-task-mapping
 sub_title: Create multiple airflow tasks based on the output of previous task
 tags:

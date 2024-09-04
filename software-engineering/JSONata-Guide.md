@@ -2,7 +2,7 @@
 added: Aug 16 2024
 draft: false
 image: null
-layout: ../layouts/BlogPost.astro
+unusedLayout: ../layouts/BlogPost.astro
 slug: JSONata-Guide
 sub_title: null
 subtitle: JSON to JSON transformation in a easy and efficient way

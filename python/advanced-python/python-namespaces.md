@@ -2,7 +2,7 @@
 added: Aug 04 2022
 draft: false
 image: null
-layout: ../layouts/BlogPost.astro
+unusedLayout: ../layouts/BlogPost.astro
 slug: python-namespaces
 sub_title: How Python figures out the scope of it's variables?
 tags:

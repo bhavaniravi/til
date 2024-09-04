@@ -2,7 +2,7 @@
 added: Apr 01 2023
 draft: false
 image: null
-layout: ../layouts/BlogPost.astro
+unusedLayout: ../layouts/BlogPost.astro
 slug: get-started-with-docker-compose
 sub_title: By Building and hosting a full stack application
 tags:

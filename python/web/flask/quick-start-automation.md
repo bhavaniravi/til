@@ -2,7 +2,7 @@
 added: Aug 04 2022
 draft: false
 image: null
-layout: ../layouts/BlogPost.astro
+unusedLayout: ../layouts/BlogPost.astro
 slug: quick-start-automation
 sub_title: Start here for your 1st flask script
 tags:

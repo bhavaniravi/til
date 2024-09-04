@@ -1,7 +1,7 @@
 ---
 added: Nov 28 2022
 description: null
-layout: ../layouts/BlogPost.astro
+unusedLayout: ../layouts/BlogPost.astro
 slug: migrating-to-flask-sqlalchemy-3
 tags:
 - flask

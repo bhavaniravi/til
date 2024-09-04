@@ -1,7 +1,7 @@
 ---
 added: Feb 15 2023
 description: null
-layout: ../layouts/BlogPost.astro
+unusedLayout: ../layouts/BlogPost.astro
 slug: uml-isnt-dead
 tags:
 - python

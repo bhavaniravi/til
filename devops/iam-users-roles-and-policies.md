@@ -2,7 +2,7 @@
 added: Nov 27 2022
 draft: false
 image: null
-layout: ../layouts/BlogPost.astro
+unusedLayout: ../layouts/BlogPost.astro
 slug: iam-users-roles-and-policies
 sub_title: There are variety of ways to authenticate yourself with IAM Roles are one
   of the most commonly used. Here is a Cheatsheet to get you started
