@@ -1,15 +1,14 @@
+---
+description: Software Engineer who understands business needs
+---
+
 # Work With Me
 
-#### Hi 👋🏻, I am Bhavani Ravi
+**Backend Engineering -** Bring me anything Python/Typescript I got you covered
 
-I am a Software Engineer and Trainer focusing on building Backend, Data Engineering, and DevOps systems.
+**Devops -** From Kubernetes to Terraform, AWS, GCP, Azure. Touched them all
 
-* For the past 8 years, I have built **backend/Data/Devops** Systems in **Python**
-* I use _**React & Javascript**_ for my frontend projects
-* I've also dabbled with the _**DevOps**_ side of things
-  * Deploying web apps in **AWS/GCP** in **Docker/Kubernetes/Terraform** infrastructure
-  * Converting ML models into deployable ML systems
-  * Setting up **CI/CD pipelines** using **GitHub Actions/Jenkins**
+**Data Engineering -** Data sourcing, integration, and pipelining
 
 ### Hire me to
 
@@ -19,12 +18,6 @@ I am a Software Engineer and Trainer focusing on building Backend, Data Engineer
 * _In_frastructure or code review                                             &#x20;
 
 ### [       Book a Discovery Call ](https://topmate.io/bhavaniravi/736455)
-
-### Working With Me
-
-* I love async remote work
-* I'm more of an individual contributor
-* Mentor >>> Manager
 
 ### Community & Training
 
