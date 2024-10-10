@@ -17,13 +17,13 @@ description: >-
 
 # DLTHub First Look
 
-Should you use DLTHub for your ELT usecase?
+**Should you use DLTHub for your ELT usecase?**
 
-Businesses produce and accumulate data. Before making sense of this data, we must bring them to a centralized place—a data lake. Whenever you can think of data, movement tools like Fivetran and [Airbyte](data-engineering/airbyte-first-look.md) comes into the picture. As I discussed in the [Airbyte](data-engineering/airbyte-first-look.md) article, the problem with the current ELT ecosystem is that they come with a platform dependency.
+Businesses produce and accumulate data. Before making sense of this data, we must bring it to a centralized place—a data lake. Whenever you can think of data, movement tools like Fivetran and Airbyte come into the picture. As I discussed in the Airbyte article, the problem with the current ELT ecosystem is that it is platform-dependent.
 
-One of the main advantage of ELT tools is it's ability to connect different data sources and destination. The platform or language dependency comes in the way of extending/custqomizing the connectors to match your needs.
+One of the main advantages of ELT tools is their ability to connect different data sources and destinations. Platform or language dependency prevents you from extending/customizing the connectors to match your needs.
 
-I've personally faced with problem in more than one occasion
+I've personally faced with a problem on more than one occasion
 
 ## Problems with ELT Tools
 
@@ -35,25 +35,25 @@ I've personally faced with problem in more than one occasion
 
 **Open Source??**
 
-* Airbyte is acumilating the market share by using open-source as it's advantage. But they have two different APIs for the open-source and the cloud version. If you try to automate anything with the open-source version, you'll be limited to the API, which is not well documented. Here is my [failed attempt to write a custom Python SDK for Airbyte.](https://github.com/bhavaniravi/airbyte-oss-api-sdk)
+* Airbyte is accumulating market share by using open-source as its advantage. But they have two different APIs for the open-source and cloud versions. If you try to automate anything with the open-source version, you'll be limited to the API, which is not well documented. Here is my [failed attempt to write a custom Python SDK for Airbyte.](https://github.com/bhavaniravi/airbyte-oss-api-sdk)
 
 ### Airflow Providers
 
 **Customization**
 
-My alternative to Airbyte fiasco was to use Airflow without it's platform, just the providers. As you might know the provider ecosystem is huge. All of them are in Python so it's pretty straightforward to extend them.
+My alternative to the Airbyte fiasco was to use Airflow without its platform, just the providers. As you might know, the provider ecosystem is huge. All of them are in Python so it's pretty straightforward to extend them.
 
 **Dependency Hell**
 
-But the hope and excitement to use Airflow providers was short-lived. Airflow is known for it's dependency hell. For one, we were using poetry which is not supported. Providers cannot be installed without installing airflow itself. That means I'm brining way too many libraries and it's assoicated constraints into my project and are limited to the version of Airflow I'm using.
+However, the hope and excitement to use Airflow providers was short-lived. Airflow is known for its dependency hell. For one, we were using poetry which is not supported. Providers cannot be installed without installing the Airflow itself. That means I'm bringing way too many libraries and it's associated constraints into my project and are limited to the version of Airflow I'm using.
 
 ## DLTHub
 
-DLTHub was the next ray of hope. It's purely opensource and has no platform dependency. It's all Python and comes with the flexibility of run it anywhere, from your local, server, airflow.
+DLTHub was the next ray of hope. It's purely open source and has no platform dependency. It's all Python and comes with the flexibility of running it anywhere, from your local, server, to airflow.
 
 ### Installation
 
-Poetry the python dependency manager is something I am heavily using for all my client projects. So support for poetry was a big plus for me. Setting up the dev environment was as simple as running
+Poetry the Python dependency manager is something I am heavily using for all my client projects. So support for poetry was a big plus for me. Setting up the dev environment was as simple as running
 
 ```
 poetry shell
@@ -75,7 +75,7 @@ data = [
 ]
 ```
 
-Ingest it to duckdb. Why duckdb? because it's inmemory and pretty easy to setup
+Ingest it to Duckdb. Why Duckdb? because it's in memory and pretty easy to setup
 
 ```
 import dlt
