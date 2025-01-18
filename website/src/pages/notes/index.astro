@@ -1,0 +1,171 @@
+---
+import BaseHead from '../../components/BaseHead.astro';
+import Header from '../../components/Header.astro';
+import Footer from '../../components/Footer.astro';
+import { SITE_TITLE, SITE_DESCRIPTION } from '../../consts';
+import { getCollection } from 'astro:content';
+import FormattedDate from '../../components/FormattedDate.astro';
+
+const posts = (await getCollection('notes')).sort(
+	(a, b) => b.data.added.valueOf() - a.data.added.valueOf(),
+);
+function groupFilesByFolder(paths: string[]): Record<string, any> {
+	// we will use this function later, for now we will use only top-level folders
+
+    const grouped: Record<string, any> = {};
+
+    // Iterate over each path
+    for (const path of paths) {
+        const segments = path.split('/');
+        let current = grouped;
+
+        // Traverse through each segment of the path and build the folder structure
+        for (let i = 0; i < segments.length; i++) {
+            const segment = segments[i];
+
+            if (i === segments.length - 1) {
+                // If it's the last segment, it represents a file, so add it to the current folder
+                if (!current.files) {
+                    current.files = [];
+                }
+                current.files.push(segment);
+            } else {
+                // If it's not the last segment, it represents a folder
+                if (!current[segment]) {
+                    current[segment] = {}; // Create folder if it doesn't exist
+                }
+                current = current[segment]; // Move deeper into the folder structure
+            }
+        }
+    }
+
+    return grouped;
+}
+
+// const groupedPosts = groupFilesByFolder(posts.map((post) => post.id));
+
+function groupPostsByTopLevelFolder(posts) {
+	const grouped: Record<string, any> = {};
+
+	for (const post of posts) {
+		const segments = post.id.split('/');
+		const topLevelFolder = segments[0];
+
+		if (!grouped[topLevelFolder]) {
+			grouped[topLevelFolder] = [];
+		}
+
+		grouped[topLevelFolder].push(post);
+	}
+
+	return grouped;
+}
+
+const groupedPosts = groupPostsByTopLevelFolder(posts);
+
+function convertSlugToTitle(slug: string): string {
+	return slug
+		.split('-')
+		.map((word) => word.charAt(0).toUpperCase() + word.slice(1))
+		.join(' ');
+}
+---
+
+<!doctype html>
+<html lang="en">
+	<head>
+		<BaseHead title={SITE_TITLE} description={SITE_DESCRIPTION} />
+		<style>
+			main {
+				width: 960px;
+			}
+			ul {
+				display: block;
+				margin: 2rem;
+				list-style-type: none;
+				padding: 0;
+			}
+			ul li * {
+				text-decoration: none;
+				transition: 0.2s ease;
+			}
+
+			ul li a {
+				display: block;
+			}
+			.title {
+				margin: 0;
+				color: rgb(var(--black));
+				line-height: 1;
+			}
+			.date {
+				margin: 0;
+				color: rgb(var(--gray));
+			}
+			ul li a:hover h4,
+			ul li a:hover .date {
+				color: rgb(var(--accent));
+			}
+			ul a:hover img {
+				box-shadow: var(--box-shadow);
+			}
+			@media (max-width: 720px) {
+				ul {
+					gap: 0.5em;
+				}
+				ul li {
+					width: 100%;
+					text-align: center;
+				}
+				ul li:first-child {
+					margin-bottom: 0;
+				}
+				ul li:first-child .title {
+					font-size: 1.563em;
+				}
+			}
+		</style>
+	</head>
+	<body>
+		<Header />
+		<main>
+			<section>
+				<!-- <ul>
+					{
+						posts.map((post) => (
+							<li>
+								<a href={`/notes/${post.id}/`}>
+									<h4 class="title">{post.data.title}</h4>
+									<p class="date">
+										<FormattedDate date={post.data.added} />
+									</p>
+								</a>
+							</li>
+						))
+					}
+				</ul> -->
+				{
+					Object.entries(groupedPosts).map(([folder, posts]) => (
+						<h4 class="title">{convertSlugToTitle(folder)}</h4>
+						<ul>	
+							{
+								posts.map((post) => (
+									<li>
+										<a href={`/notes/${post.id}/`}>
+											<h6 class="title">{post.data.title}
+											<p class="date">
+												<FormattedDate date={post.data.added} />
+											</p>
+											</h6>
+										</a>
+									</li>
+								))
+							}
+						</ul>
+					))
+				}
+			</section>
+		</main>
+		<Footer />
+	</body>
+</html>
