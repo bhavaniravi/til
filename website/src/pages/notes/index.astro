@@ -85,24 +85,20 @@ function convertSlugToTitle(slug: string): string {
 				list-style-type: none;
 				padding: 0;
 			}
-			ul li * {
-				text-decoration: none;
-				transition: 0.2s ease;
-			}
-
-			ul li a {
-				display: block;
+			ul li div a {
+				display: flex;
+				justify-content: space-between;
 			}
 			.title {
 				margin: 0;
 				color: rgb(var(--black));
-				line-height: 1;
+				line-height: none;
 			}
-			.date {
+			/* .date {
 				margin: 0;
 				color: rgb(var(--gray));
-			}
-			ul li a:hover h4,
+			} */
+			ul li a:hover h6,
 			ul li a:hover .date {
 				color: rgb(var(--accent));
 			}
@@ -117,12 +113,6 @@ function convertSlugToTitle(slug: string): string {
 					width: 100%;
 					text-align: center;
 				}
-				ul li:first-child {
-					margin-bottom: 0;
-				}
-				ul li:first-child .title {
-					font-size: 1.563em;
-				}
 			}
 		</style>
 	</head>
@@ -130,20 +120,6 @@ function convertSlugToTitle(slug: string): string {
 		<Header />
 		<main>
 			<section>
-				<!-- <ul>
-					{
-						posts.map((post) => (
-							<li>
-								<a href={`/notes/${post.id}/`}>
-									<h4 class="title">{post.data.title}</h4>
-									<p class="date">
-										<FormattedDate date={post.data.added} />
-									</p>
-								</a>
-							</li>
-						))
-					}
-				</ul> -->
 				{
 					Object.entries(groupedPosts).map(([folder, posts]) => (
 						<h4 class="title">{convertSlugToTitle(folder)}</h4>
@@ -151,13 +127,12 @@ function convertSlugToTitle(slug: string): string {
 							{
 								posts.map((post) => (
 									<li>
-										<a href={`/notes/${post.id}/`}>
-											<h6 class="title">{post.data.title}
-											<p class="date">
+										<div>
+											<a href={`/notes/${post.id}/`}>
+												<h6 class="title">{post.data.title}</h6>
 												<FormattedDate date={post.data.added} />
-											</p>
-											</h6>
-										</a>
+											</a>
+										</div>
 									</li>
 								))
 							}

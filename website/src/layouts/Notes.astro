@@ -35,12 +35,12 @@ const { title, description, added, image } = Astro.props;
 				padding: 1em;
 				color: rgb(var(--gray-dark));
 			}
-			.title {
+			/* .title {
 				margin-bottom: 1em;
 				padding: 1em 0;
 				text-align: center;
 				line-height: 1;
-			}
+			} */
 			.title h1 {
 				margin: 0 0 0.5em 0;
 			}
@@ -64,7 +64,6 @@ const { title, description, added, image } = Astro.props;
 				<div class="prose">
 					<div class="title">
 						<div class="date">
-							<FormattedDate date={added} />
 							{
 								added && (
 									<div class="last-updated-on">
@@ -73,7 +72,6 @@ const { title, description, added, image } = Astro.props;
 								)
 							}
 						</div>
-						<h1>{title}</h1>
 						<hr />
 					</div>
 					<slot />
