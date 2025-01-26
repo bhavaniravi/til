@@ -3,6 +3,24 @@
   https://github.com/HermanMartinus/bearblog/blob/297026a877bc2ab2b3bdfbd6b9f7961c350917dd/templates/styles/blog/default.css
   License MIT: https://github.com/HermanMartinus/bearblog/blob/master/LICENSE.md
  */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+	ul {
+		list-style: disc;
+	}
+	ul, ol {
+		padding: 0px 25px;
+	}
+	body {
+		line-height: 2;
+	}
+	blackquote {
+		font-size: inherit;
+	}
+}
 
 :root {
 	--accent: #2337ff;
@@ -40,7 +58,6 @@ body {
 	overflow-wrap: break-word;
 	color: rgb(var(--gray-dark));
 	font-size: 20px;
-	line-height: 1.7;
 }
 main {
 	width: 720px;
@@ -54,7 +71,7 @@ h3,
 h4,
 h5,
 h6 {
-	margin: 0 0 0.5rem 0;
+	margin: 0.5em 0 0.5rem 0;
 	color: rgb(var(--black));
 	line-height: 1.2;
 }
@@ -82,12 +99,6 @@ a {
 }
 a:hover {
 	color: var(--accent);
-}
-p {
-	margin-bottom: 1em;
-}
-.prose p {
-	margin-bottom: 1em;
 }
 textarea {
 	width: 100%;
@@ -118,9 +129,9 @@ pre > code {
 }
 blockquote {
 	border-left: 4px solid var(--accent);
-	padding: 0 0 0 20px;
-	margin: 0px;
-	font-size: 1.333em;
+	padding: 0 0 0 1em;
+	margin: 1em 0 1em 0;
+	font-size: inherit;
 }
 hr {
 	border: none;

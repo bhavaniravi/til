@@ -5,6 +5,7 @@ import Footer from '../../components/Footer.astro';
 import { SITE_TITLE, SITE_DESCRIPTION } from '../../consts';
 import { getCollection } from 'astro:content';
 import FormattedDate from '../../components/FormattedDate.astro';
+import * as digitalGarden from '/Users/bhavaniravi/projects/til/start-here/how-i-built-my-digital-garden.md';
 
 const posts = (await getCollection('notes')).sort(
 	(a, b) => b.data.added.valueOf() - a.data.added.valueOf(),
@@ -146,6 +147,8 @@ function convertSlugToTitle(slug: string): string {
 			</ul>
 		  </nav>
 		  <main>
+			<h2>{digitalGarden.frontmatter.title}</h2>
+			<digitalGarden.Content/>
 			{
 			  Object.entries(groupedPosts).map(([folder, posts], index) => (
 				<section id={`section-${folder}`} key={folder}>
