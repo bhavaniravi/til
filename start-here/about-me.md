@@ -1,18 +1,13 @@
 ---
 added: Aug 04 2022
 description: null
-unusedLayout: ../layouts/BlogPost.astro
-oldSlug: about-me
 tags:
 - start-here
-title: Work With Me
+title: 'Hi 👋🏻, I am Bhavani Ravi'
+
 ---
 
-# Work With Me
-
-#### Hi 👋🏻, I am Bhavani Ravi
-
-I am a Software Engineer and Trainer focusing on building Backend, Data Engineering, and DevOps systems.
+Since Jan 2025, Heading the Engineering at Stitchflow India. 
 
 * For the past 8 years, I have built **backend/Data/Devops** Systems in **Python**
 * I use _**React & Javascript**_ for my frontend projects
@@ -21,25 +16,29 @@ I am a Software Engineer and Trainer focusing on building Backend, Data Engineer
   * Converting ML models into deployable ML systems
   * Setting up **CI/CD pipelines** using **GitHub Actions/Jenkins**
 
-### Hire me to
-
-* Strategic solutions/Architecting **Backend/Data/DevOps** systems
-* Feasibility analysis to find what data tool for your use case
-* Data pipeline design and deployment using **Apache Airflow**
-* _In_frastructure or code review                                             &#x20;
-
-### [       Book a Discovery Call ](https://topmate.io/bhavaniravi/736455)
-
 ### Working With Me
 
-* I love async remote work
-* I'm more of an individual contributor
+* I love async remote work, purely because of the about of documentation it needs in place
 * Mentor >>> Manager
+* Always up for new challenges
+* Learning to Learn constantly
+
+I've stopped long term consultations and currently available for 1:1 coaching sessions. If you're looking for someone to chat about work, freelancing, life, career hit me up on [Topmate](https://topmate.io/bhavaniravi/736455)
 
 ### Community & Training
 
-* [**Invite me to speak**](https://topmate.io/bhavaniravi/686953/pay)
 * I've been a part of Build2Learn and Google Developers Group Chennai
+
+* I'm a Linkedin Learning Instructor
+  - [Data Engineering on GCP](https://www.linkedin.com/learning/google-cloud-data-engineering-foundations/)
+  - [Deveolping Chatbots with Azure](https://www.linkedin.com/learning/developing-chatbots-with-azure/)
+* Technical Speaker
+  - Pycon India 2023, 2024
+  - Pycon Australia 2023
+  - Berlin Buzzwords 2023
+  - [Find Recent Talks here](/talks)
+  * [**Invite me to speak**](https://topmate.io/bhavaniravi/686953/pay)
+
 
 ### Non-Technically Me
 

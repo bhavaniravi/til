@@ -79,31 +79,43 @@ function convertSlugToTitle(slug: string): string {
 			main {
 				width: 960px;
 			}
+			nav {
+				display: flex;
+				overflow-y: scroll;
+				max-height: 100vh;
+				position: sticky;
+				top: 0;
+			}
+			.nav-link:hover {
+				font-weight: 500;
+				text-decoration: none;
+			}
 			ul {
 				display: block;
-				margin: 2rem;
-				list-style-type: none;
+				margin: 2rem 1em;
 				padding: 0;
+				list-style-type: none;
 			}
 			ul li div a {
 				display: flex;
 				justify-content: space-between;
+				text-decoration: none;
 			}
 			.title {
 				margin: 0;
-				color: rgb(var(--black));
-				line-height: none;
+				/* color: rgb(var(--black)); */
+				line-height: 0.5;
+
 			}
-			/* .date {
-				margin: 0;
-				color: rgb(var(--gray));
-			} */
 			ul li a:hover h6,
 			ul li a:hover .date {
 				color: rgb(var(--accent));
 			}
 			ul a:hover img {
 				box-shadow: var(--box-shadow);
+			}
+			h6{
+				font-size: 1em;
 			}
 			@media (max-width: 720px) {
 				ul {
@@ -118,29 +130,47 @@ function convertSlugToTitle(slug: string): string {
 	</head>
 	<body>
 		<Header />
-		<main>
-			<section>
-				{
-					Object.entries(groupedPosts).map(([folder, posts]) => (
-						<h4 class="title">{convertSlugToTitle(folder)}</h4>
-						<ul>	
-							{
-								posts.map((post) => (
-									<li>
-										<div>
-											<a href={`/notes/${post.id}/`}>
-												<h6 class="title">{post.data.title}</h6>
-												<FormattedDate date={post.data.added} />
-											</a>
-										</div>
-									</li>
-								))
-							}
-						</ul>
-					))
-				}
-			</section>
-		</main>
+		<div style={{ display: 'flex' }}>
+		  {/* Left-side Navigation */}
+		  <nav>
+			<ul>
+			  {
+				Object.entries(groupedPosts).map(([folder, posts], index) => (
+				  <li key={folder}>
+					<a href={`#section-${folder}`} className="nav-link">
+					  {convertSlugToTitle(folder)}
+					</a>
+				  </li>
+				))
+			  }
+			</ul>
+		  </nav>
+		  <main>
+			{
+			  Object.entries(groupedPosts).map(([folder, posts], index) => (
+				<section id={`section-${folder}`} key={folder}>
+				  <h4 className="title">{convertSlugToTitle(folder)}</h4>
+				  <ul>
+					{
+					  posts.map((post) => (
+						<li key={post.id}>
+						  <div>
+							<a href={`/notes/${post.id}/`}>
+							  <h6 className="title">{post.data.title}</h6>
+							  <FormattedDate date={post.data.added} />
+							</a>
+						  </div>
+						</li>
+					  ))
+					}
+				  </ul>
+				</section>
+			  ))
+			}
+		  </main>
+		</div>
+	  
 		<Footer />
-	</body>
+	  </body>
+	  
 </html>
