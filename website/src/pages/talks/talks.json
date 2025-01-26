@@ -1,0 +1,111 @@
+{
+    "talks":[
+        {
+            "title": "Guide to Freelancing for Developers",
+            "event": "Devfest Chennai 🇮🇳",
+            "kind": "talk",
+            "event_type": "conference",
+            "youtube_link": "https://youtu.be/AsIxoqutTPE?si=4_CROImQbcwWXOqb",
+            "date": "2024-10-05",
+            "link_to_slides": null,
+            "description": "In this talk I've live coded a simple unit test framework in Python from scratch on scratch. The goal of the talk is to show people how to do meta thinking with Python, explore the depths of the language rather than being a consumer of the libraries"
+        },
+        {
+            "title": "Building Python Unit Test Framework from Scratch",
+            "event": "Pycon India 🇮🇳",
+            "kind": "talk",
+            "event_type": "conference",
+            "youtube_link": null,
+            "date": "2024-09-01",
+            "link_to_slides": null,
+            "description": "In this talk I've live coded a simple unit test framework in Python from scratch on scratch. The goal of the talk is to show people how to do meta thinking with Python, explore the depths of the language rather than being a consumer of the libraries"
+        },
+        {
+            "title": "Discussion on Inclusive Leadership: Stories of Empowerment and Impact",
+            "event": "Pycon India 🇮🇳",
+            "kind": "panel",
+            "event_type": "conference",
+            "youtube_link": null,
+            "date": "2024-09-01",
+            "link_to_slides": null,
+            "description": "In this panel discussion, we've shared our stories of empowerment and impact. We've discussed the importance of inclusive leadership and how it can help in building a diverse and inclusive community"
+        },
+        {
+            "title": "Data Engineering Bad vs Best Practices",
+            "event": "Pycon India 🇮🇳",
+            "kind": "talk",
+            "event_type": "conference",
+            "youtube_link": null,
+            "date": "2023-09-30",
+            "link_to_slides": null,
+            "description": "This talk is a curation best and bad engineering practices I've came across after becoming a data engineer by accident. Through this talk I was able to share my learnings with the community and help them avoid the mistakes I've made"
+        },
+        {
+            "title": "Building a Pytest like Framework from Scratch",
+            "event": "Pycon Australia 🇦🇺",
+            "kind": "talk",
+            "event_type": "conference",
+            "youtube_link": "https://www.youtube.com/watch?v=gjUzPGKSuDM",
+            "date": "2023-08-18",
+            "link_to_slides": null,
+            "description": "In this talk I've live coded a simple unit test framework in Python from scratch on scratch. The goal of the talk is to show people how to do meta thinking with Python, explore the depths of the language rather than being a consumer of the libraries"
+        },
+        {
+            "title": "Apache Airflow Bad vs Best Practices",
+            "event": "Berlin Buzzwords 🇩🇪",
+            "kind": "talk",
+            "event_type": "conference",
+            "youtube_link": "https://youtu.be/LBoT1DzGFS4?si=h98d5RrvoLTyTtTK",
+            "date": "2023-04-30",
+            "link_to_slides": null,
+            "description": "This talk is a curation best and bad engineering practices I've came across after working with Apache Airflow for 3 years. Through this talk I was able to share my learnings with the community and help them avoid the mistakes I've made"
+        },
+        {
+            "title": "Distributed Data pipelines with Python",
+            "event": "Pycon Sweden 🇸🇪🌐",
+            "kind": "talk",
+            "event_type": "conference",
+            "youtube_link": "https://www.youtube.com/watch?v=bsOJhMTllew",
+            "date": "2020-11-30",
+            "link_to_slides": null,
+            "description": "In this talk, I've shared my learnings on building distributed data pipelines with Python. I've shared the best practices and the mistakes I've made in the past"
+        },
+        {
+            "title": "Introduction to Chatbots",
+            "event": "WomenWhoCode Connect 🌐",
+            "kind": "talk",
+            "event_type": "conference",
+            "youtube_link": "https://www.youtube.com/watch?v=hHNFwpCMppI",
+            "date": "2020-06-30",
+            "description": "In this talk, I've shared my learnings on building chatbots with Python. I've shared the best practices and the mistakes I've made in the past"
+        },
+        {
+            "title": "Multi-Tenancy in Custom Chatbots",
+            "event": "Rasa L3 AI Conference 🌐",
+            "kind": "talk",
+            "event_type": "conference",
+            "youtube_link": "https://www.youtube.com/watch?v=Yg5LF3dnSPQ",
+            "date": "2020-07-02",
+            "description": "In this talk, I've shared my learnings on building multi-tenant chatbots with Rasa. I've shared the best practices and the mistakes I've made in the past"
+        },
+        {
+            "title": "How to Contribute to Open Source",
+            "event": "GDG Devfest Banglore 🇮🇳",
+            "kind": "talk",
+            "event_type": "conference",
+            "youtube_link": "https://youtu.be/1EvaxRIBU-8?si=xx7oPflK8lVw-akk",
+            "date": "2019-11-30",
+            "link_to_slides": null,
+            "description": "In this talk, I've shared my journey of contributing to open source and how it has helped me in my career. I've also shared some tips on how to get started with open source"
+        },
+        {
+            "title": "Building Chatbots with Python",
+            "event": "PyDelhi Conf 🇮🇳",
+            "kind": "talk",
+            "event_type": "conference",
+            "youtube_link": "https://youtu.be/ojuq0vBIA-g?si=dZPfAyDLjW60ecWP",
+            "date": "2017-05-07",
+            "description": "This was my 1st conference talk, and this one is super close to my heart because I am sharing the stage with my mentor Mr. Dorai thodla."
+        }
+    ]
+}

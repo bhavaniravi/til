@@ -163,3 +163,17 @@ hr {
 	/* added line to stop words getting smushed together (as they go onto separate lines and some screen readers do not understand line feeds as a space */
 	white-space: nowrap;
 }
+.prose {
+	width: 720px;
+	max-width: calc(100% - 2em);
+	margin: auto;
+	padding: 1em;
+	color: rgb(var(--gray-dark));
+}
+.title h1 {
+	margin: 0 0 0.5em 0;
+}
+.date {
+	margin-bottom: 0.5em;
+	color: rgb(var(--gray));
+}

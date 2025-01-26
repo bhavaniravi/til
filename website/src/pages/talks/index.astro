@@ -1,0 +1,96 @@
+---
+import BaseHead from '../../components/BaseHead.astro';
+import Header from '../../components/Header.astro';
+import Footer from '../../components/Footer.astro';
+import { SITE_TITLE, SITE_DESCRIPTION } from '../../consts';
+import { getCollection } from 'astro:content';
+import FormattedDate from '../../components/FormattedDate.astro';
+import talksData from './talks.json';
+
+type Talk = {
+	title: string;
+	event: string;
+	kind: string;
+	event_type: 'conference' | 'talk' | 'workshop';
+	youtube_link: string | null;
+	date: Date;
+	link_to_slides: string | null;
+	description: string;
+};
+
+const talks: Talk[] = talksData.talks.map((talk: any) => ({
+	title: talk.title,
+	event: talk.event,
+	kind: talk.kind,
+	event_type: talk.event_type,
+	youtube_link: talk.youtube_link,
+	date: new Date(talk.date),
+	link_to_slides: talk.link_to_slides,
+	description: talk.description,
+}));
+
+
+const getYoutubeImage = (url: string) => {
+	let videoId = url.split('?')[0].split('/').pop();
+	if (!videoId) {
+		videoId = url.split('v=')[1];
+	}
+	return `https://img.youtube.com/vi/${videoId}/maxresdefault.jpg`;
+};
+
+---
+
+<!doctype html>
+<html lang="en">
+	<head>
+		<BaseHead title={SITE_TITLE} description={SITE_DESCRIPTION} />
+		<style>
+			main {
+				width: calc(100% - 2em);
+				max-width: 100%;
+				margin: 0;
+			}
+			.prose {
+				display: grid;
+				align-items: center;
+				justify-content: center;
+			}
+			.title {
+				text-align: center;
+			}
+		</style>
+	</head>
+	<body>
+		<Header />
+		<main>
+		<h1 class="title">Talks</h1>
+		<div class="prose">
+		
+		{talks.map((talk: Talk) => (
+			<div class="rounded overflow-hidden shadow-lg">
+				{talk.youtube_link != null && (
+					<a href={talk.youtube_link} target="_blank">
+						<img class="w-full" src={getYoutubeImage(talk.youtube_link) } alt={`${talk.title} + Youtube thumbnail image`} />
+					</a>
+				)}
+				<div class="px-6 py-4">
+					<div class="font-bold text-xl mb-2">{talk.title}</div>
+					<p class="text-gray-700 text-base">
+					{talk.description}
+					</p>
+				</div>
+				<div class="px-6 pt-4 pb-2">
+					<span class="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2">
+					<FormattedDate date={talk.date} />	
+					</span>
+					<span class="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2">{talk.kind}</span>
+				</div>
+			</div>
+		))}
+		</div>
+		</main>
+	  
+		<Footer />
+	  </body>
+	  
+</html>
